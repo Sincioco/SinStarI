@@ -1,0 +1,133 @@
+Option Explicit
+
+Import SinStarI.TitleScreen As TitleScreen
+Import SinStarI.TownScreen As TownScreen
+Import SinStarI.Town2Screen As Town2Screen
+Import SinStarI.CharacterScreen As CharacterScreen
+
+Dim Mode As TitleScreen.TitleAction
+Dim PendingAction As TitleScreen.TitleAction
+Dim PressedKey As Number
+Dim SceneLabel As Text
+
+Game Window "Sin Star I" Size 1280 By 720
+
+Mode = TitleScreen.TitleAction.None
+PendingAction = TitleScreen.TitleAction.None
+SceneLabel = ""
+
+Call TitleScreen.Initialize()
+Call TownScreen.Initialize()
+Call Town2Screen.Initialize()
+Call CharacterScreen.Initialize()
+
+Do
+    Get Key PressedKey
+
+    If Mode = TitleScreen.TitleAction.None Then
+
+        PendingAction = TitleScreen.HandleInput(PressedKey)
+
+        If PendingAction <> TitleScreen.TitleAction.None Then
+            Call OpenScene(PendingAction)
+        End If
+
+    Else
+
+        Call HandleScene(PressedKey)
+
+    End If
+
+    If Mode = TitleScreen.TitleAction.None Then
+        Call TitleScreen.Draw()
+    Else If Mode = TitleScreen.TitleAction.Town Then
+        Call TownScreen.Draw()
+    Else If Mode = TitleScreen.TitleAction.Town2 Then
+        Call Town2Screen.Draw()
+    Else If Mode = TitleScreen.TitleAction.Character Then
+        Call CharacterScreen.Draw()
+    Else
+
+        Call DrawScene()
+    End If
+
+    Show Screen
+    Wait 8 Milliseconds
+
+Loop Until Game_Closed() = True
+
+Call CharacterScreen.Shutdown()
+Call Town2Screen.Shutdown()
+Call TownScreen.Shutdown()
+Call TitleScreen.Shutdown()
+
+End Program
+
+Sub OpenScene(SceneId As TitleScreen.TitleAction)
+
+    Mode = SceneId
+
+    If SceneId = TitleScreen.TitleAction.Town Then
+        SceneLabel = "Town"
+    Else If SceneId = TitleScreen.TitleAction.Town2 Then
+        SceneLabel = "Town 2"
+    Else If SceneId = TitleScreen.TitleAction.Shop Then
+        SceneLabel = "Shop"
+    Else If SceneId = TitleScreen.TitleAction.Dungeon Then
+        SceneLabel = "Dungeon"
+    Else If SceneId = TitleScreen.TitleAction.Character Then
+        SceneLabel = "Character"
+    Else
+        SceneLabel = "Battle"
+    End If
+
+    Call TitleScreen.Leave()
+
+    If SceneId = TitleScreen.TitleAction.Town Then
+        Call TownScreen.Enter()
+    Else If SceneId = TitleScreen.TitleAction.Town2 Then
+        Call Town2Screen.Enter()
+    Else If SceneId = TitleScreen.TitleAction.Character Then
+        Call CharacterScreen.Enter()
+    End If
+
+End Sub
+
+Sub HandleScene(Key As Number)
+
+    If Key = KEY_ESCAPE Then
+
+        If Mode = TitleScreen.TitleAction.Town Then
+            Call TownScreen.Shutdown()
+        Else If Mode = TitleScreen.TitleAction.Town2 Then
+            Call Town2Screen.Shutdown()
+        Else If Mode = TitleScreen.TitleAction.Character Then
+            Call CharacterScreen.Shutdown()
+        End If
+
+        Mode = TitleScreen.TitleAction.None
+
+        Call TitleScreen.Enter()
+
+        Return
+
+    End If
+
+    If Mode = TitleScreen.TitleAction.Town Then
+        Call TownScreen.Update(Key)
+    Else If Mode = TitleScreen.TitleAction.Town2 Then
+        Call Town2Screen.Update(Key)
+    Else If Mode = TitleScreen.TitleAction.Character Then
+        Call CharacterScreen.Update(Key)
+    End If
+
+End Sub
+
+Sub DrawScene()
+
+    Clear Rgb(5, 9, 18)
+    Fill Rectangle 0, 0, 1280, 72, Rgb(17, 29, 50)
+    Draw Text SceneLabel At 32, 20 Size 32 Color YELLOW
+    Draw Text "Press ESC to return to the main menu" At 32, 674 Size 18 Color WHITE
+
+End Sub
