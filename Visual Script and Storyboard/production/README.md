@@ -11,6 +11,8 @@ routine ZIP exports or update the old SMILE-2.0 storyboard copies.
 **Do not run it after direct narrative/layout edits without first reconciling those
 edits with its inputs.** Ordinary YouTube-record updates use `youtube_catalog.py`;
 it updates only the playback map and its cache version, preserving authored HTML.
+After direct asset edits, `python production/refresh_versions.py` refreshes cache
+versions without reconstructing the pages.
 
 All 130 original hover MP4s were renamed without changing their bytes. See
 `video-renames.json` for the old/new paths and checksums. Preserve stable media IDs
@@ -23,6 +25,10 @@ Videos, including intermediate render sources, must never enter Git. The root
 The three previously uploaded complete films are reused, not uploaded again.
 
 ## YouTube records and playback
+
+Current checkpoint: **104 of 138 videos have verified links**. YouTube's daily
+upload limit stopped the remaining 34; all local files are complete. Follow
+[YouTube-Upload-Checkpoint.md](YouTube-Upload-Checkpoint.md) to resume without duplicates.
 
 - `youtube-uploads.json` owns upload status, exact local file checksum, title,
   YouTube ID, visibility and verification time. Never mark an upload complete from

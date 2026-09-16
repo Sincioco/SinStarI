@@ -17,6 +17,11 @@
   script narrative and canon, 148 decoded PNGs and six JavaScript syntax checks.
 - Local server returns HTTP 200 for the story and HTTP 206 for a 32-byte video range;
   it sends the cross-origin referrer policy needed by embedded playback.
+- A clean export of tracked website files passes static validation with all 138
+  local MP4s absent, as expected for a Git clone. No missing-video exception is raised.
+- Final upload inventory: 104 unique verified IDs, 34 pending, seven uploaded
+  planet takes, all 138 local checksums matched and every title within 100 characters.
+  The generated client map contains exactly the 104 verified entries.
 
 ## Scope
 
@@ -24,6 +29,11 @@ YouTube uploads are performed and verified through the signed-in in-app browser.
 Per-video completion evidence is in `youtube-uploads.json`. Entries still marked
 `pending` have not been completed; do not infer completion from their titles or
 staging files. Earlier completed film uploads are reused with their current visibility.
+
+104 of 138 videos have verified links. The 100 new uploads are Unlisted; the
+previous planet take is Unlisted and the three existing films remain Public.
+YouTube's daily upload limit blocked the remaining 34. All seven planet takes
+are uploaded. See `YouTube-Upload-Checkpoint.md` for the exact resume procedure.
 
 Website browser interaction/visual QA has not been performed. YouTube fallback is
 covered by static and isolated behavior checks; live embeds still depend on network

@@ -103,10 +103,12 @@ def validate():
     for directive in ('style-src', 'script-src', 'media-src'):
         assert re.search(directive + r"[^;]*'self'", policy), directive
     baseline = json.loads((PRODUCTION / 'video-renames.json').read_text(encoding='utf-8'))
+    checked_renames = 0
     for entry in baseline:
         path = ROOT / entry['new']
         if path.exists():
             assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], entry['id']
+            checked_renames += 1
     decoded = 0
     for path in (ROOT / 'asset/images').rglob('*.png'):
         with Image.open(path) as image:
@@ -120,7 +122,7 @@ def validate():
                   local_references=references, scene_previews=121, cast_portraits=7, poster=True,
                   video_clips=len(clips), illustrations_with_variations=sum('variants' in item for item in expected),
                   matching_navigation=True, script_narrative='Unchanged', canon='Unchanged',
-                  unchanged_renamed_videos=len(baseline), decoded_png_files=decoded,
+                  unchanged_renamed_videos=checked_renames, decoded_png_files=decoded,
                   javascript_syntax_checks=len(scripts), pending_videos=sorted(set(missing)),
                   pending_render_jobs=pending_jobs,
                   browser_test='Not performed; static and isolated behavior checks only')

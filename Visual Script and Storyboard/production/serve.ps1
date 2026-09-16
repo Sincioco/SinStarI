@@ -46,15 +46,17 @@ try {
                 continue
             }
             if ($urlPath -eq '/__sinstar/stop' -and $request.HttpMethod -eq 'POST') {
-                $response.StatusCode = 204
-                $response.Close()
+                $bytes = [Text.Encoding]::UTF8.GetBytes('Stopped')
+                $response.ContentType = 'text/plain; charset=utf-8'
+                $response.ContentLength64 = $bytes.Length
+                $response.OutputStream.Write($bytes, 0, $bytes.Length)
                 break
             }
             if ($request.HttpMethod -notin @('GET','HEAD')) { $response.StatusCode = 405; continue }
             if ($urlPath -eq '/') { $urlPath = '/index.html' }
             $path = [IO.Path]::GetFullPath((Join-Path $siteRoot $urlPath.TrimStart('/')))
             if (-not $path.StartsWith($siteRoot + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase) -or
-                $urlPath -match '(^|/)(\.|production)(/|$)' -or -not [IO.File]::Exists($path)) {
+                $urlPath -match '(^|[/\\])(\.[^/\\]*|local-state)([/\\]|$)' -or -not [IO.File]::Exists($path)) {
                 $response.StatusCode = 404
                 continue
             }

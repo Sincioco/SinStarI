@@ -55,6 +55,7 @@ def main():
     parser.add_argument('--record', nargs=2, metavar=('CLIP_ID', 'YOUTUBE_ID'))
     parser.add_argument('--visibility', default='unlisted', choices=['unlisted','public'])
     parser.add_argument('--stage', type=int, default=0)
+    parser.add_argument('--planet-first', action='store_true')
     args = parser.parse_args()
     entries = prepare()
     if args.record:
@@ -70,7 +71,8 @@ def main():
         folder = ROOT / 'production/local-state/upload-batch'
         folder.mkdir(parents=True, exist_ok=True)
         batch = []
-        for entry in entries:
+        ordered = sorted(entries, key=lambda x: not x['id'].startswith('new-c09-s03-planet')) if args.planet_first else entries
+        for entry in ordered:
             source = ROOT / entry['file']
             if entry['status'] != 'pending' or not source.exists():
                 continue

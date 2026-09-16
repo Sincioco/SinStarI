@@ -1,0 +1,12 @@
+{
+  "status": "Passed",
+  "total": 138,
+  "verified": 104,
+  "pending": 34,
+  "planetTakes": 7,
+  "titleLimit": 100,
+  "clientMappings": 104,
+  "allFileHashesMatch": true,
+  "uniqueYouTubeIds": true,
+  "pendingReason": "YouTube Studio: Daily upload limit reached"
+}

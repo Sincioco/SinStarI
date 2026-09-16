@@ -83,6 +83,11 @@ YouTube controls appear only after an upload is verified. The current upload
 inventory is in [production/youtube-uploads.json](production/youtube-uploads.json).
 Video files are excluded from Git, so a fresh clone uses the uploaded versions.
 
+As of September 16, **104 of 138 website videos** have verified links. YouTube's
+daily upload limit stopped the remaining 34. All local clips are available,
+including all seven planet-throw takes. A clone retains the illustration for a
+clip whose upload is still pending. See the [upload checkpoint](production/YouTube-Upload-Checkpoint.md).
+
 ## Movies
 
 | Movie | Length | YouTube |

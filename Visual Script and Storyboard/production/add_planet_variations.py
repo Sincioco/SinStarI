@@ -64,11 +64,11 @@ def main():
         if any(x['id'] == identifier for x in planet['variants']):
             continue
         planet['variants'].append(dict(
-            id=identifier, video=f'asset/videos/hover/C09-S03_Clip{number} - Final Battle - World Hurled.mp4',
+            id=identifier, video=f'asset/videos/hover/C09-S03_Clip{number} - Final Battle - A World Hurled.mp4',
             seed=202609160936 + number * 101, render_seconds=10, status='needs_render',
-            caption=f'World Hurled — {label}', shot_title='Final Battle / World Hurled',
+            caption=f'World Hurled — {label}', shot_title='Final Battle / A World Hurled',
             chapter_title=planet['chapter_title'],
-            youtube_title=f'Sin Star I - Chapter 09 - Final Battle - C09-S03 - World Hurled - {number}',
+            youtube_title=planet['youtube_title'] + f' - {number}',
             motion_prompt=COMMON + treatment))
     catalog.write_text(json.dumps(items, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Five new variations prepared; previous two clips preserved.')
