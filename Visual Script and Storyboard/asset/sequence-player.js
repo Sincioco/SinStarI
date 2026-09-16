@@ -262,7 +262,11 @@
       case 'Space': state.playing ? pause() : play(); break;
       case 'Home': show(state.entries.findIndex(isVideo)); break;
       case 'End': show(state.entries.findLastIndex(isVideo)); break;
-      case 'ArrowUp': show(state.index); break;
+      case 'ArrowUp':
+        preferences.edit({ settings: {
+          layout: state.config.settings.layout === 'side-by-side' ? 'overlay' : 'side-by-side'
+        } });
+        break;
       case 'ArrowDown': toggleFullscreen(); break;
       case 'ArrowLeft':
       case 'ArrowRight': {

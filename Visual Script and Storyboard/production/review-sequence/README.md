@@ -26,12 +26,14 @@ Previous, Next, the clip picker and seek bar let you review any moment.
 | Home | First video clip |
 | Left Arrow | Previous video clip |
 | Right Arrow | Next video clip |
-| Up Arrow | Restart the current clip from its configured start |
+| Up Arrow | Toggle Panels Over Video / Video Left · Panels Right |
 | Down Arrow | Enter / exit full screen |
 | End | Last video clip |
 
 Navigation preserves paused/playing state. Home/End and Left/Right target videos;
 the opening still and ending credits remain in automatic playback and the picker.
+Up Arrow preserves the current clip and playback position and saves the selected
+layout through the same automatic JSON workflow as the Playback Mode selector.
 Shortcuts do not override text fields, sliders, checkboxes, selects, or modified
 browser shortcuts. Holding a key does not repeatedly skip clips.
 

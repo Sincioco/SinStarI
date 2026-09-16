@@ -6,6 +6,10 @@ const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '../..');
 const html = fs.readFileSync(path.join(root, 'review.html'), 'utf8');
 const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'sequence.json'), 'utf8'));
+// Use a known starting layout without modifying the user's live review preferences.
+config.settings.layout = 'overlay';
+config.settings.show_labels = true;
+for (const clip of config.clips) { delete clip.panel_positions; clip.muted = false; }
 const settle = async () => { for (let i = 0; i < 12; i++) await Promise.resolve(); };
 
 class Element {
@@ -117,10 +121,18 @@ function player(initial, storage = new Map(), failSave = false) {
   assert.equal(node('sequence-play').textContent, 'Play Sequence', 'Navigation stays paused');
   const activeVideo = ['sequence-video-a','sequence-video-b'].map(node).find(video => !video.hidden);
   activeVideo.currentTime = 2;
-  await key('ArrowUp'); assert.equal(activeVideo.currentTime, Number(config.clips[1].start_seconds || 0));
+  await key('ArrowUp'); assert.equal(node('review-layout').value, 'overlay');
+  assert(!node('sequence-stage').classes.has('side-by-side'));
+  assert.equal(activeVideo.currentTime, 2, 'Switching layout does not restart the clip');
+  assert.equal(node('sequence-play').textContent, 'Play Sequence', 'Layout toggle stays paused');
+  await p.flush(); assert.equal(p.server.settings.layout, 'overlay', 'Keyboard layout is saved for rendering');
+  await key('ArrowUp'); assert.equal(node('review-layout').value, 'side-by-side');
+  assert(node('sequence-stage').classes.has('side-by-side'));
+  await p.flush(); assert.equal(p.server.settings.layout, 'side-by-side');
   await key('ArrowDown'); assert(p.document.fullscreenElement);
   await key('ArrowDown'); assert.equal(p.document.fullscreenElement, null);
   await key('Space'); await key('ArrowRight'); assert.equal(node('sequence-play').textContent, 'Pause', 'Navigation preserves playback');
+  await key('ArrowUp'); assert.equal(node('sequence-play').textContent, 'Pause', 'Layout toggle preserves active playback');
   const fallback = player(config, new Map(), true); await settle();
   fallback.nodes.get('next').click(); await settle();
   fallback.arrows.find(b => b.dataset.panel === 'scene_info' && b.dataset.corner === 'lower-right').click();
