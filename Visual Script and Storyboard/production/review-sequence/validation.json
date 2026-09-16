@@ -1,0 +1,21 @@
+{
+  "status": "Passed",
+  "clips": 135,
+  "duration_seconds": 681.667,
+  "dimensions": "1920x1080",
+  "fps": 24,
+  "exact_video_frame_count": 16360,
+  "chapters": 137,
+  "sequence_matches_json": true,
+  "audio": "AAC stereo 48000 Hz",
+  "windows_progress_reader_regression": "Passed",
+  "audio_join_max_gap_seconds": 1.0000000543186616e-06,
+  "audio_join_min_gap_seconds": -9.999999974752427e-07,
+  "audio_settings": {
+    "clip_volume": 1.0,
+    "music_volume": 0.18,
+    "master_volume": 1.0
+  },
+  "render_matches_current_json": true,
+  "movie_checksum_matches": true
+}

@@ -2,6 +2,17 @@
 
 ## Current local workflow
 
+The continuous **Story Video Sequence Review** is built with
+[`review-sequence/sequence.json`](review-sequence/sequence.json) and the
+[review renderer](review-sequence/README.md). Its JSON owns playback order, labels,
+credits, track order and independent clip/music/master volumes. Start it with
+`Render Review Movie.cmd`; it renders in the background and displays progress.
+`Play Sequence.cmd` opens the immediate player at `review.html`. It supports
+Spacebar pause/resume, video-left side-by-side notes, hover corner arrows and
+per-clip mute/position settings. The local server saves preferences into the JSON
+for subsequent renders. Playback, preference persistence and audio have separate
+owners in `asset/sequence-player.js`, `sequence-settings.js` and `sequence-audio.js`.
+
 The canonical editable website is now `D:\SMILE 2.0 - Sin Star I\Visual Script and Storyboard`,
 in the independent public [SinStarI repository](https://github.com/Sincioco/SinStarI).
 Make HTML, CSS and JavaScript changes directly in this folder. Do not generate
@@ -26,8 +37,8 @@ The three previously uploaded complete films are reused, not uploaded again.
 
 ## YouTube records and playback
 
-Current checkpoint: **104 of 138 videos have verified links**. YouTube's daily
-upload limit stopped the remaining 34; all local files are complete. Follow
+Current checkpoint: **104 of 139 videos have verified links**. YouTube's daily
+upload limit stopped the remaining 35; all local files are complete. Follow
 [YouTube-Upload-Checkpoint.md](YouTube-Upload-Checkpoint.md) to resume without duplicates.
 
 - `youtube-uploads.json` owns upload status, exact local file checksum, title,

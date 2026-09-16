@@ -1,8 +1,8 @@
 {
   "status": "Passed",
-  "total": 138,
+  "total": 139,
   "verified": 104,
-  "pending": 34,
+  "pending": 35,
   "planetTakes": 7,
   "titleLimit": 100,
   "clientMappings": 104,

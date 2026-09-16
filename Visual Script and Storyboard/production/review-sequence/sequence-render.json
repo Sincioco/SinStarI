@@ -1,0 +1,46 @@
+{
+  "status": "Rendered",
+  "rendered_at": "2026-09-16T04:23:01.554946+00:00",
+  "output": "asset\\videos\\Sin-Star-I-Story-Video-Sequence-Review.mp4",
+  "sha256": "65dece09885dc61bff90ffbbbda8fab9395766fec230ffc42280e0100f135668",
+  "clips": 135,
+  "seconds": 681.667,
+  "dimensions": "1920x1080",
+  "fps": 24,
+  "encoder": "libx264",
+  "opening_seconds": 2,
+  "credits_seconds": 18,
+  "audio": {
+    "clip_volume": 1.0,
+    "music_volume": 0.18,
+    "master_volume": 1.0
+  },
+  "music_tracks": [
+    {
+      "file": "asset\\audio\\Starforge Horizon.mp3",
+      "start_seconds": 0
+    },
+    {
+      "file": "asset\\audio\\Starforge March.mp3",
+      "start_seconds": 155.974
+    },
+    {
+      "file": "asset\\audio\\Bloom.mp3",
+      "start_seconds": 336.787
+    },
+    {
+      "file": "asset\\audio\\Starforge Horizon.mp3",
+      "start_seconds": 477.001
+    },
+    {
+      "file": "asset\\audio\\Starforge March.mp3",
+      "start_seconds": 632.974
+    }
+  ],
+  "music_crossfade_seconds": 2.0,
+  "timeline": "production\\review-sequence\\sequence-timeline.csv",
+  "layout": "overlay",
+  "muted_clips": [],
+  "panel_positions": {},
+  "config_sha256": "3153767730fc7542dbcc63d355f7d32faea1035805590bb9e322f7c1219a5cca"
+}

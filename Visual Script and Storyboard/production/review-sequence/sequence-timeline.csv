@@ -1,0 +1,136 @@
+﻿number,id,start_seconds,end_seconds,chapter,scene,title,file
+1,poster,2.0,6.042,Opening · Game Poster,POSTER,A Universe Worth Fighting For,asset/videos/hover/POSTER - Sin Star I - Game Poster.mp4
+2,panel-01-1,6.042,12.083,Prologue - Room for One,C00-S01,The dream that follows him,asset/videos/hover/C00-S01 - Close - Memory.mp4
+3,new-c00-s01-dream,12.083,18.125,Prologue - Room for One,C00-S01,The dream that follows him,asset/videos/hover/C00-S01 - Wide - Unreachable.mp4
+4,panel-01-2,18.125,24.167,Prologue - Room for One,C00-S01,The dream that follows him,asset/videos/hover/C00-S01 - Wide - Lonely.mp4
+5,panel-01-3,24.167,30.167,Prologue - Room for One,C00-S02,"A contract, not a calling",asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4
+6,new-c00-s02-contract,30.167,34.208,Prologue - Room for One,C00-S02,"A contract, not a calling",asset/videos/hover/C00-S02 - Close - The Blank Space.mp4
+7,new-c00-s03-course,34.208,38.25,Prologue - Room for One,C00-S03,"A familiar sky, an unfamiliar sound",asset/videos/hover/C00-S03 - Close - Intervention.mp4
+8,panel-01-4,38.25,44.292,Prologue - Room for One,C00-S03,"A familiar sky, an unfamiliar sound",asset/videos/hover/C00-S03 - Wide - Distant Answer.mp4
+9,panel-02-1,44.292,50.333,Chapter 01 - The Water Under Neris,C01-S01,Someone comes back,asset/videos/hover/C01-S01 - Action - Rescue.mp4
+10,new-c01-s01-carry,50.333,56.375,Chapter 01 - The Water Under Neris,C01-S01,Someone comes back,asset/videos/hover/C01-S01 - Medium - Carry Together.mp4
+11,panel-02-2,56.375,62.417,Chapter 01 - The Water Under Neris,C01-S02,No one asked her to stay,asset/videos/hover/C01-S02 - Medium - Care.mp4
+12,new-c01-s02,62.417,66.458,Chapter 01 - The Water Under Neris,C01-S02,No one asked her to stay,asset/videos/hover/C01-S02 - Close - Honest Admission.mp4
+13,new-c01-s03,66.458,70.5,Chapter 01 - The Water Under Neris,C01-S03,The relay answers,asset/videos/hover/C01-S03 - Medium - A Practical Choice.mp4
+14,panel-02-3,70.5,76.542,Chapter 01 - The Water Under Neris,C01-S03,The relay answers,asset/videos/hover/C01-S03 - Wide - Uncanny.mp4
+15,panel-02-4,76.542,80.583,Chapter 01 - The Water Under Neris,C01-S04,The princess who leaves for her people,asset/videos/hover/C01-S04 - Medium - Resolve.mp4
+16,new-c01-s04,80.583,83.083,Chapter 01 - The Water Under Neris,C01-S04,The princess who leaves for her people,asset/videos/hover/C01-S04 - Medium - New Partnership.mp4
+17,panel-03-1,83.083,89.125,Chapter 02 - The Man Who Came Back,C02-S01,Veyra is not waiting to be discovered,asset/videos/hover/C02-S01 - Establishing - Wonder.mp4
+18,new-c02-s01,89.125,93.167,Chapter 02 - The Man Who Came Back,C02-S01,Veyra is not waiting to be discovered,asset/videos/hover/C02-S01 - Medium - Choosing The Route.mp4
+19,new-c02-s02,93.167,97.208,Chapter 02 - The Man Who Came Back,C02-S02,Not a battle they can win,asset/videos/hover/C02-S02 - Action - The Last Approach.mp4
+20,panel-03-2,97.208,103.25,Chapter 02 - The Man Who Came Back,C02-S02,Not a battle they can win,asset/videos/hover/C02-S02 - Action - Impossible Odds.mp4
+21,new-c02-s03,103.25,107.292,Chapter 02 - The Man Who Came Back,C02-S03,Two names that sound alike,asset/videos/hover/C02-S03 - Medium - Recognition.mp4
+22,panel-03-3,107.292,113.333,Chapter 02 - The Man Who Came Back,C02-S03,Two names that sound alike,asset/videos/hover/C02-S03 - Close - Guarded Warmth.mp4
+23,new-c02-s04,113.333,117.375,Chapter 02 - The Man Who Came Back,C02-S04,A temporary arrangement,asset/videos/hover/C02-S04 - Wide - The Next Useful Thing.mp4
+24,panel-03-4,117.375,121.417,Chapter 02 - The Man Who Came Back,C02-S04,A temporary arrangement,asset/videos/hover/C02-S04 - Medium - First Belonging.mp4
+25,panel-04-1,121.417,127.458,"Chapter 03 - Persons, Not Property",C03-S01,"Zara, who is not waiting for instructions",asset/videos/hover/C03-S01 - Medium - Comic Arrival.mp4
+26,new-c03-s01,127.458,131.5,"Chapter 03 - Persons, Not Property",C03-S01,"Zara, who is not waiting for instructions",asset/videos/hover/C03-S01 - Medium - The Route Underneath.mp4
+27,panel-04-2,131.5,137.542,"Chapter 03 - Persons, Not Property",C03-S02,The registry,asset/videos/hover/C03-S02 - Action - Refusal.mp4
+28,new-c03-s02,137.542,141.583,"Chapter 03 - Persons, Not Property",C03-S02,The registry,asset/videos/hover/C03-S02 - Close - Careful Repair.mp4
+29,panel-04-3,141.583,145.625,"Chapter 03 - Persons, Not Property",C03-S03,A people with a way home,asset/videos/hover/C03-S03 - Wide - Community.mp4
+30,new-c03-s03,145.625,149.667,"Chapter 03 - Persons, Not Property",C03-S03,A people with a way home,asset/videos/hover/C03-S03 - Medium - Belonging And Departure.mp4
+31,panel-04-4,149.667,155.708,"Chapter 03 - Persons, Not Property",C03-S04,Five places by the fire,asset/videos/hover/C03-S04 - Wide - Warmth.mp4
+32,new-c03-s04,155.708,159.75,"Chapter 03 - Persons, Not Property",C03-S04,Five places by the fire,asset/videos/hover/C03-S04 - Close - The Night Watch.mp4
+33,panel-05-1,159.75,163.792,Chapter 04 - The Language Beneath,C04-S01,Before the lightning,asset/videos/hover/C04-S01 - Flashback - Courage.mp4
+34,new-c04-s01,163.792,167.833,Chapter 04 - The Language Beneath,C04-S01,Before the lightning,asset/videos/hover/C04-S01 - Detail - An Unexplained Kindness.mp4
+35,panel-05-2,167.833,173.875,Chapter 04 - The Language Beneath,C04-S02,A bowl of water,asset/videos/hover/C04-S02 - Medium - Practice.mp4
+36,new-c04-s02,173.875,177.917,Chapter 04 - The Language Beneath,C04-S02,A bowl of water,asset/videos/hover/C04-S02 - Detail - A Necessary Limit.mp4
+37,panel-05-3,177.917,183.958,Chapter 04 - The Language Beneath,C04-S03,The dream answers back,asset/videos/hover/C04-S03 - Wide - Unequal Lesson.mp4
+38,new-c04-s03,183.958,188.0,Chapter 04 - The Language Beneath,C04-S03,The dream answers back,asset/videos/hover/C04-S03 - Medium - Trust Through Disclosure.mp4
+39,new-c04-s04,188.0,192.042,Chapter 04 - The Language Beneath,C04-S04,What the pulses cost,asset/videos/hover/C04-S04 - Close - The Cost Outside Himself.mp4
+40,panel-05-4,192.042,196.083,Chapter 04 - The Language Beneath,C04-S04,What the pulses cost,asset/videos/hover/C04-S04 - Medium - Responsibility.mp4
+41,panel-06-1,196.083,202.125,Chapter 05 - What We Blame,C05-S01,Not an accident,asset/videos/hover/C05-S01 - Close - Devastating Evidence.mp4
+42,new-c05-s01,202.125,206.167,Chapter 05 - What We Blame,C05-S01,Not an accident,asset/videos/hover/C05-S01 - Close - A Terrible Recognition.mp4
+43,panel-06-2,206.167,210.208,Chapter 05 - What We Blame,C05-S02,The thing he says,asset/videos/hover/C05-S02 - Two-Shot - Rupture.mp4
+44,new-c05-s02,210.208,214.25,Chapter 05 - What We Blame,C05-S02,The thing he says,asset/videos/hover/C05-S02 - Cinematic - Character Moment.mp4
+45,panel-06-3,214.25,218.292,Chapter 05 - What We Blame,C05-S03,No one gets erased for convenience,asset/videos/hover/C05-S03 - Medium - Public Correction.mp4
+46,new-c05-s03,218.292,222.333,Chapter 05 - What We Blame,C05-S03,No one gets erased for convenience,asset/videos/hover/C05-S03 - Cinematic - Character Moment.mp4
+47,panel-06-4,222.333,228.375,Chapter 05 - What We Blame,C05-S04,An apology without a bargain,asset/videos/hover/C05-S04 - Close - No Bargain.mp4
+48,new-c05-s04,228.375,232.417,Chapter 05 - What We Blame,C05-S04,An apology without a bargain,asset/videos/hover/C05-S04 - Cinematic - Character Moment.mp4
+49,panel-07-1,232.417,236.458,Chapter 05 - What We Blame,C05-S05,The Second Dawn,asset/videos/hover/C05-S05 - Wide - Tremendous Power.mp4
+50,panel-07-2,236.458,240.5,Chapter 05 - What We Blame,C05-S05,The Second Dawn,asset/videos/hover/C05-S05 - Close - Kinship.mp4
+51,panel-07-3,240.5,246.542,Chapter 05 - What We Blame,C05-S05,The Second Dawn,asset/videos/hover/C05-S05 - Medium - The Unanswered Cost.mp4
+52,new-c05-s05,246.542,250.583,Chapter 05 - What We Blame,C05-S05,The Second Dawn,asset/videos/hover/C05-S05 - Cinematic - Character Moment.mp4
+53,panel-07-4,250.583,256.625,Chapter 05 - What We Blame,C05-S05,The Second Dawn,asset/videos/hover/C05-S05 - Wide - Refusal.mp4
+54,panel-08-1,256.625,262.667,Chapter 06 - The Village That Ate,C06-S01,East Valley,asset/videos/hover/C06-S01 - Wide - Consequence.mp4
+55,new-c06-s01,262.667,266.708,Chapter 06 - The Village That Ate,C06-S01,East Valley,asset/videos/hover/C06-S01 - Cinematic - Character Moment.mp4
+56,new-c06-s02,266.708,270.75,Chapter 06 - The Village That Ate,C06-S02,The house with the repaired door,asset/videos/hover/C06-S02 - Cinematic - Character Moment.mp4
+57,panel-08-2,270.75,274.792,Chapter 06 - The Village That Ate,C06-S02,The house with the repaired door,asset/videos/hover/C06-S02 - Medium - Threshold.mp4
+58,new-c06-s03,274.792,278.833,Chapter 06 - The Village That Ate,C06-S03,"Letters, not permission to pry",asset/videos/hover/C06-S03 - Cinematic - Character Moment.mp4
+59,panel-08-3,278.833,282.875,Chapter 06 - The Village That Ate,C06-S03,"Letters, not permission to pry",asset/videos/hover/C06-S03 - Close - Private Love.mp4
+60,panel-08-4,282.875,286.917,Chapter 06 - The Village That Ate,C06-S04,What the food cost,asset/videos/hover/C06-S04 - Two-Shot - Difficult Honesty.mp4
+61,panel-09-1,286.917,289.417,Chapter 06 - The Village That Ate,C06-S04,What the food cost,asset/videos/hover/C06-S04 - Close - Confession.mp4
+62,new-c06-s04,289.417,293.458,Chapter 06 - The Village That Ate,C06-S04,What the food cost,asset/videos/hover/C06-S04 - Cinematic - Character Moment.mp4
+63,new-c06-s05,293.458,297.5,Chapter 06 - The Village That Ate,C06-S05,A kingdom cannot be healed by one report,asset/videos/hover/C06-S05 - Cinematic - Discovery And Connection.mp4
+64,panel-09-3,297.5,301.542,Chapter 06 - The Village That Ate,C06-S05,A kingdom cannot be healed by one report,asset/videos/hover/C06-S05 - Action - Protect The Handover.mp4
+65,panel-09-2,301.542,305.583,Chapter 06 - The Village That Ate,C06-S05,A kingdom cannot be healed by one report,asset/videos/hover/C06-S05 - Detail - Institutional Concealment.mp4
+66,new-c06-s06,305.583,309.625,Chapter 06 - The Village That Ate,C06-S06,Something he can carry differently,asset/videos/hover/C06-S06 - Cinematic - Discovery And Connection.mp4
+67,panel-09-4,309.625,313.667,Chapter 06 - The Village That Ate,C06-S06,Something he can carry differently,asset/videos/hover/C06-S06 - Wide - Unfinished Repair.mp4
+68,panel-10-1,313.667,319.708,Chapter 07 - A World Worth Keeping,C07-S01,"Earth, briefly",asset/videos/hover/C07-S01 - Medium - Ordinary Life.mp4
+69,new-c07-s01,319.708,323.75,Chapter 07 - A World Worth Keeping,C07-S01,"Earth, briefly",asset/videos/hover/C07-S01 - Cinematic - Discovery And Connection.mp4
+70,panel-10-2,323.75,327.792,Chapter 07 - A World Worth Keeping,C07-S02,The worlds in his notebooks,asset/videos/hover/C07-S02 - Medium - Evidence Challenged.mp4
+71,new-c07-s02,327.792,331.833,Chapter 07 - A World Worth Keeping,C07-S02,The worlds in his notebooks,asset/videos/hover/C07-S02 - Cinematic - Discovery And Connection.mp4
+72,new-c07-s03,331.833,335.875,Chapter 07 - A World Worth Keeping,C07-S03,The witness archive,asset/videos/hover/C07-S03 - Cinematic - Discovery And Connection.mp4
+73,new-c07-s03-trace,335.875,339.917,Chapter 07 - A World Worth Keeping,C07-S03,The witness archive,asset/videos/hover/C07-S03_Clip2 - Cinematic - Discovery And Connection.mp4
+74,panel-10-3,339.917,345.958,Chapter 07 - A World Worth Keeping,C07-S03,The witness archive,asset/videos/hover/C07-S03 - Wide - The Witness Archive.mp4
+75,panel-10-4,345.958,350.0,Chapter 07 - A World Worth Keeping,C07-S04,The people beside the answer,asset/videos/hover/C07-S04 - Wide - Five Choices.mp4
+76,new-c07-s04,350.0,354.042,Chapter 07 - A World Worth Keeping,C07-S04,The people beside the answer,asset/videos/hover/C07-S04 - Cinematic - Discovery And Connection.mp4
+77,new-c07-s05,354.042,358.083,Chapter 07 - A World Worth Keeping,C07-S05,A quiet hour before leaving,asset/videos/hover/C07-S05 - Cinematic - Discovery And Connection.mp4
+78,panel-11-1,358.083,364.125,Chapter 07 - A World Worth Keeping,C07-S05,A quiet hour before leaving,asset/videos/hover/C07-S05 - Two-Shot - Restrained Affection.mp4
+79,panel-11-2,364.125,370.167,Chapter 08 - The Door That Listens,C08-S01,A clock to come home to,asset/videos/hover/C08-S01 - Wide - Preparation.mp4
+80,new-c08-s01,370.167,374.208,Chapter 08 - The Door That Listens,C08-S01,A clock to come home to,asset/videos/hover/C08-S01 - Cinematic - The Origin.mp4
+81,new-c08-s02,374.208,378.25,Chapter 08 - The Door That Listens,C08-S02,The chamber of two voices,asset/videos/hover/C08-S02 - Cinematic - The Origin.mp4
+82,panel-11-3,378.25,384.292,Chapter 08 - The Door That Listens,C08-S02,The chamber of two voices,asset/videos/hover/C08-S02 - Wide - Last Invitation.mp4
+83,panel-11-4,384.292,390.333,Chapter 08 - The Door That Listens,C08-S03,The battle he never wins alone,asset/videos/hover/C08-S03 - Action - Familiar Failure.mp4
+84,new-c08-s03,390.333,394.375,Chapter 08 - The Door That Listens,C08-S03,The battle he never wins alone,asset/videos/hover/C08-S03 - Cinematic - The Origin.mp4
+85,panel-12-1,394.375,400.417,Chapter 08 - The Door That Listens,C08-S03,The battle he never wins alone,asset/videos/hover/C08-S03 - Action - Earned Victory.mp4
+86,panel-12-2,400.417,406.458,Chapter 08 - The Door That Listens,C08-S04,Hold,asset/videos/hover/C08-S04 - Action - Protective Reflex.mp4
+87,panel-12-3,406.458,412.5,Chapter 08 - The Door That Listens,C08-S04,Hold,asset/videos/hover/C08-S04 - Detail - Two Authorities.mp4
+88,new-c08-s04,412.5,416.542,Chapter 08 - The Door That Listens,C08-S04,Hold,asset/videos/hover/C08-S04 - Cinematic - The Origin.mp4
+89,panel-12-4,416.542,420.583,Chapter 08 - The Door That Listens,C08-S04,Hold,asset/videos/hover/C08-S04 - Wide - Tense Passage.mp4
+90,new-c09-s01,420.583,424.625,Chapter 09 - The Origin,C09-S01,A place someone built,asset/videos/hover/C09-S01 - Cinematic - The Origin.mp4
+91,panel-13-1,424.625,430.667,Chapter 09 - The Origin,C09-S01,A place someone built,asset/videos/hover/C09-S01 - Extreme Wide - Scale.mp4
+92,panel-13-2,430.667,434.708,Chapter 09 - The Origin,C09-S02,The One comes home,asset/videos/hover/C09-S02 - Close - The Witness.mp4
+93,new-c09-s02,434.708,438.75,Chapter 09 - The Origin,C09-S02,The One comes home,asset/videos/hover/C09-S02 - Cinematic - The Origin.mp4
+94,panel-13-3,438.75,444.792,Chapter 09 - The Origin,C09-S02,The One comes home,asset/videos/hover/C09-S02 - Medium - The Fatal Inference.mp4
+95,panel-13-4,444.792,450.833,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03 - Wide - Refusal.mp4
+96,new-c09-s03-planet,450.833,458.875,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03 - Final Battle - A World Hurled.mp4
+97,new-c09-s03-planet-take2,458.875,466.917,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip2 - Final Battle - A World Hurled.mp4
+98,new-c09-s03-planet-take3,466.917,476.958,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip3 - Final Battle - A World Hurled.mp4
+99,new-c09-s03-planet-take4,476.958,487.0,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip4 - Final Battle - A World Hurled.mp4
+100,new-c09-s03-planet-take5,487.0,497.042,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip5 - Final Battle - A World Hurled.mp4
+101,new-c09-s03-planet-take6,497.042,507.083,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip6 - Final Battle - A World Hurled.mp4
+102,new-c09-s03-planet-take7,507.083,517.125,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03_Clip7 - Final Battle - A World Hurled.mp4
+103,new-c09-s03,517.125,521.167,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03 - Cinematic - The Origin.mp4
+104,panel-14-1,521.167,525.208,Chapter 09 - The Origin,C09-S03,An imperfect universe refuses,asset/videos/hover/C09-S03 - Action - Outmatched.mp4
+105,panel-14-2,525.208,531.25,Chapter 09 - The Origin,C09-S04,Not another Arin,asset/videos/hover/C09-S04 - Action - Interception.mp4
+106,panel-14-3,531.25,537.292,Chapter 09 - The Origin,C09-S04,Not another Arin,asset/videos/hover/C09-S04 - Close - This Person.mp4
+107,new-c09-s04,537.292,541.333,Chapter 09 - The Origin,C09-S04,Not another Arin,asset/videos/hover/C09-S04 - Cinematic - The Origin.mp4
+108,panel-14-4,541.333,547.375,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Medium - The Plan.mp4
+109,panel-15-1,547.375,549.625,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Action - The Moving Route.mp4
+110,panel-15-2,549.625,555.667,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Close - Restraint.mp4
+111,new-c09-s05,555.667,559.708,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Cinematic - Lives Worth Keeping.mp4
+112,panel-15-3,559.708,565.75,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Action - Now.mp4
+113,panel-15-4,565.75,568.75,Chapter 09 - The Origin,C09-S05,"Five voices, two speakers",asset/videos/hover/C09-S05 - Wide - One More Pulse.mp4
+114,new-e01-s01,568.75,572.792,Epilogue - The Lives They Kept,E01-S01,What Kael leaves,asset/videos/hover/E01-S01 - Cinematic - Lives Worth Keeping.mp4
+115,panel-16-1,572.792,578.833,Epilogue - The Lives They Kept,E01-S01,What Kael leaves,asset/videos/hover/E01-S01 - Wide - Carry Him Home.mp4
+116,panel-16-2,578.833,582.875,Epilogue - The Lives They Kept,E01-S02,Nothing is fixed just because the sky survived,asset/videos/hover/E01-S02 - Montage - Work Continues.mp4
+117,new-e01-s02,582.875,586.917,Epilogue - The Lives They Kept,E01-S02,Nothing is fixed just because the sky survived,asset/videos/hover/E01-S02 - Cinematic - Lives Worth Keeping.mp4
+118,panel-16-3,586.917,592.958,Epilogue - The Lives They Kept,E01-S03,A street in daylight,asset/videos/hover/E01-S03 - Two-Shot - Daylight.mp4
+119,panel-16-4,592.958,599.0,Epilogue - The Lives They Kept,E01-S03,A street in daylight,asset/videos/hover/E01-S03 - Wide - Room For Him.mp4
+120,new-e01-s03,599.0,603.042,Epilogue - The Lives They Kept,E01-S03,A street in daylight,asset/videos/hover/E01-S03 - Cinematic - Lives Worth Keeping.mp4
+121,panel-17-1,603.042,607.083,Appendix A - Optional party scenes,OPT-01,What he remembers besides the fire,asset/videos/hover/OPT-01 - Close - Memory Beyond Loss.mp4
+122,panel-17-2,607.083,611.125,Appendix A - Optional party scenes,OPT-02,The limit of a healer,asset/videos/hover/OPT-02 - Medium - A Concrete Need.mp4
+123,panel-17-3,611.125,615.167,Appendix A - Optional party scenes,OPT-03,Why Zara stays after the interesting part,asset/videos/hover/OPT-03 - Medium - Staying Afterward.mp4
+124,panel-17-4,615.167,619.208,Appendix A - Optional party scenes,OPT-04,His mother's answer,asset/videos/hover/OPT-04 - Close - More Than One Feeling.mp4
+125,panel-18-1,619.208,623.25,Appendix A - Optional party scenes,OPT-05,The map only Milo can read,asset/videos/hover/OPT-05 - Medium - Another Viewpoint.mp4
+126,panel-18-2,623.25,627.292,Appendix A - Optional party scenes,OPT-05,The map only Milo can read,asset/videos/hover/OPT-05 - Wide - Gentle Joke.mp4
+127,panel-18-3,627.292,631.333,Appendix A - Optional party scenes,OPT-06,A hand offered back,asset/videos/hover/OPT-06 - Close - Offered Back.mp4
+128,panel-18-4,631.333,635.375,Appendix A - Optional party scenes,OPT-06,A hand offered back,asset/videos/hover/OPT-06 - Medium - Accepted Care.mp4
+129,cast-arin,635.375,639.417,Cast · Character Animation Review,CAST,Arin,asset/videos/hover/CAST - Arin - Character Portrait.mp4
+130,cast-mira,639.417,643.458,Cast · Character Animation Review,CAST,Mira,asset/videos/hover/CAST - Mira - Character Portrait.mp4
+131,cast-orin,643.458,647.5,Cast · Character Animation Review,CAST,Orin,asset/videos/hover/CAST - Orin - Character Portrait.mp4
+132,cast-zara,647.5,651.542,Cast · Character Animation Review,CAST,Zara,asset/videos/hover/CAST - Zara - Character Portrait.mp4
+133,cast-milo,651.542,655.583,Cast · Character Animation Review,CAST,Milo,asset/videos/hover/CAST - Milo - Character Portrait.mp4
+134,cast-kael,655.583,659.625,Cast · Character Animation Review,CAST,Kael,asset/videos/hover/CAST - Kael - Character Portrait.mp4
+135,cast-aevos,659.625,663.667,Cast · Character Animation Review,CAST,Aevos,asset/videos/hover/CAST - Aevos - Character Portrait.mp4

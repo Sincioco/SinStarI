@@ -83,12 +83,29 @@ YouTube controls appear only after an upload is verified. The current upload
 inventory is in [production/youtube-uploads.json](production/youtube-uploads.json).
 Video files are excluded from Git, so a fresh clone uses the uploaded versions.
 
-As of September 16, **104 of 138 website videos** have verified links. YouTube's
-daily upload limit stopped the remaining 34. All local clips are available,
+As of September 16, **104 of 139 website videos** have verified links. YouTube's
+daily upload limit stopped the remaining 35. All local clips are available,
 including all seven planet-throw takes. A clone retains the illustration for a
 clip whose upload is still pending. See the [upload checkpoint](production/YouTube-Upload-Checkpoint.md).
 
 ## Movies
+
+**[Live Sequence Review](review.html)** plays the clips immediately without rendering.
+Start **Play Sequence.cmd** or use the running local website. Spacebar pauses/resumes.
+Choose **Video Left · Panels Right** for side-by-side viewing and full story notes.
+In overlay mode, hover over a panel to reveal its corner arrows and move it during
+playback. Positions and **Mute This Clip** are remembered separately for each clip.
+The local player automatically saves these choices and volume/layout settings to
+the render JSON. Wait for **Saved for the MP4**, then render to update the movie.
+**Save JSON** downloads a copy, including when automatic saving is unavailable.
+
+**[Story Video Sequence Review](movies.html#sequence-review)** is an 11-minute,
+22-second review of all 135 picture clips. It includes source filenames, scene
+context, all seven planet-throw takes, original audio with quieter music, and
+illustrated credits. Use **Render Review Movie.cmd** to edit its JSON settings
+and render it again with a progress window. See the
+[renderer guide](production/review-sequence/README.md) for the independent clip,
+music and master volume controls.
 
 | Movie | Length | YouTube |
 | --- | --- | --- |

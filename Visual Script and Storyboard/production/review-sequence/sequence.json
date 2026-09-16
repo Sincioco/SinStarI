@@ -1,0 +1,1758 @@
+{
+  "title": "Sin Star I - Story Video Sequence Review",
+  "output": "asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4",
+  "settings": {
+    "fps": 24,
+    "encoder": "auto",
+    "panel_opacity": 0.8,
+    "layout": "overlay",
+    "show_labels": true
+  },
+  "audio": {
+    "clip_volume": 1.0,
+    "music_volume": 0.18,
+    "master_volume": 1.0
+  },
+  "opening": {
+    "image": "asset/images/sin-star-poster.png",
+    "seconds": 2
+  },
+  "music": {
+    "files": [
+      "asset/audio/Starforge Horizon.mp3",
+      "asset/audio/Starforge March.mp3",
+      "asset/audio/Bloom.mp3"
+    ],
+    "crossfade_seconds": 2
+  },
+  "credits": {
+    "seconds": 18,
+    "background": "asset/images/review-credit-background.png",
+    "logo": "asset/images/smile-2.0-logo.png",
+    "creator": "Created by: Louiery R. Sincioco (Sin)",
+    "statement": "Sin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.",
+    "links": [
+      [
+        "Email",
+        "louiery@gmail.com"
+      ],
+      [
+        "Game",
+        "github.com/sincioco/SinStarI"
+      ],
+      [
+        "SMILE",
+        "github.com/sincioco/smile-2.0"
+      ],
+      [
+        "GitHub",
+        "github.com/Sincioco"
+      ],
+      [
+        "YouTube",
+        "youtube.com/@TheSincioco"
+      ],
+      [
+        "Facebook",
+        "facebook.com/louiery.sincioco"
+      ],
+      [
+        "LinkedIn",
+        "linkedin.com/in/louierysincioco"
+      ],
+      [
+        "TikTok",
+        "tiktok.com/@sincioco"
+      ]
+    ]
+  },
+  "clips": [
+    {
+      "id": "poster",
+      "enabled": true,
+      "file": "asset/videos/hover/POSTER - Sin Star I - Game Poster.mp4",
+      "chapter": "Opening · Game Poster",
+      "scene": "POSTER",
+      "scene_title": "A Universe Worth Fighting For",
+      "context": "Animated game poster. The complete illustrated poster opens this review for two seconds before this motion variation.",
+      "take": ""
+    },
+    {
+      "id": "panel-01-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01 - Close - Memory.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "context": "Before the warning chime, there was a laugh.\nInside a civilian spaceship, a mother's hand fastens a worn wrist strap on a young boy; his father's smiling face is reflected in the window, beyond which a sudden white flash begins.",
+      "take": ""
+    },
+    {
+      "id": "new-c00-s01-dream",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "context": "The dream has an opponent. It offers no answer.\nThe dream has an opponent.",
+      "take": ""
+    },
+    {
+      "id": "panel-01-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01 - Wide - Lonely.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "context": "The dream reaches the waking room. No one has taught him what his voice can do.\nAdult Arin wakes alone in cheap lodging, dark undershirt, armor on a chair.",
+      "take": ""
+    },
+    {
+      "id": "panel-01-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "context": "Neris surplus armor. An empty emergency-contact field. One more contract.\nAt a Neris repair stall, adult Arin in battered surplus white navy gold armor counts a few coins while a practical armorer points to his cracked shoulder rivet.",
+      "take": ""
+    },
+    {
+      "id": "new-c00-s02-contract",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02 - Close - The Blank Space.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "context": "There is room for a name. He leaves it empty.\nThere is room for a name.",
+      "take": ""
+    },
+    {
+      "id": "new-c00-s03-course",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S03 - Close - Intervention.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S03",
+      "scene_title": "A familiar sky, an unfamiliar sound",
+      "context": "Earth; a quiet hillside at night.\nThe town never knows how close the danger came.",
+      "take": ""
+    },
+    {
+      "id": "panel-01-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S03 - Wide - Distant Answer.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S03",
+      "scene_title": "A familiar sky, an unfamiliar sound",
+      "context": "On Earth, far from Neris, someone hears the disturbance.\nKael with long silver hair and black silver cosmic armor stands on a grassy Earth hillside above an ordinary warmly lit town.",
+      "take": ""
+    },
+    {
+      "id": "panel-02-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S01 - Action - Rescue.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S01",
+      "scene_title": "Someone comes back",
+      "context": "A broken fastening. A collapsing conduit. A stranger who comes back.\nIn flooded industrial waterworks, Mira in plain navy travel clothes with tied brown hair kneels beside injured adult Arin.",
+      "take": ""
+    },
+    {
+      "id": "new-c01-s01-carry",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S01 - Medium - Carry Together.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S01",
+      "scene_title": "Someone comes back",
+      "context": "The contract is finished. There is still someone to carry.\nThe contract is finished.",
+      "take": ""
+    },
+    {
+      "id": "panel-02-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S02 - Medium - Care.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S02",
+      "scene_title": "No one asked her to stay",
+      "context": "The recorder is safe. His paid work is over. He picks up another basin.\nBefore dawn in a crowded modest street clinic, Mira washes a surveyor's wound while weary Arin carries a stack of water basins.",
+      "take": ""
+    },
+    {
+      "id": "new-c01-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S02 - Close - Honest Admission.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S02",
+      "scene_title": "No one asked her to stay",
+      "context": "A basin becomes an introduction.\nIn the modest night clinic, Arin sets down his final basin then meets Mira's gaze honestly.",
+      "take": ""
+    },
+    {
+      "id": "new-c01-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S03 - Medium - A Practical Choice.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S03",
+      "scene_title": "The relay answers",
+      "context": "Keep the clinic supplied. Isolate the dangerous loop.\nBefore the supernatural surge, Mira in plain navy clothes studies intersecting industrial water pipes and indicates a bypass valve while the frightened municipal engineer holds an unsigned form and Arin reaches a manual wheel.",
+      "take": ""
+    },
+    {
+      "id": "panel-02-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S03 - Wide - Uncanny.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S03",
+      "scene_title": "The relay answers",
+      "context": "An old relay recognizes him. Shortages, concealed faults and Axiom pulses overlap.\nUnder Neris, ancient cyan glyph rings threaded through modern pipes react to unconscious Arin; dust hangs in air.",
+      "take": ""
+    },
+    {
+      "id": "panel-02-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S04 - Medium - Resolve.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S04",
+      "scene_title": "The princess who leaves for her people",
+      "context": "The princess follows the relay network after arranging relief and unfiltered reports.\nNeris palace council: Mira now in white navy gold field armor places waterworks logs and a relief plan before her living king and queen.",
+      "take": ""
+    },
+    {
+      "id": "new-c01-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C01-S04 - Medium - New Partnership.mp4",
+      "chapter": "Chapter 01 - The Water Under Neris",
+      "scene": "C01-S04",
+      "scene_title": "The princess who leaves for her people",
+      "context": "A mandate to investigate. A responsibility to return.\nOutside the palace after the council, Mira now dressed in fitted white/navy/gold field armor and holding gold open-ring bluecrystal staff examines Arin's very battered matching surplus shoulder plate with a dry affectionate smile.",
+      "take": ""
+    },
+    {
+      "id": "panel-03-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S01 - Establishing - Wonder.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S01",
+      "scene_title": "Veyra is not waiting to be discovered",
+      "context": "Veyra: a Kynari trading world, with its own rules and people already running it.\nA bustling Kynari frontier spaceport on Veyra, amber cliffs and teal transit rails, low curved canine-built architecture, recessed scent-marked lanes, paw and nose operated kiosks, adjustable human counters.",
+      "take": ""
+    },
+    {
+      "id": "new-c02-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S01 - Medium - Choosing The Route.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S01",
+      "scene_title": "Veyra is not waiting to be discovered",
+      "context": "A useful thing, phrased as a contract.\nAt Veyra port, armored Arin and Mira consult an intelligent quadrupedal canine evacuation coordinator at a low paw-operated route table.",
+      "take": ""
+    },
+    {
+      "id": "new-c02-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S02 - Action - The Last Approach.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S02",
+      "scene_title": "Not a battle they can win",
+      "context": "Veyra transit terminal; evacuation under attack.\nHe holds because people are still crossing.",
+      "take": ""
+    },
+    {
+      "id": "panel-03-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S02 - Action - Impossible Odds.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S02",
+      "scene_title": "Not a battle they can win",
+      "context": "The objective is survival. Orin gives up the last lift.\nVeyra terminal under raider attack.",
+      "take": ""
+    },
+    {
+      "id": "new-c02-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S03 - Medium - Recognition.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S03",
+      "scene_title": "Two names that sound alike",
+      "context": "Outside the chain of command.\nInside the refuge shuttle broad older stubbled Orin, white/navy/gold heavy armor, looks up respectfully at the younger brown-bun healer Mira as he recognizes the princess.",
+      "take": ""
+    },
+    {
+      "id": "panel-03-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S03 - Close - Guarded Warmth.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S03",
+      "scene_title": "Two names that sound alike",
+      "context": "He came back for a stranger. He was afraid, too.\nInside an evacuation shuttle after escape, broad older dark-haired stubbled Orin carefully bandages younger clean-shaven Arin's shoulder with permission.",
+      "take": ""
+    },
+    {
+      "id": "new-c02-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S04 - Wide - The Next Useful Thing.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S04",
+      "scene_title": "A temporary arrangement",
+      "context": "One building. More than one reason to enter.\nArin, Mira and broad Orin in field armor study a damaged archive and communications building from a Veyra emergency camp, just three companions at this stage.",
+      "take": ""
+    },
+    {
+      "id": "panel-03-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C02-S04 - Medium - First Belonging.mp4",
+      "chapter": "Chapter 02 - The Man Who Came Back",
+      "scene": "C02-S04",
+      "scene_title": "A temporary arrangement",
+      "context": "The next building holds both the records they need and the transmitter families need.\nEvening emergency camp outside a damaged archive on Veyra: Arin lays out three food portions, Mira leaves a canteen beside Orin whose hand trembles from lightning use.",
+      "take": ""
+    },
+    {
+      "id": "panel-04-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S01 - Medium - Comic Arrival.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S01",
+      "scene_title": "Zara, who is not waiting for instructions",
+      "context": "They already have a rescue plan. The newcomers offer a way back out.\nRed and charcoal fully artificial angular armored woman Zara backs out of a smoking low service hatch with a disabled surveillance unit.",
+      "take": ""
+    },
+    {
+      "id": "new-c03-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S01 - Medium - The Route Underneath.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S01",
+      "scene_title": "Zara, who is not waiting for instructions",
+      "context": "Approach to the Veyra communications enclosure; morning.\nThey already have their own reasons.",
+      "take": ""
+    },
+    {
+      "id": "panel-04-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S02 - Action - Refusal.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S02",
+      "scene_title": "The registry",
+      "context": "Inventory numbers become people going home. Some artificial guards refuse to fire.\nZara disconnects detention locks from a hostile controller.",
+      "take": ""
+    },
+    {
+      "id": "new-c03-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S02 - Close - Careful Repair.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S02",
+      "scene_title": "The registry",
+      "context": "Different skills. The same person to save.\nDifferent skills.",
+      "take": ""
+    },
+    {
+      "id": "panel-04-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S03 - Wide - Community.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S03",
+      "scene_title": "A people with a way home",
+      "context": "The translator gives others access to Kynari language; it does not create their intelligence.\nKynari community hall, low tables, varied-height sleeping alcoves, paw-operated water taps and scent markers.",
+      "take": ""
+    },
+    {
+      "id": "new-c03-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S03 - Medium - Belonging And Departure.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S03",
+      "scene_title": "A people with a way home",
+      "context": "Veyra temporary community hall; evening.\nA promise to find the way back.",
+      "take": ""
+    },
+    {
+      "id": "panel-04-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S04 - Wide - Warmth.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S04",
+      "scene_title": "Five places by the fire",
+      "context": "Five places by the fire. In the morning, five portions. Nobody remarks on the number.\nExactly five companions round a small campfire: young Arin, Mira, broad older Orin, red armored robot Zara, and quadrupedal golden Milo resting against Arin's boot.",
+      "take": ""
+    },
+    {
+      "id": "new-c03-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C03-S04 - Close - The Night Watch.mp4",
+      "chapter": "Chapter 03 - Persons, Not Property",
+      "scene": "C03-S04",
+      "scene_title": "Five places by the fire",
+      "context": "Company without an interrogation.\nOnly Arin and Orin are awake and visible beside a nearly spent campfire at night.",
+      "take": ""
+    },
+    {
+      "id": "panel-05-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S01 - Flashback - Courage.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S01",
+      "scene_title": "Before the lightning",
+      "context": "He rescued the stranger first. Only later did the predicted lightning find him.\nRain on a collapsing mountain bridge: younger broad Orin without lightning powers hauls a vulnerable old traveler and his case to safety with an ordinary rope.",
+      "take": ""
+    },
+    {
+      "id": "new-c04-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S01 - Detail - An Unexplained Kindness.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S01",
+      "scene_title": "Before the lightning",
+      "context": "Ship observation compartment; intercut with Orin's past.\nCourage came before the lightning.",
+      "take": ""
+    },
+    {
+      "id": "panel-05-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S02 - Medium - Practice.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S02",
+      "scene_title": "A bowl of water",
+      "context": "Practice spans several journeys. A recording of the same sound produces nothing.\nSafe padded ship practice bay: a bowl tips water onto embarrassed Arin while Mira calmly instructs and Zara moves notes from the splash.",
+      "take": ""
+    },
+    {
+      "id": "new-c04-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S02 - Detail - A Necessary Limit.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S02",
+      "scene_title": "A bowl of water",
+      "context": "The sound alone does nothing.\nOnly Arin, Mira and Zara visible in the safe ship practice bay.",
+      "take": ""
+    },
+    {
+      "id": "panel-05-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S03 - Wide - Unequal Lesson.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S03",
+      "scene_title": "The dream answers back",
+      "context": "Kael finally answers the dream. Arin tells Mira when he wakes.\nOn a dark reflected dream floor, long silver-haired Kael effortlessly turns aside Arin's water and fire strike with a small movement.",
+      "take": ""
+    },
+    {
+      "id": "new-c04-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S03 - Medium - Trust Through Disclosure.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S03",
+      "scene_title": "The dream answers back",
+      "context": "Arin's dream; the familiar reflected floor.\nThis time, he tells her.",
+      "take": ""
+    },
+    {
+      "id": "new-c04-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S04 - Close - The Cost Outside Himself.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S04",
+      "scene_title": "What the pulses cost",
+      "context": "Damaged remote survey station.\nResponsibility begins with what is in front of them.",
+      "take": ""
+    },
+    {
+      "id": "panel-05-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C04-S04 - Medium - Responsibility.mp4",
+      "chapter": "Chapter 04 - The Language Beneath",
+      "scene": "C04-S04",
+      "scene_title": "What the pulses cost",
+      "context": "Some pulse times match his nights. Older faults remain. They help before investigating.\nA damaged remote station warmed by Arin's carefully contained hand flame; Mira attends chilled families in blankets, Orin braces a hatch, Zara repairs a heater, Milo finds a low safe route.",
+      "take": ""
+    },
+    {
+      "id": "panel-06-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S01 - Close - Devastating Evidence.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S01",
+      "scene_title": "Not an accident",
+      "context": "A verified combat log identifies a specific artificial faction and unit. Zara had no part in it.\nZara cross-checks two civilian ship records on a station screen, times and hull silhouettes aligned without readable text.",
+      "take": ""
+    },
+    {
+      "id": "new-c05-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S01 - Close - A Terrible Recognition.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S01",
+      "scene_title": "Not an accident",
+      "context": "The record names an attacker. Grief searches for someone nearer.\nThe record names an attacker.",
+      "take": ""
+    },
+    {
+      "id": "panel-06-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S02 - Two-Shot - Rupture.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S02",
+      "scene_title": "The thing he says",
+      "context": "He knows who Zara is. He blames her anyway.\nAt a dusk station shelter, angry grieving Arin faces rigid red robotic Zara who sets verified records down between them and turns away.",
+      "take": ""
+    },
+    {
+      "id": "new-c05-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S02 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S02",
+      "scene_title": "The thing he says",
+      "context": "A grief she will not accept as blame.\nZara sets a small data archive on a shelter bench and turns away from Arin, whose anger collapses into ashamed silence.",
+      "take": ""
+    },
+    {
+      "id": "panel-06-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S03 - Medium - Public Correction.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S03",
+      "scene_title": "No one gets erased for convenience",
+      "context": "When the chief proposes erasing artificial residents' memories, Arin objects in public.\nA human station chief reaches toward a mass memory-reset console while Arin firmly blocks the action with an open hand.",
+      "take": ""
+    },
+    {
+      "id": "new-c05-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S03 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S03",
+      "scene_title": "No one gets erased for convenience",
+      "context": "Trust becomes an action.\nOnly Arin and Zara in station service area during power failure.",
+      "take": ""
+    },
+    {
+      "id": "panel-06-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S04 - Close - No Bargain.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S04",
+      "scene_title": "An apology without a bargain",
+      "context": "He names the harm. She does not owe him instant forgiveness.\nQuiet cargo ramp morning: Arin has placed a corrected report beside Zara and holds one side of a cracked tool housing while she repairs it.",
+      "take": ""
+    },
+    {
+      "id": "new-c05-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S04 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S04",
+      "scene_title": "An apology without a bargain",
+      "context": "Repair begins with holding steady.\nOnly Arin and Zara, seated at the ship's cargo ramp in quiet morning.",
+      "take": ""
+    },
+    {
+      "id": "panel-07-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S05 - Wide - Tremendous Power.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S05",
+      "scene_title": "The Second Dawn",
+      "context": "He can warm worlds. He cannot rewrite existence's foundational rules alone.\nIn an ancient observatory, Kael calmly gestures toward a dead planet through an enormous viewing ring; a narrow warm band spreads across its cold atmosphere.",
+      "take": ""
+    },
+    {
+      "id": "panel-07-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S05 - Close - Kinship.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S05",
+      "scene_title": "The Second Dawn",
+      "context": "Arin descends from one of Kael's incarnations. He is his own person.\nClose two-shot Kael silver-haired ancient-looking but youthful, Arin brown-haired surprised.",
+      "take": ""
+    },
+    {
+      "id": "panel-07-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S05 - Medium - The Unanswered Cost.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S05",
+      "scene_title": "The Second Dawn",
+      "context": "The Second Dawn would risk the people already here for an untested improvement.\nMira and four-legged golden Milo confront Kael across an observatory table, Zara and Orin attentive.",
+      "take": ""
+    },
+    {
+      "id": "new-c05-s05",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S05 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S05",
+      "scene_title": "The Second Dawn",
+      "context": "Even he cannot promise who survives.\nOnly Arin and Kael at the vast dark observatory ring, close over-Arin-shoulder view toward youthful pale long-silver-haired Kael in black/silver cosmic armor.",
+      "take": ""
+    },
+    {
+      "id": "panel-07-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C05-S05 - Wide - Refusal.mp4",
+      "chapter": "Chapter 05 - What We Blame",
+      "scene": "C05-S05",
+      "scene_title": "The Second Dawn",
+      "context": "He asks again for understanding. They will examine his evidence, not surrender their answer.\nArin stands with all four companions, resolute rather than aggressive; Kael alone beside the open observatory ring, wounded by the refusal.",
+      "take": ""
+    },
+    {
+      "id": "panel-08-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S01 - Wide - Consequence.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S01",
+      "scene_title": "East Valley",
+      "context": "The flour that saved one village never reached another.\nEast Valley with empty house foundations and a modest famine memorial, not a battlefield.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S01 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S01",
+      "scene_title": "East Valley",
+      "context": "Bring what is needed today.\nOnly rugged broad Orin and an elderly anonymous resident at the doorway of an East Valley relief store.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S02 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S02",
+      "scene_title": "The house with the repaired door",
+      "context": "A door that still opens for him.\nOnly broad dark-haired stubbled Orin and his adult sister outside her village door.",
+      "take": ""
+    },
+    {
+      "id": "panel-08-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S02 - Medium - Threshold.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S02",
+      "scene_title": "The house with the repaired door",
+      "context": "His father resigned. His village remembers being fed. Neither fact settles the account.\nIn a living modest village, Orin's sister embraces her broad armored brother.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S03 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S03",
+      "scene_title": "Letters, not permission to pry",
+      "context": "Distance did not end their love.\nOnly Orin and his adult dark-haired sister at a wooden table in her modest village home, warm evening lamp.",
+      "take": ""
+    },
+    {
+      "id": "panel-08-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S03 - Close - Private Love.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S03",
+      "scene_title": "Letters, not permission to pry",
+      "context": "Threats and a home invasion drove his mother to safety. The marriage did not end.\nLamplit sister's house: she unfolds only one permitted page from a private letter for Orin.",
+      "take": ""
+    },
+    {
+      "id": "panel-08-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S04 - Two-Shot - Difficult Honesty.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S04",
+      "scene_title": "What the food cost",
+      "context": "Orin goes inside. Arin waits outside without listening.\nFather's modest kitchen: an older worn former officer stands opposite his son Orin, a clean uniform coat inside an open cupboard.",
+      "take": ""
+    },
+    {
+      "id": "panel-09-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S04 - Close - Confession.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S04",
+      "scene_title": "What the food cost",
+      "context": "He saved his family and harmed others. Orin stays, without pretending he has forgiven him.\nAt the same kitchen table, Orin's father speaks with painful sincerity, open empty hands.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S04 - Cinematic - Character Moment.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S04",
+      "scene_title": "What the food cost",
+      "context": "He stays. The answer can wait.\nOnly broad stubbled dark-haired Orin and his older gray-haired father in modest kitchen.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s05",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S05 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S05",
+      "scene_title": "A kingdom cannot be healed by one report",
+      "context": "Evidence must reach someone who can act.\nOnly brown-bun armored Mira, her mature brown-haired mother the Queen in white/gold court robes and small crown, and an anonymous elderly investigator at a Neris council table.",
+      "take": ""
+    },
+    {
+      "id": "panel-09-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S05 - Action - Protect The Handover.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S05",
+      "scene_title": "A kingdom cannot be healed by one report",
+      "context": "The marshal tries to seize the convoy. Protecting people and evidence comes first.\nNeris relief depot: Orin shields unarmed record carriers and civilians while Mira coordinates loyal officers protecting loaded supply carts.",
+      "take": ""
+    },
+    {
+      "id": "panel-09-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S05 - Detail - Institutional Concealment.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S05",
+      "scene_title": "A kingdom cannot be healed by one report",
+      "context": "Canon D10: a prosecution would have exposed deeper corruption within the military.\nNeris investigator lays an unfiled prosecution folder beside diversion ledgers leading to several private military stores.",
+      "take": ""
+    },
+    {
+      "id": "new-c06-s06",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S06 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S06",
+      "scene_title": "Something he can carry differently",
+      "context": "A reply worth carrying.\nOnly rugged broad Orin and his adult dark-haired sister beside the departure ramp.",
+      "take": ""
+    },
+    {
+      "id": "panel-09-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C06-S06 - Wide - Unfinished Repair.mp4",
+      "chapter": "Chapter 06 - The Village That Ate",
+      "scene": "C06-S06",
+      "scene_title": "Something he can carry differently",
+      "context": "His father's testimony enters the inquiry. Reform and reparations remain work for the living.\nAt a late-afternoon departure field, Orin holds a reply from his mother and looks toward his father standing at the fence with a signed account.",
+      "take": ""
+    },
+    {
+      "id": "panel-10-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S01 - Medium - Ordinary Life.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S01",
+      "scene_title": "Earth, briefly",
+      "context": "Earth matters to Kael. The dogs share ancestry, not a suddenly shared spoken vocabulary.\nOn an ordinary Earth observatory hillside town path, armored quadrupedal Milo politely sniffs a smaller unarmored Earth dog beside its human.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S01 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S01",
+      "scene_title": "Earth, briefly",
+      "context": "A world he remembers loving.\nOnly youthful long-silver-haired Kael visible near camera on old Earth observatory terrace.",
+      "take": ""
+    },
+    {
+      "id": "panel-10-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S02 - Medium - Evidence Challenged.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S02",
+      "scene_title": "The worlds in his notebooks",
+      "context": "His experiments include real improvements and harm caused by his own choices.\nObservatory records chamber: Kael displays miniature histories of an abundant garden city and its later ruins in separate windows; Zara distinguishes a wireframe prediction from a lived record.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S02 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S02",
+      "scene_title": "The worlds in his notebooks",
+      "context": "Nine centuries still count.\nOnly Mira and Kael facing each other in observatory records chamber.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S03 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S03",
+      "scene_title": "The witness archive",
+      "context": "The sky has been started again.\nOnly golden-white quadrupedal Milo and red/charcoal fully mechanical Zara in immense archive corridor.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s03-trace",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S03_Clip2 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S03",
+      "scene_title": "The witness archive",
+      "context": "A trace is not a life they can return.\nOnly Arin, Mira and Zara beside a fragile glowing archive interface.",
+      "take": ""
+    },
+    {
+      "id": "panel-10-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S03 - Wide - The Witness Archive.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S03",
+      "scene_title": "The witness archive",
+      "context": "Imported ancestry, consciousness shaping reality, traces after death. Evidence of persistence is not a way to restore a whole life.\nVast nonhuman archive with layered cosmic iteration rings, ancestral migration traces and evolving light patterns.",
+      "take": ""
+    },
+    {
+      "id": "panel-10-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S04 - Wide - Five Choices.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S04",
+      "scene_title": "The people beside the answer",
+      "context": "Stopping Kael requires action at the boundary. Each companion chooses the journey.\nWarm familiar ship common room: all five companions around a practical gateway map and supply ledger.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S04 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S04",
+      "scene_title": "The people beside the answer",
+      "context": "The answer becomes a plan.\nFive companions around low ship common-room navigation table: young armored Arin listening, brown-bun Mira marking supplies, broad rugged Orin inspecting retreat route, red mechanical Zara aligning navigation device, golden-white FOUR-LEGGED Milo operating low paw control beside table.",
+      "take": ""
+    },
+    {
+      "id": "new-c07-s05",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S05 - Cinematic - Discovery And Connection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S05",
+      "scene_title": "A quiet hour before leaving",
+      "context": "A serious conversation.\nOnly Arin and golden-white FOUR-LEGGED Milo seated side by side at last safe port departure overlook.",
+      "take": ""
+    },
+    {
+      "id": "panel-11-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C07-S05 - Two-Shot - Restrained Affection.mp4",
+      "chapter": "Chapter 07 - A World Worth Keeping",
+      "scene": "C07-S05",
+      "scene_title": "A quiet hour before leaving",
+      "context": "They make plans small enough to want to survive for.\nLast safe port at dusk: Arin and Mira sit at opposite ends of a bench with warm space between them.",
+      "take": ""
+    },
+    {
+      "id": "panel-11-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S01 - Wide - Preparation.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S01",
+      "scene_title": "A clock to come home to",
+      "context": "The field carries their measure of elapsed time, all five companions, and one injured passenger.\nAt immense ancient physical gateway rings under stars, Milo places low navigation nodes using harness tools; Zara retrieves a small unmanned probe near two synchronized clock indicators with no text.",
+      "take": ""
+    },
+    {
+      "id": "new-c08-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S01 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S01",
+      "scene_title": "A clock to come home to",
+      "context": "A way home, tested before the leap.\nOnly Arin and Mira standing beside a compact returning unmanned probe on ancient gateway approach.",
+      "take": ""
+    },
+    {
+      "id": "new-c08-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S02 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S02",
+      "scene_title": "The chamber of two voices",
+      "context": "Every moment happened to someone.\nOnly Mira and Kael face each other across outer gateway chamber.",
+      "take": ""
+    },
+    {
+      "id": "panel-11-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S02 - Wide - Last Invitation.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S02",
+      "scene_title": "The chamber of two voices",
+      "context": "Rewriting foundations requires a second independent living will's sustained cooperation.\nGateway control chamber: separate steady cyan sustaining column and bright violet access ring with two channels, one lit.",
+      "take": ""
+    },
+    {
+      "id": "panel-11-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S03 - Action - Familiar Failure.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S03",
+      "scene_title": "The battle he never wins alone",
+      "context": "The stance from the dreams fails again. His friends change the outcome.\nArin lunges alone at Kael on reflected gateway floor and is knocked off balance; broad Orin catches his shoulder with shield ready.",
+      "take": ""
+    },
+    {
+      "id": "new-c08-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S03 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S03",
+      "scene_title": "The battle he never wins alone",
+      "context": "He changes where the power goes.\nOnly Arin and Zara prominently visible, distant Kael constrained at central gateway interface.",
+      "take": ""
+    },
+    {
+      "id": "panel-12-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S03 - Action - Earned Victory.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S03",
+      "scene_title": "The battle he never wins alone",
+      "context": "They force him to stop. Arin has not become stronger than Kael.\nFinal of three access focuses extinguishes as Zara releases a contact reached via Milo's blue route, Orin blocks Kael's counterstrike, Mira braces the group and Arin redirects a current at the focus.",
+      "take": ""
+    },
+    {
+      "id": "panel-12-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S04 - Action - Protective Reflex.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S04",
+      "scene_title": "Hold",
+      "context": "His command means Hold. He saves his friends from the boundary failure.\nGateway floor folds inward beneath Mira and four-legged Milo.",
+      "take": ""
+    },
+    {
+      "id": "panel-12-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S04 - Detail - Two Authorities.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S04",
+      "scene_title": "Hold",
+      "context": "Access asks for compatible independent authority. It does not ask for agreement.\nTwo distinct cyan and violet living channels light the gateway ring from Arin and Kael.",
+      "take": ""
+    },
+    {
+      "id": "new-c08-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S04 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S04",
+      "scene_title": "Hold",
+      "context": "An invitation that feels like a command.\nOnly Kael close in foreground, pale youthful face and very long silver hair, black/silver armor.",
+      "take": ""
+    },
+    {
+      "id": "panel-12-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C08-S04 - Wide - Tense Passage.mp4",
+      "chapter": "Chapter 08 - The Door That Listens",
+      "scene": "C08-S04",
+      "scene_title": "Hold",
+      "context": "Their universe is exposed. Safe closure now needs the far side. Retreat cannot undo the opening.\nExactly five companions and silver-haired Kael cross a monumental opened portal within a connected blue field: Arin Mira Orin red robot Zara and golden four-legged Milo.",
+      "take": ""
+    },
+    {
+      "id": "new-c09-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S01 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S01",
+      "scene_title": "A place someone built",
+      "context": "The maker and the machinery are different.\nWide cosmic architecture illustration with ONLY enormous four-armed helmeted black-and-gold Aevos.",
+      "take": ""
+    },
+    {
+      "id": "panel-13-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S01 - Extreme Wide - Scale.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S01",
+      "scene_title": "A place someone built",
+      "context": "A place someone built. Made lives still feel, choose, and matter.\nThe Origin: gigantic four-armed black gold cosmic armored Aevos with galaxy chest, horned crown, rings, red and blue displayed worlds, two hourglass vessels, shattered floating colonnades, blue grid reflective floor.",
+      "take": ""
+    },
+    {
+      "id": "panel-13-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S02 - Close - The Witness.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S02",
+      "scene_title": "The One comes home",
+      "context": "Earlier renewals preserved Kael's memory. This is his first physical return for assessment.\nKael stands shocked among projections of ordinary moments from many embodied lives: learning to write, shared meals, empty bed.",
+      "take": ""
+    },
+    {
+      "id": "new-c09-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S02 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S02",
+      "scene_title": "The One comes home",
+      "context": "The witness has not finished speaking.\nOnly long-silver-haired youthful Kael in foreground, taking a defiant step and lifting an open hand to interrupt towering four-armed black-gold Aevos behind.",
+      "take": ""
+    },
+    {
+      "id": "panel-13-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S02 - Medium - The Fatal Inference.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S02",
+      "scene_title": "The One comes home",
+      "context": "His engineered urge to return helped shape the verdict. This termination would discard Kael too.\nAevos calmly turns an hourglass, a line toward the universe gateway begins to whiten.",
+      "take": ""
+    },
+    {
+      "id": "panel-13-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03 - Wide - Refusal.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hears their choice and continues. He is powerful, not omnipotent.\nExactly five companions stand against the monumental custodian, their blue return anchor behind them showing the small ordinary sky they came from.",
+      "take": ""
+    },
+    {
+      "id": "new-c09-s03-planet",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. Their defiance buys seconds. Aevos answers with a world.",
+      "take": "Clip 1 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take2",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip2 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. Aevos throws a planet — Mira holds her stance.",
+      "take": "Clip 2 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take3",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip3 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. World Hurled — Locked Wide",
+      "take": "Clip 3 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take4",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip4 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. World Hurled — Crushing Impact",
+      "take": "Clip 4 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take5",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip5 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. World Hurled — Moment of Hope",
+      "take": "Clip 5 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take6",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip6 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. World Hurled — Godlike Scale",
+      "take": "Clip 6 of 7"
+    },
+    {
+      "id": "new-c09-s03-planet-take7",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03_Clip7 - Final Battle - A World Hurled.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "Aevos hurls a planet at the party. Mira’s barrier takes the impact; the world breaks apart, then the barrier fails and the party is thrown back. World Hurled — Last Stand",
+      "take": "Clip 7 of 7"
+    },
+    {
+      "id": "new-c09-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "No one becomes expendable.\nClose kinetic shot of red mechanical Zara catching golden-white quadrupedal Milo by his BODY HARNESS after a blue navigation marker shatters; Milo's four canine paws scramble onto solid platform.",
+      "take": ""
+    },
+    {
+      "id": "panel-14-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S03 - Action - Outmatched.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S03",
+      "scene_title": "An imperfect universe refuses",
+      "context": "They delay the reset. Aevos escalates. The old solo stance cannot save them.\nOrigin floor shifts, a blue route marker shattered.",
+      "take": ""
+    },
+    {
+      "id": "panel-14-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S04 - Action - Interception.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S04",
+      "scene_title": "Not another Arin",
+      "context": "His first allied act is protection. It costs him what he cannot promise to recover.\nSilver-haired Kael suddenly steps between Aevos's brilliant strike and Arin's party.",
+      "take": ""
+    },
+    {
+      "id": "panel-14-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S04 - Close - This Person.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S04",
+      "scene_title": "Not another Arin",
+      "context": "A comparable bearer of power would not be this person, or these companions.\nWounded Kael kneels beside young Arin, looking past him to Mira helping Zara and Milo while Orin guards.",
+      "take": ""
+    },
+    {
+      "id": "new-c09-s04",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S04 - Cinematic - The Origin.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S04",
+      "scene_title": "Not another Arin",
+      "context": "An opening they still have to earn.\nWounded long-silver-haired Kael kneels in foreground and uses one shaking hand to turn a fractured violet translucent barrier sideways, making passage for broad rugged Orin supporting red mechanical Zara and golden-white four-legged Milo toward safety.",
+      "take": ""
+    },
+    {
+      "id": "panel-14-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Medium - The Plan.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "Two compatible speakers can hold continuity briefly while the five companions isolate destructive access.\nMira kneels to stabilize wounded Kael with restrained water arts while Arin listens opposite.",
+      "take": ""
+    },
+    {
+      "id": "panel-15-1",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Action - The Moving Route.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "Milo finds the route. Zara identifies the address. Orin keeps the crossing open.\nFour-legged Milo uses a harness-mounted tool in a low contact while red robot Zara isolates a nearby supervisory console.",
+      "take": ""
+    },
+    {
+      "id": "panel-15-2",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Close - Restraint.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "More force would destroy him. He listens and reduces it.\nClose on Arin shaking with effort holding a narrow cyan counter-Axiom beside wounded seated Kael's violet signature.",
+      "take": ""
+    },
+    {
+      "id": "new-c09-s05",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Cinematic - Lives Worth Keeping.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "Hold the crossing. Keep the worlds alive.\nHold the crossing.",
+      "take": ""
+    },
+    {
+      "id": "panel-15-3",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Action - Now.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "Milo clears the contact. Isolation opens a final window against Aevos's local presence.\nMilo safely backs out across blue return mark, Zara deliberately disconnects a bright destructive tether, Orin prevents contact rejoining, Mira diverts the discharge, Arin and wounded Kael keep a thin field steady.",
+      "take": ""
+    },
+    {
+      "id": "panel-15-4",
+      "enabled": true,
+      "file": "asset/videos/hover/C09-S05 - Wide - One More Pulse.mp4",
+      "chapter": "Chapter 09 - The Origin",
+      "scene": "C09-S05",
+      "scene_title": "Five voices, two speakers",
+      "context": "Aevos dies in this staged ending. The independent sustaining system continues.\nDefeated Aevos's embodied black gold cosmic armor collapses into inert shards and fading light after the party's final assault.",
+      "take": ""
+    },
+    {
+      "id": "new-e01-s01",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S01 - Cinematic - Lives Worth Keeping.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S01",
+      "scene_title": "What Kael leaves",
+      "context": "Kinship, without a promise.\nOnly critically wounded youthful pale long-silver-haired Kael reclining on prepared transport support and young brown-haired Arin kneeling beside him, Mira softly visible stabilizing injury at edge.",
+      "take": ""
+    },
+    {
+      "id": "panel-16-1",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S01 - Wide - Carry Him Home.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S01",
+      "scene_title": "What Kael leaves",
+      "context": "Knowledge is preserved. No immortality, reincarnation, or inherited office is promised.\nThe five companions escort critically wounded silver-haired Kael in a prepared casualty sling through the gateway inside the blue synchronized field.",
+      "take": ""
+    },
+    {
+      "id": "panel-16-2",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S02 - Montage - Work Continues.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S02",
+      "scene_title": "Nothing is fixed just because the sky survived",
+      "context": "Relief, testimony, letters, contracts, reunion. The sky surviving did not finish the work.\nFour soft-edged connected epilogue vignettes within this single panel: Mira helps a Neris clinic coordinator at clean running water; Orin writes a family letter beside testimony folders; red robot Zara hands Arin a new contract; golden dog Milo reunites with his canine route partner at a low…",
+      "take": ""
+    },
+    {
+      "id": "new-e01-s02",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S02 - Cinematic - Lives Worth Keeping.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S02",
+      "scene_title": "Nothing is fixed just because the sky survived",
+      "context": "He found the way back.\nOnly golden-white quadrupedal Milo in white/navy/gold toolharness greeting his darker golden canine route partner in simple civilian harness at a low Kynari village doorway.",
+      "take": ""
+    },
+    {
+      "id": "panel-16-3",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S03 - Two-Shot - Daylight.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S03",
+      "scene_title": "A street in daylight",
+      "context": "He spends a little on something he wants. They imagine another ordinary day.\nArin and Mira walk a modest sunlit Neris market street, carrying two inexpensive drinks.",
+      "take": ""
+    },
+    {
+      "id": "panel-16-4",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S03 - Wide - Room For Him.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S03",
+      "scene_title": "A street in daylight",
+      "context": "He counts the places. There is room for him. He sits.\nWarm evening meal on a modest Neris street terrace.",
+      "take": ""
+    },
+    {
+      "id": "new-e01-s03",
+      "enabled": true,
+      "file": "asset/videos/hover/E01-S03 - Cinematic - Lives Worth Keeping.mp4",
+      "chapter": "Epilogue - The Lives They Kept",
+      "scene": "E01-S03",
+      "scene_title": "A street in daylight",
+      "context": "At last, a place among them.\nFinal intimate evening meal: Arin slides into the empty chair reserved for him, seen near eye level with his relieved real smile.",
+      "take": ""
+    },
+    {
+      "id": "panel-17-1",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-01 - Close - Memory Beyond Loss.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-01",
+      "scene_title": "What he remembers besides the fire",
+      "context": "After C04-S02. His parents were people, not only the event that hurt him.\nIn warm ship lamplight, Arin repairs his old wrist strap and smiles unexpectedly, Mira quietly sitting nearby.",
+      "take": ""
+    },
+    {
+      "id": "panel-17-2",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-02 - Medium - A Concrete Need.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-02",
+      "scene_title": "The limit of a healer",
+      "context": "During C06-S05. Being skilled does not make a healer limitless.\nDuring Neris relief work, exhausted Mira washes her hands at clinic basin after a limited treatment.",
+      "take": ""
+    },
+    {
+      "id": "panel-17-3",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-03 - Medium - Staying Afterward.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-03",
+      "scene_title": "Why Zara stays after the interesting part",
+      "context": "After C05-S04 and another shared task. Zara chooses the aftermath as part of adventure.\nAt a damaged station doorway after the apology, red robotic Zara sorts a box of hinges and reusable parts.",
+      "take": ""
+    },
+    {
+      "id": "panel-17-4",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-04 - Close - More Than One Feeling.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-04",
+      "scene_title": "His mother's answer",
+      "context": "After C06-S06. Love and anger can coexist; neither speaks for the victims.\nOrin alone in a safe ship communications nook listening carefully to his mother's audio message, then recording a reply.",
+      "take": ""
+    },
+    {
+      "id": "panel-18-1",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-05 - Medium - Another Viewpoint.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-05",
+      "scene_title": "The map only Milo can read",
+      "context": "Before C08-S01. Kynari maps record approach, position and the route back.\nGolden quadrupedal Milo stands by a low spatial route projector adjusted with his nose; the luminous map shifts with the viewing angle.",
+      "take": ""
+    },
+    {
+      "id": "panel-18-2",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-05 - Wide - Gentle Joke.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-05",
+      "scene_title": "The map only Milo can read",
+      "context": "The unfamiliar map becomes legible when he stops assuming his viewpoint is the default.\nArin carefully holds an awkward crouch at Milo's intended low viewing angle while Milo pads away on four paws toward a drinking bowl, Zara amused nearby.",
+      "take": ""
+    },
+    {
+      "id": "panel-18-3",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-06 - Close - Offered Back.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-06",
+      "scene_title": "A hand offered back",
+      "context": "After C06-S06. The man who always returns can also accept a hand.\nAfter a fight at a quiet camp, older broad Orin struggles one-handed with a strap buckle.",
+      "take": ""
+    },
+    {
+      "id": "panel-18-4",
+      "enabled": true,
+      "file": "asset/videos/hover/OPT-06 - Medium - Accepted Care.mp4",
+      "chapter": "Appendix A - Optional party scenes",
+      "scene": "OPT-06",
+      "scene_title": "A hand offered back",
+      "context": "The bandage from the evacuation transport has become a two-way promise.\nOrin has handed the strap to Arin, who concentrates on untwisting the buckle.",
+      "take": ""
+    },
+    {
+      "id": "cast-arin",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Arin - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Arin",
+      "context": "Arin carries the memory of his lost parents and an unexplained power. His journey begins with learning to let other people into his life.",
+      "take": ""
+    },
+    {
+      "id": "cast-mira",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Mira - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Mira",
+      "context": "Mira is a healer whose practical compassion becomes the party’s protection. She stands beside Arin when his power puts them all at risk.",
+      "take": ""
+    },
+    {
+      "id": "cast-orin",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Orin - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Orin",
+      "context": "Orin is a veteran protector who measures strength by the people he brings home. His tower shield makes room for others to survive.",
+      "take": ""
+    },
+    {
+      "id": "cast-zara",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Zara - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Zara",
+      "context": "Zara is an artificial person who rejects ownership and chooses her own loyalties. Her precision and resolve help the party find a way forward.",
+      "take": ""
+    },
+    {
+      "id": "cast-milo",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Milo - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Milo",
+      "context": "Milo is a canine courier and an equal member of the party. His perspective, courage and warmth change how his companions see their world.",
+      "take": ""
+    },
+    {
+      "id": "cast-kael",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Kael - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Kael",
+      "context": "Kael understands the Axiom and proposes a terrible answer to loss. His knowledge brings Arin closer to the truth and to an impossible choice.",
+      "take": ""
+    },
+    {
+      "id": "cast-aevos",
+      "enabled": true,
+      "file": "asset/videos/hover/CAST - Aevos - Character Portrait.mp4",
+      "chapter": "Cast · Character Animation Review",
+      "scene": "CAST",
+      "scene_title": "Aevos",
+      "context": "Aevos stands at the Origin with the power to threaten worlds. The party must oppose that power while protecting the lives he treats as expendable.",
+      "take": ""
+    }
+  ],
+  "scene_notes": {
+    "C00-S01": {
+      "purpose": "Begin with the loss and isolation beneath Arin’s defensive humor, and introduce his unexplained power through a frightening private experience.",
+      "character_development": "Arin is still a grieving person trying to get through ordinary life. The remembered laugh preserves his parents as people; the empty room establishes how little support he has.",
+      "revelation": "His sleeping disturbance affects physical objects. The dream opponent remains unidentified; this is not confirmed prophecy or an earlier deliberate visit from Kael.",
+      "connections": "The wrist strap returns when the attack record is found in C05-S01. C04-S03 turns an unanswered dream into contact. E01-S03 answers this lonely room with a place among friends."
+    },
+    "C00-S02": {
+      "purpose": "Give Arin a practical reason to enter the waterworks while establishing the money, equipment and social costs of working alone.",
+      "character_development": "He accepts contracts and repairs surplus armor rather than embracing a heroic calling. The blank emergency-contact space and refusal of a group reveal avoidance without making him incapable of care.",
+      "revelation": "His armor is purchased surplus; he was not a Neris soldier. The shared appearance of his and Orin’s equipment must not erase their different histories.",
+      "connections": "The contract leads into Mira’s rescue in C01-S01. Orin later teaches the cost of standing alone in C02-S02; the final shared meal reverses the missing contact."
+    },
+    "C00-S03": {
+      "purpose": "Expand the scale beyond Arin’s room and plant a watcher whose concern will become a personal and ideological conflict.",
+      "character_development": "Kael first appears protecting an ordinary inhabited place. His response should suggest attention and concern, giving his later proposal an emotional foundation beyond a desire for power.",
+      "revelation": "Another world’s disturbance reaches him. His name, origin and full role remain hidden here; Earth is a place he cares about, not proof of where he began.",
+      "connections": "C04-S03 reveals intentional contact. C07-S01 revisits this hillside and explains what he heard. His protective impulse ultimately reappears in C09-S04."
+    },
+    "C01-S01": {
+      "purpose": "Introduce Mira through action and make the first bond a shared act of rescue rather than an instant romance or destiny claim.",
+      "character_development": "Mira returns for a stranger and then insists that the injured surveyor matters too. Arin moves from accepting rescue to helping carry someone who cannot escape unaided.",
+      "revelation": "The threat is non-sentient maintenance equipment. Defeating it does not justify treating conscious artificial people as disposable enemies later.",
+      "connections": "Mira’s return establishes the trust behind “back to my voice” in the Origin battle. Carrying the surveyor anticipates the party’s evacuation of wounded Kael."
+    },
+    "C01-S02": {
+      "purpose": "Show that the waterworks encounter changes Arin’s behavior after the immediate danger and paid obligation have ended.",
+      "character_development": "He stays for one more practical task. Mira asks him to give his own name, turning a rescue into a personal relationship without demanding instant selflessness from him.",
+      "revelation": "Mira’s care is a sustained choice, not just a spectacular healing ability. The clinic exposes needs that a single heroic act cannot solve.",
+      "connections": "This small decision begins the progression toward choosing the party in C07-S04. The limits of healing return in OPT-02 and Kael’s unresolved condition in E01-S01."
+    },
+    "C01-S03": {
+      "purpose": "Make Arin’s power an actionable mystery and connect it to vulnerable infrastructure without assigning him moral guilt for unconscious symptoms.",
+      "character_development": "Mira answers his fear with a shared investigation. Arin admits that he does not remember, beginning a pattern of asking for help instead of pretending to control everything.",
+      "revelation": "The relay recognizes something in him. Water shortages, administrative failure and cosmic disturbances overlap, but the script does not collapse them into one convenient cause.",
+      "connections": "The relay leads to the archive journey. Training in C04-S02 and the station damage in C04-S04 turn mystery into precautions; that restraint matters in C09-S05."
+    },
+    "C01-S04": {
+      "purpose": "Reveal Mira’s public responsibilities and give the journey a legitimate local purpose, resources and a handover.",
+      "character_development": "She acts for her people rather than escaping duty. Arin receives trust for something he actually did, even while trying to minimize the significance of returning to help.",
+      "revelation": "Mira is the princess. Her parents’ knowledge and culpability are not automatically settled by that revelation or by their willingness to authorize travel.",
+      "connections": "The evidence and limited mandate lead into Veyra. C06-S05 revisits accountability in Neris instead of allowing the royal reveal to resolve the crisis."
+    },
+    "C02-S01": {
+      "purpose": "Introduce Veyra as an existing society with its own authority and priorities, and connect the investigation to people already responding to danger.",
+      "character_development": "Arin must adjust to local perspectives. Mira broadens his focus from reaching an archive to the people displaced along the same route.",
+      "revelation": "Kynari, humans and artificial residents are participants in a functioning community. The party arrives as visitors who need cooperation, not as its discoverers or owners.",
+      "connections": "This prepares Milo’s agency in C03-S03 and his essential route knowledge in the finale. The evacuation route leads directly to Orin’s introduction."
+    },
+    "C02-S02": {
+      "purpose": "Redefine victory as getting people out, and introduce Orin through the protective choice that will anchor his role in the party.",
+      "character_development": "Arin has to abandon a fight he cannot win alone. Orin protects a route rather than seeking a glorious duel; Mira remains actively engaged in the evacuation.",
+      "revelation": "Orin’s apparent confidence is a response to responsibility, not evidence that he feels no fear or can defeat every threat.",
+      "connections": "His account in C02-S03 explains the fear beneath that action. The shield crossing and coordinated roles return against Kael and Aevos."
+    },
+    "C02-S03": {
+      "purpose": "Turn a battlefield alliance into a relationship and distinguish two similarly named, similarly armored men.",
+      "character_development": "Orin offers care and admits uncertainty. Arin permits help and shares an ordinary moment of humor; their connection begins in vulnerability rather than competition.",
+      "revelation": "Arin owns surplus armor; Orin has a military past. Orin looked toward the people who needed him even while afraid.",
+      "connections": "Orin’s family and military history complicate this portrait in Chapter 6. OPT-06 later reverses the direction of care when Arin helps him with a strap."
+    },
+    "C02-S04": {
+      "purpose": "Make Orin’s joining a practical choice and show the group beginning to function between crises.",
+      "character_development": "Arin learns to acknowledge fatigue and accept help. Shared supplies and restrained humor make belonging visible through habits rather than a speech about friendship.",
+      "revelation": "Orin stays because there is useful work and people who need him. No prophecy or secret prior assignment is required to explain his commitment.",
+      "connections": "The temporary arrangement grows into the five-person camp in C03-S04 and the explicit shared mission in C07-S04."
+    },
+    "C03-S01": {
+      "purpose": "Introduce Zara and Milo as people pursuing their own rescue before the protagonists arrive.",
+      "character_development": "The established party asks what help is needed rather than taking command. Zara’s confidence and Milo’s practical priorities establish an equal partnership.",
+      "revelation": "Zara is openly artificial from the beginning. Arin’s later prejudice comes from displaced grief, not from a contrived surprise about her body.",
+      "connections": "Their independent agency supports the registry escape and their freely chosen roles in C09-S05. This also makes Arin’s accusation in C05-S02 a meaningful betrayal of what he already knows."
+    },
+    "C03-S02": {
+      "purpose": "Make personhood concrete through a rescue that rejects ownership and distinguishes individuals from hostile factions.",
+      "character_development": "Zara acts without claiming the people she frees. Milo insists on his competence and checks the count; the others learn to trust authority that does not look like theirs.",
+      "revelation": "Artificial people can oppose the attacking faction. A shared type of body is not evidence of shared guilt.",
+      "connections": "The distinction is established before Arin violates it in C05-S02, and becomes action when he opposes erasure in C05-S03. Counting everyone anticipates “all five” at the gateway."
+    },
+    "C03-S03": {
+      "purpose": "Give Milo a community, a home and a reason to travel, rather than reducing him to a companion pet or an exposition device.",
+      "character_development": "Milo makes a commitment that includes returning. The party learns to ask permission and manage resources within relationships that existed before their arrival.",
+      "revelation": "The Kynari have off-world history connected to Earth, but their worth does not depend on proving a human standard of intelligence.",
+      "connections": "The archive in C07-S03 supplies further ancestry evidence. Milo’s promise receives a direct epilogue payoff when he reports that he found the way back."
+    },
+    "C03-S04": {
+      "purpose": "Let the audience enjoy the group and feel what is worth protecting before the story tests those bonds.",
+      "character_development": "Arin permits closeness and begins to rest among others. Milo’s physical trust and the companions’ easy exchanges establish belonging without forcing a major confession.",
+      "revelation": "There is deliberately no major cosmological reveal. The change is that five people now occupy a shared, comfortable space.",
+      "connections": "The camp contrasts with the empty room in the prologue and prepares the final meal. Its warmth gives later arguments and sacrifices a relationship to threaten."
+    },
+    "C04-S01": {
+      "purpose": "Reveal that Orin’s protective instinct preceded his extraordinary ability.",
+      "character_development": "Orin treats saving a stranger as an obvious duty, not a transaction for power. Arin sees a model of strength grounded in who a person already chooses to be.",
+      "revelation": "The old man and the mechanism of Orin’s lightning remain unresolved. A later visual resemblance must not be treated as confirmed identity.",
+      "connections": "C09-S02 briefly recalls the old man’s case without answering the mystery. Orin’s practical ethics remain more important than solving his power’s origin."
+    },
+    "C04-S02": {
+      "purpose": "Build credible limits and safety habits so later control feels learned rather than granted by sudden mastery.",
+      "character_development": "Arin accepts smaller steps, correction and help from his companions. The others contribute observation, caution and humor instead of becoming spectators to a chosen one.",
+      "revelation": "His ability is not a repeatable trick available through a recording or echo. This is a montage across travel, not a single lesson that masters every element.",
+      "connections": "Limited control prepares the party strategy against Kael and Arin’s deliberate reduction of force in C09-S05."
+    },
+    "C04-S03": {
+      "purpose": "Pay off the dream mystery with an intentional encounter and establish the relationship that will drive the central conflict.",
+      "character_development": "Arin faces someone far more capable and must listen without surrendering his judgment. On waking he shares the name with Mira rather than keeping the event entirely private.",
+      "revelation": "Kael now deliberately enters a connection created by Arin’s awakening. Earlier dreams are not retroactively guaranteed prophecy.",
+      "connections": "The Axiom and invitation lead to C05-S05. The disparity in power makes C08-S03 depend on the whole party rather than a sudden personal upgrade."
+    },
+    "C04-S04": {
+      "purpose": "Show the cost of uncontrolled power through people who need help, turning investigation into responsible practice.",
+      "character_development": "Arin accepts future precautions and useful repair work without being condemned for unconscious childhood events. His progress is measured by safer choices.",
+      "revelation": "The pulses can affect infrastructure beyond his immediate surroundings. Their consequences are specific and must be investigated rather than assumed universal.",
+      "connections": "Life-support repair anticipates the finale’s distinction between stopping a harmful command and destroying systems that keep people alive."
+    },
+    "C05-S01": {
+      "purpose": "Reopen Arin’s foundational loss with evidence and create the emotional pressure behind his next harmful choice.",
+      "character_development": "Grief seeks a nearby target. The wrist strap reconnects the adult investigator to the child in the opening memory while Zara performs the careful work of establishing facts.",
+      "revelation": "A specific artificial faction attacked the civilian ship. The records prove the attack without explaining every motive or making every artificial person responsible.",
+      "connections": "C05-S02 shows Arin abandoning that distinction. His later insistence on evidence in C05-S03 must answer this failure."
+    },
+    "C05-S02": {
+      "purpose": "Let the protagonist cause a real relational injury and require responsibility rather than automatically excusing him through tragedy.",
+      "character_development": "Arin projects his anger onto Zara. She refuses the burden of comforting him for an accusation against her; Mira challenges him without denying his grief.",
+      "revelation": "He knows Zara did not fire the shot. The wrong is asking her to answer for unrelated people who resemble her.",
+      "connections": "C05-S03 tests changed conduct before C05-S04 offers an apology. This prepares the wider rejection of erasing persons for somebody else’s judgment in the finale."
+    },
+    "C05-S03": {
+      "purpose": "Turn moral recognition into action under pressure before the relationship is repaired verbally.",
+      "character_development": "Arin opposes collective punishment and asks for evidence against individuals. Zara continues doing necessary work without being required to reward him with instant forgiveness.",
+      "revelation": "A frightened authority proposes erasing people for convenience. Arin now identifies the same faulty inference he made after the archive revelation.",
+      "connections": "The practical protection of artificial persons anticipates Zara’s statement to Aevos that creation does not establish ownership over everything that grows inside it."
+    },
+    "C05-S04": {
+      "purpose": "Repair the rupture through a specific apology that does not demand comfort, forgiveness or a reward.",
+      "character_development": "Arin names what he did and lets Zara set the pace. Her request that he hold a housing steady offers limited, practical trust rather than declaring the hurt erased.",
+      "revelation": "Grief explains pressure but does not excuse his accusation. A changed relationship requires conduct after the apology.",
+      "connections": "Their later cooperation is earned through this repair. Her request to hold steady echoes the precise trust required at the Origin interface."
+    },
+    "C05-S05": {
+      "purpose": "Define the central dilemma: whether ending existing lives can be justified by a promised improvement whose human cost cannot be guaranteed.",
+      "character_development": "Kael’s desire to repair suffering is sincere but crosses into deciding for others. Arin insists on the lives already here, while every companion questions the proposal.",
+      "revelation": "Arin is Kael’s distant biological descendant, not a reincarnation. Two compatible speakers could reach the Origin; Kael cannot promise who would survive a rewrite.",
+      "connections": "The Second Dawn leads to the notebooks, gateway conflict and Origin. C09-S02 reveals how Kael’s search was influenced; C09-S04 makes him protect the people his plan endangered."
+    },
+    "C06-S01": {
+      "purpose": "Ground the story’s cosmic debate in the ordinary people harmed by supply decisions and failed institutions.",
+      "character_development": "Orin must face consequences that abstract loyalty cannot erase. Mira listens without demanding testimony, and the party brings relief rather than treating suffering as a lesson for itself.",
+      "revelation": "Promised supplies did not arrive and people died. The draft does not invent a precise death count or settle what Orin’s father knew in advance.",
+      "connections": "The transport trail leads to the father’s confession and the public inquiry. This demonstrates why saving the sky cannot finish all the work in E01-S02."
+    },
+    "C06-S02": {
+      "purpose": "Complicate the longing for family by showing that an available parent can also be a source of harm.",
+      "character_development": "Arin initially measures Orin’s situation through his own loss, then accepts that he does not know this family. Orin sets a boundary without belittling Arin’s grief.",
+      "revelation": "Neighbors’ gratitude and the repaired door do not settle the father’s wrongdoing. Conflicting experiences of one person can coexist.",
+      "connections": "The scene prepares a reunion without forced forgiveness. It also extends Arin’s lesson about refusing to make another person answer for his own pain."
+    },
+    "C06-S03": {
+      "purpose": "Give Orin’s mother agency and preserve consent while reopening family contact.",
+      "character_development": "Orin learns that distance does not mean an end to love. His sister asks what he wants shared rather than arranging an emotional confrontation behind his back.",
+      "revelation": "The parents live apart for reasons that are not reducible to a simple lack of affection. Private letters are shared with permission.",
+      "connections": "OPT-04 expands the mother’s position. C06-S06 can offer renewed communication without pretending the father has already been forgiven."
+    },
+    "C06-S04": {
+      "purpose": "Confront the wrongdoing directly while allowing love, shame and accountability to remain unresolved together.",
+      "character_development": "The father admits his unauthorized diversion of food and armaments. Orin stays in the conversation but refuses to offer forgiveness he cannot honestly give.",
+      "revelation": "The confession does not become a different offense involving falsified civilian paperwork. His exact prior knowledge remains open; regret does not undo deprivation.",
+      "connections": "The institutional inquiry follows without absolving his personal choices. The departure and epilogue show possible reparative action, not a completed redemption certificate."
+    },
+    "C06-S05": {
+      "purpose": "Prevent one family confession from standing in for the larger institutional work Neris still owes its people.",
+      "character_development": "Mira confronts her own authorities and refuses an easy scapegoat. The royal family must answer for knowledge, neglected questions and suppressed reporting.",
+      "revelation": "Wider corruption helps explain why prosecution was suppressed; it does not make Orin’s father innocent or prove one mastermind caused every failure.",
+      "connections": "Local investigators and relief workers must continue after the party leaves. E01-S02 explicitly returns to this unfinished work."
+    },
+    "C06-S06": {
+      "purpose": "Close the Neris visit with changed relationships and a credible handover rather than a total resolution.",
+      "character_development": "Orin leaves carrying renewed contact and uncertainty instead of a simple verdict. Arin is attentive to who is present, and Mira can depart because others retain responsibility locally.",
+      "revelation": "Repair can begin without requiring victims to forgive. The family’s next steps are commitments, not guaranteed outcomes.",
+      "connections": "The “everyone is here” idea develops into the gateway’s all-five rule and the final meal’s room for Arin."
+    },
+    "C07-S01": {
+      "purpose": "Humanize the place Kael loves and reconnect the distant watcher to the person Arin has become.",
+      "character_development": "Kael’s affection for ordinary life complicates his destructive proposal. Arin realizes how his lonely, seemingly insignificant night reached someone across worlds.",
+      "revelation": "This is where Kael heard the disturbance in C00-S03. Earth’s connection and ancient Kynari material are fictional world history; Kael’s ultimate origin remains unsettled.",
+      "connections": "The observatory opens access to his experiments. His concern for specific lives becomes the measure against which C09-S04 tests him."
+    },
+    "C07-S02": {
+      "purpose": "Give Kael’s argument evidentiary weight while letting the party challenge the conclusions he draws from it.",
+      "character_development": "He has endured repeated loss and tried to change conditions. The others respect suffering without treating despair or experience as automatic authority over everyone’s future.",
+      "revelation": "His experiments have limits, samples and interventions. They do not prove that freedom, abundance, medicine or longer life must inevitably fail.",
+      "connections": "This prepares the critique of the witness assessment in C09-S02: even vast experience can be shaped by a biased design and cannot speak for every life."
+    },
+    "C07-S03": {
+      "purpose": "Reveal the cosmological stakes while keeping mystery, grief and ethical limits active.",
+      "character_development": "The party preserves a fragile trace instead of exploiting it. Arin asks about returning the dead and accepts an honest limit rather than receiving a convenient cure for loss.",
+      "revelation": "There have been cosmic iterations; humans and Kynari have off-world origins, and living experience adds to the Axiom. A responsive postmortem trace does not establish reliable resurrection.",
+      "connections": "Witness and return markers prepare Kael’s revelation in C09-S02. Emergent life underpins Zara’s rejection of ownership in C09-S05; sustaining reality does not depend on someone watching it."
+    },
+    "C07-S04": {
+      "purpose": "Make the final mission a shared commitment after the party understands the stakes.",
+      "character_development": "Each companion chooses to participate for their own reasons. Arin asks rather than assuming ancestry or power gives him the right to order their lives.",
+      "revelation": "Five voices means five persons with agency. It does not imply that all five possess compatible foundational Axiom authority.",
+      "connections": "The explicit agreement becomes the coordinated victory in C09-S05. It also contrasts with Kael and Aevos making decisions on behalf of others."
+    },
+    "C07-S05": {
+      "purpose": "Give the audience specific relationships and possible futures to carry into the final danger.",
+      "character_development": "The party’s affection appears in ordinary paired conversations, humor and plans. Arin can imagine a life beyond surviving the next contract.",
+      "revelation": "These bonds do not unlock romance-gated combat bonuses. Their worth is personal, not a transaction for power.",
+      "connections": "The quiet hour supports the finale’s argument for a chance at a future. E01-S03 fulfills that direction with daylight, company and a shared meal."
+    },
+    "C08-S01": {
+      "purpose": "Make the journey into the Origin a planned risk with a testable way home.",
+      "character_development": "The party’s care becomes preparation: shared limits, a withdrawal condition and room for an injured passenger. Arin insists that all five return.",
+      "revelation": "The synchronized field is the fictional mechanism that preserves a workable clock. This is still the physical gateway, not the Origin itself.",
+      "connections": "The spare capacity pays off when Kael must be evacuated. Protecting the return anchor remains a practical objective throughout the final encounter."
+    },
+    "C08-S02": {
+      "purpose": "Stage the refusal at the point where Kael can act, and distinguish reaching the Origin from rewriting existence.",
+      "character_development": "Arin can hear Kael’s plea without yielding other people’s lives. His companions reinforce that his compatible ability is not the same as consent.",
+      "revelation": "The gate requires two independent compatible signatures. A recording, an echo or duplicated signature cannot supply the missing speaker.",
+      "connections": "The live access assembly and Kael’s imprinted command set up the accident in C08-S04. Foundational rewriting remains a distinct, more dangerous operation."
+    },
+    "C08-S03": {
+      "purpose": "Pay off the party’s learned cooperation with a real victory over an individually stronger opponent.",
+      "character_development": "Arin uses positioning, restraint and his friends’ strengths. Kael sees a power he cannot simply recruit; the party earns success without Arin suddenly surpassing him.",
+      "revelation": "Kael needs Arin and the gateway intact, which constrains his tactics. The encounter targets access focuses rather than winning an unrestricted contest of cosmic force.",
+      "connections": "Each companion’s contribution prepares their precise role against Aevos. Kael’s loss exposes the gap between power and the right to command another person."
+    },
+    "C08-S04": {
+      "purpose": "Carry the victory into an unintended boundary failure through established causes, not an arbitrary portal opening.",
+      "character_development": "The party responds together and includes Kael in the immediate duty to survive. Resistance to his plan remains justified despite the accident.",
+      "revelation": "Arin’s emergency action meets Kael’s earlier command still imprinted in the live channel. Access opens; this is not moral consent to a reset or a completed rewrite.",
+      "connections": "The two-authority access explains Aevos’s surprise at Arin. The synchronized return field and the group’s refusal to cross separately carry into C09-S01."
+    },
+    "C09-S01": {
+      "purpose": "Introduce the apparent creator as a situated custodian and establish that authority can be questioned.",
+      "character_development": "Mira asks who Aevos answers to instead of accepting scale as moral legitimacy. The party secures a return anchor before surrendering attention to the revelation.",
+      "revelation": "Aevos is distinct from the independent systems sustaining the universe and says he answers to someone beyond this place. That superior identity is not supplied.",
+      "connections": "Separating custodian from sustaining machinery makes the finale’s targeted victory possible. C09-S02 explains what he has been assessing."
+    },
+    "C09-S02": {
+      "purpose": "Reframe Kael’s search and expose the flaw in treating one engineered witness as a verdict on everyone’s existence.",
+      "character_development": "Kael confronts a compulsion within his motives while defending the reality of his experience. He begins challenging Aevos before his own erasure becomes the only reason to resist.",
+      "revelation": "Kael is The One, continuous through prior renewals, now returning in person for the first assessment. Arin is an unplanned emergent authority. The next reset would erase everyone, including the witness.",
+      "connections": "This pays off the archive markers and the two-speaker gateway. It prepares Kael’s protective choice in C09-S04 without claiming every past act of love or cruelty was programmed."
+    },
+    "C09-S03": {
+      "purpose": "Make the cost of refusing the reset immediate and physical while demonstrating the enormous imbalance in power.",
+      "character_development": "The party defends its right to continue without pretending to know a final answer to suffering. Mira anchors Arin; protection and restraint keep the group alive under overwhelming pressure.",
+      "revelation": "Aevos can attempt a reset without their moral consent, but his intervention can be contested. The planet-throw variations test the intended impact, shield failure and barely surviving party.",
+      "connections": "The crisis creates the need for Kael’s first protective allied act. It establishes why C09-S05 must isolate supervisory control rather than overpower the universe itself."
+    },
+    "C09-S04": {
+      "purpose": "Make Kael’s change visible as protection of an irreplaceable person rather than a speech or a convenient change of sides.",
+      "character_development": "He shields Arin and acknowledges that his own plan endangered these people. Arin does not erase that responsibility; they cooperate to stop the immediate harm.",
+      "revelation": "This Arin is not interchangeable with a replacement in another world. Kael’s transformation is not reduced to fear of his own deletion or need for a second speaker.",
+      "connections": "The distant watcher’s protective impulse finally turns toward the party. Kael’s wound imposes real limits on his support in C09-S05 and remains urgent after victory."
+    },
+    "C09-S05": {
+      "purpose": "Resolve the conflict through coordinated, limited action that preserves existing people and the systems supporting them.",
+      "character_development": "Arin plans to survive and reduces force when Mira calls him back. Zara, Milo and Orin supply indispensable timing, route and protection; Kael supports without replacing the five-person party.",
+      "revelation": "Arin and Kael hold a counter-command while the party severs Aevos’s destructive supervisory address. Aevos dies in this primary draft; sustaining processes continue independently.",
+      "connections": "Training, evidence, personhood, routes, restraint and mutual care all pay off here. The victory preserves continuity, not immortality, restored deaths or a universe without future loss."
+    },
+    "E01-S01": {
+      "purpose": "Keep the victory human by making the wounded person and the safe return more urgent than triumphal celebration.",
+      "character_development": "The party acts on its earlier promise to carry everyone it can. Kael accepts care and leaves knowledge while Arin faces uncertainty instead of receiving a complete reward.",
+      "revelation": "At the last confirmed moment Kael is alive under critical support. Survival, recovery, Arin’s lifespan and inheritance of The One are not guaranteed.",
+      "connections": "The spare passenger capacity from C08-S01 pays off. The unresolved medical outcome maintains the healer’s limits established earlier and avoids cancelling the cost of Kael’s choice."
+    },
+    "E01-S02": {
+      "purpose": "Show what the victory actually saved: continuing lives, relationships and work that still needs doing.",
+      "character_development": "The party returns to obligations rather than retiring into a claim that everything is fixed. Milo keeps his promise to find a way home; communities retain their own agency.",
+      "revelation": "The existing timeline continues. Dead people are not all restored, wrongdoing is not erased, and family or institutional repair remains unfinished.",
+      "connections": "This revisits Neris’s inquiry, Orin’s family, Veyra and the promises of earlier chapters, grounding the cosmic ending in their consequences."
+    },
+    "E01-S03": {
+      "purpose": "End on a life Arin can choose to live, completing the movement from isolation to belonging.",
+      "character_development": "Arin walks without a combat objective, shares a restrained possibility with Mira and takes his place with friends. Being present becomes the final achievement.",
+      "revelation": "Romance is possible rather than contractually resolved. Marriage, a child, immortality and another immediate apocalypse are not promised.",
+      "connections": "The street and shared meal answer the lonely lodging, blank contact field and five-person camp. “Room for one” becomes room made for a person among others."
+    },
+    "OPT-01": {
+      "purpose": "Let Arin remember his parents as living people rather than only the manner of their loss.",
+      "character_development": "With Mira listening, he retrieves a funny ordinary memory. She recognizes that movement without demanding that he stop grieving or find a positive lesson in the attack.",
+      "revelation": "His memory contains warmth beyond the fire. The scene offers access to it, not a cure or a revelation about the attack’s mechanics.",
+      "connections": "This deepens the opening laugh and makes the finale’s defense of particular, irreplaceable lives emotionally specific."
+    },
+    "OPT-02": {
+      "purpose": "Give care a sustainable, practical shape and establish that a healer cannot meet every need alone.",
+      "character_development": "Mira names limits without abandoning responsibility. Orin asks what can be obtained first, transforming concern into concrete shared work.",
+      "revelation": "Healing requires trained help, clean supplies and time; power is not an unlimited substitute for people and preparation.",
+      "connections": "The scene anticipates Mira’s bounded treatment of Kael and the epilogue’s refusal to claim that survival of the sky fixes every injury."
+    },
+    "OPT-03": {
+      "purpose": "Show why Zara stays after a dramatic rescue and connect liberation to the quieter work of making life possible afterward.",
+      "character_development": "Zara’s commitment extends beyond curiosity. Arin helps with repairs and learns that taking a dangerous structure down is not the end of responsibility to its occupants.",
+      "revelation": "Her personhood and loyalties are expressed through chosen work, not proved by imitating a human or performing another test of worth.",
+      "connections": "This reinforces C05-S04’s practical repair and the finale’s care not to destroy sustaining infrastructure while disabling harmful control."
+    },
+    "OPT-04": {
+      "purpose": "Give Orin a model for holding anger and love together without forcing either into a simple verdict.",
+      "character_development": "His mother describes her own feelings. Orin stops asking for one answer that will remove the difficulty and instead asks for continued connection.",
+      "revelation": "Anger does not automatically mean love has ended; continued love does not remove wrongdoing or require immediate forgiveness.",
+      "connections": "This expands the letters in C06-S03 and supports the open-ended family repair after C06-S04."
+    },
+    "OPT-05": {
+      "purpose": "Make a change of viewpoint both useful and enjoyable, affirming Milo’s expertise on his own terms.",
+      "character_development": "Arin physically adjusts to Milo’s perspective instead of treating his own as neutral. Milo gets to be competent and funny rather than a mascot explaining his worth.",
+      "revelation": "The map becomes legible from its intended low viewpoint. A different body and route-reading practice reveal information the others miss.",
+      "connections": "This small joke prepares the critical route through the archive and the changing reflections in C09-S05."
+    },
+    "OPT-06": {
+      "purpose": "Return an early act of care in the opposite direction and show that the protector can also be helped.",
+      "character_development": "Arin offers a hand without denying Orin’s competence. Orin accepts and relaxes rather than turning every dependency into another lesson or test.",
+      "revelation": "Their bond is reciprocal. Ordinary equipment care carries the emotional change without requiring a new injury or a large confession.",
+      "connections": "This answers the transport bandage in C02-S03 and the gear lessons across their journey; it supports the final principle that nobody must carry everything alone."
+    },
+    "POSTER": {
+      "purpose": "Orient the reviewer to the game’s visual identity before entering the story sequence.",
+      "character_development": "The ensemble composition presents the central companions as a group, without assigning new events or dialogue to this promotional image.",
+      "revelation": "This is an animated poster variation, not an additional canonical scene.",
+      "connections": "Compare character silhouettes, armor, weapons and proportions against their later scene and portrait animations."
+    },
+    "CAST": {
+      "purpose": "Review character identity, motion and visual consistency separately from the narrative sequence.",
+      "character_development": "Judge whether posture, expression and equipment support the named character’s established role. This is a portrait performance, not a new character-arc event.",
+      "revelation": "No new story facts are established by these showcase animations. Generated anatomical or equipment defects should be flagged using the visible source filename.",
+      "connections": "Compare these portraits with the same characters across the story, especially party composition, Mira’s anatomy, Orin’s shield, Zara’s artificial body and Milo’s canine movement."
+    }
+  },
+  "scene_notes_basis": "Editorial review notes based on the accepted game script; these explain intent without changing narrative canon. Spoilers are intentional.",
+  "panel_positions": {
+    "scene_info": "upper-left",
+    "scene_context": "upper-right"
+  }
+}

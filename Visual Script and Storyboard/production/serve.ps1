@@ -1,7 +1,14 @@
-param([int]$Port = 8765, [switch]$NoBrowser, [switch]$Stop)
+param([int]$Port = 8765, [switch]$NoBrowser, [switch]$Stop, [string]$Page = '')
 $ErrorActionPreference = 'Stop'
 $siteRoot = [IO.Path]::GetFullPath((Split-Path -Parent $PSScriptRoot))
+. (Join-Path $PSScriptRoot 'review-sequence/Save-ReviewSettings.ps1')
 $address = "http://localhost:$Port/"
+$pageAddress = $address + $Page.TrimStart('/')
+function Open-SitePage {
+    $chrome = Join-Path $env:ProgramFiles 'Google\Chrome\Application\chrome.exe'
+    if (Test-Path -LiteralPath $chrome) { Start-Process -FilePath $chrome -ArgumentList $pageAddress }
+    else { Start-Process $pageAddress }
+}
 if ($Stop) {
     Invoke-WebRequest -Uri ($address + '__sinstar/stop') -Method Post | Out-Null
     exit
@@ -12,22 +19,19 @@ try {
 } catch { }
 if ($existing) {
     if ($existing.Content -ne $siteRoot) { throw "Port $Port is used by another website. Choose another port." }
-    if (-not $NoBrowser) { Start-Process $address }
+    if (-not $NoBrowser) { Open-SitePage }
     exit
 }
 
 $listener = [Net.HttpListener]::new()
 $listener.Prefixes.Add($address)
 $listener.Start()
-if (-not $NoBrowser) {
-    $chrome = Join-Path $env:ProgramFiles 'Google\Chrome\Application\chrome.exe'
-    if (Test-Path -LiteralPath $chrome) { Start-Process -FilePath $chrome -ArgumentList $address }
-    else { Start-Process $address }
-}
+if (-not $NoBrowser) { Open-SitePage }
 Write-Output "Sin Star I: $address"
 $mime = @{'.html'='text/html; charset=utf-8'; '.css'='text/css'; '.js'='text/javascript';
     '.json'='application/json'; '.png'='image/png'; '.jpg'='image/jpeg'; '.jpeg'='image/jpeg';
-    '.mp4'='video/mp4'; '.svg'='image/svg+xml'; '.md'='text/plain; charset=utf-8'; '.ico'='image/x-icon'}
+    '.mp4'='video/mp4'; '.mp3'='audio/mpeg'; '.csv'='text/csv; charset=utf-8';
+    '.svg'='image/svg+xml'; '.md'='text/plain; charset=utf-8'; '.ico'='image/x-icon'}
 try {
     while ($listener.IsListening) {
         $context = $listener.GetContext()
@@ -51,6 +55,20 @@ try {
                 $response.ContentLength64 = $bytes.Length
                 $response.OutputStream.Write($bytes, 0, $bytes.Length)
                 break
+            }
+            if ($urlPath -eq '/__sinstar/review-settings' -and $request.HttpMethod -eq 'POST') {
+                try {
+                    Save-ReviewSettings $request $siteRoot
+                    $result = @{ saved = $true } | ConvertTo-Json -Compress
+                } catch {
+                    $response.StatusCode = 400
+                    $result = @{ error = $_.Exception.Message } | ConvertTo-Json -Compress
+                }
+                $bytes = [Text.Encoding]::UTF8.GetBytes($result)
+                $response.ContentType = 'application/json'
+                $response.ContentLength64 = $bytes.Length
+                $response.OutputStream.Write($bytes, 0, $bytes.Length)
+                continue
             }
             if ($request.HttpMethod -notin @('GET','HEAD')) { $response.StatusCode = 405; continue }
             if ($urlPath -eq '/') { $urlPath = '/index.html' }

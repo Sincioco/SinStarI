@@ -1622,5 +1622,16 @@
     "sha256": "45ee435b430bd4899401d4e570d75c3393dbfa853638e6fd005ce10e8c783231",
     "verified_at": "2026-09-16T02:50:58.843191+00:00",
     "verified_via": "Existing upload confirmed in YouTube Studio; current Public visibility preserved"
+  },
+  {
+    "id": "film-sequence-review",
+    "kind": "film",
+    "status": "pending",
+    "file": "asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4",
+    "title": "Sin Star I | Story Video Sequence Review",
+    "description": "All 135 storyboard preview clips in order, with scene notes and quieter background music.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "65dece09885dc61bff90ffbbbda8fab9395766fec230ffc42280e0100f135668",
+    "visibility": "unlisted",
+    "pending_reason": "YouTube daily upload limit; resume with remaining website uploads."
   }
 ]

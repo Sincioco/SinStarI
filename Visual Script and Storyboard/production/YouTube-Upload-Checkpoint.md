@@ -2,19 +2,19 @@
 
 ## Current status
 
-- 138 website videos in the catalog: 135 picture previews and three complete films.
+- 139 website videos in the catalog: 135 picture previews and four complete films.
 - 104 verified YouTube links: 100 new Unlisted uploads, the earlier Unlisted
   planet-throw take, and three existing films whose current Public visibility was preserved.
 - All seven planet-throw variations have verified links.
-- 34 videos remain pending. Their local copies are complete and playable.
+- 35 videos remain pending. Their local copies are complete and playable.
 
 YouTube Studio displayed **Daily upload limit reached** for the last five files
 in the attempted batch. Further uploads were stopped. No reset time was shown,
 and changing browsers would not resolve an account upload limit.
 
 The five rejected files were `new-c05-s04`, `new-c05-s05`, `new-c06-s01`,
-`new-c06-s02` and `new-c06-s03`. They remain `pending`, along with the 29 videos
-not yet attempted. No unverified video ID was added to the website.
+`new-c06-s02` and `new-c06-s03`. They remain `pending`, along with the 29 previews
+not yet attempted and the newly rendered Story Video Sequence Review. No unverified video ID was added to the website.
 
 ## Resume
 

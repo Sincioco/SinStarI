@@ -86,7 +86,10 @@ def validate():
     assert board_nav.count('data-scene-link') == 53
     headers = [re.search(r'<header class="site-header">.*?</header>', sources[n], re.S).group(0) for n in ('index.html', SCRIPT)]
     assert headers[0].replace(' aria-current="page"', '') == headers[1].replace(' aria-current="page"', '')
-    assert all(docs[name].by_id('site-audio-toggle').tag == 'button' for name in docs)
+    assert all(docs[name].by_id('site-audio-toggle').tag == 'button' for name in ('index.html', SCRIPT, 'movies.html'))
+    review = docs['review.html']
+    for control in ('clip-volume', 'music-volume', 'master-volume', 'mute-clip', 'review-layout', 'settings-status'):
+        assert review.by_id(control), ('missing review control', control)
     assert docs['index.html'].by_id('new-c09-s03-planet').parent.parent.attrs['id'] == 'c09-s03'
     planet_at = sources[SCRIPT].index('id="script-new-c09-s03-planet"')
     assert sources[SCRIPT].index('They succeed in delaying it.') < planet_at < sources[SCRIPT].index("Kael remains at the platform's edge")
