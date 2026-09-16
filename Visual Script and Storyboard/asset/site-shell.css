@@ -58,7 +58,7 @@ body[data-view="script"] article { background:var(--paper); color:var(--text); }
 body[data-view="script"] .script-art figcaption { padding:14px 18px; background:var(--soft); }
 body[data-view="script"] .script-art figcaption p { margin:0 0 8px; }
 body[data-view="script"] .script-art .scene-label { display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; font-size:13px; color:var(--muted); }
-body[data-view="script"] .script-art .dialogue { font-size:15px; }
+body[data-view="script"] .script-art .dialogue { display:block; font-size:15px; }
 body[data-view="script"] .script-art .dialogue strong { color:var(--gold); }
 .profile-portrait figcaption { color:var(--muted); }
 .animation-guide { color:var(--muted); margin:20px 0; font-size:15px; }

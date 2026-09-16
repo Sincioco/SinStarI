@@ -97,6 +97,10 @@ def validate():
         assert docs[name].by_id('site-print').tag == 'button'
     assert all(docs[name].by_id('site-audio-toggle').tag == 'button' for name in ('index.html', SCRIPT, 'movies.html'))
     review = docs['review.html']
+    # Caption paragraphs must not occupy the script's narrow speaker-name grid column.
+    shell_css = (ROOT / 'asset/site-shell.css').read_text(encoding='utf-8')
+    caption_rule = re.search(r'body\[data-view="script"\] \.script-art \.dialogue\s*\{([^{}]+)\}', shell_css)
+    assert caption_rule and re.search(r'\bdisplay\s*:\s*block\s*;', caption_rule[1]), 'Script caption wrapping'
     # Regression: review controls inherited dark text over a fixed dark surface in light mode.
     review_css = (ROOT / 'asset/sequence-player.css').read_text(encoding='utf-8')
     control_rule = re.search(r'([^{}]+\.file-button)\s*\{([^{}]+)\}', review_css)
