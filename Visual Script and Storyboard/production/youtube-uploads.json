@@ -936,6 +936,14 @@
     "verified_via": "YouTube Studio: Unlisted selected and All changes saved confirmed"
   },
   {
+    "id": "new-c00-s01-duel",
+    "status": "pending",
+    "file": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Effortless",
+    "description": "Every attack becomes another lesson. Only the sword gives him something to remember.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f"
+  },
+  {
     "id": "new-c00-s01-dream",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

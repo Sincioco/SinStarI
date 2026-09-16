@@ -50,13 +50,13 @@ def validate():
                     assert unquote(url.fragment) in ids[target.name], (name, value, 'missing anchor')
                 references += 1
     expected = json.loads((PRODUCTION / 'hover-media.json').read_text(encoding='utf-8'))
-    assert len(expected) == 129 and len({item['id'] for item in expected}) == 129
+    assert len(expected) == 130 and len({item['id'] for item in expected}) == 130
     clips = all_clips(expected)
-    assert len(clips) == 135 and len({clip['id'] for clip in clips}) == 135
+    assert len(clips) == 136 and len({clip['id'] for clip in clips}) == 136
     render_status = json.loads((PRODUCTION / 'render-status.json').read_text(encoding='utf-8'))
     pending_jobs = [item['id'] for item in render_status if item['status'] not in ('rendered', 'reused')]
     assert allow_pending or not pending_jobs, ('unfinished render jobs', pending_jobs)
-    for name, count in [('index.html', 121), (SCRIPT, 129)]:
+    for name, count in [('index.html', 122), (SCRIPT, 130)]:
         hosts = [node for node in docs[name].nodes if 'data-media-id' in node.attrs]
         assert len(hosts) == count, (name, len(hosts))
         for host in hosts:
@@ -131,7 +131,7 @@ def validate():
     for path in scripts:
         subprocess.run([node_exe, '--check', str(path)], check=True, capture_output=True)
     result = dict(status='Pending media' if pending_jobs else 'Passed', html_pages=len(docs),
-                  local_references=references, scene_previews=121, cast_portraits=7, poster=True,
+                  local_references=references, scene_previews=122, cast_portraits=7, poster=True,
                   video_clips=len(clips), illustrations_with_variations=sum('variants' in item for item in expected),
                   matching_navigation=True, script_narrative='Unchanged', canon='Unchanged',
                   unchanged_renamed_videos=checked_renames, decoded_png_files=decoded,

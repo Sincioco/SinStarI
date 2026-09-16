@@ -432,6 +432,12 @@
     "bytes": 893588
   },
   {
+    "id": "new-c00-s01-duel",
+    "status": "reused",
+    "ready": true,
+    "bytes": 3747459
+  },
+  {
     "id": "new-c00-s01-dream",
     "status": "reused",
     "ready": true,

@@ -1,0 +1,502 @@
+{
+  "101:411": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | UNETLoader"
+    }
+  },
+  "101:416": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAELoader"
+    }
+  },
+  "101:417": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAELoader"
+    }
+  },
+  "101:420": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPLoader"
+    }
+  },
+  "101:426": {
+    "class_type": "LatentUpscaleModelLoader",
+    "inputs": {
+      "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LatentUpscaleModelLoader"
+    }
+  },
+  "101:408": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "101:420",
+        0
+      ],
+      "text": "A continuous SIXTEEN-SECOND cinematic dream sword fight starting from the supplied image. Arin is the normally lit ADULT brown-haired man on the LEFT, battered white/navy/gold armor, cyan sword in RIGHT hand, blue-white kite shield held on LEFT forearm. His opponent on the RIGHT is a completely opaque BLACK HUMAN SILHOUETTE throughout: the same tall slim outline, long hair outline, angular shoulders. No facial features, eyes, skin, hair color or armor details become visible, even during flashes. No hood, mask or new costume. The silhouette's ONE sword remains sharply visible throughout close combat: a long straight violet starfield blade, bright violet edges, ornate crescent guard surrounding a circular FOUR-POINT VIOLET STAR, dark wrapped grip and pointed pommel. This distinctive sword is the important recognition clue. Fight in the same reflective black hall, blue nebula sky and slender pillars. Begin close on crossed blades, then ease back enough to keep both bodies and all falls visible. 0-3 seconds: Arin strikes twice, fast and determined. The shadow opponent makes a tiny casual parry and short controlled shield tap; Arin loses balance and falls onto one knee and one hand, still holding his equipment. First knockdown. The silhouette remains upright, relaxed and almost stationary. 3-7 seconds: Arin scrambles up, advances and attacks harder. The opponent takes one small sidestep and effortlessly redirects him with the violet blade against his shield. Arin stumbles, lands on his side, then rolls to one knee. Second knockdown. No injury or blood. 7-11 seconds: Arin stubbornly gets up and tries one last swift attack. With a minimal wrist movement the silhouette turns aside the cyan sword and makes one light effortless counter against Arin's raised shield. The impact sends Arin sliding backward into a seated fall. Third knockdown. The enormous difference in skill is clear: Arin uses his whole body while the opponent barely moves. No wild lunges or aggression from the silhouette. 11-13 seconds: Arin rises only into a low braced defensive crouch, LEFT shield held firmly IN FRONT of his torso, cyan sword lowered to his right side. He is winded but adult and anatomically normal. The calm opponent lowers its violet sword as if ending a lesson. At second 13 the ENTIRE shadow figure and sword vanish in ONE instantaneous violet-white flicker and instantly reappear tens of metres away at the far RIGHT side of the hall, as a small motionless black silhouette beside the vertical white light. There is no travel, running, flying or sliding across the floor. 13-16 seconds: camera pulls back into a wide three-quarter composition from Arin’s left FRONT, keeping his chest emblem and the FRONT of his left forearm shield visible, Arin large in LEFT foreground in his defensive stance, shield still on his LEFT forearm, sword in RIGHT hand pointing down, looking at the tiny opponent in the RIGHT distance. Hold this unreachable distance to connect to the following wide shot. Swift real-time motion, natural whole-body anatomy, weapons never duplicate or change hands, shield never moves onto Arin's back, clear cause and effect. Sound: sharp sword clashes, three armor impacts against the floor, Arin's brief winded breaths, one teleport crack and spacious echo. No words, dialogue, narration, music, text, captions, gore, child characters or identity reveal. The camera never orbits behind Arin. His shield remains physically strapped to his left forearm and his left hand holds its grip during every fall and recovery."
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPTextEncode"
+    }
+  },
+  "101:419": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "101:420",
+        0
+      ],
+      "text": "visible opponent face, visible eyes, visible skin, silver hair color, detailed opponent armor, revealed identity, smiling face, hood, mask, child Arin, slow motion, frozen blade lock, straining opponent, duplicate people, two shadow opponents, extra limbs, detached hands, lost weapons, sword duplication, shield on back, shield switching arms, running away, flying backward, gradual shrinking, camera orbit, split screen, captions, subtitles, logos, speech, music, gore"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPTextEncode"
+    }
+  },
+  "101:415": {
+    "class_type": "LTXVConditioning",
+    "inputs": {
+      "positive": [
+        "101:408",
+        0
+      ],
+      "negative": [
+        "101:419",
+        0
+      ],
+      "frame_rate": 24
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConditioning"
+    }
+  },
+  "101:422": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | KSamplerSelect"
+    }
+  },
+  "101:423": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 202609162304
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | RandomNoise"
+    }
+  },
+  "101:424": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ManualSigmas"
+    }
+  },
+  "101:427": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "101:411",
+        0
+      ],
+      "positive": [
+        "101:415",
+        0
+      ],
+      "negative": [
+        "101:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+    }
+  },
+  "101:433": {
+    "class_type": "ResizeImageMaskNode",
+    "inputs": {
+      "input": [
+        "1",
+        0
+      ],
+      "resize_type": "scale longer dimension",
+      "resize_type.longer_size": 1536,
+      "scale_method": "lanczos"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ResizeImageMaskNode"
+    }
+  },
+  "101:436": {
+    "class_type": "LTXVPreprocess",
+    "inputs": {
+      "image": [
+        "101:433",
+        0
+      ],
+      "img_compression": 18
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVPreprocess"
+    }
+  },
+  "101:437": {
+    "class_type": "EmptyLTXVLatentVideo",
+    "inputs": {
+      "width": 512,
+      "height": 288,
+      "length": 385,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | EmptyLTXVLatentVideo"
+    }
+  },
+  "101:429": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "101:416",
+        0
+      ],
+      "image": [
+        "101:436",
+        0
+      ],
+      "latent": [
+        "101:437",
+        0
+      ],
+      "strength": 1.0,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+    }
+  },
+  "101:430": {
+    "class_type": "LTXVEmptyLatentAudio",
+    "inputs": {
+      "audio_vae": [
+        "101:417",
+        0
+      ],
+      "frames_number": 385,
+      "frame_rate": 24,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVEmptyLatentAudio"
+    }
+  },
+  "101:432": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "101:429",
+        0
+      ],
+      "audio_latent": [
+        "101:430",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+    }
+  },
+  "101:428": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "101:423",
+        0
+      ],
+      "guider": [
+        "101:427",
+        0
+      ],
+      "sampler": [
+        "101:422",
+        0
+      ],
+      "sigmas": [
+        "101:424",
+        0
+      ],
+      "latent_image": [
+        "101:432",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+    }
+  },
+  "101:431": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "101:428",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+    }
+  },
+  "101:438": {
+    "class_type": "LTXVLatentUpsampler",
+    "inputs": {
+      "samples": [
+        "101:431",
+        0
+      ],
+      "upscale_model": [
+        "101:426",
+        0
+      ],
+      "vae": [
+        "101:416",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVLatentUpsampler"
+    }
+  },
+  "101:439": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "101:416",
+        0
+      ],
+      "image": [
+        "101:436",
+        0
+      ],
+      "latent": [
+        "101:438",
+        0
+      ],
+      "strength": 1,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+    }
+  },
+  "101:443": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "101:439",
+        0
+      ],
+      "audio_latent": [
+        "101:431",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+    }
+  },
+  "101:442": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 42
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | RandomNoise"
+    }
+  },
+  "101:444": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ManualSigmas"
+    }
+  },
+  "101:445": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "101:411",
+        0
+      ],
+      "positive": [
+        "101:415",
+        0
+      ],
+      "negative": [
+        "101:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+    }
+  },
+  "101:446": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | KSamplerSelect"
+    }
+  },
+  "101:447": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "101:442",
+        0
+      ],
+      "guider": [
+        "101:445",
+        0
+      ],
+      "sampler": [
+        "101:446",
+        0
+      ],
+      "sigmas": [
+        "101:444",
+        0
+      ],
+      "latent_image": [
+        "101:443",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+    }
+  },
+  "101:448": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "101:447",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+    }
+  },
+  "101:449": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "101:448",
+        0
+      ],
+      "vae": [
+        "101:416",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 16
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAEDecodeTiled"
+    }
+  },
+  "101:450": {
+    "class_type": "LTXVAudioVAEDecode",
+    "inputs": {
+      "samples": [
+        "101:448",
+        1
+      ],
+      "audio_vae": [
+        "101:417",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVAudioVAEDecode"
+    }
+  },
+  "101:451": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "101:449",
+        0
+      ],
+      "audio": [
+        "101:450",
+        0
+      ],
+      "fps": 24,
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CreateVideo"
+    }
+  },
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "SinStarI_Draft3/new-c00-s01-duel-concealed-take2.png"
+    },
+    "_meta": {
+      "title": "Every attack becomes another lesson. Only the sword gives him something to remember."
+    }
+  },
+  "901": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "101:451",
+        0
+      ],
+      "filename_prefix": "SinStarI_Draft3/new-c00-s01-duel-concealed-take2",
+      "format": "mp4",
+      "format.codec": "h264",
+      "format.codec.encoding": "auto"
+    },
+    "_meta": {
+      "title": "Draft 3 Hover | Every attack becomes another lesson. Only the sword gives him something to remember."
+    }
+  }
+}

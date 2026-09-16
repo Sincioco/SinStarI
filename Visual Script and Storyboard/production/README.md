@@ -28,8 +28,14 @@ versions without reconstructing the pages.
 All 130 original hover MP4s were renamed without changing their bytes. See
 `video-renames.json` for the old/new paths and checksums. Preserve stable media IDs
 when changing filenames so remembered selections continue to work. Five additional
-planet-throw takes bring the total to 135. Clips 1 and 2 remain available; Clip 3
-is the initial choice when a user has not remembered another take.
+planet-throw takes and the new dream duel bring the total to 136. For the planet
+throw, Clips 1 and 2 remain available; Clip 3 is the initial choice when a user
+has not remembered another take.
+
+The [concealed-opponent duel](C00-S01-Duel.md) now plays immediately before
+`C00-S01 - Wide - Unreachable.mp4` in the review and has matching Script and
+Storyboard figures. New LTX jobs default to exact 16:9 at 1024 × 576; previews
+export at 960 × 540. Earlier accepted clips retain their original framing.
 
 Videos, including intermediate render sources, must never enter Git. The root
 `.gitignore` covers common video formats regardless of folder and filename case.
@@ -37,8 +43,8 @@ The three previously uploaded complete films are reused, not uploaded again.
 
 ## YouTube records and playback
 
-Current checkpoint: **104 of 139 videos have verified links**. YouTube's daily
-upload limit stopped the remaining 35; all local files are complete. Follow
+Current checkpoint: **104 of 140 videos have verified links**. The earlier daily
+upload limit left 35 pending; the new duel brings that total to 36. Follow
 [YouTube-Upload-Checkpoint.md](YouTube-Upload-Checkpoint.md) to resume without duplicates.
 
 - `youtube-uploads.json` owns upload status, exact local file checksum, title,

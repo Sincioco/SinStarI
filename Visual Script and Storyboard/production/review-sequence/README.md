@@ -6,11 +6,17 @@ play the finished movie. Closing the window leaves the background render running
 opening it again shows the current progress. The renderer never uploads files.
 
 The delivered output is `asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4`.
-The default review contains every one of the 135 website preview clips: a
+The default review contains every one of the 136 website preview clips: a
 two-second still poster, animated poster, story scenes in Storyboard order,
 alternate takes immediately beside their original, optional scenes, seven cast
 animations, and 18 seconds of illustrated credits. Existing edited films are not
 duplicated inside the review. The complete frame is preserved with letterboxing.
+
+The 14-second C00-S01 dream duel is clip 3, immediately before Wide / Unreachable.
+Its opponent stays silhouetted; the visible violet sword is a later recognition
+clue. The current JSON includes it in both live playback and the next movie render.
+The previously rendered full review MP4 predates this addition and must be rendered
+again to include it.
 
 ## Play and review immediately
 

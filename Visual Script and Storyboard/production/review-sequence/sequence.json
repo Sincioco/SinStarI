@@ -88,6 +88,17 @@
       "take": ""
     },
     {
+      "id": "new-c00-s01-duel",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Close / Effortless",
+      "context": "Repeated knockdowns force Arin to guard. The untouched silhouette teleports into the next shot’s distance. Its hidden face keeps the mystery; the violet blade and star-shaped guard are his recognition clue.",
+      "muted": false
+    },
+    {
       "id": "new-c00-s01-dream",
       "enabled": true,
       "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",
@@ -1423,7 +1434,7 @@
       "purpose": "Begin with the loss and isolation beneath Arin’s defensive humor, and introduce his unexplained power through a frightening private experience.",
       "character_development": "Arin is still a grieving person trying to get through ordinary life. The remembered laugh preserves his parents as people; the empty room establishes how little support he has.",
       "revelation": "His sleeping disturbance affects physical objects. The dream opponent remains unidentified; this is not confirmed prophecy or an earlier deliberate visit from Kael.",
-      "connections": "The wrist strap returns when the attack record is found in C05-S01. C04-S03 turns an unanswered dream into contact. E01-S03 answers this lonely room with a place among friends."
+      "connections": "The wrist strap pays off in C05-S01; the violet starfield blade and star-shaped guard let Arin recognize Kael later. C04-S03 turns the dream into contact. E01-S03 answers his isolation with friendship."
     },
     "C00-S02": {
       "purpose": "Give Arin a practical reason to enter the waterworks while establishing the money, equipment and social costs of working alone.",

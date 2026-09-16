@@ -1,0 +1,118 @@
+{
+  "id": "new-c00-s01-duel",
+  "image": "asset/images/c00-s01-duel.png",
+  "video": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+  "caption": "Every attack becomes another lesson. Only the sword gives him something to remember.",
+  "art": "In the dream hall, Arin battles an unidentified dark silhouette whose distinctive violet starfield sword remains clearly visible. Effortless counters knock Arin down repeatedly; he rises into a guarded crouch before the opponent instantly teleports far away.",
+  "scene": "c00-s01",
+  "kind": "scene",
+  "shot": 1.5,
+  "status": "reviewed",
+  "shot_title": "Close / Effortless",
+  "chapter_title": "Prologue - Room for One",
+  "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Effortless",
+  "render_seconds": 16,
+  "render_size": [
+    1024,
+    576
+  ],
+  "seed": 202609162203,
+  "motion_prompt": "SIXTEEN-SECOND cinematic dream duel from this image. Arin is the adult man on the LEFT in white/navy/gold armor, cyan sword in RIGHT hand, kite shield attached to LEFT forearm. His opponent on the RIGHT is an anonymous completely BLACK silhouette, with only the long violet starfield sword and its circular four-point star guard clearly illuminated. The opponent's face, eyes, skin, hair color and armor details remain invisible for EVERY frame. Preserve its tall slim long-haired outline. Same reflective black floor and star-filled hall. IMPORTANT: ONLY ARIN FALLS. The shadow opponent NEVER gets hit, never recoils, never falls, never flies backward, and never loses balance. It stays perfectly upright and relaxed at the SAME SPOT until its final teleport. It teaches a lesson with tiny effortless motions. Camera pulls back from the close view to show the full bodies.\n0-4 seconds: Arin attacks twice with fast cyan sword cuts. The silhouette redirects both with a tiny one-handed violet parry. A brief violet sword tap against Arin's raised shield knocks ARIN backward onto his hip on the floor. The opponent remains standing untouched in its original position. Arin keeps sword and shield.\n4-9 seconds: Arin struggles to his feet, steps forward and attacks again. His cyan sword is intercepted cleanly and NEVER hits the shadow body. The silhouette makes one short controlled counter against his shield. ARIN alone drops hard onto both knees and one hand, humbled and winded. The opponent is completely upright, feet planted, barely moving.\n9-12 seconds: Arin rises into a low defensive crouch, still several paces away, LEFT shield held firmly IN FRONT of his chest and cyan sword lowered on his RIGHT. No further attack. He realizes how outmatched he is. The silhouette calmly lowers its violet sword and simply waits, untouched.\nAt second 12: the upright shadow figure and sword INSTANTLY DISAPPEAR in a brief vertical violet flicker and INSTANTLY REAPPEAR as one tiny stationary silhouette far away on the RIGHT beside the distant white light. No movement through space between the positions.\n12-16 seconds: hold Arin in the LEFT foreground, with his chest armor and left shield face visible in three-quarter view, looking toward the tiny motionless distant opponent. The camera eases backward without orbiting behind Arin. Both characters remain solid humans with normal anatomy. Shield stays on Arin's left forearm, never on his back. Swift sword contacts, two clear falls by ARIN, strong size and distance contrast. Sound: sword clangs, armor hitting stone twice, winded breaths from Arin, one sharp teleport crack and hall echo. No speech, music, captions or identity reveal.",
+  "image_prompt": "Use case: illustration-story. Create ONE cinematic 16:9 landscape 2048x1152 opening keyframe for a short Sin Star I sword duel. Reference 1 defines the exact reflective black dream hall, thin gold lines on the floor, towering black pillars, cold blue nebula sky, mist and vertical white light far in the background. Reference 2 defines Kael's face, very long silver hair, angular black and silver armor with violet starlight details. References 3-4 define the SAME SINGLE Kael sword from front and back: a long straight tapering blade filled with a violet starfield, bright violet edges, dark wrapped grip, pointed pommel, ornate crescent crossguard around a circular violet four-pointed star. Reference 5 defines Arin's brown hair and white/navy/gold armor, one cyan-edged sword and one blue-white kite shield with gold sun emblem. Preserve identities and equipment precisely.\nScene: an energetic close medium two-shot framed from the upper thighs up, camera slightly behind Arin's left side looking diagonally toward Kael. Arin on screen LEFT faces RIGHT and has just driven his cyan sword forward with his RIGHT hand. His LEFT forearm carries his shield, currently low near his hip rather than already hiding him. Kael on screen RIGHT faces LEFT and intercepts Arin's sword with a tiny effortless movement of his own violet sword in his RIGHT hand, his left hand relaxed. Show each anatomically correct hand naturally gripping one hilt, two clearly separate crossed blades meeting near the center, a few sharp sparks, stable readable geometry. Arin looks intensely focused and physically committed. Kael's calm expression and upright balanced stance convey that this fight costs him almost no effort. Both heads and expressive faces visible, both swords and shield recognizable, no duplicated equipment. Detailed cinematic painted science-fantasy consistent with Reference 1, dynamic but crisp, cold blue rim light and violet reflections, starry hall behind them. This is the start of a fast exchange BEFORE Arin is forced onto defense, not a static character sheet. No text, captions, borders, watermarks, split panels, extra people, gore or extra limbs. Exactly two adult men. Fill the 16:9 canvas edge to edge.",
+  "insert_before": "new-c00-s01-dream",
+  "reference_notes": "Inspected all four Kael weapon views, all five Kael body views, and both supplied Arin body references. Initial keyframe uses the existing dream hall, Kael normal weapon pose and front/back sword references, plus the established Arin turnaround (same design as the supplied purple-background sheet). The additional side/back and T-pose references confirm the same designs.",
+  "references": [
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael - Back View.png",
+      "file": "production/references/c00-s01-duel/Kael - Back View.png",
+      "sha256": "96dd8c4cdeb73d8ff50024e28cfd2adf5e506848e963ee75df799d671eabd584"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael - Front View.png",
+      "file": "production/references/c00-s01-duel/Kael - Front View.png",
+      "sha256": "c799730f7ad77dfc49fcee6b322211c6f3c7b2c55d34255f1919097087f333fb"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael - Left View.png",
+      "file": "production/references/c00-s01-duel/Kael - Left View.png",
+      "sha256": "f08ac380ebeaf3a40cbf7ef508a6f99f35235d26751d8b3c939d3f674e2497ca"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael - Normal Pose Holding Weapon.png",
+      "file": "production/references/c00-s01-duel/Kael - Normal Pose Holding Weapon.png",
+      "sha256": "92caf8af30d9ad12430600ed452a1c2e8ffc31af87967e5c499780c623b88458"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael - Right View.png",
+      "file": "production/references/c00-s01-duel/Kael - Right View.png",
+      "sha256": "38a6c3d04d9bea937006b0d6210235624d5c1b03337ce26319c91d967b8bb6e3"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael Weapon - Back View.png",
+      "file": "production/references/c00-s01-duel/Kael Weapon - Back View.png",
+      "sha256": "7b84bc9d6ad4033db5c673b01c79bc92c38248fda67b764c69d0eb484d11bd06"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael Weapon - Front View.png",
+      "file": "production/references/c00-s01-duel/Kael Weapon - Front View.png",
+      "sha256": "a295ebf8b9edce5f2dd68760538e0f53893ca603f1509a41db35b6dd0be8bc8b"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael Weapon - Left View.png",
+      "file": "production/references/c00-s01-duel/Kael Weapon - Left View.png",
+      "sha256": "fe2e70ba9afecbef8590bf51421d1f67c08b5967c961e98bcac3296ee7be928d"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Kael\\Kael Weapon - Right View.png",
+      "file": "production/references/c00-s01-duel/Kael Weapon - Right View.png",
+      "sha256": "42dbbb589619bce587ecddbc85d00fcd46e045d63dc58907dee7f991eecdacad"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Sin Star - Character 1 - Paladin - Purple Background.png",
+      "file": "production/references/c00-s01-duel/Sin Star - Character 1 - Paladin - Purple Background.png",
+      "sha256": "a01cad5cf81c3116c06bdcf3764eb9c76110427e5b2068c6d6644df13c494c3f"
+    },
+    {
+      "source": "D:\\SMILE 2.0\\games\\SinStarI\\Assets\\Characters\\Sin Star - Character 1 - Paladin - T-Pose.png",
+      "file": "production/references/c00-s01-duel/Sin Star - Character 1 - Paladin - T-Pose.png",
+      "sha256": "906c5ff8457b4e476021a60df2ce3bd33d07b63b4a6e8c891d802054eb0aa4b9"
+    }
+  ],
+  "negative_prompt": "visible opponent face, visible eyes, visible skin, silver hair color, detailed opponent armor, revealed identity, smiling face, hood, mask, child Arin, slow motion, frozen blade lock, straining opponent, duplicate people, two shadow opponents, extra limbs, detached hands, lost weapons, sword duplication, shield on back, shield switching arms, running away, flying backward, gradual shrinking, camera orbit, split screen, captions, subtitles, logos, speech, music, gore, shadow opponent falls, shadow opponent hit, shadow opponent recoil, shadow opponent flies backward, Kael knocked down, victory pose, shield detaches",
+  "conceal_image_prompt": "Use case: precise-object-edit / identity concealment. Edit reference image 1, the close sword duel. Reference 2 is the following wide shot and defines how completely the opponent's identity must be hidden. Reference 3 is the exact sword detail that MUST stay visible. Keep Arin, both fighters' positions and anatomical outline, weapons, reflective black hall, pillars, starry sky, camera angle, sparks and cinematic painted style. Change ONLY the lighting/detail of the man on the RIGHT: turn his entire head, face, hair, neck, body, armor and hands into a completely opaque near-black backlit silhouette matching the mysterious distant figure in reference 2. His existing tall slim outline, long hair silhouette and angular shoulders stay anatomically unchanged, but no eyes, nose, mouth, skin, silver hair color, silver armor panels or identity-revealing surface details are visible anywhere inside that outline. A very thin cool rim light may trace the outer contour. No hood, cloak, mask or costume added. He remains a physical humanoid, not smoke or a monster. His sword is the exception: show the exact long straight violet starfield blade, bright violet edges, ornate curved guard around a circular four-point star, dark wrapped hilt and pointed pommel clearly and crisply lit, so this distinctive weapon can be recognized later. The sword's glow never illuminates or reveals his face or armor. Keep Arin's white/navy/gold armor, brown hair, cyan sword and blue-white shield fully normally lit and identifiable. Exactly two fighters; no extra bodies or swords. No lettering. Single full-bleed 16:9 landscape frame.",
+  "shield_image_prompt": "Edit reference 1 only to correct ARIN'S SHIELD PLACEMENT and combat pose. Preserve the completely black unidentified opponent on the RIGHT exactly, with no facial features or visible skin, same tall slim long-haired silhouette and clearly illuminated violet starfield sword with circular star crossguard. Preserve this hall, lighting and close cinematic composition. Arin is on the LEFT. Turn Arin's torso slightly toward the camera so we see the white-and-gold star emblem on the FRONT of his chest armor, consistent with his identity and armor in reference 2 and equipment arrangement in reference 3. His head still faces the opponent on the right, determined. Crucial anatomy: his RIGHT hand holds ONE cyan-edged sword in front, crossing the opponent's violet blade near center. His LEFT FOREARM and LEFT HAND visibly carry and support the ONE large blue-white kite shield IN FRONT OF HIS LEFT CHEST AND ABDOMEN between the fighters. The entire gold star shield face is prominently visible to the camera from a three-quarter angle. Show the left armored elbow and forearm behind the shield connecting naturally to his left shoulder. There is NO SHIELD on his back or shoulder and no shield strap across his back. His left forearm is in a defensive guard; his right sword hand is raised above/beside the shield for the attack. Exactly two normal arms and hands, no duplication. All shield parts stay below both faces and beneath the crossed blades, keep both sword hilts readable. Arin remains a grown man in worn white/navy/gold armor, same face and brown hair. The mysterious opponent remains a featureless opaque black silhouette, only its sword and a thin outline rim are lit. 16:9 landscape edge-to-edge, detailed cinematic painted fantasy, no captions or text.",
+  "selected_source": "production/render-sources/new-c00-s01-duel-edit.mp4",
+  "edit_segments": [
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-concealed-take2.mp4",
+      "start_frame": 19,
+      "end_frame": 156,
+      "beat": "Swift exchange and two knockdowns; only Arin falls."
+    },
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-concealed-take3.mp4",
+      "start_frame": 168,
+      "end_frame": 247,
+      "beat": "Arin struggles into a defensive guard while the opponent stands untouched."
+    },
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-concealed.mp4",
+      "start_frame": 259,
+      "end_frame": 319,
+      "beat": "The upright opponent lowers its blade and teleports in a violet-white flash."
+    },
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-concealed-take2.mp4",
+      "start_frame": 324,
+      "end_frame": 384,
+      "beat": "Arin remains foreground left, shield forward, facing the tiny distant figure on the right."
+    }
+  ],
+  "delivery_seconds": 14.0,
+  "renderer": "LTX 2.5 distilled 22B INT8; built-in image generation for keyframes; FFmpeg for cuts and export",
+  "sha256": {
+    "image": "09f000c6e4cd017fbc959181cdde263e5e3ae2687ae7b1dc2b71249497e6ee31",
+    "video": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f",
+    "selected_source": "55b7d086cbc9da4b48d567b4e5c8386fd793ec8efa204e5078a3d85668a163f8"
+  }
+}

@@ -4,7 +4,6 @@ import copy
 import json
 import shutil
 import urllib.request
-from PIL import Image
 from media_catalog import all_clips
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,8 +25,9 @@ def build_graph(item, index, api_template, ui_template):
     graph = {k: copy.deepcopy(v) for k, v in api_template.items() if k.startswith('101:')}
     image_path = f'SinStarI_Draft3/{item["id"]}.png'
     prefix = f'SinStarI_Draft3/{item["id"]}'
-    width, height = Image.open(ROOT / item['image']).size
-    render_width, render_height = (1152, 640) if width / height > 1.7 else (1152, 768)
+    render_width, render_height = item.get('render_size', (1024, 576))
+    assert render_width * 9 == render_height * 16, 'New video renders must be landscape 16:9.'
+    assert render_width % 64 == render_height % 64 == 0, 'Use dimensions aligned to both LTX sampling stages.'
     seed = item.get('seed', 20260916300 + index)
     prompt = (
         'One continuous four-second cinematic painted animation of exactly the supplied illustration. '
@@ -48,6 +48,8 @@ def build_graph(item, index, api_template, ui_template):
     graph['1'] = {'class_type': 'LoadImage', 'inputs': {'image': image_path}, '_meta': {'title': item['caption']}}
     graph['101:433']['inputs']['input'] = ['1', 0]
     graph['101:408']['inputs']['text'] = prompt
+    if item.get('negative_prompt'):
+        graph['101:419']['inputs']['text'] = item['negative_prompt']
     graph['101:423']['inputs']['noise_seed'] = seed
     graph['101:429']['inputs']['strength'] = 1.0
     graph['101:437']['inputs'].update(width=render_width // 2, height=render_height // 2, length=frames)
@@ -73,7 +75,10 @@ def build_graph(item, index, api_template, ui_template):
     ui['last_link_id'] = 2
     for group in ui.get('definitions', {}).get('subgraphs', []):
         for node in group['nodes']:
-            if node['id'] == 423:
+            if node['id'] == 419:
+                negative = graph['101:419']['inputs']['text']
+                node.update(widgets_values=[negative], widgets_values_named={'text': negative})
+            elif node['id'] == 423:
                 node.update(widgets_values=[seed, 'fixed'], widgets_values_named={'noise_seed': seed, 'control_after_generate': 'fixed'})
             elif node['id'] == 429:
                 node.update(widgets_values=[1.0, False], widgets_values_named={'strength': 1.0, 'bypass': False})

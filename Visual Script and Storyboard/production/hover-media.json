@@ -1155,6 +1155,30 @@
     "youtube_title": "Sin Star I - Appendix A - Optional party scenes - OPT-06 - Medium / Accepted Care"
   },
   {
+    "id": "new-c00-s01-duel",
+    "image": "asset/images/c00-s01-duel.png",
+    "video": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+    "caption": "Every attack becomes another lesson. Only the sword gives him something to remember.",
+    "art": "In the dream hall, Arin battles an unidentified dark silhouette whose distinctive violet starfield sword remains clearly visible. Effortless counters knock Arin down repeatedly; he rises into a guarded crouch before the opponent instantly teleports far away.",
+    "scene": "c00-s01",
+    "kind": "scene",
+    "shot": 1.5,
+    "shot_title": "Close / Effortless",
+    "chapter_title": "Prologue - Room for One",
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Effortless",
+    "render_seconds": 16,
+    "render_size": [
+      1024,
+      576
+    ],
+    "seed": 202609162203,
+    "motion_prompt": "SIXTEEN-SECOND cinematic dream duel from this image. Arin is the adult man on the LEFT in white/navy/gold armor, cyan sword in RIGHT hand, kite shield attached to LEFT forearm. His opponent on the RIGHT is an anonymous completely BLACK silhouette, with only the long violet starfield sword and its circular four-point star guard clearly illuminated. The opponent's face, eyes, skin, hair color and armor details remain invisible for EVERY frame. Preserve its tall slim long-haired outline. Same reflective black floor and star-filled hall. IMPORTANT: ONLY ARIN FALLS. The shadow opponent NEVER gets hit, never recoils, never falls, never flies backward, and never loses balance. It stays perfectly upright and relaxed at the SAME SPOT until its final teleport. It teaches a lesson with tiny effortless motions. Camera pulls back from the close view to show the full bodies.\n0-4 seconds: Arin attacks twice with fast cyan sword cuts. The silhouette redirects both with a tiny one-handed violet parry. A brief violet sword tap against Arin's raised shield knocks ARIN backward onto his hip on the floor. The opponent remains standing untouched in its original position. Arin keeps sword and shield.\n4-9 seconds: Arin struggles to his feet, steps forward and attacks again. His cyan sword is intercepted cleanly and NEVER hits the shadow body. The silhouette makes one short controlled counter against his shield. ARIN alone drops hard onto both knees and one hand, humbled and winded. The opponent is completely upright, feet planted, barely moving.\n9-12 seconds: Arin rises into a low defensive crouch, still several paces away, LEFT shield held firmly IN FRONT of his chest and cyan sword lowered on his RIGHT. No further attack. He realizes how outmatched he is. The silhouette calmly lowers its violet sword and simply waits, untouched.\nAt second 12: the upright shadow figure and sword INSTANTLY DISAPPEAR in a brief vertical violet flicker and INSTANTLY REAPPEAR as one tiny stationary silhouette far away on the RIGHT beside the distant white light. No movement through space between the positions.\n12-16 seconds: hold Arin in the LEFT foreground, with his chest armor and left shield face visible in three-quarter view, looking toward the tiny motionless distant opponent. The camera eases backward without orbiting behind Arin. Both characters remain solid humans with normal anatomy. Shield stays on Arin's left forearm, never on his back. Swift sword contacts, two clear falls by ARIN, strong size and distance contrast. Sound: sword clangs, armor hitting stone twice, winded breaths from Arin, one sharp teleport crack and hall echo. No speech, music, captions or identity reveal.",
+    "negative_prompt": "visible opponent face, visible eyes, visible skin, silver hair color, detailed opponent armor, revealed identity, smiling face, hood, mask, child Arin, slow motion, frozen blade lock, straining opponent, duplicate people, two shadow opponents, extra limbs, detached hands, lost weapons, sword duplication, shield on back, shield switching arms, running away, flying backward, gradual shrinking, camera orbit, split screen, captions, subtitles, logos, speech, music, gore, shadow opponent falls, shadow opponent hit, shadow opponent recoil, shadow opponent flies backward, Kael knocked down, victory pose, shield detaches",
+    "status": "reuse",
+    "source": "production/render-sources/new-c00-s01-duel-edit.mp4",
+    "provenance": "New LTX 2.5 close duel; selected reviewed take. See production/c00-s01-duel.json."
+  },
+  {
     "id": "new-c00-s01-dream",
     "image": "asset/images/c00-s01-dream.png",
     "video": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

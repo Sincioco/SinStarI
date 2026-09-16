@@ -24,6 +24,8 @@ def check(item):
     assert video['codec_type'] == 'video' and video['codec_name'] == 'h264'
     assert video['pix_fmt'] == 'yuv420p' and video['r_frame_rate'] == '24/1'
     assert video['width'] == 960 and video['height'] > 400
+    if item.get('render_size'):
+        assert video['width'] * 9 == video['height'] * 16, (item['id'], 'new video must be 16:9')
     duration = float(data['format']['duration'])
     assert 1.4 < duration < max(6.2, item.get('render_seconds', 4) + 0.2), (item['id'], duration)
     decoded = subprocess.run(['ffmpeg', '-hide_banner', '-xerror', '-i', str(path),

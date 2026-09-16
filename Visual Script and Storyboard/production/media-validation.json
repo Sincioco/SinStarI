@@ -1813,5 +1813,19 @@
     "peak_dbfs": 0.0,
     "mean_dbfs": -9.8,
     "source_audio_present": true
+  },
+  {
+    "id": "new-c00-s01-duel",
+    "sha256": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f",
+    "duration": 14.016,
+    "width": 960,
+    "height": 540,
+    "bytes": 3747459,
+    "status": "Passed",
+    "full_decode": true,
+    "audio_streams": 1,
+    "peak_dbfs": -0.9,
+    "mean_dbfs": -21.9,
+    "source_audio_present": true
   }
 ]
