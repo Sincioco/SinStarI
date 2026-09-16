@@ -18,6 +18,10 @@ window.SinStarSequenceSettings = class {
       try {
         const saved = JSON.parse(localStorage.getItem(this.key) || 'null');
         if (saved && typeof saved === 'object' && !Array.isArray(saved)) {
+          if ((saved.panel_layout_version || 0) !== (config.panel_layout_version || 0)) {
+            for (const clip of Object.values(saved.clips || {})) delete clip.panel_positions;
+          }
+          saved.panel_layout_version = config.panel_layout_version || 0;
           this.apply(saved);
           this.pending = saved;
         }
@@ -55,6 +59,7 @@ window.SinStarSequenceSettings = class {
       if (!patch[group]) continue;
       this.pending[group] = { ...this.pending[group], ...patch[group] };
     }
+    this.pending.panel_layout_version = this.config.panel_layout_version || 0;
     try { if (!this.fromFile) localStorage.setItem(this.key, JSON.stringify(this.pending)); } catch { }
     this.changed();
     this.schedule();
@@ -97,6 +102,7 @@ window.SinStarSequenceSettings = class {
         if (patch[group]) this.pending[group] = { ...patch[group], ...this.pending[group] };
       }
       let remembered = false;
+      this.pending.panel_layout_version = config.panel_layout_version || 0;
       try { localStorage.setItem(this.key, JSON.stringify(this.pending)); remembered = true; } catch { }
       this.notice.textContent = (remembered ? 'Saved in this browser. ' : 'Changes are only in this session. ') +
         'Use Save JSON for rendering, or restart Start Website.cmd for automatic file saves.';

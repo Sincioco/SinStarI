@@ -14,6 +14,10 @@ function Save-ReviewSettings($Request, [string]$SiteRoot) {
     $original = [IO.File]::ReadAllText($path)
     $config = $original | ConvertFrom-Json -AsHashtable -Depth 40
     if (-not $config.clips -or -not $config.audio -or -not $config.opening -or -not $config.credits) { throw 'This file is not a review sequence.' }
+    if ([int]$patch.panel_layout_version -ne [int]$config.panel_layout_version -and $patch.clips -and
+        @($patch.clips.Values | Where-Object { $_.ContainsKey('panel_positions') }).Count) {
+        throw 'Panel positions were reset. Reload Video Clips before saving new positions.'
+    }
     $corners = @('upper-left', 'upper-right', 'lower-left', 'lower-right')
     foreach ($key in @('clip_volume', 'music_volume', 'master_volume')) {
         if ($patch.audio -and $patch.audio.ContainsKey($key)) {

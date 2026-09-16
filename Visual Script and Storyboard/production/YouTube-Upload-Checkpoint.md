@@ -18,6 +18,13 @@ not yet attempted and the newly rendered Story Video Sequence Review. No unverif
 
 ## Resume
 
+Before uploading `film-sequence-review`, render the current
+`review-sequence/sequence.json` so the movie includes the latest panel positions,
+mute choices and other review settings. Run `review-sequence/validate_review.py`
+and refresh that pending catalog entry's checksum from `sequence-render.json`.
+The existing MP4 represents its recorded render snapshot; later live edits require
+another render before the final upload.
+
 1. Use the signed-in Codex in-app browser after YouTube permits more uploads.
 2. Run `python production/youtube_catalog.py --stage 15` from the website folder.
    The ignored `production/local-state/current-upload-batch.json` identifies the

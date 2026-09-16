@@ -86,6 +86,11 @@ Omitted clip settings inherit the global panel positions and keep original audio
 enabled. All four corner names are supported. The two panels must use different
 corners. Muting clip audio does not mute the background music.
 
+After a global panel reset, `panel_layout_version` invalidates older cached panel
+positions and rejects position saves from tabs that predate the reset. Refresh
+Video Clips before making new placements. Audio and other review preferences are
+preserved, and new per-clip placements can be saved normally.
+
 ## Volume controls
 
 Edit `sequence.json` and render again:
@@ -201,9 +206,13 @@ Run the focused checks from the website folder:
 
 ```text
 node production/review-sequence/check-player.cjs
+pwsh -NoProfile -File production/review-sequence/check-settings.ps1
 python production/review-sequence/validate_review.py
 python production/validate_draft3.py --require-videos
 ```
+
+The HTTP settings check requires the local website server to be running. After
+editing the sequence settings, render again before validating the movie receipt.
 
 No new packages or architecture exceptions were introduced. The renderer remains
 under 260 lines; art, media operations, native controls, player state, audio and

@@ -1754,5 +1754,6 @@
   "panel_positions": {
     "scene_info": "lower-left",
     "scene_context": "lower-right"
-  }
+  },
+  "panel_layout_version": 1
 }

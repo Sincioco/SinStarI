@@ -143,6 +143,19 @@ function player(initial, storage = new Map(), failSave = false) {
   await fallback.flush(); assert(fallback.storage.size > 0);
   const recovered = player(config, fallback.storage, true); await settle(); recovered.nodes.get('next').click(); await settle();
   assert(recovered.nodes.get('scene-info-panel').classes.has('lower-right'), 'Browser recovery restores unsaved per-clip layout');
+  const resetConfig = structuredClone(config);
+  resetConfig.panel_layout_version = (config.panel_layout_version || 0) + 1;
+  const oldCache = new Map([['SinStarSequenceSettings:v1:production/review-sequence/sequence.json', JSON.stringify({
+    panel_layout_version: config.panel_layout_version || 0,
+    clips: { [config.clips[0].id]: { muted: true, panel_positions: { scene_info: 'upper-left', scene_context: 'upper-right' } } },
+    audio: { music_volume: 0.25 }
+  })]]);
+  const reset = player(resetConfig, oldCache); await settle(); reset.nodes.get('next').click(); await settle();
+  assert(reset.nodes.get('scene-info-panel').classes.has('lower-left'), 'Old cached information position cannot undo a reset');
+  assert(reset.nodes.get('scene-context-panel').classes.has('lower-right'), 'Old cached context position cannot undo a reset');
+  assert(reset.audio.muted, 'Layout reset preserves mute settings');
+  assert.equal(reset.audio.value.music_volume, 0.25, 'Layout reset preserves volume settings');
+  await reset.flush(); assert.equal(reset.server.clips[0].panel_positions, undefined);
   const css = fs.readFileSync(path.join(root, 'asset/sequence-player.css'), 'utf8');
   assert(css.includes('.sequence-left:hover .panel-move'));
   assert(css.includes('inset: 0 0 0 70%'), 'Information column is on the right');
