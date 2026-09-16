@@ -81,18 +81,38 @@ function player(initial, storage = new Map(), failSave = false) {
 (async () => {
   const p = player(config); await settle();
   const node = id => p.nodes.get(id);
+  const videos = ['sequence-video-a', 'sequence-video-b'].map(node);
+  const clickPlayback = async () => {
+    const active = videos.find(video => !video.hidden);
+    active.currentTime = 2;
+    videos.find(video => video.hidden).click(); await settle();
+    assert.equal(node('sequence-play').textContent, 'Pause', 'Preloaded video cannot toggle playback');
+    active.click(); await settle();
+    assert(active.paused && !p.audio.playing, 'Video click pauses clip and music');
+    assert.equal(node('sequence-play').textContent, 'Play Sequence');
+    assert.equal(active.currentTime, 2, 'Pausing retains the current frame');
+    active.click(); await settle();
+    assert(!active.paused && p.audio.playing, 'Video click resumes clip and music');
+    assert.equal(node('sequence-play').textContent, 'Pause');
+    assert.equal(active.currentTime, 2, 'Resuming does not restart the clip');
+    node('scene-info-panel').click(); node('scene-context-panel').click();
+    assert.equal(node('sequence-play').textContent, 'Pause', 'Panel clicks leave playback running');
+    return active;
+  };
   node('sequence-jump').value = '1'; node('sequence-jump').dispatch('change'); await settle();
   assert(node('scene-info-panel').classes.has('lower-left'), 'Scene information defaults to lower-left');
   assert(node('scene-context-panel').classes.has('lower-right'), 'Scene context defaults to lower-right');
   let prevented = false;
   p.document.dispatch('keydown', { code: 'Space', repeat: false, preventDefault() { prevented = true; } }); await settle();
   assert(prevented); assert.equal(node('sequence-play').textContent, 'Pause');
+  const firstVideo = await clickPlayback();
   const arrow = (panel, corner) => p.arrows.find(b => b.dataset.panel === panel && b.dataset.corner === corner).click();
   arrow('scene_info', 'upper-left');
   assert(node('scene-info-panel').classes.has('upper-left'), 'Moves during playback');
   arrow('scene_context', 'upper-right');
   node('mute-clip').checked = true; node('mute-clip').dispatch('change'); assert(p.audio.muted);
   node('next').click(); await settle();
+  assert.notEqual(await clickPlayback(), firstVideo, 'Clicks work after swapping video elements');
   assert(!p.audio.muted, 'Next clip retains its own audio');
   arrow('scene_info', 'lower-right');
   assert(node('scene-context-panel').classes.has('lower-left'), 'Corner collision swaps only current clip');
@@ -101,6 +121,7 @@ function player(initial, storage = new Map(), failSave = false) {
   assert.equal(node('sequence-play').textContent, 'Pause', 'Moving panels does not pause');
   node('review-layout').value = 'side-by-side'; node('review-layout').dispatch('change');
   assert(node('sequence-stage').classes.has('side-by-side'));
+  await clickPlayback();
   await p.flush();
   assert.equal(p.server.clips[0].panel_positions.scene_info, 'upper-left'); assert(p.server.clips[0].muted);
   assert.equal(p.server.settings.layout, 'side-by-side');
@@ -136,6 +157,7 @@ function player(initial, storage = new Map(), failSave = false) {
   await key('ArrowDown'); assert(p.document.fullscreenElement);
   await key('ArrowDown'); assert.equal(p.document.fullscreenElement, null);
   await key('Space'); await key('ArrowRight'); assert.equal(node('sequence-play').textContent, 'Pause', 'Navigation preserves playback');
+  await key('ArrowDown'); await clickPlayback(); await key('ArrowDown');
   await key('ArrowUp'); assert.equal(node('sequence-play').textContent, 'Pause', 'Layout toggle preserves active playback');
   const fallback = player(config, new Map(), true); await settle();
   fallback.nodes.get('next').click(); await settle();
@@ -159,5 +181,5 @@ function player(initial, storage = new Map(), failSave = false) {
   const css = fs.readFileSync(path.join(root, 'asset/sequence-player.css'), 'utf8');
   assert(css.includes('.sequence-left:hover .panel-move'));
   assert(css.includes('inset: 0 0 0 70%'), 'Information column is on the right');
-  console.log('Passed: all seven keyboard shortcuts, navigation bounds/state, live panel movement, per-clip layout/mute isolation, swaps, side-by-side, auto-save, reload, export, browser recovery.');
+  console.log('Passed: video click pause/resume in both modes and full screen, clip/music synchronization, both video slots, panel isolation, all seven keyboard shortcuts, navigation bounds/state, live panel movement, per-clip layout/mute isolation, swaps, side-by-side, auto-save, reload, export, browser recovery.');
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -18,6 +18,8 @@ Double-click **Play Sequence.cmd**, or select **Play Sequence** in the Windows
 renderer window. Open `http://localhost:8765/review.html` to use the running server.
 No movie render is needed: the player reads the same JSON and plays source clips
 directly. **Spacebar** pauses/resumes, except while typing or using input controls.
+Clicking the video also pauses/resumes the clip and music in either playback mode
+or full screen. Clicking the scene panels or their arrows keeps playback running.
 Previous, Next, the clip picker and seek bar let you review any moment.
 
 | Key | Action |

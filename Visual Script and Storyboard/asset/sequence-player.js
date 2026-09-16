@@ -232,6 +232,11 @@
     } catch (error) { pause(); status(location.protocol === 'file:' ? 'Open Play Sequence.cmd to use the local player, or choose Open JSON.' : error.message); }
   }
   get('sequence-play').addEventListener('click', () => state.playing ? pause() : play());
+  videos.forEach(video => video.addEventListener('click', () => {
+    if (state.ready && isVideo(current()) && video === currentVideo() && !video.hidden) {
+      state.playing ? pause() : play();
+    }
+  }));
   get('previous').addEventListener('click', () => show(state.index - 1));
   get('next').addEventListener('click', () => show(state.index + 1));
   get('sequence-jump').addEventListener('change', event => show(Number(event.target.value)));

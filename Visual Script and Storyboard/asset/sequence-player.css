@@ -9,6 +9,7 @@
 .sequence-stage { position: relative; width: 100%; aspect-ratio: 16/9; background: #070e1b; color: #f4f6fa; overflow: hidden; border-radius: 12px; container-type: inline-size; }
 .sequence-stage:fullscreen { height: 100%; border-radius: 0; }
 .sequence-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+video.sequence-media { cursor: pointer; }
 .sequence-stage [hidden] { display: none !important; }
 .sequence-left,.sequence-context,.sequence-counter { position: absolute; background: rgb(6 15 31 / var(--panel-opacity,.8)); border-radius: .7cqw; padding: 1.1cqw; box-sizing: border-box; font-family: 'Segoe UI',sans-serif; }
 .sequence-left { bottom: 1.875cqw; left: 1.98cqw; width: 42.2cqw; }
