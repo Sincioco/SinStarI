@@ -27,7 +27,7 @@ window.SinStarSequenceSettings = class {
     if (Object.keys(this.pending).length) this.schedule();
   }
   positions(clip) {
-    const defaults = { scene_info: 'upper-left', scene_context: 'upper-right' };
+    const defaults = { scene_info: 'lower-left', scene_context: 'upper-right' };
     const result = { ...defaults };
     for (const value of [this.config.panel_positions, clip?.panel_positions]) {
       for (const name of Object.keys(defaults)) if (this.corners.includes(value?.[name])) result[name] = value[name];

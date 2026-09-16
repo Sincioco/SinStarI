@@ -11,7 +11,7 @@
 .sequence-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .sequence-stage [hidden] { display: none !important; }
 .sequence-left,.sequence-context,.sequence-counter { position: absolute; background: rgb(6 15 31 / var(--panel-opacity,.8)); border-radius: .7cqw; padding: 1.1cqw; box-sizing: border-box; font-family: 'Segoe UI',sans-serif; }
-.sequence-left { top: 1.875cqw; left: 1.98cqw; width: 42.2cqw; }
+.sequence-left { bottom: 1.875cqw; left: 1.98cqw; width: 42.2cqw; }
 .sequence-left strong { display: block; font-size: 1.25cqw; color: #f1c878; }
 .sequence-left h2 { color: #f4f6fa; font: 700 1.77cqw/1.3 'Segoe UI',sans-serif; margin: .5cqw 0; }
 .sequence-left p { margin: 0 0 .55cqw; font-size: 1.4cqw; line-height: 1.3; }
