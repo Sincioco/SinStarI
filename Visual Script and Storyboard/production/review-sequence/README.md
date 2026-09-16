@@ -20,6 +20,12 @@ No movie render is needed: the player reads the same JSON and plays source clips
 directly. **Spacebar** pauses/resumes, except while typing or using input controls.
 Clicking the video also pauses/resumes the clip and music in either playback mode
 or full screen. Clicking the scene panels or their arrows keeps playback running.
+Over the video, scroll down for the next clip or up for the previous clip;
+navigation keeps the paused/playing state and stops at the first/last video.
+Rapid wheel events are limited to one clip change every 300 milliseconds.
+Right-click the video to replay that clip from its configured beginning, even
+when paused. The background music continues from its current position.
+Press the middle mouse button over the video to enter or exit full screen.
 Previous, Next, the clip picker and seek bar let you review any moment.
 
 | Key | Action |

@@ -45,7 +45,7 @@ function player(initial, storage = new Map(), failSave = false) {
   nodes.get('sequence-stage').requestFullscreen = async () => { document.fullscreenElement = nodes.get('sequence-stage'); };
   document.exitFullscreen = async () => { document.fullscreenElement = null; };
   let exported;
-  const server = structuredClone(initial), timers = new Map(); let nextTimer = 0;
+  const server = structuredClone(initial), timers = new Map(); let nextTimer = 0, now = 100;
   class AudioOwner {
     constructor() { player.audio = this; }
     configure(music, value) { this.value = value; }
@@ -60,7 +60,7 @@ function player(initial, storage = new Map(), failSave = false) {
   LocalURL.createObjectURL = blob => { exported = JSON.parse(blob.parts[0]); return 'blob:test'; };
   LocalURL.revokeObjectURL = () => {};
   const sandbox = { window, document, URL: LocalURL, URLSearchParams, location: new URL('http://localhost:8765/review.html'),
-    performance: { now: () => 100 }, console, Blob: class { constructor(parts) { this.parts = parts; } },
+    performance: { now: () => now }, console, Blob: class { constructor(parts) { this.parts = parts; } },
     setInterval: () => 0, clearInterval() {}, setTimeout: fn => { timers.set(++nextTimer, fn); return nextTimer; },
     clearTimeout: id => timers.delete(id), localStorage: { getItem: k => storage.get(k), setItem: (k,v) => storage.set(k,v), removeItem: k => storage.delete(k) },
     fetch: async (url, options) => {
@@ -74,6 +74,7 @@ function player(initial, storage = new Map(), failSave = false) {
   vm.createContext(sandbox);
   for (const name of ['sequence-settings.js', 'sequence-player.js']) vm.runInContext(fs.readFileSync(path.join(root, 'asset', name), 'utf8'), sandbox);
   return { nodes, arrows, document, server, storage, window, audio: player.audio,
+    advanceTime: ms => { now += ms; },
     export: () => { nodes.get('save-sequence').click(); return exported; },
     flush: async () => { const work = [...timers.values()]; timers.clear(); work.forEach(fn => fn()); await settle(); } };
 }
@@ -159,6 +160,57 @@ function player(initial, storage = new Map(), failSave = false) {
   await key('Space'); await key('ArrowRight'); assert.equal(node('sequence-play').textContent, 'Pause', 'Navigation preserves playback');
   await key('ArrowDown'); await clickPlayback(); await key('ArrowDown');
   await key('ArrowUp'); assert.equal(node('sequence-play').textContent, 'Pause', 'Layout toggle preserves active playback');
+  const mouse = async (name, data, target = videos.find(video => !video.hidden)) => {
+    let prevented = false;
+    target.dispatch(name, { ...data, preventDefault() { prevented = true; } });
+    await settle();
+    return prevented;
+  };
+  for (const layout of ['overlay', 'side-by-side']) {
+    node('review-layout').value = layout; node('review-layout').dispatch('change');
+    await key('Home');
+    p.advanceTime(300);
+    assert(await mouse('wheel', { deltaY: 120 }), 'Wheel over the video prevents page scrolling');
+    assert.equal(Number(node('sequence-jump').value), 2, 'Wheel down selects the next clip');
+    assert.equal(node('sequence-play').textContent, 'Pause', 'Wheel navigation preserves playing state');
+    await mouse('wheel', { deltaY: 120 });
+    assert.equal(Number(node('sequence-jump').value), 2, 'Rapid wheel events do not skip extra clips');
+    p.advanceTime(300);
+    await key('Space');
+    await mouse('wheel', { deltaY: -120 });
+    assert.equal(Number(node('sequence-jump').value), 1, 'Wheel up selects the previous clip');
+    assert.equal(node('sequence-play').textContent, 'Play Sequence', 'Wheel navigation preserves paused state');
+    p.advanceTime(300);
+    await mouse('wheel', { deltaY: -120 });
+    assert.equal(Number(node('sequence-jump').value), 1, 'Wheel stops at the first video');
+    const active = videos.find(video => !video.hidden);
+    active.currentTime = 3;
+    assert(await mouse('contextmenu', {}), 'Right-click suppresses the video context menu');
+    assert.equal(active.currentTime, Number(config.clips[0].start_seconds || 0));
+    assert(!active.paused && p.audio.playing, 'Right-click replays a paused clip and resumes music');
+    active.currentTime = 2;
+    await mouse('contextmenu', {});
+    assert.equal(active.currentTime, Number(config.clips[0].start_seconds || 0));
+    assert.equal(Number(node('sequence-jump').value), 1, 'Right-click replays the same clip while playing');
+    assert(await mouse('mousedown', { button: 1 }), 'Middle press suppresses browser auto-scroll');
+    assert(p.document.fullscreenElement, 'Middle press enters full screen');
+    await mouse('mousedown', { button: 1 });
+    assert.equal(p.document.fullscreenElement, null, 'Middle press exits full screen');
+    assert.equal(node('sequence-play').textContent, 'Pause', 'Middle press does not pause playback');
+    assert(!await mouse('mousedown', { button: 0 }), 'Other mouse buttons keep their own behavior');
+    assert(!await mouse('wheel', { deltaY: 120, ctrlKey: true }), 'Browser zoom is preserved');
+    assert(!await mouse('wheel', { deltaY: 0, deltaX: 120 }), 'Horizontal scrolling does not skip clips');
+    for (const target of [videos.find(video => video.hidden), node('scene-info-panel'), node('scene-context-panel')]) {
+      assert(!await mouse('wheel', { deltaY: 120 }, target));
+      assert(!await mouse('contextmenu', {}, target));
+      assert(!await mouse('mousedown', { button: 1 }, target));
+    }
+    assert.equal(Number(node('sequence-jump').value), 1, 'Panels and preloaded video do not navigate');
+    assert.equal(p.document.fullscreenElement, null);
+    await key('End'); p.advanceTime(300);
+    await mouse('wheel', { deltaY: 120 });
+    assert.equal(Number(node('sequence-jump').value), config.clips.length, 'Wheel stops at the last video');
+  }
   const fallback = player(config, new Map(), true); await settle();
   fallback.nodes.get('next').click(); await settle();
   fallback.arrows.find(b => b.dataset.panel === 'scene_info' && b.dataset.corner === 'lower-right').click();
@@ -181,5 +233,5 @@ function player(initial, storage = new Map(), failSave = false) {
   const css = fs.readFileSync(path.join(root, 'asset/sequence-player.css'), 'utf8');
   assert(css.includes('.sequence-left:hover .panel-move'));
   assert(css.includes('inset: 0 0 0 70%'), 'Information column is on the right');
-  console.log('Passed: video click pause/resume in both modes and full screen, clip/music synchronization, both video slots, panel isolation, all seven keyboard shortcuts, navigation bounds/state, live panel movement, per-clip layout/mute isolation, swaps, side-by-side, auto-save, reload, export, browser recovery.');
+  console.log('Passed: video click pause/resume, wheel navigation/bounds/throttle, right-click replay, middle-button full screen, both playback modes, clip/music synchronization, both video slots, panel isolation, all seven keyboard shortcuts, navigation bounds/state, live panel movement, per-clip layout/mute isolation, swaps, auto-save, reload, export, browser recovery.');
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -231,12 +231,40 @@
       await configure(await response.json());
     } catch (error) { pause(); status(location.protocol === 'file:' ? 'Open Play Sequence.cmd to use the local player, or choose Open JSON.' : error.message); }
   }
-  get('sequence-play').addEventListener('click', () => state.playing ? pause() : play());
-  videos.forEach(video => video.addEventListener('click', () => {
-    if (state.ready && isVideo(current()) && video === currentVideo() && !video.hidden) {
-      state.playing ? pause() : play();
+  function moveClip(direction) {
+    for (let index = state.index + direction; index >= 0 && index < state.entries.length; index += direction) {
+      if (isVideo(state.entries[index])) { show(index); break; }
     }
-  }));
+  }
+  get('sequence-play').addEventListener('click', () => state.playing ? pause() : play());
+  let lastWheel = -Infinity;
+  videos.forEach(video => {
+    const visibleClip = () => isVideo(current()) && video === currentVideo() && !video.hidden;
+    video.addEventListener('click', () => {
+      if (state.ready && visibleClip()) state.playing ? pause() : play();
+    });
+    video.addEventListener('mousedown', event => {
+      if (event.button !== 1 || !visibleClip()) return;
+      event.preventDefault();
+      toggleFullscreen();
+    });
+    video.addEventListener('wheel', event => {
+      if (!visibleClip() || event.ctrlKey || event.metaKey || !event.deltaY) return;
+      event.preventDefault();
+      const now = performance.now();
+      if (!state.ready || now - lastWheel < 300) return;
+      lastWheel = now;
+      moveClip(Math.sign(event.deltaY));
+    }, { passive: false });
+    video.addEventListener('contextmenu', event => {
+      if (!visibleClip()) return;
+      event.preventDefault();
+      if (!state.ready) return;
+      video.currentTime = Number(current().start_seconds || 0);
+      tick();
+      play();
+    });
+  });
   get('previous').addEventListener('click', () => show(state.index - 1));
   get('next').addEventListener('click', () => show(state.index + 1));
   get('sequence-jump').addEventListener('change', event => show(Number(event.target.value)));
@@ -273,14 +301,8 @@
         } });
         break;
       case 'ArrowDown': toggleFullscreen(); break;
-      case 'ArrowLeft':
-      case 'ArrowRight': {
-        const direction = event.code === 'ArrowLeft' ? -1 : 1;
-        for (let index = state.index + direction; index >= 0 && index < state.entries.length; index += direction) {
-          if (isVideo(state.entries[index])) { show(index); break; }
-        }
-        break;
-      }
+      case 'ArrowLeft': moveClip(-1); break;
+      case 'ArrowRight': moveClip(1); break;
     }
   });
   get('clip-seek').addEventListener('input', event => {
