@@ -83,16 +83,18 @@ function player(initial, storage = new Map(), failSave = false) {
   const node = id => p.nodes.get(id);
   node('sequence-jump').value = '1'; node('sequence-jump').dispatch('change'); await settle();
   assert(node('scene-info-panel').classes.has('lower-left'), 'Scene information defaults to lower-left');
+  assert(node('scene-context-panel').classes.has('lower-right'), 'Scene context defaults to lower-right');
   let prevented = false;
   p.document.dispatch('keydown', { code: 'Space', repeat: false, preventDefault() { prevented = true; } }); await settle();
   assert(prevented); assert.equal(node('sequence-play').textContent, 'Pause');
   const arrow = (panel, corner) => p.arrows.find(b => b.dataset.panel === panel && b.dataset.corner === corner).click();
   arrow('scene_info', 'upper-left');
   assert(node('scene-info-panel').classes.has('upper-left'), 'Moves during playback');
+  arrow('scene_context', 'upper-right');
   node('mute-clip').checked = true; node('mute-clip').dispatch('change'); assert(p.audio.muted);
   node('next').click(); await settle();
   assert(!p.audio.muted, 'Next clip retains its own audio');
-  arrow('scene_info', 'upper-right');
+  arrow('scene_info', 'lower-right');
   assert(node('scene-context-panel').classes.has('lower-left'), 'Corner collision swaps only current clip');
   node('previous').click(); await settle();
   assert(node('scene-info-panel').classes.has('upper-left')); assert(p.audio.muted);
@@ -105,6 +107,7 @@ function player(initial, storage = new Map(), failSave = false) {
   const reopened = player(p.server); await settle();
   reopened.nodes.get('next').click(); await settle();
   assert(reopened.nodes.get('scene-info-panel').classes.has('upper-left')); assert(reopened.audio.muted);
+  assert(reopened.nodes.get('scene-context-panel').classes.has('upper-right'), 'Saved context position overrides the lower-right default');
   const exported = p.export(); assert(exported.clips[0].muted); assert.equal(exported.settings.layout, 'side-by-side');
   p.document.dispatch('keydown', { code: 'Space', repeat: false, preventDefault() {} }); await settle();
   assert.equal(node('sequence-play').textContent, 'Play Sequence');

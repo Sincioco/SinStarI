@@ -72,7 +72,7 @@ always follows the configured music sequence from its beginning.
 ```json
 "settings": { "fps": 24, "encoder": "auto", "panel_opacity": 0.8,
               "layout": "side-by-side", "show_labels": true },
-"panel_positions": { "scene_info": "lower-left", "scene_context": "upper-right" }
+"panel_positions": { "scene_info": "lower-left", "scene_context": "lower-right" }
 ```
 
 Use `"overlay"` or `"side-by-side"` for layout. Within an individual clip object:
@@ -121,7 +121,7 @@ website folder. Original media is never modified.
 Each clip has `id`, `enabled`, `file`, `chapter`, `scene`, `scene_title`, `context`
 and an optional `take` label. Set `enabled` to `false` to omit a clip. Filenames
 are displayed automatically. Chapter, scene and filename appear together at the
-lower left by default; context appears at the upper right. Saved per-clip positions
+lower left by default; context appears at the lower right. Saved per-clip positions
 override these defaults. Panels default to 80% opacity.
 You may use `\n` inside `context` for a paragraph break. Long labels wrap; an
 oversized panel stops preparation with a specific message instead of hiding text.

@@ -1753,6 +1753,6 @@
   "scene_notes_basis": "Editorial review notes based on the accepted game script; these explain intent without changing narrative canon. Spoilers are intentional.",
   "panel_positions": {
     "scene_info": "lower-left",
-    "scene_context": "upper-right"
+    "scene_context": "lower-right"
   }
 }

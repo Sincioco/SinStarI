@@ -91,7 +91,7 @@ def overlay(entry, number, total, target, config):
         right = review_panel(context, 552, 1068 - top, opacity)
         canvas.alpha_composite(right, (1356, top))
     else:
-        positions = {'scene_info': 'lower-left', 'scene_context': 'upper-right',
+        positions = {'scene_info': 'lower-left', 'scene_context': 'lower-right',
                      **config.get('panel_positions', {}), **entry.get('panel_positions', {})}
         if positions['scene_info'] == positions['scene_context']:
             raise ValueError('Scene panels need different corners: ' + entry['id'])
