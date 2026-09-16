@@ -97,6 +97,14 @@ def validate():
         assert docs[name].by_id('site-print').tag == 'button'
     assert all(docs[name].by_id('site-audio-toggle').tag == 'button' for name in ('index.html', SCRIPT, 'movies.html'))
     review = docs['review.html']
+    # Regression: review controls inherited dark text over a fixed dark surface in light mode.
+    review_css = (ROOT / 'asset/sequence-player.css').read_text(encoding='utf-8')
+    control_rule = re.search(r'([^{}]+\.file-button)\s*\{([^{}]+)\}', review_css)
+    assert control_rule and '.sequence-workspace button' in control_rule[1]
+    assert '.sequence-page button' not in control_rule[1], 'Review styles override shared header controls'
+    for property_name, token in [('background', 'paper'), ('color', 'text'), ('border', 'border')]:
+        declaration = re.search(r'\b' + property_name + r'\s*:\s*([^;]+)', control_rule[2])
+        assert declaration and f'var(--{token})' in declaration[1], ('Review control theme', property_name)
     for control in ('clip-volume', 'music-volume', 'master-volume', 'mute-clip', 'review-layout', 'settings-status'):
         assert review.by_id(control), ('missing review control', control)
     assert docs['index.html'].by_id('new-c09-s03-planet').parent.parent.attrs['id'] == 'c09-s03'
