@@ -1,0 +1,673 @@
+{
+  "prompt": [
+    275,
+    "8acfec32-50d1-41e5-ada0-5b7b1dcd1122",
+    {
+      "101:411": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+          "weight_dtype": "default"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | UNETLoader"
+        }
+      },
+      "101:416": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | VAELoader"
+        }
+      },
+      "101:417": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | VAELoader"
+        }
+      },
+      "101:420": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+          "type": "ltxv",
+          "device": "default"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | CLIPLoader"
+        }
+      },
+      "101:426": {
+        "class_type": "LatentUpscaleModelLoader",
+        "inputs": {
+          "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LatentUpscaleModelLoader"
+        }
+      },
+      "101:408": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "101:420",
+            0
+          ],
+          "text": "Three-second continuous cinematic dream transition from the supplied START frame to the supplied END frame. The battle has ended. Arin on the LEFT, an adult brown-haired paladin in battered white/navy/gold armor, pushes himself from one knee into a low standing defensive stance. He keeps his blue-white gold-star kite shield on his LEFT forearm in FRONT of his chest, and his long cyan sword in his RIGHT hand pointed diagonally down toward the lower center. He turns his head RIGHT to look at the opponent. The camera smoothly dollies forward and slightly left so Arin becomes LARGE in the left foreground, in precisely the final supplied pose and framing. The opponent is already NORMAL HUMAN SIZE and remains a tiny completely BLACK silhouette FAR RIGHT, in front of the narrow vertical WHITE LIGHT. He does not grow, move closer or reveal a face. The dream hall settles into the exact END-frame arrangement of dark pillars, black reflective floor, quiet mist and subdued stars. Preserve the two distinct people and their weapons; natural recovery and smooth camera motion. End exactly on the provided final composition with Arin looking right and sword lowered, no further attack. Quiet dream wind and soft armor movement, no voices, music, lightning, fire, captions or writing."
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | CLIPTextEncode"
+        }
+      },
+      "101:419": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "clip": [
+            "101:420",
+            0
+          ],
+          "text": "giant opponent, visible face on distant opponent, extra characters, duplicated bodies, shield on back, dropped sword, extra limbs, battle, lightning, fire, rocks, dialogue, music, titles, slow motion"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | CLIPTextEncode"
+        }
+      },
+      "101:415": {
+        "class_type": "LTXVConditioning",
+        "inputs": {
+          "positive": [
+            "101:408",
+            0
+          ],
+          "negative": [
+            "101:419",
+            0
+          ],
+          "frame_rate": 24.0
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVConditioning"
+        }
+      },
+      "101:422": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler_ancestral"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | KSamplerSelect"
+        }
+      },
+      "101:423": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 202609163501
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | RandomNoise"
+        }
+      },
+      "101:424": {
+        "class_type": "ManualSigmas",
+        "inputs": {
+          "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | ManualSigmas"
+        }
+      },
+      "101:427": {
+        "class_type": "LTXVDualCFGGuider",
+        "inputs": {
+          "model": [
+            "101:411",
+            0
+          ],
+          "positive": [
+            "910",
+            0
+          ],
+          "negative": [
+            "910",
+            1
+          ],
+          "video_cfg": 1.0,
+          "audio_cfg": 1.0
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+        }
+      },
+      "101:433": {
+        "class_type": "ResizeImageMaskNode",
+        "inputs": {
+          "input": [
+            "1",
+            0
+          ],
+          "resize_type": "scale longer dimension",
+          "resize_type.longer_size": 1536,
+          "scale_method": "lanczos"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | ResizeImageMaskNode"
+        }
+      },
+      "101:436": {
+        "class_type": "LTXVPreprocess",
+        "inputs": {
+          "image": [
+            "101:433",
+            0
+          ],
+          "img_compression": 18
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVPreprocess"
+        }
+      },
+      "101:437": {
+        "class_type": "EmptyLTXVLatentVideo",
+        "inputs": {
+          "width": 512,
+          "height": 288,
+          "length": 73,
+          "batch_size": 1
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | EmptyLTXVLatentVideo"
+        }
+      },
+      "101:429": {
+        "class_type": "LTXVImgToVideoInplace",
+        "inputs": {
+          "vae": [
+            "101:416",
+            0
+          ],
+          "image": [
+            "101:436",
+            0
+          ],
+          "latent": [
+            "101:437",
+            0
+          ],
+          "strength": 1.0,
+          "bypass": false
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+        }
+      },
+      "101:430": {
+        "class_type": "LTXVEmptyLatentAudio",
+        "inputs": {
+          "audio_vae": [
+            "101:417",
+            0
+          ],
+          "frames_number": 73,
+          "frame_rate": 24,
+          "batch_size": 1
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVEmptyLatentAudio"
+        }
+      },
+      "101:432": {
+        "class_type": "LTXVConcatAVLatent",
+        "inputs": {
+          "video_latent": [
+            "910",
+            2
+          ],
+          "audio_latent": [
+            "101:430",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+        }
+      },
+      "101:428": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "101:423",
+            0
+          ],
+          "guider": [
+            "101:427",
+            0
+          ],
+          "sampler": [
+            "101:422",
+            0
+          ],
+          "sigmas": [
+            "101:424",
+            0
+          ],
+          "latent_image": [
+            "101:432",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+        }
+      },
+      "101:431": {
+        "class_type": "LTXVSeparateAVLatent",
+        "inputs": {
+          "av_latent": [
+            "101:428",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+        }
+      },
+      "101:438": {
+        "class_type": "LTXVLatentUpsampler",
+        "inputs": {
+          "samples": [
+            "911",
+            2
+          ],
+          "upscale_model": [
+            "101:426",
+            0
+          ],
+          "vae": [
+            "101:416",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVLatentUpsampler"
+        }
+      },
+      "101:439": {
+        "class_type": "LTXVImgToVideoInplace",
+        "inputs": {
+          "vae": [
+            "101:416",
+            0
+          ],
+          "image": [
+            "101:436",
+            0
+          ],
+          "latent": [
+            "101:438",
+            0
+          ],
+          "strength": 1.0,
+          "bypass": false
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+        }
+      },
+      "101:443": {
+        "class_type": "LTXVConcatAVLatent",
+        "inputs": {
+          "video_latent": [
+            "912",
+            2
+          ],
+          "audio_latent": [
+            "101:431",
+            1
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+        }
+      },
+      "101:442": {
+        "class_type": "RandomNoise",
+        "inputs": {
+          "noise_seed": 42
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | RandomNoise"
+        }
+      },
+      "101:444": {
+        "class_type": "ManualSigmas",
+        "inputs": {
+          "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | ManualSigmas"
+        }
+      },
+      "101:445": {
+        "class_type": "LTXVDualCFGGuider",
+        "inputs": {
+          "model": [
+            "101:411",
+            0
+          ],
+          "positive": [
+            "912",
+            0
+          ],
+          "negative": [
+            "912",
+            1
+          ],
+          "video_cfg": 1.0,
+          "audio_cfg": 1.0
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+        }
+      },
+      "101:446": {
+        "class_type": "KSamplerSelect",
+        "inputs": {
+          "sampler_name": "euler_ancestral"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | KSamplerSelect"
+        }
+      },
+      "101:447": {
+        "class_type": "SamplerCustomAdvanced",
+        "inputs": {
+          "noise": [
+            "101:442",
+            0
+          ],
+          "guider": [
+            "101:445",
+            0
+          ],
+          "sampler": [
+            "101:446",
+            0
+          ],
+          "sigmas": [
+            "101:444",
+            0
+          ],
+          "latent_image": [
+            "101:443",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+        }
+      },
+      "101:448": {
+        "class_type": "LTXVSeparateAVLatent",
+        "inputs": {
+          "av_latent": [
+            "101:447",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+        }
+      },
+      "101:449": {
+        "class_type": "VAEDecodeTiled",
+        "inputs": {
+          "samples": [
+            "913",
+            2
+          ],
+          "vae": [
+            "101:416",
+            0
+          ],
+          "tile_size": 512,
+          "overlap": 64,
+          "temporal_size": 64,
+          "temporal_overlap": 16
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | VAEDecodeTiled"
+        }
+      },
+      "101:450": {
+        "class_type": "LTXVAudioVAEDecode",
+        "inputs": {
+          "samples": [
+            "101:448",
+            1
+          ],
+          "audio_vae": [
+            "101:417",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | LTXVAudioVAEDecode"
+        }
+      },
+      "101:451": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "101:449",
+            0
+          ],
+          "audio": [
+            "101:450",
+            0
+          ],
+          "fps": 24.0,
+          "bit_depth": 8,
+          "color_space": "sRGB"
+        },
+        "_meta": {
+          "title": "01 Before the Warning Chime | CreateVideo"
+        }
+      },
+      "1": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "SinStarI_Draft3/new-c00-s01-duel-godlike-continuity.png"
+        },
+        "_meta": {
+          "title": "Godlike to Unreachable \u2014 match the next shot"
+        }
+      },
+      "901": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "101:451",
+            0
+          ],
+          "filename_prefix": "SinStarI_Draft3/new-c00-s01-duel-godlike-continuity",
+          "format": "mp4",
+          "format.codec": "h264",
+          "format.codec.encoding": "auto"
+        },
+        "_meta": {
+          "title": "Draft 3 Hover | Godlike to Unreachable \u2014 match the next shot"
+        }
+      },
+      "2": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "SinStarI_Draft3/new-c00-s01-duel-godlike-continuity-end.png"
+        },
+        "_meta": {
+          "title": "Exact opening frame of Unreachable, fitted to 16:9"
+        }
+      },
+      "910": {
+        "class_type": "LTXVAddGuide",
+        "inputs": {
+          "positive": [
+            "101:415",
+            0
+          ],
+          "negative": [
+            "101:415",
+            1
+          ],
+          "vae": [
+            "101:416",
+            0
+          ],
+          "latent": [
+            "101:429",
+            0
+          ],
+          "image": [
+            "2",
+            0
+          ],
+          "frame_idx": -1,
+          "strength": 1.0
+        }
+      },
+      "911": {
+        "class_type": "LTXVCropGuides",
+        "inputs": {
+          "positive": [
+            "910",
+            0
+          ],
+          "negative": [
+            "910",
+            1
+          ],
+          "latent": [
+            "101:431",
+            0
+          ]
+        }
+      },
+      "912": {
+        "class_type": "LTXVAddGuide",
+        "inputs": {
+          "positive": [
+            "911",
+            0
+          ],
+          "negative": [
+            "911",
+            1
+          ],
+          "vae": [
+            "101:416",
+            0
+          ],
+          "latent": [
+            "101:439",
+            0
+          ],
+          "image": [
+            "2",
+            0
+          ],
+          "frame_idx": -1,
+          "strength": 1.0
+        }
+      },
+      "913": {
+        "class_type": "LTXVCropGuides",
+        "inputs": {
+          "positive": [
+            "912",
+            0
+          ],
+          "negative": [
+            "912",
+            1
+          ],
+          "latent": [
+            "101:448",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "workflow_name": "Sin Star I | Godlike \u2192 Unreachable | Start and end frame guided",
+      "create_time": 1789548142360
+    },
+    [
+      "901"
+    ]
+  ],
+  "outputs": {
+    "901": {
+      "images": [
+        {
+          "filename": "new-c00-s01-duel-godlike-continuity_00001_.mp4",
+          "subfolder": "SinStarI_Draft3",
+          "type": "output"
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "8acfec32-50d1-41e5-ada0-5b7b1dcd1122",
+          "timestamp": 1789548142361
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "101:411",
+            "101:416",
+            "101:417",
+            "101:420",
+            "101:426",
+            "101:422",
+            "101:424",
+            "101:442",
+            "101:444",
+            "101:446"
+          ],
+          "prompt_id": "8acfec32-50d1-41e5-ada0-5b7b1dcd1122",
+          "timestamp": 1789548142387
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "8acfec32-50d1-41e5-ada0-5b7b1dcd1122",
+          "timestamp": 1789548160742
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "901": {
+      "node_id": "901",
+      "display_node": "901",
+      "parent_node": null,
+      "real_node_id": "901"
+    }
+  }
+}

@@ -71,16 +71,29 @@ in the script. C04-S03 still establishes Kael's later deliberate contact/trainin
 - [Image prompt, LTX prompts, receipts, checksum and edit list](c00-s01-godlike.json).
 - First take supplies lightning, fire, the knockdown and shrinking retreat.
   A focused second take supplies rocks visibly traveling toward Arin; the first
-  take's weaker falling-rock opening is excluded. The edit has one deliberate cut.
-- Both shots were appended to ComfyUI's existing queue and completed successfully.
+  take's weaker falling-rock opening is excluded. A three-second recovery shot,
+  guided by both the starting frame and Unreachable's actual opening frame in
+  both LTX sampling passes, brings Arin into the next shot's standing foreground
+  pose. The last part blends into that opening frame for the final match.
+- All three shots were appended to ComfyUI's existing queue and completed successfully.
   Their API/UI workflows and history receipts are preserved; MP4 sources stay local.
 - Script and Storyboard expose Clip 1 / Clip 2 with the existing shared Remember
   preference. Neither the default nor an existing remembered selection was changed.
 - Live Sequence Review lists **Clip 2 / Godlike as clip 4**, followed by Unreachable
   as clip 5. Its JSON entry is also included in the next full review render.
-- Reviewed sampled frames of both takes and the final edit. The final H.264/AAC
+- Reviewed sampled frames of the takes and the final edit. The final H.264/AAC
   preview is exactly 960 × 540 (16:9), fully decodes, and retains generated audio.
   Site, preview interaction and live-player checks pass with 137 clips.
+
+The revised ending remains 12 seconds total. Its final frame matches Arin's pose,
+sword/shield direction, distant Kael, pillars and light beam in Unreachable's first
+frame. Decoded-frame RGB SSIM improved from 0.166665 to 0.941291 (1.0 would be
+pixel-identical); resizing and video compression account for remaining differences.
+The next clip's 960 × 480 frame is centered inside the 16:9 output using the same
+background as the review player, so its entire framing is retained at the join.
+Unreachable itself is unchanged. The earlier Godlike edit remains in local render
+sources; the shot specification preserves its checksum and edit list. The new
+version keeps the same clip ID, selections and per-clip review settings.
 
 The new clip is pending YouTube upload alongside the existing backlog. The full
 review movie has not been rendered again as part of this clip request.

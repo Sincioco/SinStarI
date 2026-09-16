@@ -25,20 +25,69 @@
       "prompt_id": "9aa9a5c1-2576-48b4-895b-ee6217cb43be"
     }
   ],
-  "selected_source": "production/render-sources/new-c00-s01-duel-godlike-edit.mp4",
+  "selected_source": "production/render-sources/new-c00-s01-duel-godlike-matched.mp4",
   "edit_segments": [
     {
-      "source": "production/renders/clips/new-c00-s01-duel-godlike-rocks.mp4",
-      "start_frame": 78,
-      "end_frame_exclusive": 150
+      "source": "production/render-sources/new-c00-s01-duel-godlike-edit.mp4",
+      "start_frame": 0,
+      "end_frame_exclusive": 215
     },
     {
-      "source": "production/renders/clips/new-c00-s01-duel-godlike.mp4",
-      "start_frame": 48,
-      "end_frame_exclusive": 264
+      "source": "production/renders/clips/new-c00-s01-duel-godlike-continuity.mp4",
+      "start_frame": 0,
+      "end_frame_exclusive": 73,
+      "blend_to": "production/references/c00-s01-duel/unreachable-continuity-end.png",
+      "blend_start_frame": 61,
+      "blend_end_frame": 70
     }
   ],
   "final_frames": 288,
   "final_seconds": 12,
-  "final_sha256": "e70c83664f8816892332f4db2fdf987c28ee97e91a79dc0ce9cf624bc1d623da"
+  "final_sha256": "a6c421d9070756d67405b508efa97b8e8410d09888d0f6f28a3c620131b896d2",
+  "previous_version": {
+    "source": "production/render-sources/new-c00-s01-duel-godlike-edit.mp4",
+    "sha256": "e70c83664f8816892332f4db2fdf987c28ee97e91a79dc0ce9cf624bc1d623da",
+    "edit_segments": [
+      {
+        "source": "production/renders/clips/new-c00-s01-duel-godlike-rocks.mp4",
+        "start_frame": 78,
+        "end_frame_exclusive": 150
+      },
+      {
+        "source": "production/renders/clips/new-c00-s01-duel-godlike.mp4",
+        "start_frame": 48,
+        "end_frame_exclusive": 264
+      }
+    ]
+  },
+  "continuity": {
+    "id": "new-c00-s01-duel-godlike-continuity",
+    "image": "production/references/c00-s01-duel/godlike-continuity-start.png",
+    "end_image": "production/references/c00-s01-duel/unreachable-continuity-end.png",
+    "caption": "Godlike to Unreachable — match the next shot",
+    "art": "Arin recovers while the opponent waits far away.",
+    "render_seconds": 3,
+    "render_size": [
+      1024,
+      576
+    ],
+    "seed": 202609163501,
+    "motion_prompt": "Three-second continuous cinematic dream transition from the supplied START frame to the supplied END frame. The battle has ended. Arin on the LEFT, an adult brown-haired paladin in battered white/navy/gold armor, pushes himself from one knee into a low standing defensive stance. He keeps his blue-white gold-star kite shield on his LEFT forearm in FRONT of his chest, and his long cyan sword in his RIGHT hand pointed diagonally down toward the lower center. He turns his head RIGHT to look at the opponent. The camera smoothly dollies forward and slightly left so Arin becomes LARGE in the left foreground, in precisely the final supplied pose and framing. The opponent is already NORMAL HUMAN SIZE and remains a tiny completely BLACK silhouette FAR RIGHT, in front of the narrow vertical WHITE LIGHT. He does not grow, move closer or reveal a face. The dream hall settles into the exact END-frame arrangement of dark pillars, black reflective floor, quiet mist and subdued stars. Preserve the two distinct people and their weapons; natural recovery and smooth camera motion. End exactly on the provided final composition with Arin looking right and sword lowered, no further attack. Quiet dream wind and soft armor movement, no voices, music, lightning, fire, captions or writing.",
+    "negative_prompt": "giant opponent, visible face on distant opponent, extra characters, duplicated bodies, shield on back, dropped sword, extra limbs, battle, lightning, fire, rocks, dialogue, music, titles, slow motion",
+    "prompt_id": "8acfec32-50d1-41e5-ada0-5b7b1dcd1122",
+    "source": "production/renders/clips/new-c00-s01-duel-godlike-continuity.mp4",
+    "next_clip": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",
+    "next_clip_sha256": "1f9a94a5bef37eefc307b23a20526936597236ea26cdd958bbbeebb8fe33408c",
+    "head_frames": 215,
+    "bridge_frames": 73,
+    "end_frame_blend": "Tail frames 61-70 blend into the next clip opening frame; final three frames hold it.",
+    "aspect_fit": "Next 960x480 opening frame scaled to 1024x512 and centered in the 1024x576 canvas; padding matches the review player background.",
+    "audio": "Retain the original 12-second Godlike edit audio throughout.",
+    "validation": {
+      "final_frame_ssim_rgb": 0.941291,
+      "previous_final_frame_ssim_rgb": 0.166665,
+      "comparison": "Decoded final preview frame against the next clip first frame centered in a 960x540 canvas. 1.0 would be pixel-identical.",
+      "review": "Arin pose, shield, sword direction, Kael location/size, pillars and light beam match the next opening composition. Sampled closing frames reviewed."
+    }
+  }
 }
