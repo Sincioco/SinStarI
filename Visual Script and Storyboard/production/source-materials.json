@@ -1,0 +1,632 @@
+[
+  {
+    "id": "panel-01-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-01.mp4",
+    "local": "production/render-sources/panel-01-1-source.mp4"
+  },
+  {
+    "id": "panel-01-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-01.mp4",
+    "local": "production/render-sources/panel-01-1-original_render.mp4"
+  },
+  {
+    "id": "panel-01-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-03.mp4",
+    "local": "production/render-sources/panel-01-2-source.mp4"
+  },
+  {
+    "id": "panel-01-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-03.mp4",
+    "local": "production/render-sources/panel-01-2-original_render.mp4"
+  },
+  {
+    "id": "panel-01-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Room for One - LTX 2.5\\Sin-Star-I-Room-for-One.mp4",
+    "local": "production/render-sources/panel-01-3-source.mp4"
+  },
+  {
+    "id": "panel-01-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-08.mp4",
+    "local": "production/render-sources/panel-01-4-source.mp4"
+  },
+  {
+    "id": "panel-01-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-08.mp4",
+    "local": "production/render-sources/panel-01-4-original_render.mp4"
+  },
+  {
+    "id": "panel-02-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-04.mp4",
+    "local": "production/render-sources/panel-02-1-source.mp4"
+  },
+  {
+    "id": "panel-02-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-04.mp4",
+    "local": "production/render-sources/panel-02-1-original_render.mp4"
+  },
+  {
+    "id": "panel-02-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-06.mp4",
+    "local": "production/render-sources/panel-02-2-source.mp4"
+  },
+  {
+    "id": "panel-02-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-06.mp4",
+    "local": "production/render-sources/panel-02-2-original_render.mp4"
+  },
+  {
+    "id": "panel-02-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-07.mp4",
+    "local": "production/render-sources/panel-02-3-source.mp4"
+  },
+  {
+    "id": "panel-02-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-07.mp4",
+    "local": "production/render-sources/panel-02-3-original_render.mp4"
+  },
+  {
+    "id": "panel-03-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-09.mp4",
+    "local": "production/render-sources/panel-03-1-source.mp4"
+  },
+  {
+    "id": "panel-03-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-09.mp4",
+    "local": "production/render-sources/panel-03-1-original_render.mp4"
+  },
+  {
+    "id": "panel-03-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-10.mp4",
+    "local": "production/render-sources/panel-03-2-source.mp4"
+  },
+  {
+    "id": "panel-03-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-10.mp4",
+    "local": "production/render-sources/panel-03-2-original_render.mp4"
+  },
+  {
+    "id": "panel-03-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-11.mp4",
+    "local": "production/render-sources/panel-03-3-source.mp4"
+  },
+  {
+    "id": "panel-03-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-11.mp4",
+    "local": "production/render-sources/panel-03-3-original_render.mp4"
+  },
+  {
+    "id": "panel-04-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-12.mp4",
+    "local": "production/render-sources/panel-04-1-source.mp4"
+  },
+  {
+    "id": "panel-04-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-12.mp4",
+    "local": "production/render-sources/panel-04-1-original_render.mp4"
+  },
+  {
+    "id": "panel-04-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-13.mp4",
+    "local": "production/render-sources/panel-04-2-source.mp4"
+  },
+  {
+    "id": "panel-04-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-13.mp4",
+    "local": "production/render-sources/panel-04-2-original_render.mp4"
+  },
+  {
+    "id": "panel-04-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-14.mp4",
+    "local": "production/render-sources/panel-04-4-source.mp4"
+  },
+  {
+    "id": "panel-04-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-14.mp4",
+    "local": "production/render-sources/panel-04-4-original_render.mp4"
+  },
+  {
+    "id": "panel-05-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-15.mp4",
+    "local": "production/render-sources/panel-05-2-source.mp4"
+  },
+  {
+    "id": "panel-05-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-15.mp4",
+    "local": "production/render-sources/panel-05-2-original_render.mp4"
+  },
+  {
+    "id": "panel-05-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-16.mp4",
+    "local": "production/render-sources/panel-05-3-source.mp4"
+  },
+  {
+    "id": "panel-05-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-16.mp4",
+    "local": "production/render-sources/panel-05-3-original_render.mp4"
+  },
+  {
+    "id": "panel-06-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-17.mp4",
+    "local": "production/render-sources/panel-06-1-source.mp4"
+  },
+  {
+    "id": "panel-06-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-17.mp4",
+    "local": "production/render-sources/panel-06-1-original_render.mp4"
+  },
+  {
+    "id": "panel-06-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-18.mp4",
+    "local": "production/render-sources/panel-06-4-source.mp4"
+  },
+  {
+    "id": "panel-06-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-18.mp4",
+    "local": "production/render-sources/panel-06-4-original_render.mp4"
+  },
+  {
+    "id": "panel-07-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-19.mp4",
+    "local": "production/render-sources/panel-07-3-source.mp4"
+  },
+  {
+    "id": "panel-07-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-19.mp4",
+    "local": "production/render-sources/panel-07-3-original_render.mp4"
+  },
+  {
+    "id": "panel-07-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-20.mp4",
+    "local": "production/render-sources/panel-07-4-source.mp4"
+  },
+  {
+    "id": "panel-07-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-20.mp4",
+    "local": "production/render-sources/panel-07-4-original_render.mp4"
+  },
+  {
+    "id": "panel-08-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-21.mp4",
+    "local": "production/render-sources/panel-08-1-source.mp4"
+  },
+  {
+    "id": "panel-08-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-21.mp4",
+    "local": "production/render-sources/panel-08-1-original_render.mp4"
+  },
+  {
+    "id": "panel-09-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-22.mp4",
+    "local": "production/render-sources/panel-09-1-source.mp4"
+  },
+  {
+    "id": "panel-09-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-22.mp4",
+    "local": "production/render-sources/panel-09-1-original_render.mp4"
+  },
+  {
+    "id": "panel-10-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-23.mp4",
+    "local": "production/render-sources/panel-10-1-source.mp4"
+  },
+  {
+    "id": "panel-10-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-23.mp4",
+    "local": "production/render-sources/panel-10-1-original_render.mp4"
+  },
+  {
+    "id": "panel-10-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-24.mp4",
+    "local": "production/render-sources/panel-10-3-source.mp4"
+  },
+  {
+    "id": "panel-10-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-24.mp4",
+    "local": "production/render-sources/panel-10-3-original_render.mp4"
+  },
+  {
+    "id": "panel-11-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-25.mp4",
+    "local": "production/render-sources/panel-11-1-source.mp4"
+  },
+  {
+    "id": "panel-11-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-25.mp4",
+    "local": "production/render-sources/panel-11-1-original_render.mp4"
+  },
+  {
+    "id": "panel-11-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-26.mp4",
+    "local": "production/render-sources/panel-11-2-source.mp4"
+  },
+  {
+    "id": "panel-11-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-26.mp4",
+    "local": "production/render-sources/panel-11-2-original_render.mp4"
+  },
+  {
+    "id": "panel-11-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-27.mp4",
+    "local": "production/render-sources/panel-11-3-source.mp4"
+  },
+  {
+    "id": "panel-11-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-27.mp4",
+    "local": "production/render-sources/panel-11-3-original_render.mp4"
+  },
+  {
+    "id": "panel-11-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-28.mp4",
+    "local": "production/render-sources/panel-11-4-source.mp4"
+  },
+  {
+    "id": "panel-11-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-28.mp4",
+    "local": "production/render-sources/panel-11-4-original_render.mp4"
+  },
+  {
+    "id": "panel-12-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-29.mp4",
+    "local": "production/render-sources/panel-12-1-source.mp4"
+  },
+  {
+    "id": "panel-12-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-29.mp4",
+    "local": "production/render-sources/panel-12-1-original_render.mp4"
+  },
+  {
+    "id": "panel-12-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-30.mp4",
+    "local": "production/render-sources/panel-12-2-source.mp4"
+  },
+  {
+    "id": "panel-12-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-30.mp4",
+    "local": "production/render-sources/panel-12-2-original_render.mp4"
+  },
+  {
+    "id": "panel-12-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-31.mp4",
+    "local": "production/render-sources/panel-12-3-source.mp4"
+  },
+  {
+    "id": "panel-12-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-31.mp4",
+    "local": "production/render-sources/panel-12-3-original_render.mp4"
+  },
+  {
+    "id": "panel-13-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-32.mp4",
+    "local": "production/render-sources/panel-13-1-source.mp4"
+  },
+  {
+    "id": "panel-13-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-32.mp4",
+    "local": "production/render-sources/panel-13-1-original_render.mp4"
+  },
+  {
+    "id": "panel-13-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-33.mp4",
+    "local": "production/render-sources/panel-13-3-source.mp4"
+  },
+  {
+    "id": "panel-13-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-33.mp4",
+    "local": "production/render-sources/panel-13-3-original_render.mp4"
+  },
+  {
+    "id": "panel-13-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-34.mp4",
+    "local": "production/render-sources/panel-13-4-source.mp4"
+  },
+  {
+    "id": "panel-13-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-34.mp4",
+    "local": "production/render-sources/panel-13-4-original_render.mp4"
+  },
+  {
+    "id": "panel-14-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-35.mp4",
+    "local": "production/render-sources/panel-14-2-source.mp4"
+  },
+  {
+    "id": "panel-14-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-35.mp4",
+    "local": "production/render-sources/panel-14-2-original_render.mp4"
+  },
+  {
+    "id": "panel-14-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-36.mp4",
+    "local": "production/render-sources/panel-14-3-source.mp4"
+  },
+  {
+    "id": "panel-14-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-36.mp4",
+    "local": "production/render-sources/panel-14-3-original_render.mp4"
+  },
+  {
+    "id": "panel-14-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-37.mp4",
+    "local": "production/render-sources/panel-14-4-source.mp4"
+  },
+  {
+    "id": "panel-14-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-37.mp4",
+    "local": "production/render-sources/panel-14-4-original_render.mp4"
+  },
+  {
+    "id": "panel-15-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-38.mp4",
+    "local": "production/render-sources/panel-15-1-source.mp4"
+  },
+  {
+    "id": "panel-15-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-38.mp4",
+    "local": "production/render-sources/panel-15-1-original_render.mp4"
+  },
+  {
+    "id": "panel-15-2",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-39.mp4",
+    "local": "production/render-sources/panel-15-2-source.mp4"
+  },
+  {
+    "id": "panel-15-2",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-39.mp4",
+    "local": "production/render-sources/panel-15-2-original_render.mp4"
+  },
+  {
+    "id": "panel-15-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-40.mp4",
+    "local": "production/render-sources/panel-15-3-source.mp4"
+  },
+  {
+    "id": "panel-15-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-40.mp4",
+    "local": "production/render-sources/panel-15-3-original_render.mp4"
+  },
+  {
+    "id": "panel-15-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-41.mp4",
+    "local": "production/render-sources/panel-15-4-source.mp4"
+  },
+  {
+    "id": "panel-15-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-41.mp4",
+    "local": "production/render-sources/panel-15-4-original_render.mp4"
+  },
+  {
+    "id": "panel-16-1",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-42.mp4",
+    "local": "production/render-sources/panel-16-1-source.mp4"
+  },
+  {
+    "id": "panel-16-1",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\revised\\shot-42.mp4",
+    "local": "production/render-sources/panel-16-1-original_render.mp4"
+  },
+  {
+    "id": "panel-16-3",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-43.mp4",
+    "local": "production/render-sources/panel-16-3-source.mp4"
+  },
+  {
+    "id": "panel-16-3",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-43.mp4",
+    "local": "production/render-sources/panel-16-3-original_render.mp4"
+  },
+  {
+    "id": "panel-16-4",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-44.mp4",
+    "local": "production/render-sources/panel-16-4-source.mp4"
+  },
+  {
+    "id": "panel-16-4",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-44.mp4",
+    "local": "production/render-sources/panel-16-4-original_render.mp4"
+  },
+  {
+    "id": "new-c00-s01-dream",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-02.mp4",
+    "local": "production/render-sources/new-c00-s01-dream-source.mp4"
+  },
+  {
+    "id": "new-c00-s01-dream",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-02.mp4",
+    "local": "production/render-sources/new-c00-s01-dream-original_render.mp4"
+  },
+  {
+    "id": "new-c01-s01-carry",
+    "field": "source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\edit\\clean\\shot-05.mp4",
+    "local": "production/render-sources/new-c01-s01-carry-source.mp4"
+  },
+  {
+    "id": "new-c01-s01-carry",
+    "field": "audio_source",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-05.mp4",
+    "local": "production/render-sources/new-c01-s01-carry-audio_source.mp4"
+  },
+  {
+    "id": "new-c01-s01-carry",
+    "field": "original_render",
+    "original": "D:\\Sin - AI Prompt - Contents\\Sin Star I - Draft 2 Movies\\clips\\shot-05.mp4",
+    "local": "production/render-sources/new-c01-s01-carry-original_render.mp4"
+  },
+  {
+    "id": "cast-arin",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-c4193acc-aa1a-4bfb-a432-f2c909091e8e.png",
+    "local": "production/references/cast-arin-source.png"
+  },
+  {
+    "id": "cast-arin",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-9cb55147c2ea1b3d490167b70bfa73b2633918683c5e83fc61854f4775e2570b.png",
+    "local": "production/references/cast-arin-reference.png"
+  },
+  {
+    "id": "cast-mira",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-a07d9ead-3437-4b28-a81e-047fb147add7.png",
+    "local": "production/references/cast-mira-source.png"
+  },
+  {
+    "id": "cast-mira",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-d38b5bae8e3428ebcefab114a54a4d0f1e80506e65e7b320a456bcdadf753487.png",
+    "local": "production/references/cast-mira-reference.png"
+  },
+  {
+    "id": "cast-orin",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-831eb8de-6a25-44d6-bb05-425708d82662.png",
+    "local": "production/references/cast-orin-source.png"
+  },
+  {
+    "id": "cast-orin",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-7bb6ccc62a40fdb90428b21cf9af0b85862b8c7f66bd9469df5508b06e747e5a.png",
+    "local": "production/references/cast-orin-reference.png"
+  },
+  {
+    "id": "cast-zara",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-b1abbe8f-bbbf-49a6-bebb-8c6de9169b0d.png",
+    "local": "production/references/cast-zara-source.png"
+  },
+  {
+    "id": "cast-zara",
+    "field": "reference",
+    "original": "D:\\SMILE 2.0\\games\\SinStarI\\SourceAssets\\Characters\\Warrior\\ZaraV1\\Private\\Previews\\zara-neon-white-native.jpg",
+    "local": "production/references/cast-zara-reference.jpg"
+  },
+  {
+    "id": "cast-milo",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-d74fa241-2c60-4ad0-b325-f14bf59db3c2.png",
+    "local": "production/references/cast-milo-source.png"
+  },
+  {
+    "id": "cast-milo",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-8f17a98c2f3a9af43851974f721ea73e49011b8398186b1201e3e926d072a82c.png",
+    "local": "production/references/cast-milo-reference.png"
+  },
+  {
+    "id": "cast-kael",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-ca357b20-ab98-4148-aa64-4e41c1e0974a.png",
+    "local": "production/references/cast-kael-source.png"
+  },
+  {
+    "id": "cast-kael",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-6dc98a15ad3acd7bda221905a784d951b9903c6f9cc3cca93437a6aec3f73c31.png",
+    "local": "production/references/cast-kael-reference.png"
+  },
+  {
+    "id": "cast-aevos",
+    "field": "source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-55c7520a-0ab9-4f32-9041-e2b721cd26ee.png",
+    "local": "production/references/cast-aevos-source.png"
+  },
+  {
+    "id": "cast-aevos",
+    "field": "reference",
+    "original": "D:\\Sin - AI Prompt - Contents\\2026-09-15 1809 - Sin Star I - Story Board 3\\image-500beb7cea149b7830f618d4d6176f146cebd7b05388012af34cf4bf0a1a456a.png",
+    "local": "production/references/cast-aevos-reference.png"
+  },
+  {
+    "id": "new-c09-s03-planet",
+    "field": "art_source",
+    "original": "C:\\Users\\louie\\.codex\\generated_images\\01a0a581-c8d1-70f0-a1d6-12d11703b872\\exec-a33d8e25-9035-45db-be3d-e181025e9e76.png",
+    "local": "production/references/new-c09-s03-planet-art_source.png"
+  }
+]

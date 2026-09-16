@@ -1,0 +1,17 @@
+# Video media stays local; YouTube upload records are tracked instead.
+*.[mM][pP]4
+*.[mM]4[vV]
+*.[mM][oO][vV]
+*.[wW][eE][bB][mM]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][mM][vV]
+*.[mM][pP][eE][gG]
+*.[mM][pP][gG]
+*.[mM]2[tT][sS]
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.zip
+Visual Script and Storyboard/production/local-state/

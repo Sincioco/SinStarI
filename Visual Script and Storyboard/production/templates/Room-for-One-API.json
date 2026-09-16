@@ -1,0 +1,2024 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "SinStarI_RoomForOne_Storyboard.png"
+    },
+    "_meta": {
+      "title": "Room for One | Original Four Panels"
+    }
+  },
+  "11": {
+    "class_type": "ImageCropV2",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "crop_region": {
+        "x": 0,
+        "y": 0,
+        "width": 766,
+        "height": 508
+      }
+    },
+    "_meta": {
+      "title": "Panel 1 | Before the Warning Chime"
+    }
+  },
+  "101:411": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | UNETLoader"
+    }
+  },
+  "101:416": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAELoader"
+    }
+  },
+  "101:417": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAELoader"
+    }
+  },
+  "101:420": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPLoader"
+    }
+  },
+  "101:426": {
+    "class_type": "LatentUpscaleModelLoader",
+    "inputs": {
+      "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LatentUpscaleModelLoader"
+    }
+  },
+  "101:408": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "101:420",
+        0
+      ],
+      "text": "A brown-haired mother in a white shirt leans beside her young brown-haired son Arin inside a civilian spacecraft, fastening the worn brown wrist strap visible in the reference image. A medium close-up frames them from a front three-quarter angle, with his smiling father's reflection in the window and the blue-white flare outside. The boy's navy clothes, the mother's tied-up hair, the small stuffed toy and warm cabin lights remain consistent. The camera makes a very slow, gentle push toward their hands. Initially her fingers finish fastening the strap, then she looks into his eyes and asks softly in a warm adult female voice, \"Too tight?\" The boy looks up, gives a small head shake and answers clearly in a quiet child's voice, \"No.\" His father's reflection holds its smile. During the final second the existing exterior flare brightens, washing cold light across their faces as both glance toward the window. A low spacecraft hum underlies the intimate voices; a single warning chime sounds at the end. The detailed painted sci-fi fantasy illustration moves naturally with restrained character animation, crisp linework and warm cinematic light. One continuous six-second take with all action contained in this single image's setting."
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPTextEncode"
+    }
+  },
+  "101:419": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "101:420",
+        0
+      ],
+      "text": "split screen, storyboard grid, panel borders, captions, subtitles, watermark, identity change, costume change, deformed hands, extra limbs, duplicate people, flicker, jitter, hard cut within shot, live action, photorealistic skin, gore"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CLIPTextEncode"
+    }
+  },
+  "101:415": {
+    "class_type": "LTXVConditioning",
+    "inputs": {
+      "positive": [
+        "101:408",
+        0
+      ],
+      "negative": [
+        "101:419",
+        0
+      ],
+      "frame_rate": 24
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConditioning"
+    }
+  },
+  "101:422": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | KSamplerSelect"
+    }
+  },
+  "101:423": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2026091501
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | RandomNoise"
+    }
+  },
+  "101:424": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ManualSigmas"
+    }
+  },
+  "101:427": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "101:411",
+        0
+      ],
+      "positive": [
+        "101:415",
+        0
+      ],
+      "negative": [
+        "101:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+    }
+  },
+  "101:433": {
+    "class_type": "ResizeImageMaskNode",
+    "inputs": {
+      "input": [
+        "11",
+        0
+      ],
+      "resize_type": "scale longer dimension",
+      "resize_type.longer_size": 1536,
+      "scale_method": "lanczos"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ResizeImageMaskNode"
+    }
+  },
+  "101:436": {
+    "class_type": "LTXVPreprocess",
+    "inputs": {
+      "image": [
+        "101:433",
+        0
+      ],
+      "img_compression": 18
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVPreprocess"
+    }
+  },
+  "101:437": {
+    "class_type": "EmptyLTXVLatentVideo",
+    "inputs": {
+      "width": 576,
+      "height": 384,
+      "length": 145,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | EmptyLTXVLatentVideo"
+    }
+  },
+  "101:429": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "101:416",
+        0
+      ],
+      "image": [
+        "101:436",
+        0
+      ],
+      "latent": [
+        "101:437",
+        0
+      ],
+      "strength": 0.7,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+    }
+  },
+  "101:430": {
+    "class_type": "LTXVEmptyLatentAudio",
+    "inputs": {
+      "audio_vae": [
+        "101:417",
+        0
+      ],
+      "frames_number": 145,
+      "frame_rate": 24,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVEmptyLatentAudio"
+    }
+  },
+  "101:432": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "101:429",
+        0
+      ],
+      "audio_latent": [
+        "101:430",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+    }
+  },
+  "101:428": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "101:423",
+        0
+      ],
+      "guider": [
+        "101:427",
+        0
+      ],
+      "sampler": [
+        "101:422",
+        0
+      ],
+      "sigmas": [
+        "101:424",
+        0
+      ],
+      "latent_image": [
+        "101:432",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+    }
+  },
+  "101:431": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "101:428",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+    }
+  },
+  "101:438": {
+    "class_type": "LTXVLatentUpsampler",
+    "inputs": {
+      "samples": [
+        "101:431",
+        0
+      ],
+      "upscale_model": [
+        "101:426",
+        0
+      ],
+      "vae": [
+        "101:416",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVLatentUpsampler"
+    }
+  },
+  "101:439": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "101:416",
+        0
+      ],
+      "image": [
+        "101:436",
+        0
+      ],
+      "latent": [
+        "101:438",
+        0
+      ],
+      "strength": 1,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVImgToVideoInplace"
+    }
+  },
+  "101:443": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "101:439",
+        0
+      ],
+      "audio_latent": [
+        "101:431",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVConcatAVLatent"
+    }
+  },
+  "101:442": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 42
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | RandomNoise"
+    }
+  },
+  "101:444": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | ManualSigmas"
+    }
+  },
+  "101:445": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "101:411",
+        0
+      ],
+      "positive": [
+        "101:415",
+        0
+      ],
+      "negative": [
+        "101:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVDualCFGGuider"
+    }
+  },
+  "101:446": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | KSamplerSelect"
+    }
+  },
+  "101:447": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "101:442",
+        0
+      ],
+      "guider": [
+        "101:445",
+        0
+      ],
+      "sampler": [
+        "101:446",
+        0
+      ],
+      "sigmas": [
+        "101:444",
+        0
+      ],
+      "latent_image": [
+        "101:443",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | SamplerCustomAdvanced"
+    }
+  },
+  "101:448": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "101:447",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVSeparateAVLatent"
+    }
+  },
+  "101:449": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "101:448",
+        0
+      ],
+      "vae": [
+        "101:416",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 16
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | VAEDecodeTiled"
+    }
+  },
+  "101:450": {
+    "class_type": "LTXVAudioVAEDecode",
+    "inputs": {
+      "samples": [
+        "101:448",
+        1
+      ],
+      "audio_vae": [
+        "101:417",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | LTXVAudioVAEDecode"
+    }
+  },
+  "101:451": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "101:449",
+        0
+      ],
+      "audio": [
+        "101:450",
+        0
+      ],
+      "fps": 24,
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    },
+    "_meta": {
+      "title": "01 Before the Warning Chime | CreateVideo"
+    }
+  },
+  "12": {
+    "class_type": "ImageCropV2",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "crop_region": {
+        "x": 771,
+        "y": 0,
+        "width": 766,
+        "height": 508
+      }
+    },
+    "_meta": {
+      "title": "Panel 2 | Room for One"
+    }
+  },
+  "102:411": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "02 Room for One | UNETLoader"
+    }
+  },
+  "102:416": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "02 Room for One | VAELoader"
+    }
+  },
+  "102:417": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "02 Room for One | VAELoader"
+    }
+  },
+  "102:420": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "02 Room for One | CLIPLoader"
+    }
+  },
+  "102:426": {
+    "class_type": "LatentUpscaleModelLoader",
+    "inputs": {
+      "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+    },
+    "_meta": {
+      "title": "02 Room for One | LatentUpscaleModelLoader"
+    }
+  },
+  "102:408": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "102:420",
+        0
+      ],
+      "text": "Adult Arin sits hunched on the edge of his unmade bed in the cheap lodging shown in the reference image, gripping the same worn wrist strap in his right hand. A medium shot frames the muscular, clean-shaven young man with short tousled brown hair from the front, wearing a black sleeveless undershirt and dark trousers. His white, navy and gold armor rests to his right; a pillow blocks the rattling window, dawn light cuts across cracked plaster, and the metal cup is suspended to his left. The camera slowly pushes toward Arin while preserving this composition. Initially he draws a sharp breath and tightens his grip; the cup trembles and a fine plaster crack lengthens slightly. An unseen neighbor calls through the wall in a muffled irritated adult voice, \"Some of us work in the morning!\" Arin lifts his eyes toward the wall and replies under his breath in a low young adult male voice, \"So do I.\" As he exhales, the cup settles onto the nearby table with a quiet clink. Soft window rattling and distant waking-city sounds accompany the voices. Detailed painted animation preserves the reference's expressive linework, weathered textures and subdued golden morning light throughout one continuous six-second take."
+    },
+    "_meta": {
+      "title": "02 Room for One | CLIPTextEncode"
+    }
+  },
+  "102:419": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "102:420",
+        0
+      ],
+      "text": "split screen, storyboard grid, panel borders, captions, subtitles, watermark, identity change, costume change, deformed hands, extra limbs, duplicate people, flicker, jitter, hard cut within shot, live action, photorealistic skin, gore"
+    },
+    "_meta": {
+      "title": "02 Room for One | CLIPTextEncode"
+    }
+  },
+  "102:415": {
+    "class_type": "LTXVConditioning",
+    "inputs": {
+      "positive": [
+        "102:408",
+        0
+      ],
+      "negative": [
+        "102:419",
+        0
+      ],
+      "frame_rate": 24
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVConditioning"
+    }
+  },
+  "102:422": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "02 Room for One | KSamplerSelect"
+    }
+  },
+  "102:423": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2026091502
+    },
+    "_meta": {
+      "title": "02 Room for One | RandomNoise"
+    }
+  },
+  "102:424": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+    },
+    "_meta": {
+      "title": "02 Room for One | ManualSigmas"
+    }
+  },
+  "102:427": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "102:411",
+        0
+      ],
+      "positive": [
+        "102:415",
+        0
+      ],
+      "negative": [
+        "102:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVDualCFGGuider"
+    }
+  },
+  "102:433": {
+    "class_type": "ResizeImageMaskNode",
+    "inputs": {
+      "input": [
+        "12",
+        0
+      ],
+      "resize_type": "scale longer dimension",
+      "resize_type.longer_size": 1536,
+      "scale_method": "lanczos"
+    },
+    "_meta": {
+      "title": "02 Room for One | ResizeImageMaskNode"
+    }
+  },
+  "102:436": {
+    "class_type": "LTXVPreprocess",
+    "inputs": {
+      "image": [
+        "102:433",
+        0
+      ],
+      "img_compression": 18
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVPreprocess"
+    }
+  },
+  "102:437": {
+    "class_type": "EmptyLTXVLatentVideo",
+    "inputs": {
+      "width": 576,
+      "height": 384,
+      "length": 145,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "02 Room for One | EmptyLTXVLatentVideo"
+    }
+  },
+  "102:429": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "102:416",
+        0
+      ],
+      "image": [
+        "102:436",
+        0
+      ],
+      "latent": [
+        "102:437",
+        0
+      ],
+      "strength": 0.7,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVImgToVideoInplace"
+    }
+  },
+  "102:430": {
+    "class_type": "LTXVEmptyLatentAudio",
+    "inputs": {
+      "audio_vae": [
+        "102:417",
+        0
+      ],
+      "frames_number": 145,
+      "frame_rate": 24,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVEmptyLatentAudio"
+    }
+  },
+  "102:432": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "102:429",
+        0
+      ],
+      "audio_latent": [
+        "102:430",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVConcatAVLatent"
+    }
+  },
+  "102:428": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "102:423",
+        0
+      ],
+      "guider": [
+        "102:427",
+        0
+      ],
+      "sampler": [
+        "102:422",
+        0
+      ],
+      "sigmas": [
+        "102:424",
+        0
+      ],
+      "latent_image": [
+        "102:432",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | SamplerCustomAdvanced"
+    }
+  },
+  "102:431": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "102:428",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVSeparateAVLatent"
+    }
+  },
+  "102:438": {
+    "class_type": "LTXVLatentUpsampler",
+    "inputs": {
+      "samples": [
+        "102:431",
+        0
+      ],
+      "upscale_model": [
+        "102:426",
+        0
+      ],
+      "vae": [
+        "102:416",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVLatentUpsampler"
+    }
+  },
+  "102:439": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "102:416",
+        0
+      ],
+      "image": [
+        "102:436",
+        0
+      ],
+      "latent": [
+        "102:438",
+        0
+      ],
+      "strength": 1,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVImgToVideoInplace"
+    }
+  },
+  "102:443": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "102:439",
+        0
+      ],
+      "audio_latent": [
+        "102:431",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVConcatAVLatent"
+    }
+  },
+  "102:442": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 42
+    },
+    "_meta": {
+      "title": "02 Room for One | RandomNoise"
+    }
+  },
+  "102:444": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+    },
+    "_meta": {
+      "title": "02 Room for One | ManualSigmas"
+    }
+  },
+  "102:445": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "102:411",
+        0
+      ],
+      "positive": [
+        "102:415",
+        0
+      ],
+      "negative": [
+        "102:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVDualCFGGuider"
+    }
+  },
+  "102:446": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "02 Room for One | KSamplerSelect"
+    }
+  },
+  "102:447": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "102:442",
+        0
+      ],
+      "guider": [
+        "102:445",
+        0
+      ],
+      "sampler": [
+        "102:446",
+        0
+      ],
+      "sigmas": [
+        "102:444",
+        0
+      ],
+      "latent_image": [
+        "102:443",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | SamplerCustomAdvanced"
+    }
+  },
+  "102:448": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "102:447",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVSeparateAVLatent"
+    }
+  },
+  "102:449": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "102:448",
+        0
+      ],
+      "vae": [
+        "102:416",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 16
+    },
+    "_meta": {
+      "title": "02 Room for One | VAEDecodeTiled"
+    }
+  },
+  "102:450": {
+    "class_type": "LTXVAudioVAEDecode",
+    "inputs": {
+      "samples": [
+        "102:448",
+        1
+      ],
+      "audio_vae": [
+        "102:417",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "02 Room for One | LTXVAudioVAEDecode"
+    }
+  },
+  "102:451": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "102:449",
+        0
+      ],
+      "audio": [
+        "102:450",
+        0
+      ],
+      "fps": 24,
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    },
+    "_meta": {
+      "title": "02 Room for One | CreateVideo"
+    }
+  },
+  "13": {
+    "class_type": "ImageCropV2",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "crop_region": {
+        "x": 0,
+        "y": 514,
+        "width": 766,
+        "height": 509
+      }
+    },
+    "_meta": {
+      "title": "Panel 3 | The Rivets Remember"
+    }
+  },
+  "103:411": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | UNETLoader"
+    }
+  },
+  "103:416": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | VAELoader"
+    }
+  },
+  "103:417": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | VAELoader"
+    }
+  },
+  "103:420": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | CLIPLoader"
+    }
+  },
+  "103:426": {
+    "class_type": "LatentUpscaleModelLoader",
+    "inputs": {
+      "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LatentUpscaleModelLoader"
+    }
+  },
+  "103:408": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "103:420",
+        0
+      ],
+      "text": "Adult Arin stands at the sunlit Neris repair stall in the reference image, wearing the same battered white and navy plate armor with gold trim and a blue star crest. A medium shot frames him and the older bearded armorer from a front three-quarter viewpoint; the camera drifts gently closer to the damaged shoulder rivet and coins. Arin has short tousled brown hair and a clean-shaven face. The practical armorer, goggles resting on his forehead, taps the cracked shoulder fastening with one finger and says in a dry, gravelly adult voice, \"The rivets remember the first owner.\" Arin looks down at the few coins in his gloved palm, raises one eyebrow toward the armorer and replies in a low young adult male voice with a slight dry edge, \"Can they pay for the repair?\" He lowers one coin to the wooden counter with a small metallic click. Behind them civilians shuffle slowly in the water queue beneath blue awnings and white-and-gold domed buildings. Low market chatter, a faint tool clink and fabric rustling remain beneath clear dialogue. The crisp painted sci-fi fantasy artwork retains its detailed armor scratches, warm daylight and consistent character designs in one continuous six-second take."
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | CLIPTextEncode"
+    }
+  },
+  "103:419": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "103:420",
+        0
+      ],
+      "text": "split screen, storyboard grid, panel borders, captions, subtitles, watermark, identity change, costume change, deformed hands, extra limbs, duplicate people, flicker, jitter, hard cut within shot, live action, photorealistic skin, gore"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | CLIPTextEncode"
+    }
+  },
+  "103:415": {
+    "class_type": "LTXVConditioning",
+    "inputs": {
+      "positive": [
+        "103:408",
+        0
+      ],
+      "negative": [
+        "103:419",
+        0
+      ],
+      "frame_rate": 24
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVConditioning"
+    }
+  },
+  "103:422": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | KSamplerSelect"
+    }
+  },
+  "103:423": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2026091503
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | RandomNoise"
+    }
+  },
+  "103:424": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | ManualSigmas"
+    }
+  },
+  "103:427": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "103:411",
+        0
+      ],
+      "positive": [
+        "103:415",
+        0
+      ],
+      "negative": [
+        "103:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVDualCFGGuider"
+    }
+  },
+  "103:433": {
+    "class_type": "ResizeImageMaskNode",
+    "inputs": {
+      "input": [
+        "13",
+        0
+      ],
+      "resize_type": "scale longer dimension",
+      "resize_type.longer_size": 1536,
+      "scale_method": "lanczos"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | ResizeImageMaskNode"
+    }
+  },
+  "103:436": {
+    "class_type": "LTXVPreprocess",
+    "inputs": {
+      "image": [
+        "103:433",
+        0
+      ],
+      "img_compression": 18
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVPreprocess"
+    }
+  },
+  "103:437": {
+    "class_type": "EmptyLTXVLatentVideo",
+    "inputs": {
+      "width": 576,
+      "height": 384,
+      "length": 145,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | EmptyLTXVLatentVideo"
+    }
+  },
+  "103:429": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "103:416",
+        0
+      ],
+      "image": [
+        "103:436",
+        0
+      ],
+      "latent": [
+        "103:437",
+        0
+      ],
+      "strength": 0.7,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVImgToVideoInplace"
+    }
+  },
+  "103:430": {
+    "class_type": "LTXVEmptyLatentAudio",
+    "inputs": {
+      "audio_vae": [
+        "103:417",
+        0
+      ],
+      "frames_number": 145,
+      "frame_rate": 24,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVEmptyLatentAudio"
+    }
+  },
+  "103:432": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "103:429",
+        0
+      ],
+      "audio_latent": [
+        "103:430",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVConcatAVLatent"
+    }
+  },
+  "103:428": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "103:423",
+        0
+      ],
+      "guider": [
+        "103:427",
+        0
+      ],
+      "sampler": [
+        "103:422",
+        0
+      ],
+      "sigmas": [
+        "103:424",
+        0
+      ],
+      "latent_image": [
+        "103:432",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | SamplerCustomAdvanced"
+    }
+  },
+  "103:431": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "103:428",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVSeparateAVLatent"
+    }
+  },
+  "103:438": {
+    "class_type": "LTXVLatentUpsampler",
+    "inputs": {
+      "samples": [
+        "103:431",
+        0
+      ],
+      "upscale_model": [
+        "103:426",
+        0
+      ],
+      "vae": [
+        "103:416",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVLatentUpsampler"
+    }
+  },
+  "103:439": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "103:416",
+        0
+      ],
+      "image": [
+        "103:436",
+        0
+      ],
+      "latent": [
+        "103:438",
+        0
+      ],
+      "strength": 1,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVImgToVideoInplace"
+    }
+  },
+  "103:443": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "103:439",
+        0
+      ],
+      "audio_latent": [
+        "103:431",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVConcatAVLatent"
+    }
+  },
+  "103:442": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 42
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | RandomNoise"
+    }
+  },
+  "103:444": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | ManualSigmas"
+    }
+  },
+  "103:445": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "103:411",
+        0
+      ],
+      "positive": [
+        "103:415",
+        0
+      ],
+      "negative": [
+        "103:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVDualCFGGuider"
+    }
+  },
+  "103:446": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | KSamplerSelect"
+    }
+  },
+  "103:447": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "103:442",
+        0
+      ],
+      "guider": [
+        "103:445",
+        0
+      ],
+      "sampler": [
+        "103:446",
+        0
+      ],
+      "sigmas": [
+        "103:444",
+        0
+      ],
+      "latent_image": [
+        "103:443",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | SamplerCustomAdvanced"
+    }
+  },
+  "103:448": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "103:447",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVSeparateAVLatent"
+    }
+  },
+  "103:449": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "103:448",
+        0
+      ],
+      "vae": [
+        "103:416",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 16
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | VAEDecodeTiled"
+    }
+  },
+  "103:450": {
+    "class_type": "LTXVAudioVAEDecode",
+    "inputs": {
+      "samples": [
+        "103:448",
+        1
+      ],
+      "audio_vae": [
+        "103:417",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | LTXVAudioVAEDecode"
+    }
+  },
+  "103:451": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "103:449",
+        0
+      ],
+      "audio": [
+        "103:450",
+        0
+      ],
+      "fps": 24,
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    },
+    "_meta": {
+      "title": "03 The Rivets Remember | CreateVideo"
+    }
+  },
+  "14": {
+    "class_type": "ImageCropV2",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "crop_region": {
+        "x": 771,
+        "y": 514,
+        "width": 766,
+        "height": 509
+      }
+    },
+    "_meta": {
+      "title": "Panel 4 | A Distant Listener"
+    }
+  },
+  "104:411": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | UNETLoader"
+    }
+  },
+  "104:416": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-video-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | VAELoader"
+    }
+  },
+  "104:417": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "ltx-2.5-audio-vae-bf16.safetensors"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | VAELoader"
+    }
+  },
+  "104:420": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | CLIPLoader"
+    }
+  },
+  "104:426": {
+    "class_type": "LatentUpscaleModelLoader",
+    "inputs": {
+      "model_name": "ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LatentUpscaleModelLoader"
+    }
+  },
+  "104:408": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "104:420",
+        0
+      ],
+      "text": "Kael stands on the grassy Earth hillside shown in the reference image, his very long silver hair flowing behind a youthful pale adult face and ornate black-and-silver armor with violet star details. A medium shot frames him from a rear three-quarter angle as he looks toward the disturbed violet stars; the ordinary warmly lit town, distant mountains, moon and flowers remain visible below and around him. The camera makes a restrained slow arc along his left side, keeping the town and the sky in view. Initially night wind lifts strands of his hair and stirs the grass. A faint low resonance arrives from the sky, and the existing violet disturbance ripples once without becoming an explosion or an attack. Kael turns his head slightly farther toward it, narrows his eyes and pauses. Then he says quietly in a clear low adult male voice, \"That wasn't mine.\" The final moment holds on his upward gaze while the purple light dims gently. Soft night wind, crickets and a distant town bell accompany the fading resonance. The reference's richly painted celestial colors, crisp armor detail and restrained cinematic animation stay consistent throughout one continuous six-second take."
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | CLIPTextEncode"
+    }
+  },
+  "104:419": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "104:420",
+        0
+      ],
+      "text": "split screen, storyboard grid, panel borders, captions, subtitles, watermark, identity change, costume change, deformed hands, extra limbs, duplicate people, flicker, jitter, hard cut within shot, live action, photorealistic skin, gore"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | CLIPTextEncode"
+    }
+  },
+  "104:415": {
+    "class_type": "LTXVConditioning",
+    "inputs": {
+      "positive": [
+        "104:408",
+        0
+      ],
+      "negative": [
+        "104:419",
+        0
+      ],
+      "frame_rate": 24
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVConditioning"
+    }
+  },
+  "104:422": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | KSamplerSelect"
+    }
+  },
+  "104:423": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2026091504
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | RandomNoise"
+    }
+  },
+  "104:424": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "1.0, 0.99375, 0.9875, 0.98125, 0.975, 0.909375, 0.725, 0.421875, 0.0"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | ManualSigmas"
+    }
+  },
+  "104:427": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "104:411",
+        0
+      ],
+      "positive": [
+        "104:415",
+        0
+      ],
+      "negative": [
+        "104:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVDualCFGGuider"
+    }
+  },
+  "104:433": {
+    "class_type": "ResizeImageMaskNode",
+    "inputs": {
+      "input": [
+        "14",
+        0
+      ],
+      "resize_type": "scale longer dimension",
+      "resize_type.longer_size": 1536,
+      "scale_method": "lanczos"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | ResizeImageMaskNode"
+    }
+  },
+  "104:436": {
+    "class_type": "LTXVPreprocess",
+    "inputs": {
+      "image": [
+        "104:433",
+        0
+      ],
+      "img_compression": 18
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVPreprocess"
+    }
+  },
+  "104:437": {
+    "class_type": "EmptyLTXVLatentVideo",
+    "inputs": {
+      "width": 576,
+      "height": 384,
+      "length": 145,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | EmptyLTXVLatentVideo"
+    }
+  },
+  "104:429": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "104:416",
+        0
+      ],
+      "image": [
+        "104:436",
+        0
+      ],
+      "latent": [
+        "104:437",
+        0
+      ],
+      "strength": 0.7,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVImgToVideoInplace"
+    }
+  },
+  "104:430": {
+    "class_type": "LTXVEmptyLatentAudio",
+    "inputs": {
+      "audio_vae": [
+        "104:417",
+        0
+      ],
+      "frames_number": 145,
+      "frame_rate": 24,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVEmptyLatentAudio"
+    }
+  },
+  "104:432": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "104:429",
+        0
+      ],
+      "audio_latent": [
+        "104:430",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVConcatAVLatent"
+    }
+  },
+  "104:428": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "104:423",
+        0
+      ],
+      "guider": [
+        "104:427",
+        0
+      ],
+      "sampler": [
+        "104:422",
+        0
+      ],
+      "sigmas": [
+        "104:424",
+        0
+      ],
+      "latent_image": [
+        "104:432",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | SamplerCustomAdvanced"
+    }
+  },
+  "104:431": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "104:428",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVSeparateAVLatent"
+    }
+  },
+  "104:438": {
+    "class_type": "LTXVLatentUpsampler",
+    "inputs": {
+      "samples": [
+        "104:431",
+        0
+      ],
+      "upscale_model": [
+        "104:426",
+        0
+      ],
+      "vae": [
+        "104:416",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVLatentUpsampler"
+    }
+  },
+  "104:439": {
+    "class_type": "LTXVImgToVideoInplace",
+    "inputs": {
+      "vae": [
+        "104:416",
+        0
+      ],
+      "image": [
+        "104:436",
+        0
+      ],
+      "latent": [
+        "104:438",
+        0
+      ],
+      "strength": 1,
+      "bypass": false
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVImgToVideoInplace"
+    }
+  },
+  "104:443": {
+    "class_type": "LTXVConcatAVLatent",
+    "inputs": {
+      "video_latent": [
+        "104:439",
+        0
+      ],
+      "audio_latent": [
+        "104:431",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVConcatAVLatent"
+    }
+  },
+  "104:442": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 42
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | RandomNoise"
+    }
+  },
+  "104:444": {
+    "class_type": "ManualSigmas",
+    "inputs": {
+      "sigmas": "0.85, 0.7250, 0.4219, 0.0"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | ManualSigmas"
+    }
+  },
+  "104:445": {
+    "class_type": "LTXVDualCFGGuider",
+    "inputs": {
+      "model": [
+        "104:411",
+        0
+      ],
+      "positive": [
+        "104:415",
+        0
+      ],
+      "negative": [
+        "104:415",
+        1
+      ],
+      "video_cfg": 1,
+      "audio_cfg": 1
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVDualCFGGuider"
+    }
+  },
+  "104:446": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler_ancestral"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | KSamplerSelect"
+    }
+  },
+  "104:447": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "104:442",
+        0
+      ],
+      "guider": [
+        "104:445",
+        0
+      ],
+      "sampler": [
+        "104:446",
+        0
+      ],
+      "sigmas": [
+        "104:444",
+        0
+      ],
+      "latent_image": [
+        "104:443",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | SamplerCustomAdvanced"
+    }
+  },
+  "104:448": {
+    "class_type": "LTXVSeparateAVLatent",
+    "inputs": {
+      "av_latent": [
+        "104:447",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVSeparateAVLatent"
+    }
+  },
+  "104:449": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "104:448",
+        0
+      ],
+      "vae": [
+        "104:416",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 16
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | VAEDecodeTiled"
+    }
+  },
+  "104:450": {
+    "class_type": "LTXVAudioVAEDecode",
+    "inputs": {
+      "samples": [
+        "104:448",
+        1
+      ],
+      "audio_vae": [
+        "104:417",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | LTXVAudioVAEDecode"
+    }
+  },
+  "104:451": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "104:449",
+        0
+      ],
+      "audio": [
+        "104:450",
+        0
+      ],
+      "fps": 24,
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    },
+    "_meta": {
+      "title": "04 A Distant Listener | CreateVideo"
+    }
+  },
+  "900": {
+    "class_type": "ConcatenateVideo",
+    "inputs": {
+      "videos.video0": [
+        "101:451",
+        0
+      ],
+      "videos.video1": [
+        "102:451",
+        0
+      ],
+      "videos.video2": [
+        "103:451",
+        0
+      ],
+      "videos.video3": [
+        "104:451",
+        0
+      ],
+      "codec": "auto"
+    },
+    "_meta": {
+      "title": "Four Scenes | Story Order"
+    }
+  },
+  "901": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "900",
+        0
+      ],
+      "filename_prefix": "SinStarI_RoomForOne_LTX25_24s",
+      "format": "mp4",
+      "format.codec": "h264",
+      "format.codec.encoding": "auto"
+    },
+    "_meta": {
+      "title": "Room for One | Final 24-Second Movie"
+    }
+  }
+}
