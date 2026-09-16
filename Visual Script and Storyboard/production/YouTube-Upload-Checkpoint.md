@@ -2,11 +2,11 @@
 
 ## Current status
 
-- 140 website videos in the catalog: 136 picture previews and four complete films.
+- 141 website videos in the catalog: 137 picture previews and four complete films.
 - 104 verified YouTube links: 100 new Unlisted uploads, the earlier Unlisted
   planet-throw take, and three existing films whose current Public visibility was preserved.
 - All seven planet-throw variations have verified links.
-- 36 videos remain pending, including the new C00-S01 concealed-opponent duel.
+- 37 videos remain pending, including both new C00-S01 concealed-opponent duel clips.
   Their local copies are complete and playable.
 
 YouTube Studio displayed **Daily upload limit reached** for the last five files
@@ -15,14 +15,14 @@ and changing browsers would not resolve an account upload limit.
 
 The five rejected files were `new-c05-s04`, `new-c05-s05`, `new-c06-s01`,
 `new-c06-s02` and `new-c06-s03`. They remain `pending`, along with the 29 previews
-not yet attempted, the new dream duel and the previously rendered Story Video
+not yet attempted, the two new dream-duel clips and the previously rendered Story Video
 Sequence Review. No unverified video ID was added to the website.
 
 ## Resume
 
 Before uploading `film-sequence-review`, render the current
 `review-sequence/sequence.json` so the movie includes the latest panel positions,
-mute choices, the inserted dream duel and other review settings. Run `review-sequence/validate_review.py`
+mute choices, both inserted dream-duel clips and other review settings. Run `review-sequence/validate_review.py`
 and refresh that pending catalog entry's checksum from `sequence-render.json`.
 The existing MP4 represents its recorded render snapshot; later live edits require
 another render before the final upload.

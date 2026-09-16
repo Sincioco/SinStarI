@@ -99,6 +99,17 @@
       "muted": false
     },
     {
+      "id": "new-c00-s01-duel-godlike",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 2 / Godlike",
+      "context": "A nightmare-scale opponent overwhelms Arin with stone, lightning and fire, then shrinks into the distance. Foreshadows Aevos; the early dream remains unexplained. The violet sword is the later identity clue.",
+      "muted": false
+    },
+    {
       "id": "new-c00-s01-dream",
       "enabled": true,
       "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

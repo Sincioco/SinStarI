@@ -1,0 +1,44 @@
+{
+  "id": "new-c00-s01-duel-godlike",
+  "parent_id": "new-c00-s01-duel",
+  "image": "production/references/c00-s01-duel/godlike-keyframe.png",
+  "video": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
+  "caption": "In the dream, the shadow towers over him. Stone, lightning and fire make resistance feel impossible.",
+  "render_seconds": 12,
+  "render_size": [
+    1024,
+    576
+  ],
+  "imagegen_prompt": "Use case: illustration-story. Create ONE cinematic landscape 16:9 painted fantasy frame for an image-to-video dream battle. Image 1 is the continuity/style/character reference; Image 2 is the exact sword design reference. New shot in the SAME reflective black celestial hall with fine gold floor lines, immense dark pillars, blue nebula sky, white floor mist. Wide low-angle full-body composition: ARIN on the LEFT is a NORMAL ADULT paladin in battered white/navy/gold armor, brown hair, blue star chest jewel, cyan straight sword held in his RIGHT hand, and blue-white kite shield with gold sun/star emblem strapped visibly on his LEFT FOREARM IN FRONT OF HIS CHEST. Show him three-quarter side facing right, knees bent and shield raised, small but clearly readable in lower-left. KAEL on the RIGHT is now a gigantic nightmare version, physically THREE TIMES ARIN'S HEIGHT even though farther from the camera. He towers over Arin, entire tall slim athletic body in frame, long hair silhouette and angular shoulder outline like reference 1, calm composed upright posture. IMPORTANT: Kael's entire body and face are a SOLID OPAQUE BLACK SILHOUETTE with only a thin cool rim outline, NO VISIBLE facial features, skin, eye glow, armor detail or silver hair surfaces. Preserve the human shape, don't turn him into a monster or give him horns. Only HIS SWORD is clearly illuminated and richly detailed: violet starfield straight blade, ornate crescent guard circling a bright four-point violet star, dark grip and pointed pommel EXACTLY like reference 2, held casually in his right hand pointed downward beside his thigh. His empty left hand is slightly raised toward Arin and THREE jagged heavy stone boulders hover beside that hand, preparing to hurl them at Arin; they are clearly solid rock, not planets, not tiny particles. Open space between fighters for spells. Kael radiates effortless overwhelming power; adult Arin looks dwarfed and vulnerable. Deep dimensional painted detail consistent with reference, dramatic cold backlight, readable weapons and silhouette, no title or text, no split panels, no lightning or fire yet. Do not reuse equal-sized combatants or sword-lock pose; this is a new wider shot.",
+  "negative_prompt": "visible face on the giant, glowing eyes, facial features, pale skin on the giant, giant becoming normal size, Kael hurt or falling, Arin winning, equal power, superhero costume, shield on back, extra limbs, duplicate fighters, gore, blood, text, captions, dialogue, voices, music, slow motion",
+  "seed": 20260916936,
+  "motion_prompt": "Twelve-second cinematic dark-fantasy dream action, landscape 16:9. Animate the exact supplied image. Low wide camera holds both characters and the gap clearly in frame. Arin LEFT is an adult white/navy/gold armored paladin, cyan sword RIGHT hand, kite shield attached LEFT forearm in FRONT of his chest. Kael RIGHT is a towering giant three times Arin's height, a completely OPAQUE BLACK human silhouette with long hair outline. His face has NO visible features even during magic flashes. Only his RIGHT-hand violet starfield sword and circular four-point star guard are illuminated. His LEFT empty hand casts all attacks. The enormous Kael is relaxed, invulnerable, barely moving, toying with Arin. Arin is desperately outmatched. Keep the blue celestial pillar hall and reflective black floor. RAPID SUCCESSION, no long windups: At 0-2 seconds Kael casually flicks his left palm and the three hovering BOULDERS race RIGHT TO LEFT, smashing into Arin's raised shield and the floor at his feet with heavy flying rock fragments. Arin staggers backward. Immediately at 2-4 seconds a jagged BLUE-WHITE LIGHTNING BOLT shoots from Kael's LEFT palm RIGHT TO LEFT directly into Arin's shield in two violent pulses, forcing Arin onto one knee. Immediately at 4-7 seconds Kael casts a bright ORANGE FIREBALL from the SAME left palm RIGHT TO LEFT. It slams into Arin's shield and erupts into a huge fiery blast that physically THROWS ONLY ARIN OFF HIS FEET BACKWARD; Arin lands hard on his back/side and slides along the floor, sword and shield still held. Kael NEVER recoils, falls or takes damage. At 7-9 seconds Arin painfully rises to one knee behind his shield in the left foreground, clearly defeated, while the smoke disperses. Kael casually ends the lesson: his giant black body and violet sword rapidly SHRINK together to NORMAL HUMAN PROPORTIONS while receding supernaturally into the FAR RIGHT DISTANCE in a narrow white shimmer. By 10 seconds he is a tiny normal-sized shadow standing far away beside a vertical white light. Hold last two seconds on Arin left foreground kneeling, distant tiny Kael right, blue hall restored for the cut to the next wide shot. Visible boulders, then electrical bolts, then orange fire must be DISTINCT sequential attacks visibly originating from Kael and hitting Arin. No slow motion. Sound: rapid rock rush and crushing impacts, two fierce electrical cracks, explosive fire whoosh and shield hit, armor clatter on floor, magical shimmer then dream wind. No voices, dialogue, music, words or blood.",
+  "art": "A giant concealed Kael towers over Arin in a celestial dream hall, floating boulders above his casting hand.",
+  "prompt_id": "f0ff487c-0c6e-4009-8bbd-398af03e940a",
+  "shots": [
+    {
+      "id": "new-c00-s01-duel-godlike-rocks",
+      "image": "production/references/c00-s01-duel/godlike-keyframe.png",
+      "render_seconds": 8,
+      "seed": 202609160936,
+      "motion_prompt": "Cinematic painted dark-fantasy dream battle, landscape 16:9, natural fast action and coherent physics. Continue the supplied exact frame and preserve both character designs and their positions: adult Arin LEFT, towering giant black silhouette Kael RIGHT, physically three times Arin's standing height throughout. Kael is invulnerable, utterly calm and barely moves except his casting hand. His entire body and face stay opaque pitch black even in magical flashes, with a narrow rim outline, long hair silhouette, no visible features. His RIGHT hand casually holds the clearly visible violet starfield sword with its ornate circular four-point star guard. His LEFT empty hand casts every spell. Arin is a normal adult in battered white/navy/gold plate, short brown hair, cyan sword in his RIGHT hand and white-blue kite shield with gold star on his LEFT forearm in FRONT of his body. ONLY Arin is hit and knocked down. Arin never attacks with magic. Keep the cosmic blue black pillar hall, reflective black floor and golden floor lines. Both fighters remain readable in frame. Eight seconds. Low wide camera, subtle forward tracking. First second the three huge rocks hover above Kael's raised left palm. With a tiny lazy flick, Kael hurls the boulders violently RIGHT TO LEFT at Arin in rapid succession. At seconds 2-3 the first boulder SLAMS directly into Arin's raised shield and bursts into heavy fragments, physically shoving Arin backward. The next rock hits the floor by his feet, exploding into a shower of solid debris. At seconds 4-5 a third rock strikes his guard and knocks ARIN onto one knee, shield still on his left arm. Kael remains completely unmoved, huge and relaxed. Last two seconds Arin painfully regains a low defensive crouch while the dust settles; Kael extends his empty casting hand toward him. No teleport yet. Audio: sharp rushing stones, three heavy crunching impacts, armor clatter and crumbling rubble, low dream wind. No voices, music or dialogue.",
+      "prompt_id": "9aa9a5c1-2576-48b4-895b-ee6217cb43be"
+    }
+  ],
+  "selected_source": "production/render-sources/new-c00-s01-duel-godlike-edit.mp4",
+  "edit_segments": [
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-godlike-rocks.mp4",
+      "start_frame": 78,
+      "end_frame_exclusive": 150
+    },
+    {
+      "source": "production/renders/clips/new-c00-s01-duel-godlike.mp4",
+      "start_frame": 48,
+      "end_frame_exclusive": 264
+    }
+  ],
+  "final_frames": 288,
+  "final_seconds": 12,
+  "final_sha256": "e70c83664f8816892332f4db2fdf987c28ee97e91a79dc0ce9cf624bc1d623da"
+}

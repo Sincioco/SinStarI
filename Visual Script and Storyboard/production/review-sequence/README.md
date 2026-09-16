@@ -6,17 +6,24 @@ play the finished movie. Closing the window leaves the background render running
 opening it again shows the current progress. The renderer never uploads files.
 
 The delivered output is `asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4`.
-The default review contains every one of the 136 website preview clips: a
+The default review contains every one of the 137 website preview clips: a
 two-second still poster, animated poster, story scenes in Storyboard order,
 alternate takes immediately beside their original, optional scenes, seven cast
 animations, and 18 seconds of illustrated credits. Existing edited films are not
 duplicated inside the review. The complete frame is preserved with letterboxing.
 
-The 14-second C00-S01 dream duel is clip 3, immediately before Wide / Unreachable.
-Its opponent stays silhouetted; the visible violet sword is a later recognition
-clue. The current JSON includes it in both live playback and the next movie render.
-The previously rendered full review MP4 predates this addition and must be rendered
-again to include it.
+The 14-second C00-S01 dream duel is clip 3. Its 12-second **Clip 2 / Godlike** variation
+is clip 4, immediately before Wide / Unreachable. The enlarged shadow hurls rocks,
+lightning and fire at Arin, then shrinks into the distance. Both clips conceal the
+opponent's identity while preserving the violet sword as a later recognition clue.
+The current JSON includes both in live playback and the next movie render. The
+previously rendered full review MP4 predates these additions and must be rendered
+again to include them.
+
+Review controls use the shared light/dark theme colors. The header keeps its shared
+button styling; the review stylesheet owns only workspace controls. September 16's
+fixed-dark-background regression was checked in Chrome through a light/dark/light
+cycle and is covered by the focused theme-control check in `validate_draft3.py`.
 
 ## Play and review immediately
 

@@ -944,6 +944,14 @@
     "sha256": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f"
   },
   {
+    "id": "new-c00-s01-duel-godlike",
+    "status": "pending",
+    "file": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Godlike - Clip 2",
+    "description": "In the dream, the shadow towers over him. Stone, lightning and fire make resistance feel impossible.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "e70c83664f8816892332f4db2fdf987c28ee97e91a79dc0ce9cf624bc1d623da"
+  },
+  {
     "id": "new-c00-s01-dream",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

@@ -1,7 +1,7 @@
 # C00-S01 — The Concealed Opponent
 
 The delivered edit is **14 seconds**, 336 frames at 24 fps, landscape 16:9.
-It plays as clip 3, immediately before **Wide / Unreachable**, and appears before
+It plays as clip 3, followed by its new **Godlike** variation and **Wide / Unreachable**, and appears before
 that illustration in both Script and Storyboard. The existing wide clip is unchanged.
 
 ## Story and continuity
@@ -52,3 +52,35 @@ full review MP4 and its upload checkpoint remain separate from this clip deliver
 The new preview is pending YouTube upload; no upload was attempted during this task.
 
 No .NET rebuild or server restart is required. Use Ctrl+F5 in the browser.
+
+## Clip 2 — Godlike (September 16)
+
+Sin approved the new giant-Kael starting image in
+`references/c00-s01-duel/godlike-keyframe.png`. It was generated with the built-in
+image tool using the accepted duel artwork and supplied front sword reference.
+The original illustration and Clip 1 remain unchanged.
+
+The new **12-second**, 288-frame, 24 fps variation shows a towering concealed
+opponent hurling boulders, striking Arin with lightning and blasting him off his
+feet with fire. The shadow remains composed, then shrinks and recedes into the
+distance while Arin recovers. Its violet sword remains the recognition clue.
+This is visual foreshadowing of Aevos; the early dream's cause remains unexplained
+in the script. C04-S03 still establishes Kael's later deliberate contact/training.
+
+- Final local file: `../asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4`.
+- [Image prompt, LTX prompts, receipts, checksum and edit list](c00-s01-godlike.json).
+- First take supplies lightning, fire, the knockdown and shrinking retreat.
+  A focused second take supplies rocks visibly traveling toward Arin; the first
+  take's weaker falling-rock opening is excluded. The edit has one deliberate cut.
+- Both shots were appended to ComfyUI's existing queue and completed successfully.
+  Their API/UI workflows and history receipts are preserved; MP4 sources stay local.
+- Script and Storyboard expose Clip 1 / Clip 2 with the existing shared Remember
+  preference. Neither the default nor an existing remembered selection was changed.
+- Live Sequence Review lists **Clip 2 / Godlike as clip 4**, followed by Unreachable
+  as clip 5. Its JSON entry is also included in the next full review render.
+- Reviewed sampled frames of both takes and the final edit. The final H.264/AAC
+  preview is exactly 960 × 540 (16:9), fully decodes, and retains generated audio.
+  Site, preview interaction and live-player checks pass with 137 clips.
+
+The new clip is pending YouTube upload alongside the existing backlog. The full
+review movie has not been rendered again as part of this clip request.

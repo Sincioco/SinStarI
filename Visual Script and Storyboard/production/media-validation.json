@@ -1827,5 +1827,19 @@
     "peak_dbfs": -0.9,
     "mean_dbfs": -21.9,
     "source_audio_present": true
+  },
+  {
+    "id": "new-c00-s01-duel-godlike",
+    "sha256": "e70c83664f8816892332f4db2fdf987c28ee97e91a79dc0ce9cf624bc1d623da",
+    "duration": 12.01,
+    "width": 960,
+    "height": 540,
+    "bytes": 3712771,
+    "status": "Passed",
+    "full_decode": true,
+    "audio_streams": 1,
+    "peak_dbfs": 0.0,
+    "mean_dbfs": -11.6,
+    "source_audio_present": true
   }
 ]
