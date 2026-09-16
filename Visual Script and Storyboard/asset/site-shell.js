@@ -1,8 +1,8 @@
-/* Shared theme, scene navigation and reading-position links for both views. */
+/* Shared theme and navigation; reading-position links belong to Script and Storyboard. */
 (() => {
   const themeButton = document.getElementById('site-theme-toggle');
   const printButton = document.getElementById('site-print');
-  const tabs = [...document.querySelectorAll('[data-view][href]')];
+  const tabs = [...document.querySelectorAll('[data-view="script"][href], [data-view="storyboard"][href]')];
   const sceneLinks = [...document.querySelectorAll('[data-scene-link]')];
   const scenes = sceneLinks.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean);
   let currentScene = null;
@@ -17,7 +17,7 @@
       if (!raw || raw.startsWith('#')) return;
       const target = new URL(raw, location.href);
       if (target.origin !== location.origin) return;
-      if (!/\/(index|movies|Sin-Star-I-Game-Script-v0\.2)\.html$/.test(target.pathname)) return;
+      if (!/\/(index|movies|review|Sin-Star-I-Game-Script-v0\.2)\.html$/.test(target.pathname)) return;
       target.searchParams.set('theme', theme);
       link.href = target.href;
     });

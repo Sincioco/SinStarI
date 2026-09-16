@@ -86,6 +86,15 @@ def validate():
     assert board_nav.count('data-scene-link') == 53
     headers = [re.search(r'<header class="site-header">.*?</header>', sources[n], re.S).group(0) for n in ('index.html', SCRIPT)]
     assert headers[0].replace(' aria-current="page"', '') == headers[1].replace(' aria-current="page"', '')
+    expected_tabs = [('Script', SCRIPT), ('Storyboard', 'index.html'), ('Video Clips', 'review.html')]
+    for name, active in [('index.html', 'storyboard'), (SCRIPT, 'script'), ('movies.html', None), ('review.html', 'clips')]:
+        nav = next(node for node in docs[name].nodes if node.attrs.get('class') == 'view-tabs')
+        links = [node for node in descendants(nav) if node.tag == 'a']
+        assert [(node.plain(), node.attrs['href']) for node in links] == expected_tabs, (name, 'view navigation')
+        assert [node.attrs['data-view'] for node in links if node.attrs.get('aria-current') == 'page'] == ([active] if active else [])
+        # The shared shell accesses both controls at startup, including on the review page.
+        assert docs[name].by_id('site-theme-toggle').tag == 'button'
+        assert docs[name].by_id('site-print').tag == 'button'
     assert all(docs[name].by_id('site-audio-toggle').tag == 'button' for name in ('index.html', SCRIPT, 'movies.html'))
     review = docs['review.html']
     for control in ('clip-volume', 'music-volume', 'master-volume', 'mute-clip', 'review-layout', 'settings-status'):

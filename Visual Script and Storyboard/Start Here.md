@@ -12,13 +12,15 @@ You can also open **[index.html](index.html)** directly for offline reading and 
 video previews. Keep the folders together. Embedded YouTube playback requires the
 local launcher (or another HTTP/HTTPS host) and an internet connection.
 
-## Two views, one story
+## Three views, one story
 
 - **[Storyboard](index.html)** — 121 individual illustrations with dialogue.
+- **[Video Clips](review.html)** — Live Sequence Review with immediate playback,
+  scene notes, movable panels and saved review settings.
 - **[Script](Sin-Star-I-Game-Script-v0.2.html)** — the complete accepted script,
   with the game poster below its title, seven cast portraits, and illustrations
   placed at the matching story beats.
-- Both views share the same header, chapter navigation, scene search, light/dark
+- Script and Storyboard share the same header, chapter navigation, scene search, light/dark
   theme switch and Print control. Switching views keeps the current scene.
 - The selected theme follows links between views, even when a browser restricts
   saved preferences for local files.
