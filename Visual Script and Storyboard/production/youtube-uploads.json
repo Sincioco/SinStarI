@@ -937,19 +937,29 @@
   },
   {
     "id": "new-c00-s01-duel",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
     "title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Effortless",
     "description": "Every attack becomes another lesson. Only the sword gives him something to remember.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f"
+    "sha256": "1d3055ef2c4a323d6328dca01eacf7fff23b8fccee6d5b9e5b21c1976d600b0f",
+    "youtube_id": "ymJ5AavCPk8",
+    "url": "https://youtu.be/ymJ5AavCPk8",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:24:12.193557+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c00-s01-duel-godlike",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
     "title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Godlike - Clip 2",
     "description": "In the dream, the shadow towers over him. Stone, lightning and fire make resistance feel impossible.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "a6c421d9070756d67405b508efa97b8e8410d09888d0f6f28a3c620131b896d2"
+    "sha256": "a6c421d9070756d67405b508efa97b8e8410d09888d0f6f28a3c620131b896d2",
+    "youtube_id": "DWaVpMgKbaw",
+    "url": "https://youtu.be/DWaVpMgKbaw",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:24:12.193557+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c00-s01-dream",
@@ -1239,275 +1249,445 @@
   },
   {
     "id": "new-c05-s04",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C05-S04 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 05 - What We Blame - C05-S04 - Cinematic / Character Moment",
     "description": "Repair begins with holding steady.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "2fcd5cd64792cc6ce5b18b5d7387bfc7ed4674b4a9eee3b24679add8d9ac2198"
+    "sha256": "2fcd5cd64792cc6ce5b18b5d7387bfc7ed4674b4a9eee3b24679add8d9ac2198",
+    "youtube_id": "zLJMJml7FFs",
+    "url": "https://youtu.be/zLJMJml7FFs",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:24:12.193557+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c05-s05",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C05-S05 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 05 - What We Blame - C05-S05 - Cinematic / Character Moment",
     "description": "Even he cannot promise who survives.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "4e356089a09a582987927dd9b9c7879cd90cd77782b4a02f47c831e0cb38071c"
+    "sha256": "4e356089a09a582987927dd9b9c7879cd90cd77782b4a02f47c831e0cb38071c",
+    "youtube_id": "5IVk1_wzMO8",
+    "url": "https://youtu.be/5IVk1_wzMO8",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:24:12.193557+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s01",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S01 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S01 - Cinematic / Character Moment",
     "description": "Bring what is needed today.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "f59849999c1b2828f2a01a789eee91832487c6629d0d1ba8b18d5ca0c2b001b9"
+    "sha256": "f59849999c1b2828f2a01a789eee91832487c6629d0d1ba8b18d5ca0c2b001b9",
+    "youtube_id": "O3ldAHpcb5g",
+    "url": "https://youtu.be/O3ldAHpcb5g",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:04.191619+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s02",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S02 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S02 - Cinematic / Character Moment",
     "description": "A door that still opens for him.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "08ee7fd25e071487475ee94dc005fe0f5991e3b6935ec5c36539bced0ebed3dd"
+    "sha256": "08ee7fd25e071487475ee94dc005fe0f5991e3b6935ec5c36539bced0ebed3dd",
+    "youtube_id": "s4kuIpmK9Yo",
+    "url": "https://youtu.be/s4kuIpmK9Yo",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:04.191619+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s03",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S03 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S03 - Cinematic / Character Moment",
     "description": "Distance did not end their love.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "e56b81e3a9a71b2a47fcba360e3737e1a913cdbb932fa1958184135671798194"
+    "sha256": "e56b81e3a9a71b2a47fcba360e3737e1a913cdbb932fa1958184135671798194",
+    "youtube_id": "7GrsD6oTrQc",
+    "url": "https://youtu.be/7GrsD6oTrQc",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:04.191619+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s04",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S04 - Cinematic - Character Moment.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S04 - Cinematic / Character Moment",
     "description": "He stays. The answer can wait.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "dbca80bdb28d3c27d9e2892c207792cb6ed0b3c510fefbe57ca5c0a5fa85b61d"
+    "sha256": "dbca80bdb28d3c27d9e2892c207792cb6ed0b3c510fefbe57ca5c0a5fa85b61d",
+    "youtube_id": "Kw0uu-MNPw0",
+    "url": "https://youtu.be/Kw0uu-MNPw0",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:04.191619+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s05",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S05 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S05 - Cinematic / Discovery And Connection",
     "description": "Evidence must reach someone who can act.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "62e33775c314a7dd5b4a42c2156b20d8b3aa56b7bfe0f0ada362f9fac925126c"
+    "sha256": "62e33775c314a7dd5b4a42c2156b20d8b3aa56b7bfe0f0ada362f9fac925126c",
+    "youtube_id": "HWPF1OAKQnQ",
+    "url": "https://youtu.be/HWPF1OAKQnQ",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:04.191619+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c06-s06",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C06-S06 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 06 - The Village That Ate - C06-S06 - Cinematic / Discovery And Connection",
     "description": "A reply worth carrying.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "e611795d83bd16de60890cb29b39eddfdaa58b4e667e9db3cf5755d5aa5d4044"
+    "sha256": "e611795d83bd16de60890cb29b39eddfdaa58b4e667e9db3cf5755d5aa5d4044",
+    "youtube_id": "ToDlttQhBBY",
+    "url": "https://youtu.be/ToDlttQhBBY",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:58.913897+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s01",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S01 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S01 - Cinematic / Discovery And Connection",
     "description": "A world he remembers loving.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "5bf9837bbcd706fa87d1a08f90f27fe59209d5e4570df16b3321065bc13a6c3f"
+    "sha256": "5bf9837bbcd706fa87d1a08f90f27fe59209d5e4570df16b3321065bc13a6c3f",
+    "youtube_id": "mZkvrhdBz2w",
+    "url": "https://youtu.be/mZkvrhdBz2w",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:58.913897+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s02",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S02 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S02 - Cinematic / Discovery And Connection",
     "description": "Nine centuries still count.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "5f41698c3ceae1d90637e0bd2db6a5e678277a468706544ea622e7dcd7cd61e0"
+    "sha256": "5f41698c3ceae1d90637e0bd2db6a5e678277a468706544ea622e7dcd7cd61e0",
+    "youtube_id": "YF1S_CgxlxQ",
+    "url": "https://youtu.be/YF1S_CgxlxQ",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:58.913897+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s03",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S03 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S03 - Cinematic / Discovery And Connection",
     "description": "The sky has been started again.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "c088a32cab53207bcc2804fe020e6770ba2ad668898268caf40f8818d072544c"
+    "sha256": "c088a32cab53207bcc2804fe020e6770ba2ad668898268caf40f8818d072544c",
+    "youtube_id": "Is7iT05NsJQ",
+    "url": "https://youtu.be/Is7iT05NsJQ",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:58.913897+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s03-trace",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S03_Clip2 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S03 - Cinematic / Discovery And Connection - 2",
     "description": "A trace is not a life they can return.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "519e63fab2631787565b2ff879c2f000348a7846a669ac5dafba1d5a7d4b71cf"
+    "sha256": "519e63fab2631787565b2ff879c2f000348a7846a669ac5dafba1d5a7d4b71cf",
+    "youtube_id": "yXncC3h-CTY",
+    "url": "https://youtu.be/yXncC3h-CTY",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:25:58.913897+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c08-s01",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C08-S01 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 08 - The Door That Listens - C08-S01 - Cinematic / The Origin",
     "description": "A way home, tested before the leap.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "ecf56a4de1a59d577476916252aad4d287027843550cd1a836f1602c6b425696"
+    "sha256": "ecf56a4de1a59d577476916252aad4d287027843550cd1a836f1602c6b425696",
+    "youtube_id": "vEdUOueRSZk",
+    "url": "https://youtu.be/vEdUOueRSZk",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:26:14.852383+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c08-s02",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C08-S02 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 08 - The Door That Listens - C08-S02 - Cinematic / The Origin",
     "description": "Every moment happened to someone.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "dd366fe4fbd24513aedcd302613cc55785a699eaee81660f0cb7b0413b297987"
+    "sha256": "dd366fe4fbd24513aedcd302613cc55785a699eaee81660f0cb7b0413b297987",
+    "youtube_id": "h1tm0BsRT4I",
+    "url": "https://youtu.be/h1tm0BsRT4I",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:28:45.775648+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c08-s03",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C08-S03 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 08 - The Door That Listens - C08-S03 - Cinematic / The Origin",
     "description": "He changes where the power goes.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "14da9826c6bfa7cc25328c14fef88da61db7c91910781e4598ee6fc66bfb8be9"
+    "sha256": "14da9826c6bfa7cc25328c14fef88da61db7c91910781e4598ee6fc66bfb8be9",
+    "youtube_id": "gjtLQq_JMxI",
+    "url": "https://youtu.be/gjtLQq_JMxI",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:28:45.775648+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c08-s04",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C08-S04 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 08 - The Door That Listens - C08-S04 - Cinematic / The Origin",
     "description": "An invitation that feels like a command.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "a088e406d514578d300653732344517ffd93d05b719c74f2592962694a5c502c"
+    "sha256": "a088e406d514578d300653732344517ffd93d05b719c74f2592962694a5c502c",
+    "youtube_id": "cXqMte2kQJA",
+    "url": "https://youtu.be/cXqMte2kQJA",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:28:45.775648+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s01",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C09-S01 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 09 - The Origin - C09-S01 - Cinematic / The Origin",
     "description": "The maker and the machinery are different.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "d0a0d8c93575ae299b4c0bc9cb3d2c02261d6f7bfa5991439f4ad89122599189"
+    "sha256": "d0a0d8c93575ae299b4c0bc9cb3d2c02261d6f7bfa5991439f4ad89122599189",
+    "youtube_id": "-cFexvVc7GI",
+    "url": "https://youtu.be/-cFexvVc7GI",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:28:45.775648+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s02",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C09-S02 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 09 - The Origin - C09-S02 - Cinematic / The Origin",
     "description": "The witness has not finished speaking.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "ff7981ecf755d60583a6f3c06d98a06d1ce2f2d95c93effc175018b8a01b934d"
+    "sha256": "ff7981ecf755d60583a6f3c06d98a06d1ce2f2d95c93effc175018b8a01b934d",
+    "youtube_id": "5Kpnyq3osNw",
+    "url": "https://youtu.be/5Kpnyq3osNw",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:29:34.716517+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s03",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C09-S03 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 09 - The Origin - C09-S03 - Cinematic / The Origin",
     "description": "No one becomes expendable.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "69f303b1a6acd8ae85f3c750054d040a7a42b07df34182473589c1f7914447e3"
+    "sha256": "69f303b1a6acd8ae85f3c750054d040a7a42b07df34182473589c1f7914447e3",
+    "youtube_id": "LXpltYUrfK8",
+    "url": "https://youtu.be/LXpltYUrfK8",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:29:34.716517+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s05",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C09-S05 - Cinematic - Lives Worth Keeping.mp4",
     "title": "Sin Star I - Chapter 09 - The Origin - C09-S05 - Cinematic / Lives Worth Keeping",
     "description": "Hold the crossing. Keep the worlds alive.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "4f8a66c866a99872b082b3743a74ad56a578c93439f36d1f9952d03c2e7019a8"
+    "sha256": "4f8a66c866a99872b082b3743a74ad56a578c93439f36d1f9952d03c2e7019a8",
+    "youtube_id": "biiTtpDql3Q",
+    "url": "https://youtu.be/biiTtpDql3Q",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:29:34.716517+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-e01-s01",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/E01-S01 - Cinematic - Lives Worth Keeping.mp4",
     "title": "Sin Star I - Epilogue - The Lives They Kept - E01-S01 - Cinematic / Lives Worth Keeping",
     "description": "Kinship, without a promise.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "86a675d95e710a8229a3f04abff7181c733cc853d3601c7e95dfc2b5fa92b72c"
+    "sha256": "86a675d95e710a8229a3f04abff7181c733cc853d3601c7e95dfc2b5fa92b72c",
+    "youtube_id": "TtAVdaaQZMU",
+    "url": "https://youtu.be/TtAVdaaQZMU",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:29:34.716517+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-e01-s02",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/E01-S02 - Cinematic - Lives Worth Keeping.mp4",
     "title": "Sin Star I - Epilogue - The Lives They Kept - E01-S02 - Cinematic / Lives Worth Keeping",
     "description": "He found the way back.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "f18de99bf4422778ba4dcd378af1c4ee509d5e2fc725b9567d937d41504f02a3"
+    "sha256": "f18de99bf4422778ba4dcd378af1c4ee509d5e2fc725b9567d937d41504f02a3",
+    "youtube_id": "E0CIXtoAeX8",
+    "url": "https://youtu.be/E0CIXtoAeX8",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:31.625914+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s04",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S04 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S04 - Cinematic / Discovery And Connection",
     "description": "The answer becomes a plan.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "df2c3fdad13b980abde1088d6af1057f2ae317eb583b25adca12962e6e108da4"
+    "sha256": "df2c3fdad13b980abde1088d6af1057f2ae317eb583b25adca12962e6e108da4",
+    "youtube_id": "fwkEJx9Ftu0",
+    "url": "https://youtu.be/fwkEJx9Ftu0",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:31.625914+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c07-s05",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C07-S05 - Cinematic - Discovery And Connection.mp4",
     "title": "Sin Star I - Chapter 07 - A World Worth Keeping - C07-S05 - Cinematic / Discovery And Connection",
     "description": "A serious conversation.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "0bc41e0d14b23c8b3bdd0ec7aab45e0cb0c1611c0b95cf3f3970f020901cbdf7"
+    "sha256": "0bc41e0d14b23c8b3bdd0ec7aab45e0cb0c1611c0b95cf3f3970f020901cbdf7",
+    "youtube_id": "UZzMqfScXv0",
+    "url": "https://youtu.be/UZzMqfScXv0",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:31.625914+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s04",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/C09-S04 - Cinematic - The Origin.mp4",
     "title": "Sin Star I - Chapter 09 - The Origin - C09-S04 - Cinematic / The Origin",
     "description": "An opening they still have to earn.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "2c9fc2d1df9e018542d4f325af4ec9e93ed85f34f1d97b3fab968c703d77afbc"
+    "sha256": "2c9fc2d1df9e018542d4f325af4ec9e93ed85f34f1d97b3fab968c703d77afbc",
+    "youtube_id": "PVWYyjfRaDA",
+    "url": "https://youtu.be/PVWYyjfRaDA",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:31.625914+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-e01-s03",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/E01-S03 - Cinematic - Lives Worth Keeping.mp4",
     "title": "Sin Star I - Epilogue - The Lives They Kept - E01-S03 - Cinematic / Lives Worth Keeping",
     "description": "At last, a place among them.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "ab3917e9f38daedf8a0c0275f451c8adc510bae9a726e3efb2846f045304cfa2"
+    "sha256": "ab3917e9f38daedf8a0c0275f451c8adc510bae9a726e3efb2846f045304cfa2",
+    "youtube_id": "9Nx6YDue11E",
+    "url": "https://youtu.be/9Nx6YDue11E",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:31.625914+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "poster",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/POSTER - Sin Star I - Game Poster.mp4",
     "title": "Sin Star I - Game Poster - POSTER - Sin Star I - Game Poster",
     "description": "Sin Star I — A Universe Worth Fighting For\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "2a3e2159e1de8bff0f84a88ede0b6d4c5107ca8959807f444a6f816bc7c1aebc"
+    "sha256": "2a3e2159e1de8bff0f84a88ede0b6d4c5107ca8959807f444a6f816bc7c1aebc",
+    "youtube_id": "VG4tgFEFTS0",
+    "url": "https://youtu.be/VG4tgFEFTS0",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:58.800513+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-arin",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Arin - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Arin - Character Portrait",
     "description": "Arin — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "01c6f2bc1f70b56bc0ef2f15f3dbed67bb4532800602153c377904b0851f7360"
+    "sha256": "01c6f2bc1f70b56bc0ef2f15f3dbed67bb4532800602153c377904b0851f7360",
+    "youtube_id": "wbiWj5taZiM",
+    "url": "https://youtu.be/wbiWj5taZiM",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:30:58.800513+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-mira",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Mira - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Mira - Character Portrait",
     "description": "Mira — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "a5cc751eb7cb449c9c72b500fdf67a9f9843abac0c60f70bdec12d41b591ebad"
+    "sha256": "a5cc751eb7cb449c9c72b500fdf67a9f9843abac0c60f70bdec12d41b591ebad",
+    "youtube_id": "eoKvKnBfxyY",
+    "url": "https://youtu.be/eoKvKnBfxyY",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:33:15.991296+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-orin",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Orin - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Orin - Character Portrait",
     "description": "Orin — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "935725ff13f4c703ad2ccb862deb294a7087b357925d3ad7b4ec8c68fcc7832d"
+    "sha256": "935725ff13f4c703ad2ccb862deb294a7087b357925d3ad7b4ec8c68fcc7832d",
+    "youtube_id": "YEPibS0OFFE",
+    "url": "https://youtu.be/YEPibS0OFFE",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:34:14.034722+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-zara",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Zara - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Zara - Character Portrait",
     "description": "Zara — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "0b34d7997cdd5fc0179bdf70b30ea2d813184c115c45b2bc0bb5afd9aeb8c605"
+    "sha256": "0b34d7997cdd5fc0179bdf70b30ea2d813184c115c45b2bc0bb5afd9aeb8c605",
+    "youtube_id": "NzSSlwgcYe0",
+    "url": "https://youtu.be/NzSSlwgcYe0",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:34:14.034722+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-milo",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Milo - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Milo - Character Portrait",
     "description": "Milo — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "c63bee4e6c27e312d86fbfd9c32c2f3ed4db1c9481aadc02d0b6a38771a8d1b4"
+    "sha256": "c63bee4e6c27e312d86fbfd9c32c2f3ed4db1c9481aadc02d0b6a38771a8d1b4",
+    "youtube_id": "iM5YT-G7gwI",
+    "url": "https://youtu.be/iM5YT-G7gwI",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:34:14.034722+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-kael",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Kael - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Kael - Character Portrait",
     "description": "Kael — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "a95400df07953962602453d601d717184c68991fd5b21a20f86abae5c7e43824"
+    "sha256": "a95400df07953962602453d601d717184c68991fd5b21a20f86abae5c7e43824",
+    "youtube_id": "Mickjudcf1M",
+    "url": "https://youtu.be/Mickjudcf1M",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:35:39.335806+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "cast-aevos",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/hover/CAST - Aevos - Character Portrait.mp4",
     "title": "Sin Star I - Cast - CAST - Aevos - Character Portrait",
     "description": "Aevos — Character Portrait\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "07d1afa5ec202b3616ececddc6a3b4a9de8224e8edffae64b12a154756dddcdb"
+    "sha256": "07d1afa5ec202b3616ececddc6a3b4a9de8224e8edffae64b12a154756dddcdb",
+    "youtube_id": "jIOqv-nN8WE",
+    "url": "https://youtu.be/jIOqv-nN8WE",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-16T22:35:39.335806+00:00",
+    "verified_via": "YouTube Studio UI"
   },
   {
     "id": "new-c09-s03-planet",
@@ -1642,12 +1822,16 @@
   {
     "id": "film-sequence-review",
     "kind": "film",
-    "status": "pending",
+    "status": "uploaded",
     "file": "asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4",
-    "title": "Sin Star I | Story Video Sequence Review",
-    "description": "All 135 storyboard preview clips in order, with scene notes and quieter background music.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
-    "sha256": "65dece09885dc61bff90ffbbbda8fab9395766fec230ffc42280e0100f135668",
-    "visibility": "unlisted",
-    "pending_reason": "YouTube daily upload limit; resume with remaining website uploads."
+    "title": "Sin Star I Story Video Sequence Review",
+    "description": "All 137 storyboard preview clips in order, with scene notes and quieter background music.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "5bde6f8d0e24a9094440bdeed5362dbdd87f3536deec49501540d33e604154f4",
+    "visibility": "public",
+    "youtube_id": "OkQiFzdy1kk",
+    "url": "https://youtu.be/OkQiFzdy1kk",
+    "verified_at": "2026-09-16T22:35:39.336812+00:00",
+    "verified_via": "YouTube Studio UI; existing upload matched by source filename and displayed 11:48 duration",
+    "existing_upload": true
   }
 ]

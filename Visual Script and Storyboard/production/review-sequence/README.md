@@ -16,9 +16,11 @@ The 14-second C00-S01 dream duel is clip 3. Its 12-second **Clip 2 / Godlike** v
 is clip 4, immediately before Wide / Unreachable. The enlarged shadow hurls rocks,
 lightning and fire at Arin, then shrinks into the distance. Both clips conceal the
 opponent's identity while preserving the violet sword as a later recognition clue.
-The current JSON includes both in live playback and the next movie render. The
-previously rendered full review MP4 predates these additions and must be rendered
-again to include them.
+The current JSON includes both in live playback. The 11:48 full review rendered
+on September 16 includes all 137 clips and passed validation against the current
+local settings on September 17. Its existing YouTube upload is
+[Story Video Sequence Review](https://youtu.be/OkQiFzdy1kk). Later settings changes
+still require another render to update the MP4.
 
 Review controls use the shared light/dark theme colors. The header keeps its shared
 button styling; the review stylesheet owns only workspace controls. September 16's
