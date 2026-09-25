@@ -1,0 +1,85 @@
+{
+  "created": "2026-09-25",
+  "method": "Built-in image_gen",
+  "view_order": [
+    "front",
+    "back",
+    "left",
+    "right"
+  ],
+  "layout": "2x2, row-major",
+  "files": [
+    {
+      "file": "01-weapon-shop.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 2314737,
+      "sha256": "cab03bf6d26eeb484f80aacc30969260395fdb596cfa45a81d3a256820259e3d"
+    },
+    {
+      "file": "02-armor-shop.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 2278071,
+      "sha256": "2d563bfea093e6646971a2c7f82eba3e44000432138307b721e95c18fb3d1880"
+    },
+    {
+      "file": "03-items-shop.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1952709,
+      "sha256": "320fe8a03767e0c324c7ad6b6726f65a555c4ecac940266812ae72193e29019e"
+    },
+    {
+      "file": "04-communication-tower.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1283351,
+      "sha256": "0b6aad2688a088348ac34224169b3db6cc6dc9ce4f39e5e910effa343b32947a"
+    },
+    {
+      "file": "05-town-hall.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 2155531,
+      "sha256": "2984e1be51d8f6be0aa949d6936f27d1edcf7a3bed35734e411c17891e3ca767"
+    },
+    {
+      "file": "06-home-cottage.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 2039238,
+      "sha256": "0a41258bdfa54fd8c3f84c14fb5775330cacd78b075b7dd78f5f659cc57d5f19"
+    },
+    {
+      "file": "07-home-family.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 2021503,
+      "sha256": "235264c57b7c05a673dcf8bf7a222a33fed885dff4d77e1e66582f9ff875fe55"
+    },
+    {
+      "file": "08-home-roundhouse.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1964410,
+      "sha256": "c80303ee29857b670d3ec6b37961d62c9a5d0ec4bf4595139cc5a71077c6f7c8"
+    }
+  ]
+}
