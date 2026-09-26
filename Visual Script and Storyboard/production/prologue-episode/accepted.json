@@ -1,0 +1,255 @@
+{
+  "episode-memory-take1": {
+    "shot": "memory",
+    "file": "production/render-sources/episode-memory-take1.mp4",
+    "review": "All three spoken lines match the independent transcription. Sampled frames retain the family and matching mouth movements. A 16:9 close crop removes incorrect model-generated lettering; no speech replacement.",
+    "video_filter": "crop=880:495:72:0,scale=1024:576:flags=lanczos,setsar=1",
+    "video": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4"
+  },
+  "episode-receding-door-take1": {
+    "shot": "receding-door",
+    "file": "production/render-sources/prologue-episode/episode-receding-door-take1.mp4",
+    "review": "Correct spoken Wait. Arin runs toward the distant portal; stable armor and cyan sword in sampled frames.",
+    "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Receding Door.mp4"
+  },
+  "episode-who-are-you-take1": {
+    "shot": "who-are-you",
+    "file": "production/render-sources/prologue-episode/episode-who-are-you-take1.mp4",
+    "review": "Exact spoken question. Concealed opponent remains distant, Arin stays in foreground. No generated captions in sampled frames.",
+    "video": "asset/videos/hover/C00-S01_Clip2 - Wide - Who Are You.mp4"
+  },
+  "episode-one-pillow-take1": {
+    "shot": "one-pillow",
+    "file": "production/render-sources/prologue-episode/episode-one-pillow-take1.mp4",
+    "review": "No speech or generated text. Arin visibly takes the spare pillow and braces the window; the room brightens toward dawn.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-one-pillow-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S01_Clip2 - Wide - One Pillow.mp4"
+  },
+  "episode-neris-issue-take1": {
+    "shot": "neris-issue",
+    "file": "production/render-sources/prologue-episode/episode-neris-issue-take1-finished.mp4",
+    "review": "Spoken words match; ASR renders the fictional name Neris as Nerys, a spelling difference. Close crop removes model-generated captions while retaining both faces and damaged plate.",
+    "scale": "Medium",
+    "original": "production/render-sources/prologue-episode/episode-neris-issue-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip2 - Medium - Neris Issue.mp4"
+  },
+  "episode-proper-work-take1": {
+    "shot": "proper-work",
+    "file": "production/render-sources/prologue-episode/episode-proper-work-take1-finished.mp4",
+    "review": "Exact spoken line, older armorer speaking. Crop removes generated captions and retains the rivet and Arin counting coins.",
+    "scale": "Medium",
+    "original": "production/render-sources/prologue-episode/episode-proper-work-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip3 - Medium - Proper Work.mp4"
+  },
+  "episode-contract-take1": {
+    "shot": "contract",
+    "file": "production/render-sources/prologue-episode/episode-contract-take1.mp4",
+    "review": "Exact complete assignment independently transcribed. Stable clerk and Arin, correct turn of the contract, no generated subtitles in sampled frames.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-contract-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip2 - Close - Contract.mp4"
+  },
+  "episode-recovery-fee-take1": {
+    "shot": "recovery-fee",
+    "file": "production/render-sources/prologue-episode/episode-recovery-fee-take1-finished.mp4",
+    "review": "Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-recovery-fee-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip3 - Close - Recovery Fee.mp4"
+  },
+  "episode-and-the-crew-take1": {
+    "shot": "and-the-crew",
+    "file": "production/render-sources/prologue-episode/episode-and-the-crew-take1-finished.mp4",
+    "review": "Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-and-the-crew-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip4 - Close - And The Crew.mp4"
+  },
+  "episode-group-contracts-take1": {
+    "shot": "group-contracts",
+    "file": "production/render-sources/prologue-episode/episode-group-contracts-take1-finished.mp4",
+    "review": "Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-group-contracts-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip5 - Close - Group Contracts.mp4"
+  },
+  "episode-join-a-group-take1": {
+    "shot": "join-a-group",
+    "file": "production/render-sources/prologue-episode/episode-join-a-group-take1-finished.mp4",
+    "review": "Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-join-a-group-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip6 - Close - Join A Group.mp4"
+  },
+  "episode-leave-it-blank-take1": {
+    "shot": "leave-it-blank",
+    "file": "production/render-sources/prologue-episode/episode-leave-it-blank-take1-finished.mp4",
+    "review": "Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-leave-it-blank-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "video": "asset/videos/hover/C00-S02_Clip7 - Close - Leave It Blank.mp4"
+  },
+  "episode-white-fire-take1": {
+    "shot": "white-fire",
+    "file": "production/render-sources/prologue-episode/episode-white-fire-take1-finished.mp4",
+    "review": "Nonverbal family laugh, no dialogue. A white flare editorial fade completes the memory rupture. No generated subtitles.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-white-fire-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1,fade=t=out:st=2.841667:d=1.0:color=white",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S01_Clip3 - Close - White Fire.mp4"
+  },
+  "episode-unspoken-sound-take1": {
+    "shot": "unspoken-sound",
+    "file": "production/render-sources/prologue-episode/episode-unspoken-sound-take1.mp4",
+    "review": "Sampled motion retains distant opponent. Voice-activity-filtered transcription finds no words; unconstrained ASR hallucinated You over the nonverbal sound. No generated subtitles.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-unspoken-sound-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Unspoken Sound.mp4"
+  },
+  "episode-ledger-strap-take1": {
+    "shot": "ledger-strap",
+    "file": "production/render-sources/prologue-episode/episode-ledger-strap-take1.mp4",
+    "review": "Arin reaches into the small keepsake box. No words in voice-activity-filtered transcription and no captions in sampled frames.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-ledger-strap-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Ledger Strap.mp4"
+  },
+  "episode-wake-take2": {
+    "shot": "wake",
+    "file": "production/render-sources/prologue-episode/episode-wake-take2.mp4",
+    "review": "Retained earlier take: correct words, but the opening is subdued. Superseded in the episode by the requested nightmare scream in take 3.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wake-take2.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": false,
+    "video": "asset/videos/hover/C00-S01_Clip4 - Wide - Wake.mp4"
+  },
+  "episode-wake-take1": {
+    "shot": "wake",
+    "file": "production/render-sources/prologue-episode/episode-wake-take1-finished.mp4",
+    "review": "Retained alternate: incorrectly speaks No softly and So do I tired and dry before the three correct lines. Do not use in the episode. Generated captions removed by a close crop.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wake-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": false,
+    "video": "asset/videos/hover/C00-S01_Clip5 - Wide - Wake.mp4"
+  },
+  "episode-ration-shared-take1": {
+    "shot": "ration-shared",
+    "file": "production/render-sources/prologue-episode/episode-ration-shared-take1.mp4",
+    "review": "No speech or captions. Female soldier shares the ration with the child while Arin walks past; stable designs in sampled frames.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-ration-shared-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S02_Clip4 - Wide - Ration Shared.mp4"
+  },
+  "episode-wrong-district-take1": {
+    "shot": "wrong-district",
+    "file": "production/render-sources/prologue-episode/episode-wrong-district-take1.mp4",
+    "review": "Guard checks permit and gestures the laborer away; Arin checks the paper and walks. No speech in voice-activity-filtered transcription; no captions in sampled frames.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wrong-district-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S02_Clip5 - Wide - Wrong District.mp4"
+  },
+  "episode-distant-disturbance-take1": {
+    "shot": "distant-disturbance",
+    "file": "production/render-sources/prologue-episode/episode-distant-disturbance-take1.mp4",
+    "review": "Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-distant-disturbance-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": false,
+    "video": "asset/videos/hover/C00-S03_Clip2 - Wide - Distant Disturbance.mp4"
+  },
+  "episode-distant-disturbance-take1-bridge": {
+    "shot": "distant-disturbance",
+    "file": "production/render-sources/prologue-episode/episode-distant-disturbance-take1-finished.mp4",
+    "review": "Corrected edit: retain town laugh and atmosphere, replace the invented final word with the exact earlier wordless dream cue. No generated captions; stable Kael design in sampled frames.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-distant-disturbance-take1.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": true,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S03_Clip3 - Wide - Distant Disturbance.mp4"
+  },
+  "episode-not-mine-take1": {
+    "shot": "not-mine",
+    "file": "production/render-sources/prologue-episode/episode-not-mine-take1-finished.mp4",
+    "review": "Exact spoken That was not mine contraction and no extra dialogue. Crop removes generated subtitles while retaining Kael and the night sky.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-not-mine-take1.mp4",
+    "video_filter": "crop=848:477:0:0,scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S03_Clip4 - Wide - Not Mine.mp4"
+  },
+  "episode-wake-take3": {
+    "shot": "wake",
+    "file": "production/render-sources/prologue-episode/episode-wake-take3.mp4",
+    "review": "Retained stronger outburst. Sin requested a still longer Nooooooooooo and visible horror from an asleep starting pose. Superseded by the next performance; original footage retained.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wake-take3.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": false,
+    "video": "asset/videos/hover/C00-S01_Clip6 - Wide - Wake.mp4"
+  },
+  "episode-wake-take4": {
+    "shot": "wake",
+    "file": "production/render-sources/prologue-episode/episode-wake-take4.mp4",
+    "review": "Sustained horrified Nooooooooooo verified by isolated opening-audio transcription. Arin bolts upright, recoils with raised hands and holds an anguished open-mouth scream before the neighbor and exact So do I reply. All sampled frames are caption-free. Original 12-second LTX audio and video retained.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wake-take4.mp4",
+    "video_filter": "scale=1024:576:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S01_Clip7 - Wide - Wake.mp4"
+  }
+}

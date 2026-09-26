@@ -1,0 +1,459 @@
+{
+  "episode-receding-door-take1": {
+    "file": "production/render-sources/prologue-episode/episode-receding-door-take1.mp4",
+    "expected": "Wait—",
+    "actual": "Wait!",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.88,
+        "text": "Wait!"
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 6.041667
+  },
+  "episode-white-fire-take1": {
+    "file": "production/render-sources/prologue-episode/episode-white-fire-take1.mp4",
+    "expected": "",
+    "actual": "Hahahaha",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Hahahaha"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 4.041667
+  },
+  "episode-who-are-you-take1": {
+    "file": "production/render-sources/prologue-episode/episode-who-are-you-take1.mp4",
+    "expected": "Who are you?",
+    "actual": "Who are you?",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "Who are you?"
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 5.041667
+  },
+  "episode-unspoken-sound-take1": {
+    "file": "production/render-sources/prologue-episode/episode-unspoken-sound-take1.mp4",
+    "expected": "",
+    "actual": "You",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "You"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 4.041667
+  },
+  "episode-wake-take1": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take1.mp4",
+    "expected": "...No. Some of us work in the morning! So do I.",
+    "actual": "No softly. So do I, tired and dry. No. Some of us work in the morning! So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "No softly."
+      },
+      {
+        "start": 2.0,
+        "end": 4.0,
+        "text": "So do I, tired and dry."
+      },
+      {
+        "start": 4.0,
+        "end": 5.0,
+        "text": "No."
+      },
+      {
+        "start": 5.0,
+        "end": 7.0,
+        "text": "Some of us work in the morning!"
+      },
+      {
+        "start": 7.0,
+        "end": 8.0,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 9.041667
+  },
+  "episode-ledger-strap-take1": {
+    "file": "production/render-sources/prologue-episode/episode-ledger-strap-take1.mp4",
+    "expected": "",
+    "actual": "You",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "You"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-one-pillow-take1": {
+    "file": "production/render-sources/prologue-episode/episode-one-pillow-take1.mp4",
+    "expected": "",
+    "actual": "",
+    "segments": [],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 6.041667
+  },
+  "episode-neris-issue-take1": {
+    "file": "production/render-sources/prologue-episode/episode-neris-issue-take1.mp4",
+    "expected": "This is Neris issue. It was Neris issue. Then it was a box behind a counter. Then it was mine.",
+    "actual": "This is Nerys' issue. It was Nerys' issue. Then it was a box behind a counter. Then it was mine.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "This is Nerys' issue."
+      },
+      {
+        "start": 2.5,
+        "end": 4.0,
+        "text": "It was Nerys' issue."
+      },
+      {
+        "start": 4.5,
+        "end": 7.0,
+        "text": "Then it was a box behind a counter."
+      },
+      {
+        "start": 8.0,
+        "end": 9.5,
+        "text": "Then it was mine."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 11.041667
+  },
+  "episode-proper-work-take1": {
+    "file": "production/render-sources/prologue-episode/episode-proper-work-take1.mp4",
+    "expected": "I can replace that much. The rest needs proper work.",
+    "actual": "I can replace that much. The rest needs proper work.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.16,
+        "text": "I can replace that much."
+      },
+      {
+        "start": 3.16,
+        "end": 4.8,
+        "text": "The rest needs proper work."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-contract-take1": {
+    "file": "production/render-sources/prologue-episode/episode-contract-take1.mp4",
+    "expected": "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe.",
+    "actual": "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.64,
+        "text": "Night inspection. Lower waterworks. Missing survey crew."
+      },
+      {
+        "start": 4.64,
+        "end": 10.8,
+        "text": "Recover their route recorder if the route is unsafe."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 11.041667
+  },
+  "episode-recovery-fee-take1": {
+    "file": "production/render-sources/prologue-episode/episode-recovery-fee-take1.mp4",
+    "expected": "Recovery fee? If the recorder is intact.",
+    "actual": "recovery fee if the recorder is intact",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.5600000000000005,
+        "text": "recovery fee if the recorder is intact"
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 6.041667
+  },
+  "episode-and-the-crew-take1": {
+    "file": "production/render-sources/prologue-episode/episode-and-the-crew-take1.mp4",
+    "expected": "And the crew? A rescue allowance. If they're alive.",
+    "actual": "And the crew? A rescue allowance. If they're alive.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "And the crew?"
+      },
+      {
+        "start": 3.0,
+        "end": 5.0,
+        "text": "A rescue allowance."
+      },
+      {
+        "start": 5.0,
+        "end": 7.0,
+        "text": "If they're alive."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-group-contracts-take1": {
+    "file": "production/render-sources/prologue-episode/episode-group-contracts-take1.mp4",
+    "expected": "There are group contracts. Then split one between a group.",
+    "actual": "There are group contracts. Then split one between a group.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "There are group contracts."
+      },
+      {
+        "start": 2.0,
+        "end": 4.0,
+        "text": "Then split one between a group."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-join-a-group-take1": {
+    "file": "production/render-sources/prologue-episode/episode-join-a-group-take1.mp4",
+    "expected": "You could join a group, Arin. I heard you.",
+    "actual": "You could join a group, Arin. I heard you.",
+    "segments": [
+      {
+        "start": 1.0,
+        "end": 3.0,
+        "text": "You could join a group, Arin."
+      },
+      {
+        "start": 4.0,
+        "end": 5.0,
+        "text": "I heard you."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-leave-it-blank-take1": {
+    "file": "production/render-sources/prologue-episode/episode-leave-it-blank-take1.mp4",
+    "expected": "Leave it blank.",
+    "actual": "Leave it blank.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Leave it blank."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 6.041667
+  },
+  "episode-distant-disturbance-take1": {
+    "file": "production/render-sources/prologue-episode/episode-distant-disturbance-take1.mp4",
+    "expected": "",
+    "actual": "Hahahahaha Aristo",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Hahahahaha"
+      },
+      {
+        "start": 6.4,
+        "end": 8.4,
+        "text": "Aristo"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-not-mine-take1": {
+    "file": "production/render-sources/prologue-episode/episode-not-mine-take1.mp4",
+    "expected": "That wasn't mine.",
+    "actual": "That wasn't mine.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.7600000000000002,
+        "text": "That wasn't mine."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 5.041667
+  },
+  "episode-ration-shared-take1": {
+    "file": "production/render-sources/prologue-episode/episode-ration-shared-take1.mp4",
+    "expected": "",
+    "actual": "",
+    "segments": [],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-wrong-district-take1": {
+    "file": "production/render-sources/prologue-episode/episode-wrong-district-take1.mp4",
+    "expected": "",
+    "actual": "You",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "You"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 7.041667
+  },
+  "episode-wake-take2": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take2.mp4",
+    "expected": "...No. Some of us work in the morning! So do I.",
+    "actual": "No. Some of us work in the morning! So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "No."
+      },
+      {
+        "start": 2.0,
+        "end": 5.0,
+        "text": "Some of us work in the morning!"
+      },
+      {
+        "start": 5.0,
+        "end": 7.0,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 8.041667
+  },
+  "episode-wake-take3": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take3.mp4",
+    "expected": "No! Some of us work in the morning! So do I.",
+    "actual": "NOOOOOOO! Some of us work in the morning! So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "NOOOOOOO!"
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "Some of us work in the morning!"
+      },
+      {
+        "start": 7.0,
+        "end": 9.0,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 9.041667
+  },
+  "episode-wake-take4": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take4.mp4",
+    "expected": "Nooooooooooo! Some of us work in the morning! So do I.",
+    "actual": "Some of us work in the morning. So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 11.28,
+        "text": "Some of us work in the morning."
+      },
+      {
+        "start": 11.28,
+        "end": 11.76,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "pending",
+    "width": 1024,
+    "height": 576,
+    "duration": 12.041667
+  }
+}

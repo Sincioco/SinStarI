@@ -1,0 +1,22 @@
+{
+  "id": "episode-not-mine-take1",
+  "image": "asset/images/panel-01-4.png",
+  "caption": "Prologue Episode | not-mine",
+  "art": "The established very long silver-haired man with youthful pale adult face and black silver cosmic armor looks toward an unmarked ordinary part of the sky. After a quiet breath he says That wasn't mine in a low clear adult male voice. Then total silence from him, only night wind. Hold his concerned gaze. Do not reveal his name or explain his origin. End before he acts.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 5,
+  "seed": 202609270223,
+  "motion_prompt": "One continuous 5-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. The established very long silver-haired man with youthful pale adult face and black silver cosmic armor looks toward an unmarked ordinary part of the sky. After a quiet breath he says That wasn't mine in a low clear adult male voice. Then total silence from him, only night wind. Hold his concerned gaze. Do not reveal his name or explain his origin. End before he acts. The audible English dialogue in this shot, in this exact order, is: KAEL says exactly, \"That wasn't mine.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "KAEL",
+      "text": "That wasn't mine."
+    }
+  ],
+  "parent": "panel-01-4",
+  "output_name": "C00-S03_Clip4 - Wide - Not Mine"
+}

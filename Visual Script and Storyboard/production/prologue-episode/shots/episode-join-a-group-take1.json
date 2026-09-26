@@ -1,0 +1,26 @@
+{
+  "id": "episode-join-a-group-take1",
+  "image": "asset/images/c00-s02-contract.png",
+  "caption": "Prologue Episode | join-a-group",
+  "art": "Same established men. The clerk looks directly at Arin and makes a gentle personal suggestion. Arin answers quietly without looking up, then signs the contract. The pause reveals isolation. No additional dialogue.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 7,
+  "seed": 202609270217,
+  "motion_prompt": "One continuous 7-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. Same established men. The clerk looks directly at Arin and makes a gentle personal suggestion. Arin answers quietly without looking up, then signs the contract. The pause reveals isolation. No additional dialogue. The audible English dialogue in this shot, in this exact order, is: CLERK says exactly, \"You could join a group, Arin.\". ARIN says exactly, \"I heard you.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "CLERK",
+      "text": "You could join a group, Arin."
+    },
+    {
+      "speaker": "ARIN",
+      "text": "I heard you."
+    }
+  ],
+  "parent": "new-c00-s02-contract",
+  "output_name": "C00-S02_Clip6 - Close - Join A Group"
+}

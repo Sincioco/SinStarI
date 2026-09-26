@@ -1,0 +1,332 @@
+{
+  "title": "Sin Star I — Prologue: Room for One",
+  "script": "Sin-Star-I-Game-Script-v0.2.html",
+  "scenes": [
+    "c00-s01",
+    "c00-s02",
+    "c00-s03"
+  ],
+  "output": "asset/videos/Sin-Star-I-Prologue-Room-for-One-Episode.mp4",
+  "fps": 24,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "poster_seconds": 2,
+  "poster_source": "asset/images/sin-star-poster-4k.png",
+  "optional_response": "Leave it blank.",
+  "credits": [
+    "Created by: Louiery R. Sincioco (Sin)",
+    "Sin Star — the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain",
+    "Open-source project: github.com/sincioco/smile-2.0",
+    "Game and storyboard: github.com/sincioco/SinStarI"
+  ],
+  "shots": [
+    {
+      "id": "memory",
+      "parent": "panel-01-1",
+      "seconds": 10,
+      "image": "asset/images/panel-01-1.png",
+      "dialogue": [
+        [
+          "MOTHER",
+          "Too tight?"
+        ],
+        [
+          "YOUNG ARIN",
+          "No."
+        ],
+        [
+          "FATHER",
+          "He'd say that if you tied him to the chair."
+        ]
+      ],
+      "action": "Mother fastens the worn strap on the boy's wrist. His father's reflection smiles. They laugh briefly before the warning chime. Preserve the exact established family."
+    },
+    {
+      "id": "white-fire",
+      "parent": "panel-01-1",
+      "seconds": 4,
+      "image": "asset/images/panel-01-1.png",
+      "dialogue": [],
+      "action": "A warning chime interrupts the family's small laugh. The view pushes toward the spacecraft viewport: an indistinct distant vessel disappears in a brilliant white flare. The mother's hand holds the boy's wrist protectively. No bodies, no final speech, no explanation of survival. End flooded with white light."
+    },
+    {
+      "id": "receding-door",
+      "parent": "new-c00-s01-duel",
+      "seconds": 6,
+      "image": "production/prologue-episode/images/receding-door.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "Wait—"
+        ]
+      ],
+      "action": "Adult Arin runs down the dream corridor toward the doorway. The doorway moves farther away as he runs. He reaches out and cries Wait. At the end the doorway opens onto the dark mirror floor. Only Arin speaks; no other voice."
+    },
+    {
+      "id": "effortless",
+      "parent": "new-c00-s01-duel",
+      "reuse": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+      "start": 0,
+      "seconds": 7,
+      "dialogue": [],
+      "action": "Arin attacks the concealed silhouette, is effortlessly deflected, falls and recovers behind his shield. Keep the violet starfield sword visible."
+    },
+    {
+      "id": "godlike",
+      "parent": "new-c00-s01-duel",
+      "reuse": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
+      "start": 0,
+      "seconds": 12,
+      "dialogue": [],
+      "action": "The giant dream silhouette overwhelms Arin with stone, lightning and fire, then shrinks far into the distance. Preserve the accepted matching ending."
+    },
+    {
+      "id": "who-are-you",
+      "parent": "new-c00-s01-dream",
+      "seconds": 5,
+      "image": "asset/images/c00-s01-dream.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "Who are you?"
+        ]
+      ],
+      "action": "Arin stands in the left foreground looking across the mirror floor at the far-away black silhouette. He catches his breath, then asks Who are you. The figure never answers or reveals its face. A thin bright line divides the floor. Keep their distance."
+    },
+    {
+      "id": "unspoken-sound",
+      "parent": "new-c00-s01-dream",
+      "seconds": 4,
+      "image": "asset/images/c00-s01-dream.png",
+      "dialogue": [],
+      "action": "Arin raises his cyan sword in the foreground. His mouth shapes a single impossible resonant nonverbal tone. Light trembles along the floor, distant silhouette stays motionless. No recognizable word, dialogue or subtitle. The resonant tone bridges into the waking room."
+    },
+    {
+      "id": "wake",
+      "parent": "panel-01-2",
+      "seconds": 9,
+      "image": "production/prologue-episode/images/waking-room.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "Nooooooooooo!"
+        ],
+        [
+          "NEIGHBOR",
+          "Some of us work in the morning!"
+        ],
+        [
+          "ARIN",
+          "So do I."
+        ]
+      ],
+      "action": "Adult Arin jolts awake alone in his dark undershirt, one hand extended toward a sliding metal cup on the table. A hairline crack climbs the wall. He says No softly. Three angry knocks sound from the adjoining room; the unseen adult male neighbor shouts his line through the wall. Arin looks toward that wall and answers So do I, tired and dry. The neighbor stays offscreen, as written. Performance correction: wake in visible horror with a sustained screaming Nooooooooooo, never a quiet spoken No."
+    },
+    {
+      "id": "ledger-strap",
+      "parent": "panel-01-2",
+      "seconds": 7,
+      "image": "production/prologue-episode/images/waking-room.png",
+      "dialogue": [],
+      "action": "Arin slowly lowers his extended hand. The cup stops against a worn rent-and-repair ledger on the bedside table. He opens a small wooden compartment, gently touches the childhood wrist strap inside, then closes the compartment. There is no speech. Private grief, no comforting musical swell."
+    },
+    {
+      "id": "one-pillow",
+      "parent": "panel-01-2",
+      "seconds": 6,
+      "image": "production/prologue-episode/images/waking-room.png",
+      "dialogue": [],
+      "action": "Arin sits on the edge of his bed. He looks at the unused second pillow, picks it up, and wedges it against the rattling window. His armor remains on the chair. Silence and a soft window rattle stopping; lonely practical gesture. Dawn begins to brighten the room and the wall crack remains."
+    },
+    {
+      "id": "neris-issue",
+      "parent": "panel-01-3",
+      "seconds": 11,
+      "image": "asset/images/panel-01-3.png",
+      "dialogue": [
+        [
+          "ARMORER",
+          "This is Neris issue."
+        ],
+        [
+          "ARIN",
+          "It was Neris issue. Then it was a box behind a counter. Then it was mine."
+        ]
+      ],
+      "action": "Morning at the established Neris repair stall. The older gray-bearded armorer with goggles holds Arin's damaged shoulder plate toward the daylight and speaks. Arin in the same white navy gold surplus armor answers with a small dry shrug. Distinct warm gravelly older armorer voice and low young adult Arin voice. No military flashback; he bought surplus armor."
+    },
+    {
+      "id": "rivets",
+      "parent": "panel-01-3",
+      "reuse": "asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4",
+      "start": 0,
+      "seconds": 4.4,
+      "dialogue": [
+        [
+          "ARMORER",
+          "The rivets remember the first owner."
+        ],
+        [
+          "ARIN",
+          "Can they pay for the repair?"
+        ]
+      ],
+      "action": "Retain the existing verified correct exchange and character designs."
+    },
+    {
+      "id": "proper-work",
+      "parent": "panel-01-3",
+      "seconds": 7,
+      "image": "asset/images/panel-01-3.png",
+      "dialogue": [
+        [
+          "ARMORER",
+          "I can replace that much. The rest needs proper work."
+        ]
+      ],
+      "action": "The armorer points to the cracked fastening on Arin's shoulder and speaks matter-of-factly. Arin listens, then counts the few coins in his palm twice, with the same disappointing result. Arin stays silent. Faint tools and subdued crowd ambience."
+    },
+    {
+      "id": "contract",
+      "parent": "new-c00-s02-contract",
+      "seconds": 11,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "CLERK",
+          "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe."
+        ]
+      ],
+      "action": "At the established guild counter, the short brown-haired bearded clerk in navy and tan turns the paper contract toward armored Arin. The clerk speaks the assignment in an even practical middle-aged male voice; Arin reads and listens silently. Morning light, stable two-shot, clerk on the left and Arin on the right."
+    },
+    {
+      "id": "recovery-fee",
+      "parent": "new-c00-s02-contract",
+      "seconds": 6,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "Recovery fee?"
+        ],
+        [
+          "CLERK",
+          "If the recorder is intact."
+        ]
+      ],
+      "action": "Same guild counter and exact same two men. Arin lifts his gaze from the contract to ask about payment. The clerk points to a line and replies plainly. One speaker at a time, no extra conversation."
+    },
+    {
+      "id": "and-the-crew",
+      "parent": "new-c00-s02-contract",
+      "seconds": 7,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "And the crew?"
+        ],
+        [
+          "CLERK",
+          "A rescue allowance. If they're alive."
+        ]
+      ],
+      "action": "Same clerk and Arin at the guild counter. Arin asks about the people, not just the recorder. The clerk answers with a slight pause before If they're alive. Arin studies the equipment damage line and goes quiet. No narration."
+    },
+    {
+      "id": "group-contracts",
+      "parent": "new-c00-s02-contract",
+      "seconds": 7,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "CLERK",
+          "There are group contracts."
+        ],
+        [
+          "ARIN",
+          "Then split one between a group."
+        ]
+      ],
+      "action": "Same quiet exchange at the guild counter. The clerk offers a practical alternative. Arin responds defensively, gaze kept on the papers. No anger escalation or joke from the clerk."
+    },
+    {
+      "id": "join-a-group",
+      "parent": "new-c00-s02-contract",
+      "seconds": 7,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "CLERK",
+          "You could join a group, Arin."
+        ],
+        [
+          "ARIN",
+          "I heard you."
+        ]
+      ],
+      "action": "Same established men. The clerk looks directly at Arin and makes a gentle personal suggestion. Arin answers quietly without looking up, then signs the contract. The pause reveals isolation. No additional dialogue."
+    },
+    {
+      "id": "leave-it-blank",
+      "parent": "new-c00-s02-contract",
+      "seconds": 6,
+      "image": "asset/images/c00-s02-contract.png",
+      "dialogue": [
+        [
+          "ARIN",
+          "Leave it blank."
+        ]
+      ],
+      "action": "The clerk wordlessly points his pen toward the emergency-contact field on the contract and waits. Arin looks at the empty space, then says Leave it blank. The clerk sets the field aside without a joke. No legible generated text is required; focus on faces, pen and empty ruled space."
+    },
+    {
+      "id": "ration-shared",
+      "parent": "panel-01-3",
+      "seconds": 7,
+      "image": "production/prologue-episode/images/water-queue.png",
+      "dialogue": [],
+      "action": "Morning in Neris by a public water queue and closed bakery. White stone, blue awnings and domed skyline match the repair-stall background. Armored Arin walks past in the foreground. A female soldier at the orderly water distribution point gives a small child part of her own ration; the child accepts. Faint unvoiced crowd ambience, no intelligible words."
+    },
+    {
+      "id": "wrong-district",
+      "parent": "panel-01-3",
+      "seconds": 7,
+      "image": "production/prologue-episode/images/water-queue.png",
+      "dialogue": [],
+      "action": "At the same orderly Neris water distribution point, a second soldier checks a weary sick laborer's paper permit and regretfully points him away toward another district. The laborer lowers the paper and turns. The compassionate female soldier remains nearby. Arin checks the time on his contract and continues walking. No villainous sneer, no assault, no intelligible speech."
+    },
+    {
+      "id": "earth-protected",
+      "parent": "new-c00-s03-course",
+      "reuse": "asset/videos/hover/C00-S03 - Close - Intervention.mp4",
+      "start": 0,
+      "seconds": 4,
+      "dialogue": [],
+      "action": "On Earth's quiet hillside, silver-haired Kael stands over the warmly lit town and lowers two fingers as a tiny distant object changes course. The people below never look up."
+    },
+    {
+      "id": "distant-disturbance",
+      "parent": "panel-01-4",
+      "seconds": 7,
+      "image": "asset/images/panel-01-4.png",
+      "dialogue": [],
+      "action": "The silver-haired man in black silver violet armor watches the town below. Distant faint instrumental music and an indistinct laugh drift from a warm open window. He turns away, then stops. A brief violet resonance from Arin's earlier dream trembles in the reflections in his eyes. He quietly repeats only a nonverbal fragment, comparing rather than casting. No real words or explosion."
+    },
+    {
+      "id": "not-mine",
+      "parent": "panel-01-4",
+      "seconds": 5,
+      "image": "asset/images/panel-01-4.png",
+      "dialogue": [
+        [
+          "KAEL",
+          "That wasn't mine."
+        ]
+      ],
+      "action": "The established very long silver-haired man with youthful pale adult face and black silver cosmic armor looks toward an unmarked ordinary part of the sky. After a quiet breath he says That wasn't mine in a low clear adult male voice. Then total silence from him, only night wind. Hold his concerned gaze. Do not reveal his name or explain his origin. End before he acts."
+    }
+  ]
+}

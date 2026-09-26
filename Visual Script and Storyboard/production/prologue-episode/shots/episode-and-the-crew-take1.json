@@ -1,0 +1,26 @@
+{
+  "id": "episode-and-the-crew-take1",
+  "image": "asset/images/c00-s02-contract.png",
+  "caption": "Prologue Episode | and-the-crew",
+  "art": "Same clerk and Arin at the guild counter. Arin asks about the people, not just the recorder. The clerk answers with a slight pause before If they're alive. Arin studies the equipment damage line and goes quiet. No narration.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 7,
+  "seed": 202609270215,
+  "motion_prompt": "One continuous 7-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. Same clerk and Arin at the guild counter. Arin asks about the people, not just the recorder. The clerk answers with a slight pause before If they're alive. Arin studies the equipment damage line and goes quiet. No narration. The audible English dialogue in this shot, in this exact order, is: ARIN says exactly, \"And the crew?\". CLERK says exactly, \"A rescue allowance. If they're alive.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "ARIN",
+      "text": "And the crew?"
+    },
+    {
+      "speaker": "CLERK",
+      "text": "A rescue allowance. If they're alive."
+    }
+  ],
+  "parent": "new-c00-s02-contract",
+  "output_name": "C00-S02_Clip4 - Close - And The Crew"
+}

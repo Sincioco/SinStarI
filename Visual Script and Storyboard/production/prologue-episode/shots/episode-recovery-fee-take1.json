@@ -1,0 +1,26 @@
+{
+  "id": "episode-recovery-fee-take1",
+  "image": "asset/images/c00-s02-contract.png",
+  "caption": "Prologue Episode | recovery-fee",
+  "art": "Same guild counter and exact same two men. Arin lifts his gaze from the contract to ask about payment. The clerk points to a line and replies plainly. One speaker at a time, no extra conversation.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 6,
+  "seed": 202609270214,
+  "motion_prompt": "One continuous 6-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. Same guild counter and exact same two men. Arin lifts his gaze from the contract to ask about payment. The clerk points to a line and replies plainly. One speaker at a time, no extra conversation. The audible English dialogue in this shot, in this exact order, is: ARIN says exactly, \"Recovery fee?\". CLERK says exactly, \"If the recorder is intact.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "ARIN",
+      "text": "Recovery fee?"
+    },
+    {
+      "speaker": "CLERK",
+      "text": "If the recorder is intact."
+    }
+  ],
+  "parent": "new-c00-s02-contract",
+  "output_name": "C00-S02_Clip3 - Close - Recovery Fee"
+}

@@ -15,7 +15,44 @@
     "crop": "crop=1920:960:0:0",
     "shot_title": "Close / Memory",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Memory"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Close / Memory",
+    "variants": [
+      {
+        "id": "episode-memory-take1",
+        "video": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4",
+        "source": "production/render-sources/episode-memory-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Memory",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip2 - Close / Memory",
+        "provenance": "LTX 2.5 episode take; All three spoken lines match the independent transcription. Sampled frames retain the family and matching mouth movements. A 16:9 close crop removes incorrect model-generated lettering; no speech replacement.",
+        "dialogue": [
+          [
+            "MOTHER",
+            "Too tight?"
+          ],
+          [
+            "YOUNG ARIN",
+            "No."
+          ],
+          [
+            "FATHER",
+            "He'd say that if you tied him to the chair."
+          ]
+        ]
+      },
+      {
+        "id": "episode-white-fire-take1",
+        "video": "asset/videos/hover/C00-S01_Clip3 - Close - White Fire.mp4",
+        "source": "production/render-sources/prologue-episode/episode-white-fire-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — White Fire",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Close / White Fire",
+        "provenance": "LTX 2.5 episode take; Nonverbal family laugh, no dialogue. A white flare editorial fade completes the memory rupture. No generated subtitles.",
+        "dialogue": []
+      }
+    ],
+    "default_clip": "episode-memory-take1",
+    "review_note": "Earlier original take: the father speaks the wrong sentence. The new memory alternate corrects it."
   },
   {
     "id": "panel-01-2",
@@ -33,7 +70,125 @@
     "crop": "crop=1920:960:0:0",
     "shot_title": "Wide / Lonely",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Lonely"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Lonely",
+    "variants": [
+      {
+        "id": "episode-one-pillow-take1",
+        "video": "asset/videos/hover/C00-S01_Clip2 - Wide - One Pillow.mp4",
+        "source": "production/render-sources/prologue-episode/episode-one-pillow-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — One Pillow",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip2 - Wide / One Pillow",
+        "provenance": "LTX 2.5 episode take; No speech or generated text. Arin visibly takes the spare pillow and braces the window; the room brightens toward dawn.",
+        "dialogue": []
+      },
+      {
+        "id": "episode-ledger-strap-take1",
+        "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Ledger Strap.mp4",
+        "source": "production/render-sources/prologue-episode/episode-ledger-strap-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Ledger Strap",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Wide / Ledger Strap",
+        "provenance": "LTX 2.5 episode take; Arin reaches into the small keepsake box. No words in voice-activity-filtered transcription and no captions in sampled frames.",
+        "dialogue": []
+      },
+      {
+        "id": "episode-wake-take2",
+        "video": "asset/videos/hover/C00-S01_Clip4 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take2.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip4 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; Retained earlier take: correct words, but the opening is subdued. Superseded in the episode by the requested nightmare scream in take 3.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "Retained earlier take: correct words, but the opening is subdued. Superseded in the episode by the requested nightmare scream in take 3."
+      },
+      {
+        "id": "episode-wake-take1",
+        "video": "asset/videos/hover/C00-S01_Clip5 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip5 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; Retained alternate: incorrectly speaks No softly and So do I tired and dry before the three correct lines. Do not use in the episode. Generated captions removed by a close crop.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "Retained alternate: incorrectly speaks No softly and So do I tired and dry before the three correct lines. Do not use in the episode. Generated captions removed by a close crop."
+      },
+      {
+        "id": "episode-wake-take3",
+        "video": "asset/videos/hover/C00-S01_Clip6 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take3.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip6 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; Retained stronger outburst. Sin requested a still longer Nooooooooooo and visible horror from an asleep starting pose. Superseded by the next performance; original footage retained.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "Retained stronger outburst. Sin requested a still longer Nooooooooooo and visible horror from an asleep starting pose. Superseded by the next performance; original footage retained."
+      },
+      {
+        "id": "episode-wake-take4",
+        "video": "asset/videos/hover/C00-S01_Clip7 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take4.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip7 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; Sustained horrified Nooooooooooo verified by isolated opening-audio transcription. Arin bolts upright, recoils with raised hands and holds an anguished open-mouth scream before the neighbor and exact So do I reply. All sampled frames are caption-free. Original 12-second LTX audio and video retained.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ]
+      }
+    ],
+    "default_clip": "episode-wake-take4"
   },
   {
     "id": "panel-01-3",
@@ -50,7 +205,63 @@
     "status": "reuse",
     "shot_title": "Medium / Dry Humor",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02 - Medium / Dry Humor"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02 - Medium / Dry Humor",
+    "variants": [
+      {
+        "id": "episode-neris-issue-take1",
+        "video": "asset/videos/hover/C00-S02_Clip2 - Medium - Neris Issue.mp4",
+        "source": "production/render-sources/prologue-episode/episode-neris-issue-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Neris Issue",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip2 - Medium / Neris Issue",
+        "provenance": "LTX 2.5 episode take; Spoken words match; ASR renders the fictional name Neris as Nerys, a spelling difference. Close crop removes model-generated captions while retaining both faces and damaged plate.",
+        "dialogue": [
+          [
+            "ARMORER",
+            "This is Neris issue."
+          ],
+          [
+            "ARIN",
+            "It was Neris issue. Then it was a box behind a counter. Then it was mine."
+          ]
+        ]
+      },
+      {
+        "id": "episode-proper-work-take1",
+        "video": "asset/videos/hover/C00-S02_Clip3 - Medium - Proper Work.mp4",
+        "source": "production/render-sources/prologue-episode/episode-proper-work-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Proper Work",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip3 - Medium / Proper Work",
+        "provenance": "LTX 2.5 episode take; Exact spoken line, older armorer speaking. Crop removes generated captions and retains the rivet and Arin counting coins.",
+        "dialogue": [
+          [
+            "ARMORER",
+            "I can replace that much. The rest needs proper work."
+          ]
+        ]
+      },
+      {
+        "id": "episode-ration-shared-take1",
+        "video": "asset/videos/hover/C00-S02_Clip4 - Wide - Ration Shared.mp4",
+        "source": "production/render-sources/prologue-episode/episode-ration-shared-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Ration Shared",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip4 - Wide / Ration Shared",
+        "provenance": "LTX 2.5 episode take; No speech or captions. Female soldier shares the ration with the child while Arin walks past; stable designs in sampled frames.",
+        "dialogue": []
+      },
+      {
+        "id": "episode-wrong-district-take1",
+        "video": "asset/videos/hover/C00-S02_Clip5 - Wide - Wrong District.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wrong-district-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wrong District",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip5 - Wide / Wrong District",
+        "provenance": "LTX 2.5 episode take; Guard checks permit and gestures the laborer away; Arin checks the paper and walks. No speech in voice-activity-filtered transcription; no captions in sampled frames.",
+        "dialogue": []
+      }
+    ]
   },
   {
     "id": "panel-01-4",
@@ -68,7 +279,46 @@
     "crop": "crop=1920:960:0:0",
     "shot_title": "Wide / Distant Answer",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03 - Wide / Distant Answer"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03 - Wide / Distant Answer",
+    "variants": [
+      {
+        "id": "episode-distant-disturbance-take1",
+        "video": "asset/videos/hover/C00-S03_Clip2 - Wide - Distant Disturbance.mp4",
+        "source": "production/render-sources/prologue-episode/episode-distant-disturbance-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Distant Disturbance — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03_Clip2 - Wide / Distant Disturbance",
+        "provenance": "LTX 2.5 episode take; Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode.",
+        "dialogue": [],
+        "review_note": "Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode."
+      },
+      {
+        "id": "episode-distant-disturbance-take1-bridge",
+        "video": "asset/videos/hover/C00-S03_Clip3 - Wide - Distant Disturbance.mp4",
+        "source": "production/render-sources/prologue-episode/episode-distant-disturbance-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Distant Disturbance — Corrected dream sound",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03_Clip3 - Wide / Distant Disturbance",
+        "provenance": "LTX 2.5 episode take; Corrected edit: retain town laugh and atmosphere, replace the invented final word with the exact earlier wordless dream cue. No generated captions; stable Kael design in sampled frames.",
+        "dialogue": []
+      },
+      {
+        "id": "episode-not-mine-take1",
+        "video": "asset/videos/hover/C00-S03_Clip4 - Wide - Not Mine.mp4",
+        "source": "production/render-sources/prologue-episode/episode-not-mine-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Not Mine",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03_Clip4 - Wide / Not Mine",
+        "provenance": "LTX 2.5 episode take; Exact spoken That was not mine contraction and no extra dialogue. Crop removes generated subtitles while retaining Kael and the night sky.",
+        "dialogue": [
+          [
+            "KAEL",
+            "That wasn't mine."
+          ]
+        ]
+      }
+    ],
+    "review_note": "Earlier original take: extra invented speech follows the correct line. The new Not Mine alternate corrects it."
   },
   {
     "id": "panel-02-1",
@@ -1197,6 +1447,21 @@
         "shot_title": "Wide / Godlike",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Godlike - Clip 2",
         "provenance": "Twelve-second LTX 2.5 edit with an end-frame-guided recovery into the opening composition of Unreachable. See production/c00-s01-godlike.json."
+      },
+      {
+        "id": "episode-receding-door-take1",
+        "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Receding Door.mp4",
+        "source": "production/render-sources/prologue-episode/episode-receding-door-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Receding Door",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Wide / Receding Door",
+        "provenance": "LTX 2.5 episode take; Correct spoken Wait. Arin runs toward the distant portal; stable armor and cyan sword in sampled frames.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Wait—"
+          ]
+        ]
       }
     ]
   },
@@ -1216,7 +1481,34 @@
     "crop": "crop=1920:960:0:0",
     "shot_title": "Wide / Unreachable",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Unreachable"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01 - Wide / Unreachable",
+    "variants": [
+      {
+        "id": "episode-who-are-you-take1",
+        "video": "asset/videos/hover/C00-S01_Clip2 - Wide - Who Are You.mp4",
+        "source": "production/render-sources/prologue-episode/episode-who-are-you-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Who Are You",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip2 - Wide / Who Are You",
+        "provenance": "LTX 2.5 episode take; Exact spoken question. Concealed opponent remains distant, Arin stays in foreground. No generated captions in sampled frames.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Who are you?"
+          ]
+        ]
+      },
+      {
+        "id": "episode-unspoken-sound-take1",
+        "video": "asset/videos/hover/C00-S01_Clip3 - Wide - Unspoken Sound.mp4",
+        "source": "production/render-sources/prologue-episode/episode-unspoken-sound-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Unspoken Sound",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Wide / Unspoken Sound",
+        "provenance": "LTX 2.5 episode take; Sampled motion retains distant opponent. Voice-activity-filtered transcription finds no words; unconstrained ASR hallucinated You over the nonverbal sound. No generated subtitles.",
+        "dialogue": []
+      }
+    ]
   },
   {
     "id": "new-c00-s02-contract",
@@ -1229,7 +1521,115 @@
     "status": "needs_render",
     "shot_title": "Close / The Blank Space",
     "chapter_title": "Prologue - Room for One",
-    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02 - Close / The Blank Space"
+    "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02 - Close / The Blank Space",
+    "variants": [
+      {
+        "id": "episode-contract-take1",
+        "video": "asset/videos/hover/C00-S02_Clip2 - Close - Contract.mp4",
+        "source": "production/render-sources/prologue-episode/episode-contract-take1.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Contract",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip2 - Close / Contract",
+        "provenance": "LTX 2.5 episode take; Exact complete assignment independently transcribed. Stable clerk and Arin, correct turn of the contract, no generated subtitles in sampled frames.",
+        "dialogue": [
+          [
+            "CLERK",
+            "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe."
+          ]
+        ]
+      },
+      {
+        "id": "episode-recovery-fee-take1",
+        "video": "asset/videos/hover/C00-S02_Clip3 - Close - Recovery Fee.mp4",
+        "source": "production/render-sources/prologue-episode/episode-recovery-fee-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Recovery Fee",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip3 - Close / Recovery Fee",
+        "provenance": "LTX 2.5 episode take; Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Recovery fee?"
+          ],
+          [
+            "CLERK",
+            "If the recorder is intact."
+          ]
+        ]
+      },
+      {
+        "id": "episode-and-the-crew-take1",
+        "video": "asset/videos/hover/C00-S02_Clip4 - Close - And The Crew.mp4",
+        "source": "production/render-sources/prologue-episode/episode-and-the-crew-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — And The Crew",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip4 - Close / And The Crew",
+        "provenance": "LTX 2.5 episode take; Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+        "dialogue": [
+          [
+            "ARIN",
+            "And the crew?"
+          ],
+          [
+            "CLERK",
+            "A rescue allowance. If they're alive."
+          ]
+        ]
+      },
+      {
+        "id": "episode-group-contracts-take1",
+        "video": "asset/videos/hover/C00-S02_Clip5 - Close - Group Contracts.mp4",
+        "source": "production/render-sources/prologue-episode/episode-group-contracts-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Group Contracts",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip5 - Close / Group Contracts",
+        "provenance": "LTX 2.5 episode take; Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+        "dialogue": [
+          [
+            "CLERK",
+            "There are group contracts."
+          ],
+          [
+            "ARIN",
+            "Then split one between a group."
+          ]
+        ]
+      },
+      {
+        "id": "episode-join-a-group-take1",
+        "video": "asset/videos/hover/C00-S02_Clip6 - Close - Join A Group.mp4",
+        "source": "production/render-sources/prologue-episode/episode-join-a-group-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Join A Group",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip6 - Close / Join A Group",
+        "provenance": "LTX 2.5 episode take; Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+        "dialogue": [
+          [
+            "CLERK",
+            "You could join a group, Arin."
+          ],
+          [
+            "ARIN",
+            "I heard you."
+          ]
+        ]
+      },
+      {
+        "id": "episode-leave-it-blank-take1",
+        "video": "asset/videos/hover/C00-S02_Clip7 - Close - Leave It Blank.mp4",
+        "source": "production/render-sources/prologue-episode/episode-leave-it-blank-take1-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Leave It Blank",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip7 - Close / Leave It Blank",
+        "provenance": "LTX 2.5 episode take; Exact spoken dialogue independently transcribed. Consistent clerk and Arin in sampled frames. Close crop removes generated captions while retaining both faces and the contract.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Leave it blank."
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "new-c00-s03-course",

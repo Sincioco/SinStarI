@@ -1,0 +1,93 @@
+{
+  "width": 3840,
+  "height": 2160,
+  "fps": 24,
+  "duration": 187.0,
+  "poster_frames": 48,
+  "dialogue": [
+    {
+      "id": "episode-memory-take1",
+      "expected": "Too tight? No. He'd say that if you tied him to the chair.",
+      "actual": "Too tight? No He'd say that if you tied him to the chair",
+      "matches": true
+    },
+    {
+      "id": "episode-receding-door-take1",
+      "expected": "Wait—",
+      "actual": "Wait!",
+      "matches": true
+    },
+    {
+      "id": "episode-who-are-you-take1",
+      "expected": "Who are you?",
+      "actual": "Who are you?",
+      "matches": true
+    },
+    {
+      "id": "episode-wake-take4",
+      "expected": "Nooooooooooo! Some of us work in the morning! So do I.",
+      "actual": "NOOOOOOOOO!!! Some of us work in the morning. So do I.",
+      "matches": true
+    },
+    {
+      "id": "episode-neris-issue-take1",
+      "expected": "This is Neris issue. It was Neris issue. Then it was a box behind a counter. Then it was mine.",
+      "actual": "This is Nerys' issue. It was Nerys' issue. Then it was a box behind a counter. Then it was mine.",
+      "matches": true
+    },
+    {
+      "id": "rivets",
+      "expected": "The rivets remember the first owner. Can they pay for the repair?",
+      "actual": "The rivets remember the first owner. Can they pay for the repair?",
+      "matches": true
+    },
+    {
+      "id": "episode-proper-work-take1",
+      "expected": "I can replace that much. The rest needs proper work.",
+      "actual": "I can replace that much. The rest needs proper work.",
+      "matches": true
+    },
+    {
+      "id": "episode-contract-take1",
+      "expected": "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe.",
+      "actual": "Night inspection. Lower waterworks. Missing survey crew. Recover their root recorder if the root is unsafe.",
+      "matches": true
+    },
+    {
+      "id": "episode-recovery-fee-take1",
+      "expected": "Recovery fee? If the recorder is intact.",
+      "actual": "Recovery fee if the recorder is intact",
+      "matches": true
+    },
+    {
+      "id": "episode-and-the-crew-take1",
+      "expected": "And the crew? A rescue allowance. If they're alive.",
+      "actual": "And the crew? A rescue allowance, if they're alive.",
+      "matches": true
+    },
+    {
+      "id": "episode-group-contracts-take1",
+      "expected": "There are group contracts. Then split one between a group.",
+      "actual": "There are group contracts then split one between a group",
+      "matches": true
+    },
+    {
+      "id": "episode-join-a-group-take1",
+      "expected": "You could join a group, Arin. I heard you.",
+      "actual": "You could join a group, Arin. I heard you.",
+      "matches": true
+    },
+    {
+      "id": "episode-leave-it-blank-take1",
+      "expected": "Leave it blank.",
+      "actual": "Leave it blank.",
+      "matches": true
+    },
+    {
+      "id": "episode-not-mine-take1",
+      "expected": "That wasn't mine.",
+      "actual": "That wasn't mine.",
+      "matches": true
+    }
+  ]
+}

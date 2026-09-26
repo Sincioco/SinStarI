@@ -1,0 +1,30 @@
+{
+  "id": "episode-wake-take2",
+  "image": "production/prologue-episode/images/waking-room.png",
+  "caption": "Prologue Episode | Waking room | Corrected dialogue take 2",
+  "art": "Arin alone in the rented room with an unseen neighbor through the wall",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 8,
+  "seed": 202609271008,
+  "motion_prompt": "Cinematic painted anime animation, one continuous eight-second shot of the exact brown-haired young adult man alone in the exact bedroom from the reference. Preserve his black sleeveless undershirt, face, physique, bedding, window, wooden box, metal cup, ledger and armor on the chair. The man is startled awake and breathes sharply, his right hand outstretched toward the metal cup sliding a few inches across the table. At second one, in a quiet young adult male voice, he says: \"No.\" At second three, three knocks come from behind the left wall and a DIFFERENT older male voice from the adjoining room shouts: \"Some of us work in the morning!\" The on-screen man keeps his lips closed while the neighbor speaks. At second six, the on-screen man looks toward the wall, tired and irritated, and answers: \"So do I.\" Only those three sentences are audible, once each, with no repetition and no narrator. The neighbor never appears. The hand slowly lowers after the final sentence. Very quiet night ambience. Clean cinema image with no text of any kind, no subtitles, no captions, no lettering, no musical score. Maintain the exact room and natural hands throughout.",
+  "negative_prompt": "text, subtitles, captions, repeated speech, narrator, extra words, talking over each other, singing, music, extra people, deformed anatomy",
+  "dialogue": [
+    {
+      "speaker": "ARIN",
+      "text": "...No."
+    },
+    {
+      "speaker": "NEIGHBOR",
+      "text": "Some of us work in the morning!"
+    },
+    {
+      "speaker": "ARIN",
+      "text": "So do I."
+    }
+  ],
+  "parent": "panel-01-2",
+  "output_name": "C00-S01_Clip4 - Wide - Wake"
+}

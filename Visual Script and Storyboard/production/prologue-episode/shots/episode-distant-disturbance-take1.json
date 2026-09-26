@@ -1,0 +1,17 @@
+{
+  "id": "episode-distant-disturbance-take1",
+  "image": "asset/images/panel-01-4.png",
+  "caption": "Prologue Episode | distant-disturbance",
+  "art": "The silver-haired man in black silver violet armor watches the town below. Distant faint instrumental music and an indistinct laugh drift from a warm open window. He turns away, then stops. A brief violet resonance from Arin's earlier dream trembles in the reflections in his eyes. He quietly repeats only a nonverbal fragment, comparing rather than casting. No real words or explosion.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 7,
+  "seed": 202609270222,
+  "motion_prompt": "One continuous 7-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. The silver-haired man in black silver violet armor watches the town below. Distant faint instrumental music and an indistinct laugh drift from a warm open window. He turns away, then stops. A brief violet resonance from Arin's earlier dream trembles in the reflections in his eyes. He quietly repeats only a nonverbal fragment, comparing rather than casting. No real words or explosion. No intelligible speech or words. Nobody narrates or sings. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [],
+  "parent": "panel-01-4",
+  "output_name": "C00-S03_Clip2 - Wide - Distant Disturbance"
+}

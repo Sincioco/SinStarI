@@ -1,0 +1,17 @@
+{
+  "id": "episode-wrong-district-take1",
+  "image": "production/prologue-episode/images/water-queue.png",
+  "caption": "Prologue Episode | wrong-district",
+  "art": "At the same orderly Neris water distribution point, a second soldier checks a weary sick laborer's paper permit and regretfully points him away toward another district. The laborer lowers the paper and turns. The compassionate female soldier remains nearby. Arin checks the time on his contract and continues walking. No villainous sneer, no assault, no intelligible speech.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 7,
+  "seed": 202609270220,
+  "motion_prompt": "One continuous 7-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. At the same orderly Neris water distribution point, a second soldier checks a weary sick laborer's paper permit and regretfully points him away toward another district. The laborer lowers the paper and turns. The compassionate female soldier remains nearby. Arin checks the time on his contract and continues walking. No villainous sneer, no assault, no intelligible speech. No intelligible speech or words. Nobody narrates or sings. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [],
+  "parent": "panel-01-3",
+  "output_name": "C00-S02_Clip5 - Wide - Wrong District"
+}

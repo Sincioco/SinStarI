@@ -1,0 +1,17 @@
+{
+  "id": "episode-white-fire-take1",
+  "image": "asset/images/panel-01-1.png",
+  "caption": "Prologue Episode | white-fire",
+  "art": "A warning chime interrupts the family's small laugh. The view pushes toward the spacecraft viewport: an indistinct distant vessel disappears in a brilliant white flare. The mother's hand holds the boy's wrist protectively. No bodies, no final speech, no explanation of survival. End flooded with white light.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 4,
+  "seed": 202609270201,
+  "motion_prompt": "One continuous 4-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. A warning chime interrupts the family's small laugh. The view pushes toward the spacecraft viewport: an indistinct distant vessel disappears in a brilliant white flare. The mother's hand holds the boy's wrist protectively. No bodies, no final speech, no explanation of survival. End flooded with white light. No intelligible speech or words. Nobody narrates or sings. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [],
+  "parent": "panel-01-1",
+  "output_name": "C00-S01_Clip3 - Close - White Fire"
+}

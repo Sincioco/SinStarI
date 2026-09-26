@@ -1,0 +1,22 @@
+{
+  "id": "episode-leave-it-blank-take1",
+  "image": "asset/images/c00-s02-contract.png",
+  "caption": "Prologue Episode | leave-it-blank",
+  "art": "The clerk wordlessly points his pen toward the emergency-contact field on the contract and waits. Arin looks at the empty space, then says Leave it blank. The clerk sets the field aside without a joke. No legible generated text is required; focus on faces, pen and empty ruled space.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 6,
+  "seed": 202609270218,
+  "motion_prompt": "One continuous 6-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. The clerk wordlessly points his pen toward the emergency-contact field on the contract and waits. Arin looks at the empty space, then says Leave it blank. The clerk sets the field aside without a joke. No legible generated text is required; focus on faces, pen and empty ruled space. The audible English dialogue in this shot, in this exact order, is: ARIN says exactly, \"Leave it blank.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "ARIN",
+      "text": "Leave it blank."
+    }
+  ],
+  "parent": "new-c00-s02-contract",
+  "output_name": "C00-S02_Clip7 - Close - Leave It Blank"
+}

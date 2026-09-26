@@ -1,0 +1,28 @@
+[
+  {
+    "file": "production\\render-sources\\prologue-episode\\episode-unspoken-sound-take1.mp4",
+    "segments": [],
+    "text": ""
+  },
+  {
+    "file": "production\\render-sources\\prologue-episode\\episode-ledger-strap-take1.mp4",
+    "segments": [],
+    "text": ""
+  },
+  {
+    "file": "production\\render-sources\\prologue-episode\\episode-wrong-district-take1.mp4",
+    "segments": [],
+    "text": ""
+  },
+  {
+    "file": "production\\render-sources\\prologue-episode\\episode-distant-disturbance-take1.mp4",
+    "segments": [
+      {
+        "start": 6.19,
+        "end": 7.19,
+        "text": "Aristo!"
+      }
+    ],
+    "text": "Aristo!"
+  }
+]

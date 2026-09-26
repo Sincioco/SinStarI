@@ -40,6 +40,7 @@ def picture(link, item):
     choices = ''
     if len(clips) > 1:
         buttons = ''.join(f'<button type="button" data-clip="{clip["id"]}" '
+                          f'title="{escape(clip.get("review_note", clip["caption"]))}" '
                           f'data-src="{clip["video"]}?v={version(clip["video"])}" aria-pressed="false">Clip {i + 1}</button>'
                           for i, clip in enumerate(clips))
         choices = ('<div class="clip-choices" role="group" aria-label="Video clip variations" hidden>' + buttons

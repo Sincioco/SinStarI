@@ -1,0 +1,329 @@
+[
+  {
+    "id": "poster",
+    "start": 0,
+    "seconds": 2
+  },
+  {
+    "id": "black-rattle",
+    "start": 2,
+    "seconds": 0.75
+  },
+  {
+    "id": "episode-memory-take1",
+    "shot": "memory",
+    "start": 2.75,
+    "seconds": 10.041666666666666,
+    "source": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4",
+    "dialogue": [
+      [
+        "MOTHER",
+        "Too tight?"
+      ],
+      [
+        "YOUNG ARIN",
+        "No."
+      ],
+      [
+        "FATHER",
+        "He'd say that if you tied him to the chair."
+      ]
+    ]
+  },
+  {
+    "id": "episode-white-fire-take1",
+    "shot": "white-fire",
+    "start": 12.791666666666666,
+    "seconds": 4.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip3 - Close - White Fire.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-receding-door-take1",
+    "shot": "receding-door",
+    "start": 16.833333333333332,
+    "seconds": 6.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip3 - Wide - Receding Door.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "Wait—"
+      ]
+    ]
+  },
+  {
+    "id": "effortless",
+    "shot": "effortless",
+    "start": 22.875,
+    "seconds": 7.0,
+    "source": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "godlike",
+    "shot": "godlike",
+    "start": 29.875,
+    "seconds": 12.0,
+    "source": "asset/videos/hover/C00-S01_Clip2 - Wide - Godlike.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-who-are-you-take1",
+    "shot": "who-are-you",
+    "start": 41.875,
+    "seconds": 5.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip2 - Wide - Who Are You.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "Who are you?"
+      ]
+    ]
+  },
+  {
+    "id": "episode-unspoken-sound-take1",
+    "shot": "unspoken-sound",
+    "start": 46.916666666666664,
+    "seconds": 4.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip3 - Wide - Unspoken Sound.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-wake-take4",
+    "shot": "wake",
+    "start": 50.95833333333333,
+    "seconds": 12.041666666666666,
+    "source": "asset/videos/hover/C00-S01_Clip7 - Wide - Wake.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "Nooooooooooo!"
+      ],
+      [
+        "NEIGHBOR",
+        "Some of us work in the morning!"
+      ],
+      [
+        "ARIN",
+        "So do I."
+      ]
+    ]
+  },
+  {
+    "id": "episode-ledger-strap-take1",
+    "shot": "ledger-strap",
+    "start": 62.99999999999999,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip3 - Wide - Ledger Strap.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-one-pillow-take1",
+    "shot": "one-pillow",
+    "start": 70.04166666666666,
+    "seconds": 6.041666666666667,
+    "source": "asset/videos/hover/C00-S01_Clip2 - Wide - One Pillow.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-neris-issue-take1",
+    "shot": "neris-issue",
+    "start": 76.08333333333333,
+    "seconds": 11.041666666666666,
+    "source": "asset/videos/hover/C00-S02_Clip2 - Medium - Neris Issue.mp4",
+    "dialogue": [
+      [
+        "ARMORER",
+        "This is Neris issue."
+      ],
+      [
+        "ARIN",
+        "It was Neris issue. Then it was a box behind a counter. Then it was mine."
+      ]
+    ]
+  },
+  {
+    "id": "rivets",
+    "shot": "rivets",
+    "start": 87.125,
+    "seconds": 4.416666666666667,
+    "source": "asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4",
+    "dialogue": [
+      [
+        "ARMORER",
+        "The rivets remember the first owner."
+      ],
+      [
+        "ARIN",
+        "Can they pay for the repair?"
+      ]
+    ]
+  },
+  {
+    "id": "episode-proper-work-take1",
+    "shot": "proper-work",
+    "start": 91.54166666666667,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip3 - Medium - Proper Work.mp4",
+    "dialogue": [
+      [
+        "ARMORER",
+        "I can replace that much. The rest needs proper work."
+      ]
+    ]
+  },
+  {
+    "id": "episode-contract-take1",
+    "shot": "contract",
+    "start": 98.58333333333334,
+    "seconds": 11.041666666666666,
+    "source": "asset/videos/hover/C00-S02_Clip2 - Close - Contract.mp4",
+    "dialogue": [
+      [
+        "CLERK",
+        "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe."
+      ]
+    ]
+  },
+  {
+    "id": "episode-recovery-fee-take1",
+    "shot": "recovery-fee",
+    "start": 109.62500000000001,
+    "seconds": 6.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip3 - Close - Recovery Fee.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "Recovery fee?"
+      ],
+      [
+        "CLERK",
+        "If the recorder is intact."
+      ]
+    ]
+  },
+  {
+    "id": "episode-and-the-crew-take1",
+    "shot": "and-the-crew",
+    "start": 115.66666666666669,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip4 - Close - And The Crew.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "And the crew?"
+      ],
+      [
+        "CLERK",
+        "A rescue allowance. If they're alive."
+      ]
+    ]
+  },
+  {
+    "id": "episode-group-contracts-take1",
+    "shot": "group-contracts",
+    "start": 122.70833333333336,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip5 - Close - Group Contracts.mp4",
+    "dialogue": [
+      [
+        "CLERK",
+        "There are group contracts."
+      ],
+      [
+        "ARIN",
+        "Then split one between a group."
+      ]
+    ]
+  },
+  {
+    "id": "episode-join-a-group-take1",
+    "shot": "join-a-group",
+    "start": 129.75000000000003,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip6 - Close - Join A Group.mp4",
+    "dialogue": [
+      [
+        "CLERK",
+        "You could join a group, Arin."
+      ],
+      [
+        "ARIN",
+        "I heard you."
+      ]
+    ]
+  },
+  {
+    "id": "episode-leave-it-blank-take1",
+    "shot": "leave-it-blank",
+    "start": 136.79166666666669,
+    "seconds": 6.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip7 - Close - Leave It Blank.mp4",
+    "dialogue": [
+      [
+        "ARIN",
+        "Leave it blank."
+      ]
+    ]
+  },
+  {
+    "id": "episode-ration-shared-take1",
+    "shot": "ration-shared",
+    "start": 142.83333333333334,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip4 - Wide - Ration Shared.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-wrong-district-take1",
+    "shot": "wrong-district",
+    "start": 149.875,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S02_Clip5 - Wide - Wrong District.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "earth-protected",
+    "shot": "earth-protected",
+    "start": 156.91666666666666,
+    "seconds": 4.0,
+    "source": "asset/videos/hover/C00-S03 - Close - Intervention.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-distant-disturbance-take1-bridge",
+    "shot": "distant-disturbance",
+    "start": 160.91666666666666,
+    "seconds": 7.041666666666667,
+    "source": "asset/videos/hover/C00-S03_Clip3 - Wide - Distant Disturbance.mp4",
+    "dialogue": []
+  },
+  {
+    "id": "episode-not-mine-take1",
+    "shot": "not-mine",
+    "start": 167.95833333333331,
+    "seconds": 5.041666666666667,
+    "source": "asset/videos/hover/C00-S03_Clip4 - Wide - Not Mine.mp4",
+    "dialogue": [
+      [
+        "KAEL",
+        "That wasn't mine."
+      ]
+    ]
+  },
+  {
+    "id": "title",
+    "start": 172.99999999999997,
+    "seconds": 3
+  },
+  {
+    "id": "creator",
+    "start": 175.99999999999997,
+    "seconds": 4
+  },
+  {
+    "id": "project",
+    "start": 179.99999999999997,
+    "seconds": 7
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "episode-memory-take1",
+  "image": "asset/images/panel-01-1.png",
+  "caption": "Prologue Episode | Family memory | Exact dialogue pilot",
+  "art": "Arin's family inside the civilian spacecraft",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 10,
+  "seed": 202609270101,
+  "motion_prompt": "One continuous ten-second cinematic painted animation, retaining the exact mother, boy, father's reflection, spacecraft cabin and wrist strap in the reference. Warm close-up: the brown-haired mother in a white shirt fastens the worn strap around the wrist of young brown-haired Arin in navy clothes; his brown-haired father smiles in the viewport reflection. The camera holds steady on their hands and the boy, keeping the mother's face partly framed and the father's reflection visible. At the beginning the mother asks softly in a warm adult female voice, \"Too tight?\" After a brief pause the boy looks up and answers in a clear young boy's voice, \"No.\" Then the father, visible only in the reflection, speaks in a relaxed warm adult male voice: \"He'd say that if you tied him to the chair.\" The mother and boy share a small natural laugh and the father's smile lingers. The entire father's sentence is audible before the laugh; the family speaks only those three English lines, with distinct speakers and no overlap or additional words. A quiet cabin hum remains beneath the voices; the white flare outside begins to brighten only at the end, with a soft warning chime after the laugh. Preserve natural anatomy, consistent faces and detailed cinematic painted textures; no camera cut, subtitles, captions, music or extra people.",
+  "negative_prompt": "extra dialogue, gibberish, invented words, overlapping speakers, singing, narrator, subtitles, captions, logos, split screen, duplicate people, deformed hands, identity change, costume change, photorealistic live action, gore",
+  "dialogue": [
+    {
+      "speaker": "MOTHER",
+      "text": "Too tight?"
+    },
+    {
+      "speaker": "YOUNG ARIN",
+      "text": "No."
+    },
+    {
+      "speaker": "FATHER",
+      "text": "He'd say that if you tied him to the chair."
+    }
+  ],
+  "output_name": "C00-S01_Clip2 - Close - Memory"
+}

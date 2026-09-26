@@ -1,0 +1,26 @@
+{
+  "id": "episode-neris-issue-take1",
+  "image": "asset/images/panel-01-3.png",
+  "caption": "Prologue Episode | neris-issue",
+  "art": "Morning at the established Neris repair stall. The older gray-bearded armorer with goggles holds Arin's damaged shoulder plate toward the daylight and speaks. Arin in the same white navy gold surplus armor answers with a small dry shrug. Distinct warm gravelly older armorer voice and low young adult Arin voice. No military flashback; he bought surplus armor.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 11,
+  "seed": 202609270210,
+  "motion_prompt": "One continuous 11-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. Morning at the established Neris repair stall. The older gray-bearded armorer with goggles holds Arin's damaged shoulder plate toward the daylight and speaks. Arin in the same white navy gold surplus armor answers with a small dry shrug. Distinct warm gravelly older armorer voice and low young adult Arin voice. No military flashback; he bought surplus armor. The audible English dialogue in this shot, in this exact order, is: ARMORER says exactly, \"This is Neris issue.\". ARIN says exactly, \"It was Neris issue. Then it was a box behind a counter. Then it was mine.\". Every complete sentence is spoken clearly by its assigned character, naturally timed, one speaker at a time. Mouth movements follow the audible speech. Finish every line before the clip ends and remain silent afterward. No other words are spoken. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [
+    {
+      "speaker": "ARMORER",
+      "text": "This is Neris issue."
+    },
+    {
+      "speaker": "ARIN",
+      "text": "It was Neris issue. Then it was a box behind a counter. Then it was mine."
+    }
+  ],
+  "parent": "panel-01-3",
+  "output_name": "C00-S02_Clip2 - Medium - Neris Issue"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "episode-ledger-strap-take1",
+  "image": "production/prologue-episode/images/waking-room.png",
+  "caption": "Prologue Episode | ledger-strap",
+  "art": "Arin slowly lowers his extended hand. The cup stops against a worn rent-and-repair ledger on the bedside table. He opens a small wooden compartment, gently touches the childhood wrist strap inside, then closes the compartment. There is no speech. Private grief, no comforting musical swell.",
+  "render_size": [
+    1024,
+    576
+  ],
+  "render_seconds": 7,
+  "seed": 202609270208,
+  "motion_prompt": "One continuous 7-second cinematic painted anime film shot, landscape 16:9, based on the supplied first-frame illustration. Preserve these exact character faces, hairstyles, clothing, armor, props and setting throughout the motion. Natural detailed anatomy, expressive restrained acting, smooth physically coherent motion, rich cinematic light and fine painted textures. Arin slowly lowers his extended hand. The cup stops against a worn rent-and-repair ledger on the bedside table. He opens a small wooden compartment, gently touches the childhood wrist strap inside, then closes the compartment. There is no speech. Private grief, no comforting musical swell. No intelligible speech or words. Nobody narrates or sings. Clear foreground audio and quiet environmental sound, no background music. The picture remains completely clean: absolutely no written words, no subtitles, no captions, no lettering, no logos, no dialogue bubbles or screen graphics. Only move lips when that character is the speaker. No cut, no sudden identity change.",
+  "negative_prompt": "subtitles, captions, text, writing, letters, logos, dialogue bubbles, gibberish, extra dialogue, overlapping voices, narrator, singing, music, deformed anatomy, duplicate characters, identity changes, split screen, camera cuts",
+  "dialogue": [],
+  "parent": "panel-01-2",
+  "output_name": "C00-S01_Clip3 - Wide - Ledger Strap"
+}
