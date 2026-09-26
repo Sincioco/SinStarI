@@ -13,6 +13,38 @@ Completed locally on September 27, 2026. The episode covers C00-S01 through C00-
 
 ## Continuity and preserved takes
 
+### Additional wake-up alternate — Clip 8
+
+[Watch Clip 8 — Unlisted](https://youtu.be/lYPnVY8033w). This new 12-second take
+uses the approved 4K Arin head contact sheet to prepare its sleeping-room keyframe.
+Arin wakes with a sustained, loud `Noooooo!`, followed by the offscreen neighbor's
+`Some of us work in the morning!` and Arin's `So do I.` Sin clarified that remaining
+lying in bed is acceptable; sitting upright is not required. This take sits up.
+The original assembled episode and all earlier alternatives are preserved.
+
+The two-stage LTX sampler uses **1280 × 768**, then the saved workflow crops 24
+pixels from the top and bottom to export **1280 × 720 at 24 fps**. The model added
+unwanted captions near the bottom. The caption-free delivery is therefore a
+**1088 × 612 crop resized to 1280 × 720**; raw footage remains local. Original
+LTX audio is retained. See `accepted.json` for the exact finishing filter.
+
+- Local delivery: `../../asset/videos/hover/C00-S01_Clip8 - Wide - Wake.mp4`.
+- Regeneration workflow: **Sin Star I Prologue Episode / C00-S01_Clip8 - Wide - Wake**;
+  repository copies: `shots/episode-wake-take5-ui.json` and `-api.json`.
+- Starting image: `images/asleep-face-reference-take5.png`; the built-in image
+  generator prompt is saved alongside it. Reference: `../character-references/arin-head-contact-sheet-2x2-4k.png`.
+- The workflow regenerates the raw take. The existing finishing tool applies the
+  reviewed crop; rerendered dialogue and captions must be reviewed again.
+- Verification: opening-only ASR identifies `NOOOOOOO......` over 0.00–4.66 seconds;
+  full-shot ASR identifies both subsequent lines. Full-shot ASR omits the long vowel,
+  so the opening check is stored separately in `wake5-opening-transcript.json`.
+  Twelve sampled delivery frames are caption-free; the full video decodes cleanly.
+  Chrome played Clip 8 at 1280 × 720 and both Script and Storyboard offer it.
+  YouTube Studio confirmed Unlisted and Ads Off through the in-app browser.
+- All 24 saved workflows pass image-picker, API/UI, library-copy and output-size
+  checks. ComfyUI's cached picker was refreshed by selecting the same reference
+  through its upload control; the stale missing-image warning cleared.
+
 Existing family, Arin, Kael, armorer, clerk, dream-fight and Earth-intervention clips supplied the continuity references. The dream opponent remains concealed with his established violet sword. The father now says: “He’d say that if you tied him to the chair.”
 
 There are **23 new LTX generation takes plus one corrected sound edit**, all available as 24 new alternatives in Script and Storyboard. No original or generated clip was deleted. Sources stay in `../render-sources/prologue-episode`; delivery copies stay in `../../asset/videos/hover`. Videos are intentionally excluded from Git.

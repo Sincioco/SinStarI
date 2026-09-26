@@ -4,7 +4,8 @@
 - Work directly in `Visual Script and Storyboard` for all Script and Storyboard edits. This is the canonical local working copy.
 - Preserve the existing artwork, narrative, shared navigation, theme, audio and remembered clip selections unless a request changes them.
 - Keep artwork, templates, prompts and render sources needed for authoring inside this folder. External tools such as ComfyUI remain installed separately.
-- Generate future videos in landscape 16:9 unless Sin explicitly requests another format. Set the generation dimensions to 16:9 and verify the exported video's aspect ratio before delivery.
+- Generate future videos at 720p (1280 x 720), landscape 16:9, unless Sin explicitly requests another resolution or format. Apply this target when preparing new generation workflows and verify exported dimensions before delivery. Do not silently substitute a lower-resolution generation and call its upscale native 720p.
+- For future LTX 2.5 videos featuring Arin, use `Visual Script and Storyboard/production/character-references/arin-head-contact-sheet-2x2-4k.png` as the approved face/hairstyle identity reference. Use the appropriate head view when preparing scene keyframes, together with established body/costume and scene-continuity references. Do not animate the labeled grid as a scene. Compare generated faces with the sheet; reference conditioning improves consistency but is not an identity guarantee.
 - Do not generate ZIP deliveries unless Sin explicitly requests one.
 - Never stage or commit video files, including MP4 files. Check the Git index before every commit. Keep local copies in `asset/videos` and render sources in `production/render-sources`.
 - Name hover videos `C00-S01 - Close - Memory.mp4`; append variations after the scene ID, for example `C00-S01_Clip2 - Close - Memory.mp4`. Keep stable media IDs for saved choices.

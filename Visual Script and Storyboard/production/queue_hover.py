@@ -5,6 +5,7 @@ import json
 import shutil
 import urllib.request
 from media_catalog import all_clips
+from ltx_output_size import sampling_size, crop_output
 
 ROOT = Path(__file__).resolve().parents[1]
 PRODUCTION = ROOT / 'production'
@@ -25,8 +26,9 @@ def build_graph(item, index, api_template, ui_template):
     graph = {k: copy.deepcopy(v) for k, v in api_template.items() if k.startswith('101:')}
     image_path = f'SinStarI_Draft3/{item["id"]}.png'
     prefix = f'SinStarI_Draft3/{item["id"]}'
-    render_width, render_height = item.get('render_size', (1024, 576))
-    assert render_width * 9 == render_height * 16, 'New video renders must be landscape 16:9.'
+    output_width, output_height = item.get('render_size', (1280, 720))
+    render_width, render_height = sampling_size(output_width, output_height)
+    assert output_width * 9 == output_height * 16, 'New video exports must be landscape 16:9.'
     assert render_width % 64 == render_height % 64 == 0, 'Use dimensions aligned to both LTX sampling stages.'
     seed = item.get('seed', 20260916300 + index)
     prompt = (
@@ -82,6 +84,7 @@ def build_graph(item, index, api_template, ui_template):
                 node.update(widgets_values=[seed, 'fixed'], widgets_values_named={'noise_seed': seed, 'control_after_generate': 'fixed'})
             elif node['id'] == 429:
                 node.update(widgets_values=[1.0, False], widgets_values_named={'strength': 1.0, 'bypass': False})
+    crop_output(graph, ui, output_width, output_height)
     return graph, ui, prompt
 
 

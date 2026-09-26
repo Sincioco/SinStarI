@@ -186,6 +186,30 @@
             "So do I."
           ]
         ]
+      },
+      {
+        "id": "episode-wake-take5",
+        "video": "asset/videos/hover/C00-S01_Clip8 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take5-finished.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip8 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained."
       }
     ],
     "default_clip": "episode-wake-take4"

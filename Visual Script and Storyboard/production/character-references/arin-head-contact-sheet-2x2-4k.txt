@@ -1,0 +1,11 @@
+Arin head contact sheet — 4K export
+
+Final file: arin-head-contact-sheet-2x2-4k.png
+Verified dimensions: 4096 x 4096 pixels
+Source: arin-head-contact-sheet-2x2.png (1254 x 1254 pixels)
+Final method: FFmpeg Lanczos resampling of the approved original. The original faces, layout, and labels are preserved. This increases pixel dimensions; it is not native 4K-generated detail.
+
+The original contact sheet was created with the built-in image generator. A built-in enhancement attempt returned 1254 x 1254 pixels and was not used for the final export, to retain the approved artwork exactly. No CLI image-generation fallback was used.
+
+Enhancement attempt prompt:
+Use case: identity-preserve. Input image 1 is the exact approved edit target, an Arin head contact sheet. Upscale this existing image to a 4096 x 4096 pixel square 4K PNG, retaining its exact composition and character identity. This is a faithful resolution enhancement, not a redesign. Preserve the same four heads, facial geometry, expressions, chestnut hairstyle, blue-gray eyes, skin tone, lighting, pale gray background, thin central grid lines, margins, and label positions. Top left FRONT; top right BACK; bottom left LEFT with nose pointing left; bottom right RIGHT with nose pointing right. Preserve those exact four labels. Maintain head and short neck only. Reconstruct fine hair strands and natural skin texture cleanly without changing any features, adding sharpening halos, moving elements, or cropping. Return the complete 2 by 2 contact sheet at the highest available resolution, preferably exactly 4096 x 4096 pixels.

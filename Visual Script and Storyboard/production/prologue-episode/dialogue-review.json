@@ -455,5 +455,38 @@
     "width": 1024,
     "height": 576,
     "duration": 12.041667
+  },
+  "episode-wake-take5": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take5.mp4",
+    "expected": "Noooooo! Some of us work in the morning! So do I.",
+    "actual": "Some of us work in the morning. So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.48,
+        "text": "Some of us work in the morning."
+      },
+      {
+        "start": 10.48,
+        "end": 10.92,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "Reviewed 12 caption-free delivery frames: asleep opening, sustained anguished open-mouth scream, awake reaction and reply; approved head identity used in starting keyframe.",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.041667,
+    "opening_check": "wake5-opening-transcript.json",
+    "reviewed_dialogue_matches": true,
+    "review_note": "Full-shot ASR omits the sustained vowel; opening-only ASR identifies NOOOOOOO...... from 0.00 to 4.66. Both follow-up sentences match. The original automatic mismatch flag is preserved.",
+    "delivery_dimensions": [
+      1280,
+      720
+    ],
+    "delivery_crop": "1088:612:96:0",
+    "audio_opening_mean_dbfs": -10.5,
+    "audio_opening_peak_dbfs": -0.4,
+    "delivery_full_decode": "Passed"
   }
 }

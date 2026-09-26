@@ -34,8 +34,24 @@ has not remembered another take.
 
 The [concealed-opponent duel and giant-Kael variation](C00-S01-Duel.md) now play before
 `C00-S01 - Wide - Unreachable.mp4` in the review and has matching Script and
-Storyboard figures. New LTX jobs default to exact 16:9 at 1024 × 576; previews
-export at 960 × 540. Earlier accepted clips retain their original framing.
+Storyboard figures. As of September 27, 2026, future video generation targets
+**720p (1280 × 720), landscape 16:9**. Verify actual export dimensions and disclose
+any model-required size adjustment; do not describe a lower-resolution upscale as
+native 720p. Existing clips and their saved regeneration workflows retain their
+original dimensions.
+
+`ltx_output_size.py` owns the required two-stage sampler alignment and final crop.
+For 720p it samples at 1280 × 768 and center-crops to 1280 × 720 inside both API
+and saved UI workflows. The new default is applied by `queue_hover.py`; explicit
+older shot dimensions remain reproducible.
+
+For future LTX 2.5 shots featuring Arin, use the approved
+[`4K head contact sheet`](character-references/arin-head-contact-sheet-2x2-4k.png)
+as the face and hairstyle reference when preparing scene keyframes. Select the
+appropriate head view and retain the established body, costume, lighting and scene
+continuity. The labeled grid is a reference, not the video's opening frame.
+Compare generated faces against it during review; it cannot guarantee identical
+identity in every frame. The sheet is a 4096 × 4096 resample of the approved artwork.
 
 Videos, including intermediate render sources, must never enter Git. The root
 `.gitignore` covers common video formats regardless of folder and filename case.

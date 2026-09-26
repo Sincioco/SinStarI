@@ -251,5 +251,17 @@
     "dream_bridge": false,
     "episode_use": true,
     "video": "asset/videos/hover/C00-S01_Clip7 - Wide - Wake.mp4"
+  },
+  "episode-wake-take5": {
+    "shot": "wake",
+    "file": "production/render-sources/prologue-episode/episode-wake-take5-finished.mp4",
+    "review": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained.",
+    "scale": "Wide",
+    "original": "production/render-sources/prologue-episode/episode-wake-take5.mp4",
+    "video_filter": "crop=1088:612:96:0,scale=1280:720:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": false,
+    "video": "asset/videos/hover/C00-S01_Clip8 - Wide - Wake.mp4"
   }
 }

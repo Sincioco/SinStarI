@@ -28,7 +28,7 @@ def main():
     video = []
     if args.crop:
         video.append('crop=' + args.crop)
-    video += ['scale=1024:576:flags=lanczos', 'setsar=1']
+    video += [f'scale={entry["width"]}:{entry["height"]}:flags=lanczos', 'setsar=1']
     if args.fade_white:
         video.append(f'fade=t=out:st={entry["duration"] - 1.2}:d=1.0:color=white')
     command = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(source)]

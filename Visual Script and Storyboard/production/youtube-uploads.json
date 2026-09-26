@@ -130,6 +130,19 @@
     "verified_via": "YouTube Studio UI"
   },
   {
+    "id": "episode-wake-take5",
+    "status": "uploaded",
+    "file": "asset/videos/hover/C00-S01_Clip8 - Wide - Wake.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip8 - Wide / Wake",
+    "description": "Prologue episode — Wake — Retained alternate; see review note\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "b8c0f71b410b766eee5a93b2c21e81aad4f819eaec0329c57f6bd02bb4040632",
+    "youtube_id": "lYPnVY8033w",
+    "url": "https://youtu.be/lYPnVY8033w",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-26T22:11:54.011556+00:00",
+    "verified_via": "YouTube Studio UI"
+  },
+  {
     "id": "panel-01-3",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4",

@@ -34,7 +34,7 @@ def main():
                   'no captions, no lettering, no logos, no dialogue bubbles or screen graphics. '
                   'Only move lips when that character is the speaker. No cut, no sudden identity change.')
         item = dict(id=identifier, image=shot['image'], caption='Prologue Episode | ' + shot['id'],
-                    art=shot['action'], render_size=[1024, 576], render_seconds=shot['seconds'],
+                    art=shot['action'], render_size=[1280, 720], render_seconds=shot['seconds'],
                     seed=202609270200 + index, motion_prompt=prompt,
                     negative_prompt='subtitles, captions, text, writing, letters, logos, dialogue bubbles, '
                     'gibberish, extra dialogue, overlapping voices, narrator, singing, music, '

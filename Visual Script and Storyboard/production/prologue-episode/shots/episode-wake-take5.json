@@ -1,0 +1,21 @@
+{
+  "id": "episode-wake-take5",
+  "image": "production/prologue-episode/images/asleep-face-reference-take5.png",
+  "caption": "Prologue | Wake | Nightmare scream | 720p face reference",
+  "output_name": "C00-S01_Clip8 - Wide - Wake",
+  "art": "Arin jolts out of a nightmare with a full-volume sustained scream, disturbing the neighbor behind the wall.",
+  "render_size": [1280, 720],
+  "render_seconds": 12,
+  "seed": 202609275108,
+  "motion_prompt": "One continuous twelve-second cinematic nightmare awakening, detailed painted realism. Same adult Arin and bedroom as the supplied first frame: chestnut swept-back quiff, strong square jaw, straight brows and nose, black sleeveless undershirt. At the start Arin is ASLEEP, eyes closed, head on pillow. At half a second his eyes fly open in HORROR and he violently BOLTS UPRIGHT in bed, recoiling from his nightmare, both hands raised defensively. He is terrified of losing his parents again. From second ONE until second FIVE he SCREAMS one continuous word: \"NOOOOOOO!\" This is a raw, desperate, full-throated, sustained adult male SCREAM at the top of his lungs, holding the long O vowel for four seconds, loud enough to wake people in adjacent rooms. NOT conversational speech or a short shout. His jaw is wide open, brow raised and drawn together, eyes terrified, neck strained, chest heaving. His mouth visibly holds the scream throughout. The cry echoes briefly off the plaster walls and overwhelms the quiet nighttime ambience. The blanket slips to his waist and the metal cup rattles on the bedside table. At second FIVE the scream ends in a broken breath; Arin remains SITTING UPRIGHT, shaking and gasping, eyes open. At second SIX three heavy angry knocks pound the LEFT wall in direct reaction to his scream. At second SEVEN an unseen older male neighbor in the next room shouts through that wall exactly: \"Some of us work in the morning!\" Arin's mouth stays closed while the neighbor speaks. At second TEN Arin turns his head toward the left wall, still shaken, and replies quietly and wearily in his own adult male voice: \"So do I.\" At the end he remains upright, awake and breathing hard. He NEVER lies down or goes back to sleep. No visible neighbor or extra character. Keep the same adult face and hairstyle, bedding, armor on the chair, moonlit window, worn furniture and lighting. Locked wide camera, no cuts or zoom. Only the three specified lines, with the long terrified scream much louder than the later exhausted reply. Clear synchronized voices, no music, no narrator, no extra words. Clean image without subtitles, captions, text, letters, logos, speech bubbles or graphics.",
+  "negative_prompt": "short no, conversational no, whispered scream, repeated no, singing, narration, music, calm awakening, smiling, teenager, changed face, changed hair, lying back down, returning to sleep, extra person, neighbor in the room, distorted hands, extra fingers, subtitles, captions, words, text, letters, split screen, watermark",
+  "dialogue": [
+    {"speaker": "ARIN", "text": "Noooooo!"},
+    {"speaker": "NEIGHBOR", "text": "Some of us work in the morning!"},
+    {"speaker": "ARIN", "text": "So do I."}
+  ],
+  "parent": "panel-01-2",
+  "identity_reference": "production/character-references/arin-head-contact-sheet-2x2-4k.png",
+  "sampling_dimensions": [1280, 768],
+  "output_crop": {"width": 1280, "height": 720, "x": 0, "y": 24}
+}
