@@ -194,7 +194,7 @@
         "status": "reuse",
         "caption": "Prologue episode — Wake — Retained alternate; see review note",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip8 - Wide / Wake",
-        "provenance": "LTX 2.5 episode take; New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained.",
+        "provenance": "LTX 2.5 episode take; New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained. Sin rejected the acting as a deliberate performance; retained for comparison. Next take must portray involuntary fear and grief from reliving his parents' deaths.",
         "dialogue": [
           [
             "ARIN",
@@ -209,7 +209,55 @@
             "So do I."
           ]
         ],
-        "review_note": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained."
+        "review_note": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained. Sin rejected the acting as a deliberate performance; retained for comparison. Next take must portray involuntary fear and grief from reliving his parents' deaths."
+      },
+      {
+        "id": "episode-wake-take6",
+        "video": "asset/videos/hover/C00-S01_Clip9 - Wide - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take6.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip9 - Wide / Wake",
+        "provenance": "LTX 2.5 episode take; Preserved unsuccessful attempt. Starts asleep but rises into an upright scream despite the lying-down direction, with a camera-facing recovery. Opening-only ASR identifies a prolonged No (0.00-3.68 seconds). Tail ASR includes the neighbor line followed by unwanted additional words and then So do I; wording is not approved. Twenty-four sampled frames contain no captions. Native 1280x720 output, original audio retained. Retained for comparison; not selected for the episode.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "Preserved unsuccessful attempt. Starts asleep but rises into an upright scream despite the lying-down direction, with a camera-facing recovery. Opening-only ASR identifies a prolonged No (0.00-3.68 seconds). Tail ASR includes the neighbor line followed by unwanted additional words and then So do I; wording is not approved. Twenty-four sampled frames contain no captions. Native 1280x720 output, original audio retained. Retained for comparison; not selected for the episode."
+      },
+      {
+        "id": "episode-wake-take7",
+        "video": "asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4",
+        "source": "production/render-sources/prologue-episode/episode-wake-take7.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Wake — Retained alternate; see review note",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip10 - Close / Wake",
+        "provenance": "LTX 2.5 episode take; Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved.",
+        "dialogue": [
+          [
+            "ARIN",
+            "Nooooooooooo!"
+          ],
+          [
+            "NEIGHBOR",
+            "Some of us work in the morning!"
+          ],
+          [
+            "ARIN",
+            "So do I."
+          ]
+        ],
+        "review_note": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved."
       }
     ],
     "default_clip": "episode-wake-take4"

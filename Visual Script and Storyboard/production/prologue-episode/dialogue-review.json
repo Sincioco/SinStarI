@@ -488,5 +488,58 @@
     "audio_opening_mean_dbfs": -10.5,
     "audio_opening_peak_dbfs": -0.4,
     "delivery_full_decode": "Passed"
+  },
+  "episode-wake-take6": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take6.mp4",
+    "expected": "Noooooooo! Some of us work in the morning! So do I.",
+    "actual": "No So do I",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "No"
+      },
+      {
+        "start": 9.200000000000001,
+        "end": 11.200000000000001,
+        "text": "So do I"
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "24 sampled frames: upright scream and camera-facing recovery; preserved unsuccessful alternate. No captions observed. Full decode passes.",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.041667,
+    "reviewed_spoken_text_matches": false,
+    "review_note": "Separate excerpts in wake6-opening-transcript.json identify sustained No and the neighbor line, but also unwanted words after that line. Not approved."
+  },
+  "episode-wake-take7": {
+    "file": "production/render-sources/prologue-episode/episode-wake-take7.mp4",
+    "expected": "Noooooooo! Some of us work in the morning! So do I.",
+    "actual": "NOOOOOOO! Some of us work in the morning! So do I.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "NOOOOOOO!"
+      },
+      {
+        "start": 9.0,
+        "end": 11.0,
+        "text": "Some of us work in the morning!"
+      },
+      {
+        "start": 11.0,
+        "end": 12.0,
+        "text": "So do I."
+      }
+    ],
+    "spoken_text_matches": false,
+    "visual_review": "24 sampled frames: eyes shut at onset, head recoils against pillow, then tearful distressed recovery while reclined. No upright torso pose or broad arm display. No captions observed. Full decode passes.",
+    "width": 1280,
+    "height": 720,
+    "duration": 12.041667,
+    "reviewed_spoken_text_matches": true,
+    "review_note": "Full-shot ASR finds only the three intended lines. Exact-match false is solely the elongated No vowel count. Opening-only transcript independently identifies NOOOOOOO from 0.00 to 3.00 seconds. Acting remains for Sin to judge; new alternate, not a claim of user approval."
   }
 }

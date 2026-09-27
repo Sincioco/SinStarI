@@ -13,7 +13,64 @@ Completed locally on September 27, 2026. The episode covers C00-S01 through C00-
 
 ## Continuity and preserved takes
 
+### Revised nightmare close-up — Clip 10
+
+[Watch Clip 10 — Unlisted](https://youtu.be/qYMt58ObAf8). Arin's cry begins with
+his eyes shut, followed by a recoil against the pillow and a tearful, distressed
+recovery while reclined. The tighter frame avoids the upright torso pose and
+broad arm display of earlier attempts. The direction connects the reaction to
+reliving the childhood explosion that killed his parents. This is a new alternate
+for Sin's performance review; the existing assembled episode is preserved.
+
+- **1280 × 720, 16:9, 24 fps, 12.04 seconds**. The sampler runs at 1280 × 768;
+  the saved graph crops 24 pixels from the top and bottom. No additional finishing
+  crop or upscale was needed. Original LTX 2.5 audio is retained.
+- Full-shot ASR identifies the sustained `Noooooooo!`, the neighbor's exact
+  `Some of us work in the morning!`, and Arin's `So do I.` No extra words were
+  detected. The automatic exact-match flag differs only in the number of repeated
+  vowel letters; the reviewed result records that distinction without deleting
+  the raw ASR result. Opening-only ASR confirms the cry at 0.00–3.00 seconds.
+- Twenty-four sampled frames contain no captions; FFmpeg fully decoded the clip.
+  Word recognition checks dialogue, not subjective performance or perfect lip sync.
+- Local video: `../../asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4`.
+- ComfyUI: **Sin Star I Prologue Episode / C00-S01_Clip10 - Close - Wake**.
+  API/UI copies and queue receipt: `shots/episode-wake-take7-*`.
+- Keyframe: `images/trauma-closeup-take7.png`, prepared with the approved 4K Arin
+  head sheet and the preceding bedroom reference. Image prompt saved alongside it.
+- All **26** saved workflows pass reference-picker, API/UI, saved-library and
+  output-size checks. The workflow is left open in ComfyUI for regeneration.
+- YouTube Studio confirmed Unlisted and Ads Off through the in-app browser.
+- Chrome played Clips 9 and 10 at 1280 × 720 in both Script and Storyboard with
+  no media errors. Static validation passed for 4 pages, 1,388 local references,
+  164 clips and 9 JavaScript syntax checks; all 130 original video hashes and
+  the canonical script/canon remain unchanged. No source-code behavior changed.
+
+### Preserved wake-up attempt — Clip 9
+
+[Watch Clip 9 — Unlisted](https://youtu.be/b3T8oY8B4zc). This 12-second bedside
+attempt is retained for comparison, not selected for the episode. It again raises
+Arin into an upright scream instead of keeping him on the pillow. His recovery
+also faces the camera. Opening-only ASR identifies the long `No` at 0.00–3.68
+seconds; tail ASR finds the neighbor sentence followed by unwanted extra words
+before `So do I.` See `wake6-opening-transcript.json` for both excerpts. The
+wording and performance are not approved.
+
+The raw **1280 × 720, 24 fps** output is delivered with its original audio.
+Twenty-four sampled frames contain no captions, and full FFmpeg decoding passes.
+The source keyframe uses the approved 4K head sheet and the established bedroom.
+All previous clips are preserved. The saved ComfyUI workflow is
+**Sin Star I Prologue Episode / C00-S01_Clip9 - Wide - Wake**, with repository
+copies under `shots/episode-wake-take6-*`. YouTube Studio confirmed Unlisted
+and Ads Off through the signed-in in-app browser.
+
 ### Additional wake-up alternate — Clip 8
+
+**Sin's subsequent review:** Clip 8 feels like Arin deliberately woke to perform
+a scream. Its acting is not approved. The intended cause is involuntary terror
+and grief while reliving the childhood explosion that killed both parents.
+The cry should start inside the nightmare, followed by startled disorientation;
+Arin may remain lying on his pillow. Correct words and a loud voice alone do not
+establish an acceptable performance. Clip 8 remains available for comparison.
 
 [Watch Clip 8 — Unlisted](https://youtu.be/lYPnVY8033w). This new 12-second take
 uses the approved 4K Arin head contact sheet to prepare its sleeping-room keyframe.
@@ -68,7 +125,7 @@ Repository copies are under `shots/*-ui.json` and `shots/*-api.json`; the first 
 - `finish_clip.py` records a reviewed take and any explicit crop/sound edit in `accepted.json`. `episode_use` distinguishes final selections from preserved alternatives.
 - `publish_clips.py` updates the existing media catalog and only the matching illustration controls in Script/Storyboard.
 - `assemble_episode.py` creates the poster, selected narrative cuts and credits, then exports the episode. It uses the existing local FFmpeg/NVENC installation.
-- `validate_workflows.py` checks all 23 reference images against ComfyUI’s current picker choices, matching API/UI copies and 16:9 dimensions.
+- `validate_workflows.py` checks every saved shot reference against ComfyUI’s current picker choices, matching API/UI copies and 16:9 dimensions.
 - `validate_episode.py` transcribes dialogue from the assembled MP4 using the already-installed Faster Whisper runtime. It checks the sustained scream separately because full-shot ASR can omit a long vowel.
 
 Run these from `Visual Script and Storyboard` with the installed Python runtimes. No dependencies were installed. The live-review settings in `../review-sequence` are not modified by this pipeline.

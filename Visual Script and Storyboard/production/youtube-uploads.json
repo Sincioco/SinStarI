@@ -143,6 +143,32 @@
     "verified_via": "YouTube Studio UI"
   },
   {
+    "id": "episode-wake-take6",
+    "status": "uploaded",
+    "file": "asset/videos/hover/C00-S01_Clip9 - Wide - Wake.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip9 - Wide / Wake",
+    "description": "Prologue episode — Wake — Retained alternate; see review note\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "64bfc4647ce051de51e4b19f532590da29a5b1d458ca25bf55e52785ab809be8",
+    "youtube_id": "b3T8oY8B4zc",
+    "url": "https://youtu.be/b3T8oY8B4zc",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-27T01:50:21.380944+00:00",
+    "verified_via": "YouTube Studio UI"
+  },
+  {
+    "id": "episode-wake-take7",
+    "status": "uploaded",
+    "file": "asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip10 - Close / Wake",
+    "description": "Prologue episode — Wake — Retained alternate; see review note\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "f1a15252863f5c571258d0c9fc2cf4b17578705f1eef9012c42106f0e820ba05",
+    "youtube_id": "qYMt58ObAf8",
+    "url": "https://youtu.be/qYMt58ObAf8",
+    "visibility": "unlisted",
+    "verified_at": "2026-09-27T02:03:48.781183+00:00",
+    "verified_via": "YouTube Studio UI"
+  },
+  {
     "id": "panel-01-3",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S02 - Medium - Dry Humor.mp4",

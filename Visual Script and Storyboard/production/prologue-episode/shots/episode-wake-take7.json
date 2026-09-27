@@ -1,0 +1,32 @@
+{
+  "id": "episode-wake-take7",
+  "image": "production/prologue-episode/images/trauma-closeup-take7.png",
+  "caption": "Prologue | Wake | Nightmare grief close-up",
+  "output_name": "C00-S01_Clip10 - Close - Wake",
+  "art": "An involuntary cry from a childhood trauma nightmare wakes Arin and disturbs the neighbor.",
+  "render_size": [
+    1280,
+    720
+  ],
+  "render_seconds": 12,
+  "seed": 202609277317,
+  "motion_prompt": "An intimate locked close-up holds on Arin lying on his pillow for twelve seconds. His head stays pressed into the pillow throughout, with only his head and shoulders in frame. Asleep, he relives the explosion that killed his parents: his brow contracts, tears escape his shut eyes, his breath catches. A raw frightened cry bursts from his throat: \"Noooooooo!\" His mouth opens involuntarily, his head recoils into the pillow, and his eyes fly open in horror midway through the cracking cry. The cry breaks into gasping sobs. He remains lying down, trembling, wet-eyed and confused, looking past the camera toward the ceiling. At seven seconds loud knocks sound through the wall. An offscreen irritated male neighbor shouts, \"Some of us work in the morning!\" Arin flinches, then replies in a small, exhausted, breathless voice, \"So do I.\" Quiet room tone underneath, synchronized natural speech. Text-free cinematic image, intimate restrained acting, vulnerable grief, continuous fixed framing.",
+  "negative_prompt": "subtitles, text, captions, narration, additional words, extra dialogue, music, upright pose, sitting up, standing, zoom out, heroic pose, confident expression, theatrical gestures, anger, smile, looking at camera",
+  "dialogue": [
+    {
+      "speaker": "ARIN",
+      "text": "Noooooooo!"
+    },
+    {
+      "speaker": "NEIGHBOR",
+      "text": "Some of us work in the morning!"
+    },
+    {
+      "speaker": "ARIN",
+      "text": "So do I."
+    }
+  ],
+  "parent": "panel-01-2",
+  "identity_reference": "production/character-references/arin-head-contact-sheet-2x2-4k.png",
+  "performance_direction": "Tighter face-on-pillow framing after Clip 9 again sat upright. Involuntary grief and terror, cry begins while still asleep. Only quoted words are dialogue."
+}

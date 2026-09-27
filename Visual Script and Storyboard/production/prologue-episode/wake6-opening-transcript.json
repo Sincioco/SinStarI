@@ -1,0 +1,29 @@
+[
+  {
+    "file": "production\\local-state\\prologue-episode\\wake6-first6.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.68,
+        "text": "NOOOOOOOOOOO!!!"
+      }
+    ],
+    "text": "NOOOOOOOOOOO!!!"
+  },
+  {
+    "file": "production\\local-state\\prologue-episode\\wake6-last6.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.12,
+        "text": "Some of us work in the morning, the orange one is never visible."
+      },
+      {
+        "start": 4.12,
+        "end": 4.5200000000000005,
+        "text": "So do I."
+      }
+    ],
+    "text": "Some of us work in the morning, the orange one is never visible. So do I."
+  }
+]

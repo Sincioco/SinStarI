@@ -11,6 +11,8 @@ window.SinStarUploads = Object.freeze({
   "episode-wake-take3": "KpuRW9dw6ac",
   "episode-wake-take4": "cMbq0MbVwXc",
   "episode-wake-take5": "lYPnVY8033w",
+  "episode-wake-take6": "b3T8oY8B4zc",
+  "episode-wake-take7": "qYMt58ObAf8",
   "panel-01-3": "---hrwGOPvw",
   "episode-neris-issue-take1": "ikK8z_xYzWA",
   "episode-proper-work-take1": "14ridijmafM",

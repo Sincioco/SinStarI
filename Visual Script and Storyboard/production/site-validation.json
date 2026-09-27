@@ -1,11 +1,11 @@
 {
   "status": "Passed",
   "html_pages": 4,
-  "local_references": 1384,
+  "local_references": 1388,
   "scene_previews": 122,
   "cast_portraits": 7,
   "poster": true,
-  "video_clips": 162,
+  "video_clips": 164,
   "illustrations_with_variations": 8,
   "matching_navigation": true,
   "script_narrative": "Unchanged",
@@ -15,5 +15,5 @@
   "javascript_syntax_checks": 9,
   "pending_videos": [],
   "pending_render_jobs": [],
-  "browser_test": "Chrome: Clip 8 selectable and playing in Storyboard and Full Script; decoded video dimensions 1280x720. Prior variations preserved."
+  "browser_test": "Chrome: Clip 9 and Clip 10 selected and playing in both Storyboard and Full Script at 1280x720 with no video errors. Review notes visible; all older variations preserved. Shared navigation verified."
 }
