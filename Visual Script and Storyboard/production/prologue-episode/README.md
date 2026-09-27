@@ -8,10 +8,35 @@ Completed locally on September 27, 2026. The episode covers C00-S01 through C00-
 - Local episode: `../../asset/videos/Sin-Star-I-Prologue-Room-for-One-Episode.mp4`
 - Website: `../../movies.html#prologue-episode`
 - Selected awakening: **C00-S01_Clip7 - Wide - Wake**. Arin wakes in visible horror with a sustained **Nooooooooooo!**, followed by the neighbor and his exact reply. Earlier versions remain selectable.
-- No burned-in subtitles in delivered clips or the episode.
+- Later review found partial generated subtitles in the earlier Memory crop. The fresh Clip 4 below corrects that shot; the assembled episode has not been rerendered.
 - Landscape 16:9, 24 fps throughout. New LTX 2.5 source clips are **1024×576**; the episode is a **3840×2160 upscale** with a native 4K poster. The export does not create native 4K character detail.
 
 ## Continuity and preserved takes
+
+### Regenerated family memory — Clip 4
+
+`C00-S01_Clip4 - Close - Memory.mp4` is a fresh **1280 × 720, 24 fps,
+10.04-second** LTX 2.5 render. It keeps the established mother, young Arin,
+father's reflection and wrist strap in the original family composition.
+The camera holds the wider framing. There is no subtitle-removal crop,
+finishing zoom, speech replacement or additional video encoding.
+
+Independent ASR matches all three lines: **Too tight?**, **No.**, and
+**He'd say that if you tied him to the chair.** Twenty full-frame samples
+at two frames per second show no subtitles. The full audio/video decode passes.
+See `memory-take2-transcript.json`, `memory-take2-contact.jpg` and
+`dialogue-review.json` for evidence. ASR checks wording, not perfect lip sync.
+The two-stage sampler uses 1280 × 768 and the standard 24-pixel top/bottom
+alignment crop to export 720p; no later crop conceals generated text.
+
+The new take is the family illustration's default and is available in Script,
+Storyboard and the Video Clips dropdown. Existing remembered choices and movie
+exclusions remain intact. Earlier Memory clips remain available: the original
+father line is incorrect, and Clip 2's earlier crop still leaves partial subtitles.
+Future episode assembly selects the new Memory take; existing assembled films
+and YouTube uploads remain unchanged. Regenerate with
+`shots/episode-memory-take2.json` through `queue_shot.py`; the matching saved
+ComfyUI workflow is **C00-S01_Clip4 - Close - Memory**.
 
 ### Revised nightmare close-up — Clip 10
 

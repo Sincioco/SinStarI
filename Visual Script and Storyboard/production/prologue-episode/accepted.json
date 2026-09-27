@@ -2,9 +2,10 @@
   "episode-memory-take1": {
     "shot": "memory",
     "file": "production/render-sources/episode-memory-take1.mp4",
-    "review": "All three spoken lines match the independent transcription. Sampled frames retain the family and matching mouth movements. A 16:9 close crop removes incorrect model-generated lettering; no speech replacement.",
+    "review": "Correct spoken dialogue, but Sin confirmed that the earlier close crop leaves partial generated subtitles visible. Preserved for comparison; superseded by the fresh, uncropped 720p memory take 2.",
     "video_filter": "crop=880:495:72:0,scale=1024:576:flags=lanczos,setsar=1",
-    "video": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4"
+    "video": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4",
+    "episode_use": false
   },
   "episode-receding-door-take1": {
     "shot": "receding-door",
@@ -294,5 +295,17 @@
       "feedback": "Ok that last video you generated was perfect!",
       "reference_direction": "Preserve this intimate reclined nightmare performance, frightened cry and tearful recovery as the approved waking-scene reference."
     }
+  },
+  "episode-memory-take2": {
+    "shot": "memory",
+    "file": "production/render-sources/prologue-episode/episode-memory-take2.mp4",
+    "review": "Fresh 1280x720 render with all three exact lines independently transcribed, including the father sentence. Twenty full-frame samples at 2 fps show no subtitles; family, hands and wrist strap remain framed. Original generated audio and video retained with no subtitle-removal crop or finishing zoom.",
+    "scale": "Close",
+    "original": "production/render-sources/prologue-episode/episode-memory-take2.mp4",
+    "video_filter": "scale=1280:720:flags=lanczos,setsar=1",
+    "wordless_sound_design": false,
+    "dream_bridge": false,
+    "episode_use": true,
+    "video": "asset/videos/hover/C00-S01_Clip4 - Close - Memory.mp4"
   }
 }

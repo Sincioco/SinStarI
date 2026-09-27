@@ -541,5 +541,42 @@
     "duration": 12.041667,
     "reviewed_spoken_text_matches": true,
     "review_note": "Full-shot ASR finds only the three intended lines. Exact-match false is solely the elongated No vowel count. Opening-only transcript independently identifies NOOOOOOO from 0.00 to 3.00 seconds. Sin explicitly approved the performance as perfect on September 27, 2026."
+  },
+  "episode-memory-take2": {
+    "file": "production/render-sources/prologue-episode/episode-memory-take2.mp4",
+    "expected": "Too tight? No. He'd say that if you tied him to the chair.",
+    "actual": "Too tight? No. He'd say that if you tied him to the chair.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Too tight?"
+      },
+      {
+        "start": 2.0,
+        "end": 4.0,
+        "text": "No."
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "He'd say that if you tied him to the chair."
+      }
+    ],
+    "spoken_text_matches": true,
+    "visual_review": "Twenty full-frame samples at 2 fps: no captions or lettering; mother, young Arin, wrist strap and father reflection remain framed. Father moves his mouth during his line. No additional finishing crop or zoom.",
+    "width": 1280,
+    "height": 720,
+    "duration": 10.041667,
+    "browser_review": {
+      "browser": "Chrome",
+      "view": "Video Clips",
+      "selected_take": "Clip 4 / Close / Memory",
+      "width": 1280,
+      "height": 720,
+      "playing_time": 0.08,
+      "media_error": null,
+      "left_paused_for_review": true
+    }
   }
 }

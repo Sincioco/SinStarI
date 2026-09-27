@@ -1,0 +1,23 @@
+[
+  {
+    "file": "production\\render-sources\\prologue-episode\\episode-memory-take2.mp4",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.0,
+        "text": "Too tight?"
+      },
+      {
+        "start": 2.0,
+        "end": 4.0,
+        "text": "No."
+      },
+      {
+        "start": 4.0,
+        "end": 6.0,
+        "text": "He'd say that if you tied him to the chair."
+      }
+    ],
+    "text": "Too tight? No. He'd say that if you tied him to the chair."
+  }
+]

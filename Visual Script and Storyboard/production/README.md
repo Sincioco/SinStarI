@@ -14,8 +14,9 @@ for subsequent renders. Playback, preference persistence and audio have separate
 owners in `asset/sequence-player.js`, `sequence-settings.js` and `sequence-audio.js`.
 Published clip collection and episode publishing now call `review_catalog.py` to
 keep the review picker complete without resetting editorial choices. The current
-catalog contains 166 clips, including the September 27 episode alternatives and
-the [moving and teleport Godlike takes](godlike-volley/README.md). Excluded takes remain reviewable
+catalog contains 167 clips, including the September 27 episode alternatives,
+the [regenerated Memory take](prologue-episode/README.md#regenerated-family-memory--clip-4),
+and the [moving and teleport Godlike takes](godlike-volley/README.md). Excluded takes remain reviewable
 and are skipped by the review movie renderer.
 
 The canonical editable website is now `D:\SMILE 2.0 - Sin Star I\Visual Script and Storyboard`,

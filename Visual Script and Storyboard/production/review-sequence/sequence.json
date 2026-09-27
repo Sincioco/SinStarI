@@ -112,6 +112,17 @@
       "muted": false
     },
     {
+      "id": "episode-memory-take2",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip4 - Close - Memory.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 4 / Close / Memory",
+      "context": "Prologue episode — Memory",
+      "muted": false
+    },
+    {
       "id": "new-c00-s01-duel",
       "enabled": true,
       "file": "asset/videos/hover/C00-S01 - Close - Effortless.mp4",

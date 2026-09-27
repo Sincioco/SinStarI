@@ -1,0 +1,21 @@
+{
+  "id": "episode-memory-take2",
+  "image": "asset/images/panel-01-1.png",
+  "caption": "Prologue | Family Memory | Clean Frame and Correct Father Dialogue",
+  "output_name": "C00-S01_Clip4 - Close - Memory",
+  "art": "Young Arin and his mother with his father's smiling reflection in the spacecraft window.",
+  "render_size": [1280, 720],
+  "render_seconds": 10,
+  "seed": 202609277521,
+  "motion_prompt": "A warm ten-second cinematic painted animation holds the supplied family composition. The camera remains completely still, showing the mother's face, young Arin's face, both hands and the leather wrist strap, with the father's face visible in the spacecraft window reflection. The mother gently checks the strap on her son's wrist and softly asks, \"Too tight?\" The boy looks up at her and answers, \"No.\" His father smiles in the reflection and says warmly and playfully, \"He'd say that if you tied him to the chair.\" His lips move naturally through the entire sentence. After he finishes, mother and son exchange a little laugh and the father smiles. Preserve the established child's age, tousled brown hair, navy clothes, the mother's white blouse and the father's reflected face. Quiet cabin hum beneath three distinct natural voices with synchronized lips, followed by a soft warning chime at the end. The entire image remains clean and text-free from edge to edge, including the lower frame. Restrained affectionate acting, stable painted details, continuous fixed framing.",
+  "negative_prompt": "subtitles, captions, text, letters, writing, watermark, logo, lower thirds, dialogue bubbles, karaoke, title card, zoom, cropped faces, extra words, narrator, singing, music, simultaneous speakers, additional people, adult Arin, changed identities, deformed hands, cut, split screen",
+  "dialogue": [
+    {"speaker": "MOTHER", "text": "Too tight?"},
+    {"speaker": "YOUNG ARIN", "text": "No."},
+    {"speaker": "FATHER", "text": "He'd say that if you tied him to the chair."}
+  ],
+  "parent": "panel-01-1",
+  "identity_reference": "production/character-references/arin-head-contact-sheet-2x2-4k.png",
+  "identity_note": "Retain the established childhood likeness in the original family illustration; the adult head reference must not age the child up.",
+  "review_requirement": "Regenerate instead of cropping or zooming to conceal subtitles. Verify all three spoken lines and inspect the complete exported frame."
+}

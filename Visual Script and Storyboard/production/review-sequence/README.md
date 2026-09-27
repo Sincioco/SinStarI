@@ -6,7 +6,7 @@ play the finished movie. Closing the window leaves the background render running
 opening it again shows the current progress. The renderer never uploads files.
 
 The delivered output is `asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4`.
-The current live review contains every one of the 166 website preview clips: a
+The current live review contains every one of the 167 website preview clips: a
 two-second still poster, animated poster, story scenes in Storyboard order,
 alternate takes immediately beside their original, optional scenes, seven cast
 animations, and 18 seconds of illustrated credits. Existing edited films are not

@@ -39,6 +39,14 @@
     "verified_via": "YouTube Studio UI"
   },
   {
+    "id": "episode-memory-take2",
+    "status": "pending",
+    "file": "asset/videos/hover/C00-S01_Clip4 - Close - Memory.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip4 - Close / Memory",
+    "description": "Prologue episode — Memory\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "91f9333b419f557a31b467369ea3514854f00db9d9ed7783916f6c55966b0b7f"
+  },
+  {
     "id": "panel-01-2",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Wide - Lonely.mp4",

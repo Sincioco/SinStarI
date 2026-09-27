@@ -2247,5 +2247,19 @@
     "peak_dbfs": -0.1,
     "mean_dbfs": -13.5,
     "source_audio_present": true
+  },
+  {
+    "id": "episode-memory-take2",
+    "sha256": "91f9333b419f557a31b467369ea3514854f00db9d9ed7783916f6c55966b0b7f",
+    "duration": 10.041667,
+    "width": 1280,
+    "height": 720,
+    "bytes": 2680874,
+    "status": "Passed",
+    "full_decode": true,
+    "audio_streams": 1,
+    "peak_dbfs": -0.5,
+    "mean_dbfs": -18.2,
+    "source_audio_present": true
   }
 ]

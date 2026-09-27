@@ -22,9 +22,9 @@
         "video": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4",
         "source": "production/render-sources/episode-memory-take1.mp4",
         "status": "reuse",
-        "caption": "Prologue episode — Memory",
+        "caption": "Prologue episode — Memory — Retained alternate; see review note",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip2 - Close / Memory",
-        "provenance": "LTX 2.5 episode take; All three spoken lines match the independent transcription. Sampled frames retain the family and matching mouth movements. A 16:9 close crop removes incorrect model-generated lettering; no speech replacement.",
+        "provenance": "LTX 2.5 episode take; Correct spoken dialogue, but Sin confirmed that the earlier close crop leaves partial generated subtitles visible. Preserved for comparison; superseded by the fresh, uncropped 720p memory take 2.",
         "dialogue": [
           [
             "MOTHER",
@@ -43,7 +43,8 @@
           1024,
           576
         ],
-        "render_seconds": 10
+        "render_seconds": 10,
+        "review_note": "Correct spoken dialogue, but Sin confirmed that the earlier close crop leaves partial generated subtitles visible. Preserved for comparison; superseded by the fresh, uncropped 720p memory take 2."
       },
       {
         "id": "episode-white-fire-take1",
@@ -59,10 +60,38 @@
           576
         ],
         "render_seconds": 4
+      },
+      {
+        "id": "episode-memory-take2",
+        "video": "asset/videos/hover/C00-S01_Clip4 - Close - Memory.mp4",
+        "source": "production/render-sources/prologue-episode/episode-memory-take2.mp4",
+        "status": "reuse",
+        "caption": "Prologue episode — Memory",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip4 - Close / Memory",
+        "provenance": "LTX 2.5 episode take; Fresh 1280x720 render with all three exact lines independently transcribed, including the father sentence. Twenty full-frame samples at 2 fps show no subtitles; family, hands and wrist strap remain framed. Original generated audio and video retained with no subtitle-removal crop or finishing zoom.",
+        "dialogue": [
+          [
+            "MOTHER",
+            "Too tight?"
+          ],
+          [
+            "YOUNG ARIN",
+            "No."
+          ],
+          [
+            "FATHER",
+            "He'd say that if you tied him to the chair."
+          ]
+        ],
+        "output_size": [
+          1280,
+          720
+        ],
+        "render_seconds": 10
       }
     ],
-    "default_clip": "episode-memory-take1",
-    "review_note": "Earlier original take: the father speaks the wrong sentence. The new memory alternate corrects it."
+    "default_clip": "episode-memory-take2",
+    "review_note": "The original father line is incorrect; Clip 2 retains partial generated subtitles despite its crop. Clip 4 is a fresh 720p take with correct dialogue and clean sampled frames, with no subtitle-removal crop."
   },
   {
     "id": "panel-01-2",
@@ -292,7 +321,7 @@
         "status": "reuse",
         "caption": "Prologue episode — Wake — Retained alternate; see review note",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip10 - Close / Wake",
-        "provenance": "LTX 2.5 episode take; Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved.",
+        "provenance": "LTX 2.5 episode take; Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. Sin approved this performance as perfect on September 27, 2026. Preserve it as the waking-scene acting reference. Previous takes and assembled episode preserved.",
         "dialogue": [
           [
             "ARIN",
@@ -307,7 +336,7 @@
             "So do I."
           ]
         ],
-        "review_note": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved.",
+        "review_note": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. Sin approved this performance as perfect on September 27, 2026. Preserve it as the waking-scene acting reference. Previous takes and assembled episode preserved.",
         "output_size": [
           1280,
           720
