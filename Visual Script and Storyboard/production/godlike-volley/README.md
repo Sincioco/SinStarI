@@ -1,5 +1,34 @@
 # C00-S01 — Moving Godlike (September 27, 2026)
 
+## Latest revision — Clip 5 / Teleport Godlike
+
+Sin liked Kael's improved mobility and fighting, but requested that the godlike
+opponent shrink/teleport to the ending position instead of running backward.
+`../../asset/videos/hover/C00-S01_Clip5 - Wide - Teleport Godlike.mp4` preserves
+Clip 4's first six seconds (144 frames) of combat. The new six-second ending
+shrinks Kael through a violet flash into the distance, where he remains still
+while Arin lands, rises behind his shield and reaches the existing end pose.
+
+`teleport.json` records the revised direction and seed. `teleport-start.png` is
+the approved clip's exact frame at six seconds, preserving its reference-derived
+Arin/Kael design. `queue_volley.py` accepts that spec and reuses both endpoint
+guides; its API/UI workflows and execution receipt are retained. The ComfyUI
+workflow is **C00-S01 - Godlike Teleport Ending - 720p**. `finish_teleport.py`
+joins the preserved fight to the new ending, smooths the audio join for 80 ms,
+and applies the same final-frame matching blend as Clip 4.
+
+The revision is 12 seconds, 288 frames, 1280 × 720, 24 fps, H.264/AAC. It retains
+native 720p generation after the standard 1280 × 768 center crop. Endpoint SSIM
+against the next shot's scaled opening frame is **0.982810**. Four sampled frames
+per second across the new ending show the shrinking/teleport effect and no
+backward walking/running cycle. Full decoding, dimensions and the final pose were
+checked. The violet effect briefly obscures the shrinking silhouette.
+
+The previous versions and their remembered selections are preserved. The new
+stable ID is `new-c00-s01-duel-teleport-godlike`; it is available in Script,
+Storyboard and the Video Clips dropdown, with its own movie-exclusion setting.
+No full movie render or YouTube upload was requested.
+
 Sin requested fast physical action from Kael, rapid earth/fire/lightning volleys,
 Arin dodging and being knocked off his feet, the recognizable violet sword,
 and an ending matching the first frame of **Who Are You**. The former Godlike

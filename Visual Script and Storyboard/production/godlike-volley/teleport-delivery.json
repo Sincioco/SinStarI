@@ -1,0 +1,22 @@
+{
+  "status": "Passed",
+  "output": "asset/videos/hover/C00-S01_Clip5 - Wide - Teleport Godlike.mp4",
+  "sha256": "d6e6dc6b450637a08ed985374322cc088b8d3af7e567c8d9e7e6ded263856b19",
+  "width": 1280,
+  "height": 720,
+  "frames": 288,
+  "fps": 24,
+  "seconds": 12,
+  "preserved_combat_frames": 144,
+  "ending_source": "production/render-sources/godlike-teleport-ending-take1.mp4",
+  "end_pose_reference": "production/godlike-volley/references/next-first-frame.png",
+  "endpoint_ssim": 0.98281,
+  "visual_review": "New ending sampled at 4 fps: Kael shrinks with a violet flash into the distant final position; no backward running/walking cycle. Arin falls and recovers into the next-shot pose.",
+  "checks": {
+    "full_decode": true,
+    "saved_api_ui_links": true,
+    "native_720p_crop": true,
+    "registered_in_all_views": true
+  },
+  "preserved_combat_ssim": 0.994539
+}

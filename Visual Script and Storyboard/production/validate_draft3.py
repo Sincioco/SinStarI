@@ -53,7 +53,7 @@ def validate():
     assert len(expected) == 130 and len({item['id'] for item in expected}) == 130
     clips = all_clips(expected)
     episode_takes = json.loads((PRODUCTION / 'prologue-episode/accepted.json').read_text(encoding='utf-8'))
-    total_clips = 138 + len(episode_takes)  # Includes the September 27 moving Godlike take.
+    total_clips = 139 + len(episode_takes)  # Includes the moving and teleport Godlike takes.
     assert len(clips) == total_clips and len({clip['id'] for clip in clips}) == total_clips
     assert set(episode_takes).issubset({clip['id'] for clip in clips})
     review = json.loads((PRODUCTION / 'review-sequence/sequence.json').read_text(encoding='utf-8'))

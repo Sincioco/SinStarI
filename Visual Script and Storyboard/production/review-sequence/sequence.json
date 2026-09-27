@@ -156,6 +156,17 @@
       "muted": false
     },
     {
+      "id": "new-c00-s01-duel-teleport-godlike",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip5 - Wide - Teleport Godlike.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 5 / Wide / Teleport Godlike",
+      "context": "Kael unleashes the moving elemental assault, then shrinks and teleports into the distance while Arin recovers.",
+      "muted": false
+    },
+    {
       "id": "new-c00-s01-dream",
       "enabled": true,
       "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

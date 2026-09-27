@@ -1217,6 +1217,14 @@
     "sha256": "150de3b06d2f0458719060247841f56d894091cd75c6dc8184a8469d3f09f882"
   },
   {
+    "id": "new-c00-s01-duel-teleport-godlike",
+    "status": "pending",
+    "file": "asset/videos/hover/C00-S01_Clip5 - Wide - Teleport Godlike.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip5 - Wide / Teleport Godlike",
+    "description": "Kael unleashes the moving elemental assault, then shrinks and teleports into the distance while Arin recovers.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "d6e6dc6b450637a08ed985374322cc088b8d3af7e567c8d9e7e6ded263856b19"
+  },
+  {
     "id": "new-c00-s01-dream",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

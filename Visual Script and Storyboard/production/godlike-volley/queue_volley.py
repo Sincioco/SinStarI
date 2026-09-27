@@ -11,14 +11,17 @@ from queue_hover import build_graph, request
 
 
 def main():
-    receipt = HERE / 'volley-receipt.json'
+    spec_path = Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / 'volley.json'
+    receipt = spec_path.with_name(spec_path.stem + '-receipt.json')
     if receipt.exists():
         print(receipt.read_text())
         return
-    spec = json.loads((HERE / 'volley.json').read_text(encoding='utf-8'))
+    spec = json.loads(spec_path.read_text(encoding='utf-8'))
     inputs = Path(r'D:\AI\Mira3D\ComfyUI\input')
-    for source, name in [('dynamic-start.png', 'SinStarI_Godlike_Volley_Start.png'),
-                         ('references/next-first-frame.png', 'SinStarI_Godlike_Volley_End.png')]:
+    start_name = f'SinStarI_Godlike_{spec_path.stem}_Start.png'
+    end_name = f'SinStarI_Godlike_{spec_path.stem}_End.png'
+    for source, name in [(spec.get('start_image', 'dynamic-start.png'), start_name),
+                         ('references/next-first-frame.png', end_name)]:
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(HERE / source),
                         '-vf', 'scale=1280:720:flags=lanczos,pad=1280:768:0:24',
                         '-frames:v', '1', str(inputs / name)], check=True)
@@ -26,17 +29,17 @@ def main():
     graph, ui, _ = build_graph(spec, 0,
         json.loads((templates / 'Room-for-One-API.json').read_text()),
         json.loads((templates / 'Sin Star I - Room for One - LTX 2.5 - 24 Seconds.json').read_text()))
-    graph['1']['inputs']['image'] = 'SinStarI_Godlike_Volley_Start.png'
+    graph['1']['inputs']['image'] = start_name
     load = next(n for n in ui['nodes'] if n['id'] == 1)
     load['widgets_values'][0] = graph['1']['inputs']['image']
     load['widgets_values_named']['image'] = graph['1']['inputs']['image']
-    graph['901']['inputs']['filename_prefix'] = 'SinStarI_GodlikeVolley/Moving_Godlike_720p'
+    graph['901']['inputs']['filename_prefix'] = spec.get('output_prefix', 'SinStarI_GodlikeVolley/Moving_Godlike_720p')
     save = next(n for n in ui['nodes'] if n['id'] == 901)
     save['widgets_values'][0] = graph['901']['inputs']['filename_prefix']
     guide = json.loads((HERE.parent / 'workflows/new-c00-s01-duel-godlike-continuity-api.json').read_text())
     for key in ['2', '910', '911', '912', '913']:
         graph[key] = copy.deepcopy(guide[key])
-    graph['2']['inputs']['image'] = 'SinStarI_Godlike_Volley_End.png'
+    graph['2']['inputs']['image'] = end_name
     graph['2']['_meta']['title'] = 'Who Are You — Exact Opening Pose'
     rewires = {'101:427': ['positive', 'negative'], '101:432': ['video_latent'],
                '101:438': ['samples'], '101:443': ['video_latent'],
@@ -100,11 +103,12 @@ def main():
             connect(key, name, graph[key]['inputs'][name])
     group['state']['lastNodeId'] = max(group['state']['lastNodeId'], 913)
     for suffix, data in [('api', graph), ('ui', ui)]:
-        (HERE / f'volley-{suffix}.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        spec_path.with_name(f'{spec_path.stem}-{suffix}.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     library = Path(r'D:\Sin - AI Prompt\work\comfy_photo_video_user\default\workflows\Sin Star I Prologue Episode')
-    (library / 'C00-S01 - Moving Godlike Volley - 720p.json').write_text(json.dumps(ui, ensure_ascii=False, indent=2), encoding='utf-8')
+    workflow_name = spec.get('workflow_name', 'C00-S01 - Moving Godlike Volley - 720p')
+    (library / (workflow_name + '.json')).write_text(json.dumps(ui, ensure_ascii=False, indent=2), encoding='utf-8')
     result = request('/prompt', dict(prompt=graph, extra_data=dict(extra_pnginfo=dict(workflow=ui),
-        workflow_name='Sin Star I - C00-S01 - Moving Godlike Volley - 720p')))
+        workflow_name='Sin Star I - ' + workflow_name)))
     if result.get('node_errors'):
         raise ValueError(result)
     receipt.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')

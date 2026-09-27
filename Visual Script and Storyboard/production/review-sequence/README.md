@@ -6,7 +6,7 @@ play the finished movie. Closing the window leaves the background render running
 opening it again shows the current progress. The renderer never uploads files.
 
 The delivered output is `asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4`.
-The current live review contains every one of the 165 website preview clips: a
+The current live review contains every one of the 166 website preview clips: a
 two-second still poster, animated poster, story scenes in Storyboard order,
 alternate takes immediately beside their original, optional scenes, seven cast
 animations, and 18 seconds of illustrated credits. Existing edited films are not
@@ -196,6 +196,8 @@ in the authoring catalog so they cannot overflow a rendered information panel.
 ## September 27 clip review update
 
 - Added 27 missing episode alternatives and **Clip 4 / Wide / Moving Godlike**.
+- **Clip 5 / Wide / Teleport Godlike** preserves Clip 4's combat and replaces
+  Kael's backward run with a violet shrink/teleport into the matching final pose.
 - Saved exclusion/re-inclusion is checked in Chrome, including refresh and JSON
   persistence. Live review deliberately includes excluded takes for comparison.
 - Focused checks cover rapid mute/position/exclusion changes without losing edits,
