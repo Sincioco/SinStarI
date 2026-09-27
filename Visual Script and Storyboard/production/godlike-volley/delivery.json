@@ -1,0 +1,29 @@
+{
+  "status": "Passed",
+  "output": "asset/videos/hover/C00-S01_Clip4 - Wide - Moving Godlike.mp4",
+  "sha256": "150de3b06d2f0458719060247841f56d894091cd75c6dc8184a8469d3f09f882",
+  "source": "production/render-sources/godlike-moving-volley-take1.mp4",
+  "source_sha256": "ed550903cd3706442a7c78413a2f80e404690675166c7183d4c0671b6f8f78da",
+  "next_clip": "asset/videos/hover/C00-S01_Clip2 - Wide - Who Are You.mp4",
+  "next_clip_sha256": "ac1e42e496a8304b1606367e3e774db738dccdfd007b210f44f400b7b3d8e5f0",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 288,
+  "duration_seconds": 12,
+  "endpoint_ssim": 0.982656,
+  "generation": "LTX 2.5 sampled 1280x768; center crop to 1280x720",
+  "finish_filter": "[1:v]scale=1280:720:flags=lanczos,format=rgba,fade=t=in:st=11.5:d=0.4166667:alpha=1[end];[0:v][end]overlay=shortest=1:format=auto,format=yuv420p[v]",
+  "finish_encoding": "libx264 preset slow crf 17; AAC 192k; 24 fps; 12 seconds; faststart",
+  "review": "Three sampled frames per second during action plus original/next frame comparison; final clip played in Chrome",
+  "limitations": "Spell flashes briefly occlude weapons; fine generated motion details are not frame-identical to reference artwork.",
+  "checks": {
+    "full_video_audio_decode": true,
+    "all_published_clips_in_review": true,
+    "clip_count": 165,
+    "exclusion_http_save_reload_reinclude": true,
+    "renderer_exclusion_preparation": true,
+    "new_panel_layouts": 56,
+    "chrome_playing_counter_overlaps_panels": false
+  }
+}

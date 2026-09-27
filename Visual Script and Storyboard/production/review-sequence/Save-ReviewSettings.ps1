@@ -42,6 +42,10 @@ function Save-ReviewSettings($Request, [string]$SiteRoot) {
             $clip = $config.clips | Where-Object { $_.id -ceq $id } | Select-Object -First 1
             if (-not $clip) { throw "Unknown clip ID: $id" }
             $change = $patch.clips[$id]
+            if ($change.ContainsKey('enabled')) {
+                if ($change.enabled -isnot [bool]) { throw 'Enabled must be true or false.' }
+                $clip.enabled = $change.enabled
+            }
             if ($change.ContainsKey('muted')) {
                 if ($change.muted -isnot [bool]) { throw 'Muted must be true or false.' }
                 $clip.muted = $change.muted

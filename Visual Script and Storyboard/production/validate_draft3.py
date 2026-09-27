@@ -53,9 +53,11 @@ def validate():
     assert len(expected) == 130 and len({item['id'] for item in expected}) == 130
     clips = all_clips(expected)
     episode_takes = json.loads((PRODUCTION / 'prologue-episode/accepted.json').read_text(encoding='utf-8'))
-    total_clips = 137 + len(episode_takes)
+    total_clips = 138 + len(episode_takes)  # Includes the September 27 moving Godlike take.
     assert len(clips) == total_clips and len({clip['id'] for clip in clips}) == total_clips
     assert set(episode_takes).issubset({clip['id'] for clip in clips})
+    review = json.loads((PRODUCTION / 'review-sequence/sequence.json').read_text(encoding='utf-8'))
+    assert {clip['id'] for clip in clips}.issubset({clip['id'] for clip in review['clips']}), 'Published clips missing from Video Clips'
     render_status = json.loads((PRODUCTION / 'render-status.json').read_text(encoding='utf-8'))
     pending_jobs = [item['id'] for item in render_status if item['status'] not in ('rendered', 'reused')]
     assert allow_pending or not pending_jobs, ('unfinished render jobs', pending_jobs)

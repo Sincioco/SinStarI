@@ -30,7 +30,15 @@ try {
     if ((Send-Settings @{ clips = @{ $id = @{ muted = $true } } }).StatusCode -ne 200) { throw 'Mute-only save failed after reset.' }
     $saved = Get-Content -LiteralPath $testPath -Raw | ConvertFrom-Json
     if ($saved.audio.music_volume -ne 0.23 -or -not $saved.clips[0].muted) { throw 'Audio changes did not reach disk.' }
-    Write-Output 'Passed: stale positions rejected; new positions, audio-only and mute-only saves accepted.'
+    $before = $saved.clips[0].file
+    if ((Send-Settings @{ clips = @{ $id = @{ enabled = $false } } }).StatusCode -ne 200) { throw 'Exclusion save failed.' }
+    $saved = Get-Content -LiteralPath $testPath -Raw | ConvertFrom-Json
+    if ($saved.clips[0].enabled -ne $false -or $saved.clips[0].file -ne $before -or -not $saved.clips[0].muted) { throw 'Exclusion lost or changed unrelated settings.' }
+    if ((Send-Settings @{ clips = @{ $id = @{ enabled = 'false' } } }).StatusCode -ne 400) { throw 'Invalid exclusion accepted.' }
+    if ((Send-Settings @{ clips = @{ $id = @{ enabled = $true } } }).StatusCode -ne 200) { throw 'Re-inclusion failed.' }
+    $saved = Get-Content -LiteralPath $testPath -Raw | ConvertFrom-Json
+    if ($saved.clips[0].enabled -ne $true) { throw 'Re-inclusion did not reach disk.' }
+    Write-Output 'Passed: stale positions rejected; layout/audio/mute preserved; exclusion and re-inclusion persisted; invalid inclusion rejected.'
 } finally {
     if ([IO.File]::Exists($testPath)) { [IO.File]::Delete($testPath) }
 }

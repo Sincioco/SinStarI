@@ -1209,6 +1209,14 @@
     "verified_via": "YouTube Studio UI"
   },
   {
+    "id": "new-c00-s01-duel-moving-godlike",
+    "status": "pending",
+    "file": "asset/videos/hover/C00-S01_Clip4 - Wide - Moving Godlike.mp4",
+    "title": "Sin Star I - Prologue - Room for One - C00-S01_Clip4 - Wide / Moving Godlike",
+    "description": "Kael advances, lunges and pivots through stone, fire and lightning as Arin dodges and is knocked down.\n\nCreated by: Louiery R. Sincioco (Sin)\n\nSin Star is the first game project to use the new SMILE Programming Language, Compiler, Libraries and Tool Chain.\n\nOpen-source game and storyboard: https://github.com/sincioco/SinStarI\nSMILE compiler and tool chain: https://github.com/sincioco/smile-2.0\n\nAI-generated cinematic concept animation rendered with LTX 2.5. Game in development.",
+    "sha256": "150de3b06d2f0458719060247841f56d894091cd75c6dc8184a8469d3f09f882"
+  },
+  {
     "id": "new-c00-s01-dream",
     "status": "uploaded",
     "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",

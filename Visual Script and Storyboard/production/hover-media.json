@@ -38,7 +38,12 @@
             "FATHER",
             "He'd say that if you tied him to the chair."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 10
       },
       {
         "id": "episode-white-fire-take1",
@@ -48,7 +53,12 @@
         "caption": "Prologue episode — White Fire",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Close / White Fire",
         "provenance": "LTX 2.5 episode take; Nonverbal family laugh, no dialogue. A white flare editorial fade completes the memory rupture. No generated subtitles.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 4
       }
     ],
     "default_clip": "episode-memory-take1",
@@ -80,7 +90,12 @@
         "caption": "Prologue episode — One Pillow",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip2 - Wide / One Pillow",
         "provenance": "LTX 2.5 episode take; No speech or generated text. Arin visibly takes the spare pillow and braces the window; the room brightens toward dawn.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 6
       },
       {
         "id": "episode-ledger-strap-take1",
@@ -90,7 +105,12 @@
         "caption": "Prologue episode — Ledger Strap",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Wide / Ledger Strap",
         "provenance": "LTX 2.5 episode take; Arin reaches into the small keepsake box. No words in voice-activity-filtered transcription and no captions in sampled frames.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-wake-take2",
@@ -114,7 +134,12 @@
             "So do I."
           ]
         ],
-        "review_note": "Retained earlier take: correct words, but the opening is subdued. Superseded in the episode by the requested nightmare scream in take 3."
+        "review_note": "Retained earlier take: correct words, but the opening is subdued. Superseded in the episode by the requested nightmare scream in take 3.",
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 8
       },
       {
         "id": "episode-wake-take1",
@@ -138,7 +163,12 @@
             "So do I."
           ]
         ],
-        "review_note": "Retained alternate: incorrectly speaks No softly and So do I tired and dry before the three correct lines. Do not use in the episode. Generated captions removed by a close crop."
+        "review_note": "Retained alternate: incorrectly speaks No softly and So do I tired and dry before the three correct lines. Do not use in the episode. Generated captions removed by a close crop.",
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 9
       },
       {
         "id": "episode-wake-take3",
@@ -162,7 +192,12 @@
             "So do I."
           ]
         ],
-        "review_note": "Retained stronger outburst. Sin requested a still longer Nooooooooooo and visible horror from an asleep starting pose. Superseded by the next performance; original footage retained."
+        "review_note": "Retained stronger outburst. Sin requested a still longer Nooooooooooo and visible horror from an asleep starting pose. Superseded by the next performance; original footage retained.",
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 9
       },
       {
         "id": "episode-wake-take4",
@@ -185,7 +220,12 @@
             "ARIN",
             "So do I."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 12
       },
       {
         "id": "episode-wake-take5",
@@ -209,7 +249,12 @@
             "So do I."
           ]
         ],
-        "review_note": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained. Sin rejected the acting as a deliberate performance; retained for comparison. Next take must portray involuntary fear and grief from reliving his parents' deaths."
+        "review_note": "New 720p face-reference take. Isolated opening ASR identifies sustained NOOOOOOO over 0.00–4.66 seconds; full-shot ASR matches both follow-up lines. Sampled frames show a prolonged distressed open-mouth scream, then alert breathing. Same bedroom and approved swept-back chestnut hairstyle retained. LTX generated bottom captions; raw source preserved, delivery cropped to 1088x612 and resized to 1280x720. Sin clarified that lying in bed is also acceptable; sitting upright is not required. Original generated audio retained. Sin rejected the acting as a deliberate performance; retained for comparison. Next take must portray involuntary fear and grief from reliving his parents' deaths.",
+        "output_size": [
+          1280,
+          720
+        ],
+        "render_seconds": 12
       },
       {
         "id": "episode-wake-take6",
@@ -233,7 +278,12 @@
             "So do I."
           ]
         ],
-        "review_note": "Preserved unsuccessful attempt. Starts asleep but rises into an upright scream despite the lying-down direction, with a camera-facing recovery. Opening-only ASR identifies a prolonged No (0.00-3.68 seconds). Tail ASR includes the neighbor line followed by unwanted additional words and then So do I; wording is not approved. Twenty-four sampled frames contain no captions. Native 1280x720 output, original audio retained. Retained for comparison; not selected for the episode."
+        "review_note": "Preserved unsuccessful attempt. Starts asleep but rises into an upright scream despite the lying-down direction, with a camera-facing recovery. Opening-only ASR identifies a prolonged No (0.00-3.68 seconds). Tail ASR includes the neighbor line followed by unwanted additional words and then So do I; wording is not approved. Twenty-four sampled frames contain no captions. Native 1280x720 output, original audio retained. Retained for comparison; not selected for the episode.",
+        "output_size": [
+          1280,
+          720
+        ],
+        "render_seconds": 12
       },
       {
         "id": "episode-wake-take7",
@@ -257,7 +307,12 @@
             "So do I."
           ]
         ],
-        "review_note": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved."
+        "review_note": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved.",
+        "output_size": [
+          1280,
+          720
+        ],
+        "render_seconds": 12
       }
     ],
     "default_clip": "episode-wake-take4"
@@ -296,7 +351,12 @@
             "ARIN",
             "It was Neris issue. Then it was a box behind a counter. Then it was mine."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 11
       },
       {
         "id": "episode-proper-work-take1",
@@ -311,7 +371,12 @@
             "ARMORER",
             "I can replace that much. The rest needs proper work."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-ration-shared-take1",
@@ -321,7 +386,12 @@
         "caption": "Prologue episode — Ration Shared",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip4 - Wide / Ration Shared",
         "provenance": "LTX 2.5 episode take; No speech or captions. Female soldier shares the ration with the child while Arin walks past; stable designs in sampled frames.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-wrong-district-take1",
@@ -331,7 +401,12 @@
         "caption": "Prologue episode — Wrong District",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S02_Clip5 - Wide / Wrong District",
         "provenance": "LTX 2.5 episode take; Guard checks permit and gestures the laborer away; Arin checks the paper and walks. No speech in voice-activity-filtered transcription; no captions in sampled frames.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       }
     ]
   },
@@ -362,7 +437,12 @@
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03_Clip2 - Wide / Distant Disturbance",
         "provenance": "LTX 2.5 episode take; Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode.",
         "dialogue": [],
-        "review_note": "Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode."
+        "review_note": "Retained alternate: at the end Kael incorrectly voices Aristo instead of an entirely wordless fragment. Original audio retained for review; not selected for episode.",
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-distant-disturbance-take1-bridge",
@@ -372,7 +452,12 @@
         "caption": "Prologue episode — Distant Disturbance — Corrected dream sound",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S03_Clip3 - Wide / Distant Disturbance",
         "provenance": "LTX 2.5 episode take; Corrected edit: retain town laugh and atmosphere, replace the invented final word with the exact earlier wordless dream cue. No generated captions; stable Kael design in sampled frames.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-not-mine-take1",
@@ -387,7 +472,12 @@
             "KAEL",
             "That wasn't mine."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 5
       }
     ],
     "review_note": "Earlier original take: extra invented speech follows the correct line. The new Not Mine alternate corrects it."
@@ -1533,7 +1623,31 @@
             "ARIN",
             "Wait—"
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 6
+      },
+      {
+        "id": "new-c00-s01-duel-moving-godlike",
+        "video": "asset/videos/hover/C00-S01_Clip4 - Wide - Moving Godlike.mp4",
+        "source": "production/render-sources/godlike-moving-volley-take1.mp4",
+        "status": "reuse",
+        "caption": "Kael advances, lunges and pivots through stone, fire and lightning as Arin dodges and is knocked down.",
+        "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip4 - Wide / Moving Godlike",
+        "render_seconds": 12,
+        "render_size": [
+          1280,
+          720
+        ],
+        "output_size": [
+          1280,
+          720
+        ],
+        "provenance": "LTX 2.5 two-pass 1280x768 generation, center-cropped to native 1280x720; dynamic start uses approved Arin head and Kael sword references. End-frame conditioning in both passes plus a 10-frame finishing blend into the exact next Who Are You opening frame. Original Godlike preserved.",
+        "motion_prompt": "A twelve-second continuous cinematic fantasy fight. Real-time explosive action, athletic full-body motion, no slow motion. Begin from the supplied action pose: Arin, the young brown-haired paladin in white navy and gold plate, is on the left; the enormous faceless black silhouette Kael is on the right. In the first three seconds Kael drives forward in two long aggressive running steps, shoulders twisting, keeping his recognizable long violet starfield sword visibly in his RIGHT hand. He lunges and stamps his foot hard; his empty LEFT hand sweeps upward and fires a fast volley of stone shards. Arin rapidly sidesteps left, ducks, then springs sideways as rocks strike the floor where he stood. Between three and six seconds Kael pivots on his forward foot, makes a forceful left-arm cross-body strike casting a roaring fire burst, then snaps that arm overhead to lash branching lightning immediately afterward. Kael's legs, torso, shoulders and casting arm visibly move throughout the combo; he is an active advancing fighter. His sword stays the SAME violet starfield straight blade with the star-and-crescent gold guard, firmly in his right hand and visible beside his body. Arin blocks the fire with the blue-white gold-star kite shield on his LEFT forearm, cyan sword in RIGHT hand. Lightning erupts against his shield and a final shockwave knocks Arin off his feet: he falls backward, rolls once on the glossy black floor, and urgently pushes himself up behind his shield. Between eight and twelve seconds the magic clears. Kael sharply retreats and shrinks smoothly to normal human size far away on the right near the bright pillar. The camera settles into the precise supplied END frame: Arin standing in the left foreground in that exact bent-knee defensive pose, same shield and downward cyan sword, facing distant normal-size Kael. Finish in the exact endpoint composition and poses, no new move at the end. Preserve the dark reflective floor with gold seams, tall pillars and blue celestial nebula. Kael remains pitch black and faceless throughout, with no visible face, skin or armor details. The action has sharp whooshes, impacts, rumbling stone, fire rush and lightning crack; no dialogue, singing or music. Clear readable bodies, grounded footwork and dynamic but controlled camera tracking. No cuts, no text or lettering."
       }
     ]
   },
@@ -1568,7 +1682,12 @@
             "ARIN",
             "Who are you?"
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 5
       },
       {
         "id": "episode-unspoken-sound-take1",
@@ -1578,7 +1697,12 @@
         "caption": "Prologue episode — Unspoken Sound",
         "youtube_title": "Sin Star I - Prologue - Room for One - C00-S01_Clip3 - Wide / Unspoken Sound",
         "provenance": "LTX 2.5 episode take; Sampled motion retains distant opponent. Voice-activity-filtered transcription finds no words; unconstrained ASR hallucinated You over the nonverbal sound. No generated subtitles.",
-        "dialogue": []
+        "dialogue": [],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 4
       }
     ]
   },
@@ -1608,7 +1732,12 @@
             "CLERK",
             "Night inspection. Lower waterworks. Missing survey crew. Recover their route recorder if the route is unsafe."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 11
       },
       {
         "id": "episode-recovery-fee-take1",
@@ -1627,7 +1756,12 @@
             "CLERK",
             "If the recorder is intact."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 6
       },
       {
         "id": "episode-and-the-crew-take1",
@@ -1646,7 +1780,12 @@
             "CLERK",
             "A rescue allowance. If they're alive."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-group-contracts-take1",
@@ -1665,7 +1804,12 @@
             "ARIN",
             "Then split one between a group."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-join-a-group-take1",
@@ -1684,7 +1828,12 @@
             "ARIN",
             "I heard you."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 7
       },
       {
         "id": "episode-leave-it-blank-take1",
@@ -1699,7 +1848,12 @@
             "ARIN",
             "Leave it blank."
           ]
-        ]
+        ],
+        "output_size": [
+          1024,
+          576
+        ],
+        "render_seconds": 6
       }
     ]
   },

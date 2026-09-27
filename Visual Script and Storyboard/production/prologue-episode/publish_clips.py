@@ -10,6 +10,16 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE.parent))
 from build_draft3 import picture
 from youtube_catalog import prepare
+from review_catalog import sync_review_catalog
+
+
+def export_settings(identifier, shot):
+    paths = [HERE / 'shots' / f'{identifier}.json', HERE / f'{identifier}.json',
+             HERE / 'shots' / f'{identifier.removesuffix("-bridge")}.json']
+    spec = next((json.loads(path.read_text(encoding='utf-8')) for path in paths if path.is_file()), {})
+    # The original memory take predates shot specs and was exported at 1024 x 576.
+    return dict(output_size=spec.get('render_size', [1024, 576]),
+                render_seconds=spec.get('render_seconds', shot['seconds']))
 
 
 def replace_picture(source, item):
@@ -58,6 +68,7 @@ def main():
                        youtube_title=f'Sin Star I - Prologue - Room for One - {parent["scene"].upper()}_Clip{number} - {scale} / {title}',
                        provenance='LTX 2.5 episode take; ' + acceptance['review'],
                        dialogue=shot['dialogue'])
+        variant.update(export_settings(identifier, shot))
         if acceptance.get('episode_use') is False:
             variant['caption'] += ' — Retained alternate; see review note'
             variant['review_note'] = acceptance['review']
@@ -76,6 +87,7 @@ def main():
             source = replace_picture(source, parents[identifier])
         path.write_text(source, encoding='utf-8')
     prepare()
+    sync_review_catalog()
     print(f'{len(approved)} episode alternatives available in both views.')
 
 

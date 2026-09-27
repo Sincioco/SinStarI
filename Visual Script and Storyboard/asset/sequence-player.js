@@ -17,6 +17,9 @@
   const current = () => state.entries[state.index];
   const currentVideo = () => videos[state.active];
   const isVideo = entry => entry && entry.kind === 'clip';
+  const optionTitle = (entry, index) => entry.kind === 'clip'
+    ? `${index}. ${entry.scene} · ${entry.scene_title}${entry.take ? ' · ' + entry.take : ''}${entry.enabled === false ? ' · [Excluded From Movie]' : ''}`
+    : entry.title;
   const duration = () => isVideo(current())
     ? Number(current().duration_seconds ?? (currentVideo().duration - Number(current().start_seconds || 0)))
     : Number(current()?.seconds || 0);
@@ -85,6 +88,10 @@
     get('sequence-stage').classList.toggle('side-by-side', sideBySide && entry.kind === 'clip' && showLabels);
     get('mute-clip').disabled = entry.kind !== 'clip';
     get('mute-clip').checked = entry.muted === true;
+    get('exclude-clip').disabled = entry.kind !== 'clip';
+    get('exclude-clip').checked = entry.enabled === false;
+    const option = get('sequence-jump').children[state.index];
+    if (option) option.textContent = optionTitle(entry, state.index);
     audio.setClipMuted(entry.muted === true);
     get('sequence-labels').hidden = entry.kind !== 'clip' || !get('show-labels').checked;
     if (entry.kind !== 'clip') return;
@@ -197,7 +204,8 @@
       if (!Number.isFinite(number) || number < 0 || number > 2) throw Error(key + ' must be from 0 to 2.');
       config.audio[key] = number;
     }
-    const clips = config.clips.filter(clip => clip.enabled !== false);
+    // Excluded takes stay reviewable so the user can compare and include them again.
+    const clips = config.clips;
     if (!clips.length || new Set(clips.map(clip => clip.id)).size !== clips.length) throw Error('Clips need unique IDs.');
     state.config = config;
     preferences.configure(config, fromFile);
@@ -209,7 +217,7 @@
     get('sequence-jump').replaceChildren(...state.entries.map((entry, index) => {
       const option = document.createElement('option');
       option.value = index;
-      option.textContent = entry.kind === 'clip' ? `${index}. ${entry.scene} · ${entry.scene_title}${entry.take ? ' · ' + entry.take : ''}` : entry.title;
+      option.textContent = optionTitle(entry, index);
       return option;
     }));
     get('sequence-jump').disabled = false;
@@ -272,6 +280,9 @@
   get('review-layout').addEventListener('change', event => preferences.edit({ settings: { layout: event.target.value } }));
   get('mute-clip').addEventListener('change', event => {
     if (isVideo(current())) preferences.mute(current(), event.target.checked);
+  });
+  get('exclude-clip').addEventListener('change', event => {
+    if (isVideo(current())) preferences.exclude(current(), event.target.checked);
   });
   function positionPanels() {
     const positions = preferences.positions(current());

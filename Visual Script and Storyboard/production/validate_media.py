@@ -23,7 +23,10 @@ def check(item):
     assert audio[0]['codec_name'] == 'aac'
     assert video['codec_type'] == 'video' and video['codec_name'] == 'h264'
     assert video['pix_fmt'] == 'yuv420p' and video['r_frame_rate'] == '24/1'
-    assert video['width'] == 960 and video['height'] > 400
+    if item.get('output_size'):
+        assert [video['width'], video['height']] == item['output_size'], (item['id'], 'wrong export dimensions')
+    else:
+        assert video['width'] == 960 and video['height'] > 400
     if item.get('render_size'):
         assert video['width'] * 9 == video['height'] * 16, (item['id'], 'new video must be 16:9')
     duration = float(data['format']['duration'])

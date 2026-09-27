@@ -6,7 +6,7 @@ play the finished movie. Closing the window leaves the background render running
 opening it again shows the current progress. The renderer never uploads files.
 
 The delivered output is `asset/videos/Sin-Star-I-Story-Video-Sequence-Review.mp4`.
-The default review contains every one of the 137 website preview clips: a
+The current live review contains every one of the 165 website preview clips: a
 two-second still poster, animated poster, story scenes in Storyboard order,
 alternate takes immediately beside their original, optional scenes, seven cast
 animations, and 18 seconds of illustrated credits. Existing edited films are not
@@ -70,6 +70,9 @@ browser shortcuts. Holding a key does not repeatedly skip clips.
   switch back. The MP4 uses the same column arrangement with text fitted to its frame.
 - **Mute This Clip**: mutes only that clip's original audio. Background music keeps
   playing. Each alternate take has its own mute and position preferences.
+- **Exclude From Movie**: omits this take from the next rendered MP4. It remains
+  selectable in Video Clips, labeled **[Excluded From Movie]**, so you can review
+  it or uncheck the box later. Exclusion does not mute, delete or replace a file.
 - **Show Labels** and the three volume sliders apply to the whole sequence.
 - Purpose, character development, revelations and later connections are editorial
   notes in `scene_notes`, keyed by scene ID. Spoilers are intentional. Full notes
@@ -102,11 +105,12 @@ Use `"overlay"` or `"side-by-side"` for layout. Within an individual clip object
 
 ```json
 "muted": true,
+"enabled": false,
 "panel_positions": { "scene_info": "lower-left", "scene_context": "lower-right" }
 ```
 
 Omitted clip settings inherit the global panel positions and keep original audio
-enabled. All four corner names are supported. The two panels must use different
+enabled and included in the movie. All four corner names are supported. The two panels must use different
 corners. Muting clip audio does not mute the background music.
 
 After a global panel reset, `panel_layout_version` invalidates older cached panel
@@ -147,7 +151,8 @@ an object with a new `id` and `file` to add a clip. All paths are relative to th
 website folder. Original media is never modified.
 
 Each clip has `id`, `enabled`, `file`, `chapter`, `scene`, `scene_title`, `context`
-and an optional `take` label. Set `enabled` to `false` to omit a clip. Filenames
+and an optional `take` label. Set `enabled` to `false` to omit a clip from the movie
+while keeping it in live review. Filenames
 are displayed automatically. Chapter, scene and filename appear together at the
 lower left by default; context appears at the lower right. Saved per-clip positions
 override these defaults. Panels default to 80% opacity.
@@ -167,6 +172,14 @@ into the source artwork.
 
 ## Files and reuse
 
+`../review_catalog.py` adds finished published clips to the sequence next to their
+existing takes. Both `../collect_hover.py` and `../prologue-episode/publish_clips.py`
+call it. After another manual catalog publication, run
+`python production/review_catalog.py`. It preserves existing IDs, paths, order,
+trims, mute, exclusion, layout and audio settings; it never rebuilds the sequence.
+New entries receive short scene captions; detailed generation review notes stay
+in the authoring catalog so they cannot overflow a rendered information panel.
+
 - `sequence.json`: editable source of truth; no website rebuild rewrites it.
 - `sequence-timeline.csv`: generated start/end times and exact source filenames.
 - `sequence-render.json`: completed output checksum, timing, audio settings and
@@ -179,6 +192,23 @@ into the source artwork.
   it preserves story text, media paths and sequence order.
 - `../../asset/sequence-player.js`: playback, labels, navigation and keyboard controls.
 - `../../asset/sequence-settings.js`: per-clip preferences, recovery and automatic saves.
+
+## September 27 clip review update
+
+- Added 27 missing episode alternatives and **Clip 4 / Wide / Moving Godlike**.
+- Saved exclusion/re-inclusion is checked in Chrome, including refresh and JSON
+  persistence. Live review deliberately includes excluded takes for comparison.
+- Focused checks cover rapid mute/position/exclusion changes without losing edits,
+  fallback storage, JSON export, and re-inclusion. `check_catalog.py` recreates a
+  missing published take and verifies idempotent synchronization with existing
+  settings/order intact. The renderer's preparation path omits excluded inputs
+  and restores them when enabled, before opening or probing their video files.
+- All 28 added clips fit both rendered panel layouts. The live playing counter
+  now uses the reserved bottom margin instead of overlapping the information panel.
+- `check-settings.ps1` exercises real HTTP saves against a temporary configuration;
+  it does not change the user's editorial choices.
+- The existing full review MP4 is historical. Render again to include these takes
+  and apply exclusions; this update does not claim that movie was regenerated.
 - `../../asset/sequence-audio.js`: clip gain, music gain, master gain and live crossfades.
 
 Runtime tools are the already installed Python/Pillow, FFmpeg/FFprobe and PowerShell 7.
@@ -229,6 +259,7 @@ Run the focused checks from the website folder:
 
 ```text
 node production/review-sequence/check-player.cjs
+python production/review-sequence/check_catalog.py
 pwsh -NoProfile -File production/review-sequence/check-settings.ps1
 python production/review-sequence/validate_review.py
 python production/validate_draft3.py --require-videos

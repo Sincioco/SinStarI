@@ -38,8 +38,7 @@ video.sequence-media { cursor: pointer; }
 .expanded-scene-notes dt { color: #f1c878; font-weight: 700; margin: .9cqw 0 .25cqw; }
 .expanded-scene-notes dd { margin: 0; }
 .is-paused .expanded-scene-notes { display: block; }
-.is-paused .sequence-counter { right: 1.98cqw; left: auto; bottom: .2cqw; opacity: .75; }
-.sequence-counter { bottom: 2cqw; left: 1.98cqw; padding: .5cqw 1cqw; font-size: 1.15cqw; }
+.sequence-counter { bottom: .15cqw; right: 1.98cqw; padding: .1cqw .6cqw; font-size: 1cqw; line-height: 1.25; opacity: .8; }
 .side-by-side .sequence-media { width: 70%; }
 .side-by-side #sequence-labels { position: absolute; inset: 0 0 0 70%; display: flex; flex-direction: column; gap: 1px; background: #526780; }
 .side-by-side .sequence-left,.side-by-side .sequence-context { position: relative; inset: auto; width: 100%; border-radius: 0; background: #0c192b; padding: 1.25cqw; }

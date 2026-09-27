@@ -9,9 +9,14 @@ credits, track order and independent clip/music/master volumes. Start it with
 `Render Review Movie.cmd`; it renders in the background and displays progress.
 `Play Sequence.cmd` opens the immediate player at `review.html`. It supports
 Spacebar pause/resume, video-left side-by-side notes, hover corner arrows and
-per-clip mute/position settings. The local server saves preferences into the JSON
+per-clip mute/position/exclusion settings. The local server saves preferences into the JSON
 for subsequent renders. Playback, preference persistence and audio have separate
 owners in `asset/sequence-player.js`, `sequence-settings.js` and `sequence-audio.js`.
+Published clip collection and episode publishing now call `review_catalog.py` to
+keep the review picker complete without resetting editorial choices. The current
+catalog contains 165 clips, including the September 27 episode alternatives and
+the [moving Godlike take](godlike-volley/README.md). Excluded takes remain reviewable
+and are skipped by the review movie renderer.
 
 The canonical editable website is now `D:\SMILE 2.0 - Sin Star I\Visual Script and Storyboard`,
 in the independent public [SinStarI repository](https://github.com/Sincioco/SinStarI).

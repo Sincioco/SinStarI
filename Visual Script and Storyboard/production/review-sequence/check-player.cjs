@@ -82,6 +82,8 @@ function player(initial, storage = new Map(), failSave = false) {
 (async () => {
   const p = player(config); await settle();
   const node = id => p.nodes.get(id);
+  assert.equal(node('sequence-jump').children.length, config.clips.length + 2, 'Every published take is reviewable');
+  assert(node('exclude-clip').disabled, 'Opening still cannot be excluded with the clip checkbox');
   const videos = ['sequence-video-a', 'sequence-video-b'].map(node);
   const clickPlayback = async () => {
     const active = videos.find(video => !video.hidden);
@@ -231,6 +233,32 @@ function player(initial, storage = new Map(), failSave = false) {
   assert.equal(reset.audio.value.music_volume, 0.25, 'Layout reset preserves volume settings');
   await reset.flush(); assert.equal(reset.server.clips[0].panel_positions, undefined);
   const css = fs.readFileSync(path.join(root, 'asset/sequence-player.css'), 'utf8');
+  const inclusion = player(config); await settle();
+  const inc = id => inclusion.nodes.get(id);
+  inc('next').click(); await settle();
+  inc('exclude-clip').checked = true; inc('exclude-clip').dispatch('change');
+  // Rapid edits must merge within a clip, including the 250 ms save debounce.
+  inc('mute-clip').checked = true; inc('mute-clip').dispatch('change');
+  inclusion.arrows[0].click(); await inclusion.flush();
+  assert.equal(inclusion.server.clips[0].enabled, false);
+  assert.equal(inclusion.server.clips[0].muted, true);
+  assert(inc('sequence-jump').children[1].textContent.includes('[Excluded From Movie]'));
+  inc('next').click(); await settle(); assert(!inc('exclude-clip').checked, 'Exclusion is per take');
+  inc('previous').click(); await settle(); assert(inc('exclude-clip').checked);
+  const includedReload = player(inclusion.server); await settle();
+  includedReload.nodes.get('next').click(); await settle();
+  assert(includedReload.nodes.get('exclude-clip').checked, 'Excluded take remains selectable after reload');
+  assert.equal(includedReload.export().clips[0].enabled, false, 'Portable JSON retains exclusion');
+  inc('exclude-clip').checked = false; inc('exclude-clip').dispatch('change'); await inclusion.flush();
+  assert.equal(inclusion.server.clips[0].enabled, true, 'Unchecking restores movie inclusion');
+  assert(!inc('sequence-jump').children[1].textContent.includes('[Excluded From Movie]'));
+  fallback.nodes.get('exclude-clip').checked = true; fallback.nodes.get('exclude-clip').dispatch('change');
+  fallback.nodes.get('mute-clip').checked = true; fallback.nodes.get('mute-clip').dispatch('change'); await fallback.flush();
+  const exclusionRecovery = player(config, fallback.storage, true); await settle();
+  exclusionRecovery.nodes.get('next').click(); await settle();
+  assert(exclusionRecovery.nodes.get('exclude-clip').checked && exclusionRecovery.audio.muted,
+    'Offline recovery keeps exclusion and rapid mute changes together');
+  console.log('Passed: exclusion/re-inclusion, dropdown visibility, per-take isolation, rapid edits, reload, JSON export and offline recovery.');
   assert(css.includes('.sequence-left:hover .panel-move'));
   assert(css.includes('inset: 0 0 0 70%'), 'Information column is on the right');
   console.log('Passed: video click pause/resume, wheel navigation/bounds/throttle, right-click replay, middle-button full screen, both playback modes, clip/music synchronization, both video slots, panel isolation, all seven keyboard shortcuts, navigation bounds/state, live panel movement, per-clip layout/mute isolation, swaps, auto-save, reload, export, browser recovery.');

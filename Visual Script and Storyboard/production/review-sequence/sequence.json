@@ -75,7 +75,8 @@
       "scene": "POSTER",
       "scene_title": "A Universe Worth Fighting For",
       "context": "Animated game poster. The complete illustrated poster opens this review for two seconds before this motion variation.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-01-1",
@@ -85,7 +86,30 @@
       "scene": "C00-S01",
       "scene_title": "The dream that follows him",
       "context": "Before the warning chime, there was a laugh.\nInside a civilian spaceship, a mother's hand fastens a worn wrist strap on a young boy; his father's smiling face is reflected in the window, beyond which a sudden white flash begins.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-memory-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip2 - Close - Memory.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 2 / Close / Memory",
+      "context": "Prologue episode — Memory\nEarlier original take: the father speaks the wrong sentence. The new memory alternate corrects it.",
+      "muted": false
+    },
+    {
+      "id": "episode-white-fire-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip3 - Close - White Fire.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 3 / Close / White Fire",
+      "context": "Prologue episode — White Fire\nEarlier original take: the father speaks the wrong sentence. The new memory alternate corrects it.",
+      "muted": false
     },
     {
       "id": "new-c00-s01-duel",
@@ -110,6 +134,28 @@
       "muted": false
     },
     {
+      "id": "episode-receding-door-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip3 - Wide - Receding Door.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 3 / Wide / Receding Door",
+      "context": "Prologue episode — Receding Door",
+      "muted": false
+    },
+    {
+      "id": "new-c00-s01-duel-moving-godlike",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip4 - Wide - Moving Godlike.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 4 / Wide / Moving Godlike",
+      "context": "Kael advances, lunges and pivots through stone, fire and lightning as Arin dodges and is knocked down.",
+      "muted": false
+    },
+    {
       "id": "new-c00-s01-dream",
       "enabled": true,
       "file": "asset/videos/hover/C00-S01 - Wide - Unreachable.mp4",
@@ -117,7 +163,30 @@
       "scene": "C00-S01",
       "scene_title": "The dream that follows him",
       "context": "The dream has an opponent. It offers no answer.\nThe dream has an opponent.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-who-are-you-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip2 - Wide - Who Are You.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 2 / Wide / Who Are You",
+      "context": "Prologue episode — Who Are You",
+      "muted": false
+    },
+    {
+      "id": "episode-unspoken-sound-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip3 - Wide - Unspoken Sound.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 3 / Wide / Unspoken Sound",
+      "context": "Prologue episode — Unspoken Sound",
+      "muted": false
     },
     {
       "id": "panel-01-2",
@@ -127,7 +196,107 @@
       "scene": "C00-S01",
       "scene_title": "The dream that follows him",
       "context": "The dream reaches the waking room. No one has taught him what his voice can do.\nAdult Arin wakes alone in cheap lodging, dark undershirt, armor on a chair.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-one-pillow-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip2 - Wide - One Pillow.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 2 / Wide / One Pillow",
+      "context": "Prologue episode — One Pillow",
+      "muted": false
+    },
+    {
+      "id": "episode-ledger-strap-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip3 - Wide - Ledger Strap.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 3 / Wide / Ledger Strap",
+      "context": "Prologue episode — Ledger Strap",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take2",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip4 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 4 / Wide / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip5 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 5 / Wide / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take3",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip6 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 6 / Wide / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take4",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip7 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 7 / Wide / Wake",
+      "context": "Prologue episode — Wake",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take5",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip8 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 8 / Wide / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take6",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip9 - Wide - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 9 / Wide / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-wake-take7",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S01",
+      "scene_title": "The dream that follows him",
+      "take": "Clip 10 / Close / Wake",
+      "context": "Prologue episode — Wake — Retained alternate; see review note",
+      "muted": false
     },
     {
       "id": "panel-01-3",
@@ -137,7 +306,52 @@
       "scene": "C00-S02",
       "scene_title": "A contract, not a calling",
       "context": "Neris surplus armor. An empty emergency-contact field. One more contract.\nAt a Neris repair stall, adult Arin in battered surplus white navy gold armor counts a few coins while a practical armorer points to his cracked shoulder rivet.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-neris-issue-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip2 - Medium - Neris Issue.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 2 / Medium / Neris Issue",
+      "context": "Prologue episode — Neris Issue",
+      "muted": false
+    },
+    {
+      "id": "episode-proper-work-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip3 - Medium - Proper Work.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 3 / Medium / Proper Work",
+      "context": "Prologue episode — Proper Work",
+      "muted": false
+    },
+    {
+      "id": "episode-ration-shared-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip4 - Wide - Ration Shared.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 4 / Wide / Ration Shared",
+      "context": "Prologue episode — Ration Shared",
+      "muted": false
+    },
+    {
+      "id": "episode-wrong-district-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip5 - Wide - Wrong District.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 5 / Wide / Wrong District",
+      "context": "Prologue episode — Wrong District",
+      "muted": false
     },
     {
       "id": "new-c00-s02-contract",
@@ -147,7 +361,74 @@
       "scene": "C00-S02",
       "scene_title": "A contract, not a calling",
       "context": "There is room for a name. He leaves it empty.\nThere is room for a name.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-contract-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip2 - Close - Contract.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 2 / Close / Contract",
+      "context": "Prologue episode — Contract",
+      "muted": false
+    },
+    {
+      "id": "episode-recovery-fee-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip3 - Close - Recovery Fee.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 3 / Close / Recovery Fee",
+      "context": "Prologue episode — Recovery Fee",
+      "muted": false
+    },
+    {
+      "id": "episode-and-the-crew-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip4 - Close - And The Crew.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 4 / Close / And The Crew",
+      "context": "Prologue episode — And The Crew",
+      "muted": false
+    },
+    {
+      "id": "episode-group-contracts-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip5 - Close - Group Contracts.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 5 / Close / Group Contracts",
+      "context": "Prologue episode — Group Contracts",
+      "muted": false
+    },
+    {
+      "id": "episode-join-a-group-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip6 - Close - Join A Group.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 6 / Close / Join A Group",
+      "context": "Prologue episode — Join A Group",
+      "muted": false
+    },
+    {
+      "id": "episode-leave-it-blank-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S02_Clip7 - Close - Leave It Blank.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S02",
+      "scene_title": "A contract, not a calling",
+      "take": "Clip 7 / Close / Leave It Blank",
+      "context": "Prologue episode — Leave It Blank",
+      "muted": false
     },
     {
       "id": "new-c00-s03-course",
@@ -157,7 +438,8 @@
       "scene": "C00-S03",
       "scene_title": "A familiar sky, an unfamiliar sound",
       "context": "Earth; a quiet hillside at night.\nThe town never knows how close the danger came.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-01-4",
@@ -167,7 +449,41 @@
       "scene": "C00-S03",
       "scene_title": "A familiar sky, an unfamiliar sound",
       "context": "On Earth, far from Neris, someone hears the disturbance.\nKael with long silver hair and black silver cosmic armor stands on a grassy Earth hillside above an ordinary warmly lit town.",
-      "take": ""
+      "take": "",
+      "muted": false
+    },
+    {
+      "id": "episode-distant-disturbance-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S03_Clip2 - Wide - Distant Disturbance.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S03",
+      "scene_title": "A familiar sky, an unfamiliar sound",
+      "take": "Clip 2 / Wide / Distant Disturbance",
+      "context": "Prologue episode — Distant Disturbance — Retained alternate; see review note",
+      "muted": false
+    },
+    {
+      "id": "episode-distant-disturbance-take1-bridge",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S03_Clip3 - Wide - Distant Disturbance.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S03",
+      "scene_title": "A familiar sky, an unfamiliar sound",
+      "take": "Clip 3 / Wide / Distant Disturbance",
+      "context": "Prologue episode — Distant Disturbance — Corrected dream sound\nEarlier original take: extra invented speech follows the correct line. The new Not Mine alternate corrects it.",
+      "muted": false
+    },
+    {
+      "id": "episode-not-mine-take1",
+      "enabled": true,
+      "file": "asset/videos/hover/C00-S03_Clip4 - Wide - Not Mine.mp4",
+      "chapter": "Prologue - Room for One",
+      "scene": "C00-S03",
+      "scene_title": "A familiar sky, an unfamiliar sound",
+      "take": "Clip 4 / Wide / Not Mine",
+      "context": "Prologue episode — Not Mine\nEarlier original take: extra invented speech follows the correct line. The new Not Mine alternate corrects it.",
+      "muted": false
     },
     {
       "id": "panel-02-1",
@@ -177,7 +493,8 @@
       "scene": "C01-S01",
       "scene_title": "Someone comes back",
       "context": "A broken fastening. A collapsing conduit. A stranger who comes back.\nIn flooded industrial waterworks, Mira in plain navy travel clothes with tied brown hair kneels beside injured adult Arin.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c01-s01-carry",
@@ -187,7 +504,8 @@
       "scene": "C01-S01",
       "scene_title": "Someone comes back",
       "context": "The contract is finished. There is still someone to carry.\nThe contract is finished.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-02-2",
@@ -197,7 +515,8 @@
       "scene": "C01-S02",
       "scene_title": "No one asked her to stay",
       "context": "The recorder is safe. His paid work is over. He picks up another basin.\nBefore dawn in a crowded modest street clinic, Mira washes a surveyor's wound while weary Arin carries a stack of water basins.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c01-s02",
@@ -207,7 +526,8 @@
       "scene": "C01-S02",
       "scene_title": "No one asked her to stay",
       "context": "A basin becomes an introduction.\nIn the modest night clinic, Arin sets down his final basin then meets Mira's gaze honestly.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c01-s03",
@@ -217,7 +537,8 @@
       "scene": "C01-S03",
       "scene_title": "The relay answers",
       "context": "Keep the clinic supplied. Isolate the dangerous loop.\nBefore the supernatural surge, Mira in plain navy clothes studies intersecting industrial water pipes and indicates a bypass valve while the frightened municipal engineer holds an unsigned form and Arin reaches a manual wheel.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-02-3",
@@ -227,7 +548,12 @@
       "scene": "C01-S03",
       "scene_title": "The relay answers",
       "context": "An old relay recognizes him. Shortages, concealed faults and Axiom pulses overlap.\nUnder Neris, ancient cyan glyph rings threaded through modern pipes react to unconscious Arin; dust hangs in air.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_info": "upper-left",
+        "scene_context": "upper-right"
+      }
     },
     {
       "id": "panel-02-4",
@@ -237,7 +563,8 @@
       "scene": "C01-S04",
       "scene_title": "The princess who leaves for her people",
       "context": "The princess follows the relay network after arranging relief and unfiltered reports.\nNeris palace council: Mira now in white navy gold field armor places waterworks logs and a relief plan before her living king and queen.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c01-s04",
@@ -247,7 +574,8 @@
       "scene": "C01-S04",
       "scene_title": "The princess who leaves for her people",
       "context": "A mandate to investigate. A responsibility to return.\nOutside the palace after the council, Mira now dressed in fitted white/navy/gold field armor and holding gold open-ring bluecrystal staff examines Arin's very battered matching surplus shoulder plate with a dry affectionate smile.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-03-1",
@@ -257,7 +585,12 @@
       "scene": "C02-S01",
       "scene_title": "Veyra is not waiting to be discovered",
       "context": "Veyra: a Kynari trading world, with its own rules and people already running it.\nA bustling Kynari frontier spaceport on Veyra, amber cliffs and teal transit rails, low curved canine-built architecture, recessed scent-marked lanes, paw and nose operated kiosks, adjustable human counters.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_info": "lower-left",
+        "scene_context": "upper-right"
+      }
     },
     {
       "id": "new-c02-s01",
@@ -267,7 +600,12 @@
       "scene": "C02-S01",
       "scene_title": "Veyra is not waiting to be discovered",
       "context": "A useful thing, phrased as a contract.\nAt Veyra port, armored Arin and Mira consult an intelligent quadrupedal canine evacuation coordinator at a low paw-operated route table.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_info": "lower-left",
+        "scene_context": "upper-right"
+      }
     },
     {
       "id": "new-c02-s02",
@@ -277,7 +615,8 @@
       "scene": "C02-S02",
       "scene_title": "Not a battle they can win",
       "context": "Veyra transit terminal; evacuation under attack.\nHe holds because people are still crossing.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-03-2",
@@ -287,7 +626,8 @@
       "scene": "C02-S02",
       "scene_title": "Not a battle they can win",
       "context": "The objective is survival. Orin gives up the last lift.\nVeyra terminal under raider attack.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c02-s03",
@@ -297,7 +637,8 @@
       "scene": "C02-S03",
       "scene_title": "Two names that sound alike",
       "context": "Outside the chain of command.\nInside the refuge shuttle broad older stubbled Orin, white/navy/gold heavy armor, looks up respectfully at the younger brown-bun healer Mira as he recognizes the princess.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-03-3",
@@ -307,7 +648,8 @@
       "scene": "C02-S03",
       "scene_title": "Two names that sound alike",
       "context": "He came back for a stranger. He was afraid, too.\nInside an evacuation shuttle after escape, broad older dark-haired stubbled Orin carefully bandages younger clean-shaven Arin's shoulder with permission.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "new-c02-s04",
@@ -337,7 +679,12 @@
       "scene": "C03-S01",
       "scene_title": "Zara, who is not waiting for instructions",
       "context": "They already have a rescue plan. The newcomers offer a way back out.\nRed and charcoal fully artificial angular armored woman Zara backs out of a smoking low service hatch with a disabled surveillance unit.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_info": "lower-left",
+        "scene_context": "upper-right"
+      }
     },
     {
       "id": "new-c03-s01",
@@ -347,7 +694,12 @@
       "scene": "C03-S01",
       "scene_title": "Zara, who is not waiting for instructions",
       "context": "Approach to the Veyra communications enclosure; morning.\nThey already have their own reasons.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_info": "lower-left",
+        "scene_context": "upper-right"
+      }
     },
     {
       "id": "panel-04-2",
@@ -387,7 +739,12 @@
       "scene": "C03-S03",
       "scene_title": "A people with a way home",
       "context": "Veyra temporary community hall; evening.\nA promise to find the way back.",
-      "take": ""
+      "take": "",
+      "muted": false,
+      "panel_positions": {
+        "scene_context": "lower-right",
+        "scene_info": "upper-right"
+      }
     },
     {
       "id": "panel-04-4",
@@ -1357,7 +1714,8 @@
       "scene": "OPT-06",
       "scene_title": "A hand offered back",
       "context": "After C06-S06. The man who always returns can also accept a hand.\nAfter a fight at a quiet camp, older broad Orin struggles one-handed with a strap buckle.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "panel-18-4",
@@ -1397,7 +1755,8 @@
       "scene": "CAST",
       "scene_title": "Orin",
       "context": "Orin is a veteran protector who measures strength by the people he brings home. His tower shield makes room for others to survive.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "cast-zara",
@@ -1407,7 +1766,8 @@
       "scene": "CAST",
       "scene_title": "Zara",
       "context": "Zara is an artificial person who rejects ownership and chooses her own loyalties. Her precision and resolve help the party find a way forward.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "cast-milo",
@@ -1417,7 +1777,8 @@
       "scene": "CAST",
       "scene_title": "Milo",
       "context": "Milo is a canine courier and an equal member of the party. His perspective, courage and warmth change how his companions see their world.",
-      "take": ""
+      "take": "",
+      "muted": true
     },
     {
       "id": "cast-kael",
@@ -1427,7 +1788,8 @@
       "scene": "CAST",
       "scene_title": "Kael",
       "context": "Kael understands the Axiom and proposes a terrible answer to loss. His knowledge brings Arin closer to the truth and to an impossible choice.",
-      "take": ""
+      "take": "",
+      "muted": false
     },
     {
       "id": "cast-aevos",
@@ -1437,7 +1799,8 @@
       "scene": "CAST",
       "scene_title": "Aevos",
       "context": "Aevos stands at the Origin with the power to threaten worlds. The party must oppose that power while protecting the lives he treats as expendable.",
-      "take": ""
+      "take": "",
+      "muted": false
     }
   ],
   "scene_notes": {

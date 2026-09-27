@@ -1,4 +1,4 @@
-/* Review preferences: per-clip layout/mute, local recovery and renderer JSON saves. */
+/* Review preferences: per-clip layout/mute/inclusion, recovery and renderer JSON saves. */
 window.SinStarSequenceSettings = class {
   constructor(configPath, changed) {
     this.path = configPath;
@@ -44,6 +44,7 @@ window.SinStarSequenceSettings = class {
       const clip = this.config.clips.find(item => item.id === id);
       if (!clip || !value) continue;
       if (typeof value.muted === 'boolean') clip.muted = value.muted;
+      if (typeof value.enabled === 'boolean') clip.enabled = value.enabled;
       if (value.panel_positions) clip.panel_positions = this.positions({ panel_positions: value.panel_positions });
     }
     if (['overlay', 'side-by-side'].includes(patch.settings?.layout)) this.config.settings.layout = patch.settings.layout;
@@ -57,7 +58,7 @@ window.SinStarSequenceSettings = class {
     this.apply(patch);
     for (const group of ['clips', 'settings', 'audio']) {
       if (!patch[group]) continue;
-      this.pending[group] = { ...this.pending[group], ...patch[group] };
+      this.pending[group] = this.merge(group, this.pending[group], patch[group]);
     }
     this.pending.panel_layout_version = this.config.panel_layout_version || 0;
     try { if (!this.fromFile) localStorage.setItem(this.key, JSON.stringify(this.pending)); } catch { }
@@ -73,6 +74,16 @@ window.SinStarSequenceSettings = class {
   }
   mute(clip, muted) {
     this.edit({ clips: { [clip.id]: { muted, panel_positions: this.positions(clip) } } });
+  }
+  exclude(clip, excluded) {
+    this.edit({ clips: { [clip.id]: { enabled: !excluded } } });
+  }
+  merge(group, previous = {}, latest = {}) {
+    const result = { ...previous, ...latest };
+    if (group === 'clips') {
+      for (const id of Object.keys(latest)) result[id] = { ...previous[id], ...latest[id] };
+    }
+    return result;
   }
   schedule() {
     clearTimeout(this.timer);
@@ -99,7 +110,7 @@ window.SinStarSequenceSettings = class {
     } catch {
       if (this.config !== config) return;
       for (const group of ['clips', 'settings', 'audio']) {
-        if (patch[group]) this.pending[group] = { ...patch[group], ...this.pending[group] };
+        if (patch[group]) this.pending[group] = this.merge(group, patch[group], this.pending[group]);
       }
       let remembered = false;
       this.pending.panel_layout_version = config.panel_layout_version || 0;

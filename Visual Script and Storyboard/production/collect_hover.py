@@ -6,6 +6,7 @@ import subprocess
 import sys
 import urllib.request
 from media_catalog import all_clips
+from review_catalog import sync_review_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 PRODUCTION = ROOT / 'production'
@@ -31,7 +32,8 @@ def export_preview(item, source):
     filters = item.get('crop', '')
     if filters:
         filters += ','
-    filters += 'scale=960:-2,setsar=1'
+    width, height = item.get('output_size', (960, -2))
+    filters += f'scale={width}:{height},setsar=1'
     args += ['-map', '0:v:0', '-map', audio_input, '-vf', filters,
              '-c:a', 'aac', '-b:a', '128k', '-c:v', 'libx264', '-preset', 'fast', '-crf', '23',
              '-pix_fmt', 'yuv420p', '-movflags', '+faststart', str(target)]
@@ -80,6 +82,7 @@ def collect():
         report.append(dict(id=item['id'], status=status, ready=target.exists(),
                            bytes=target.stat().st_size if target.exists() else 0))
     (PRODUCTION / 'render-status.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+    sync_review_catalog()
     print(json.dumps({'ready':sum(r['ready'] for r in report), 'total':len(report),
                       'new_rendered':sum(r['status']=='rendered' for r in report),
                       'failed':[r['id'] for r in report if r['status']=='failed']}), flush=True)
