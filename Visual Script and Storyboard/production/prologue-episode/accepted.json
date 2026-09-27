@@ -280,13 +280,19 @@
   "episode-wake-take7": {
     "shot": "wake",
     "file": "production/render-sources/prologue-episode/episode-wake-take7.mp4",
-    "review": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. New performance offered for Sin to review; previous takes and assembled episode preserved.",
+    "review": "Revised intimate close-up using the approved 4K head sheet. Sampled frames show the cry beginning with eyes shut, a head recoil against the pillow, then a tearful distressed recovery while remaining reclined. No upright torso pose or broad arm display. Full-shot ASR identifies all three intended lines with no extra words; opening-only ASR identifies sustained NOOOOOOO over 0.00-3.00 seconds. Automatic exact match differs only in the elongated vowel count. Twenty-four sampled frames contain no captions. Native 1280x720, 24 fps; original LTX audio and raw render retained without additional crop. Sin approved this performance as perfect on September 27, 2026. Preserve it as the waking-scene acting reference. Previous takes and assembled episode preserved.",
     "scale": "Close",
     "original": "production/render-sources/prologue-episode/episode-wake-take7.mp4",
     "video_filter": "scale=1280:720:flags=lanczos,setsar=1",
     "wordless_sound_design": false,
     "dream_bridge": false,
     "episode_use": false,
-    "video": "asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4"
+    "video": "asset/videos/hover/C00-S01_Clip10 - Close - Wake.mp4",
+    "user_approval": {
+      "status": "approved",
+      "date": "2026-09-27",
+      "feedback": "Ok that last video you generated was perfect!",
+      "reference_direction": "Preserve this intimate reclined nightmare performance, frightened cry and tearful recovery as the approved waking-scene reference."
+    }
   }
 }

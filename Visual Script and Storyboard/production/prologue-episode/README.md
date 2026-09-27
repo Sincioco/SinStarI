@@ -19,8 +19,9 @@ Completed locally on September 27, 2026. The episode covers C00-S01 through C00-
 his eyes shut, followed by a recoil against the pillow and a tearful, distressed
 recovery while reclined. The tighter frame avoids the upright torso pose and
 broad arm display of earlier attempts. The direction connects the reaction to
-reliving the childhood explosion that killed his parents. This is a new alternate
-for Sin's performance review; the existing assembled episode is preserved.
+reliving the childhood explosion that killed his parents. **Sin approved Clip 10 as perfect on September 27, 2026.** Preserve its acting
+and framing as the approved nightmare-awakening reference. The existing assembled
+episode remains unchanged.
 
 - **1280 × 720, 16:9, 24 fps, 12.04 seconds**. The sampler runs at 1280 × 768;
   the saved graph crops 24 pixels from the top and bottom. No additional finishing
