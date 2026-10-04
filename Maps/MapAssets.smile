@@ -1,0 +1,86 @@
+''' Installs one bounded, build-verified map record per frame into game-owned storage.
+Module SinStarI.MapAssets
+
+Option Explicit
+
+Import Smile.Tools.Character3DViewerCalibration As Formatting
+
+Private Dim Manifest[65536] As Number
+Private Dim Bytes[1048577] As Number
+Private Dim Payload[1048576] As Number
+Private Dim ManifestLength As Number
+Private Dim Position As Number
+Private Dim RecordIndex As Number
+Private Dim Root As Text
+Private Dim Target As Text
+
+Public Sub Begin(Name As Text, Key As Text)
+
+    Root = "Assets\Maps\" + Name + "\"
+    Target = Key
+    Position = 0
+    RecordIndex = 0
+    Load Text File Root + "records.txt" Into Manifest Count ManifestLength
+
+End Sub
+
+''' 0: another record remains; 1: complete; 2: invalid input or storage failure.
+Public Function Update() As Number
+
+    Dim Suffix As Text
+    Dim Length As Number
+    Dim Index As Number
+    Dim Status As Number
+
+    If ManifestLength = 0 Then
+        Return 2
+    End If
+
+    If Position >= ManifestLength Then
+        Return 1
+    End If
+
+    Do
+
+        If Position >= ManifestLength Then
+            Exit Do
+        End If
+
+        If Manifest[Position] = 10 Then
+            Exit Do
+        End If
+
+        Suffix = Suffix + Text_From_Code(Manifest[Position])
+        Position = Position + 1
+
+    Loop
+
+    Position = Position + 1
+
+    If Suffix = "-" Then
+        Suffix = ""
+    End If
+
+    Load Text File Root + Formatting.NumberText(RecordIndex) + ".mapdata" Into Bytes Count Length
+
+    If Length < 2 Or Bytes[0] <> 0 Then
+        Return 2
+    End If
+
+    For Index = 0 To Length - 2
+        Payload[Index] = Bytes[Index + 1]
+    End For
+
+    Save Data Payload Count Length - 1 To Target + Suffix Status Status
+
+    If Status <> DATA_STATUS_OK Then
+        Return 2
+    End If
+
+    RecordIndex = RecordIndex + 1
+
+    Return 0
+
+End Function
+
+End Module

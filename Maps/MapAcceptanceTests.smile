@@ -1,0 +1,154 @@
+''' Native regression for the demonstrated unloaded-thumbnail error and map migration.
+
+Option Explicit
+
+Import SinStarI.MapBrowser As Browser
+Import SinStarI.MapCatalog As Catalog
+Import Smile.Tools.NerisTown As Town
+Import Smile.Tools.NerisTownParty As Party
+Import Smile.Tools.TownEditorSession As Session
+Import Smile.Simple3D.Graphics3D As G
+Import Smile.Simple3D.Precision3D As P
+Import Smile.Simple3D.PrecisionMath3D As Math3D
+Import Smile.Tools.Character3DViewerCalibration As Formatting
+
+Dim Value As Town.State
+Dim Origin As P.Vector3
+Dim Index As Number
+Dim Frame As Number
+Dim Phase As Number
+Dim Deadline As Number
+Dim Capture As Number
+Dim Job As Number
+Dim Failures As Number
+Dim Ok As Boolean
+Dim Moved As Boolean
+Dim Name As Text
+Dim Shot As Text
+
+Game Window "Sin Star I Map Acceptance" Size 640 By 384
+
+Call Browser.Enter()
+Call Browser.Draw()
+
+Show Screen
+
+Call Check(True, "Unloaded thumbnails render safely")
+
+Deadline = Timer() + 120000
+
+Do
+
+    Call Browser.Update(0)
+    Call Browser.Draw()
+
+    Show Screen
+
+Loop Until Catalog.Ready() Or Timer() >= Deadline Or Game_Closed()
+
+Call Check(Catalog.Ready(), "All 17 packaged maps import from executable-relative assets")
+Call Browser.Shutdown()
+
+If Catalog.Ready() Then
+
+    For Index = 0 To Catalog.EntryCount() - 1
+
+        Name = Catalog.Name(Index)
+        Ok = Session.OpenForPlay(Name)
+
+        Call Check(Ok, Name + " opens for play")
+        Call Town.Start(Value)
+
+        Deadline = Timer() + 60000
+
+        Do
+
+            Call Town.Update(Value, 16)
+
+            Show Screen
+
+        Loop Until Value.Ready Or Value.Failed Or Timer() >= Deadline Or Game_Closed()
+
+        Call Check(Value.Ready And Not Value.Failed And Value.People.MemberCount = 4,
+            Name + " loads the complete scene and four-person party")
+
+        If Value.Ready And Not Value.Failed Then
+
+            Call Session.UpdateDemoIdle(Value.View.LiveCamera, 180000, False)
+            Call Town.Update(Value, 16)
+            Call Check(Not Session.DemoActive() And Session.TownName() = Name,
+                Name + " stays selected while idle in play mode")
+
+            For Phase = 0 To 1
+
+                If Session.IsNight() <> (Phase = 1) Then
+                    Call Session.ToggleDayNight()
+                End If
+
+                For Frame = 0 To 4
+                    Call Town.Update(Value, 16)
+                    Call Town.Draw(Value)
+
+                    Show Screen
+                End For
+                Shot = "day"
+
+                If Phase = 1 Then
+                    Shot = "night"
+                End If
+
+                Capture = G.CaptureViewport3D()
+                Job = G.ExportViewportCapturePng3D(Capture, "@EVIDENCE@\" + Name + "-" + Shot + ".png")
+                Deadline = Timer() + 10000
+
+                Do
+                    Show Screen
+
+                Loop Until Data_FileStatus(Job) <> 0 Or Timer() >= Deadline
+
+                Call Check(Capture > 0 And Job > 0 And Data_FileStatus(Job) = 1,
+                    Name + " " + Shot + " photograph")
+                Call G.ReleaseViewportCapture3D(Capture)
+            End For
+
+            Origin = Value.People.Path.Positions[0]
+            Moved = False
+
+            For Frame = 0 To 19
+                Call Town.MoveParty(Value, P.Vector(1.0, 0.0, 0.0), 50)
+
+                Moved = Moved Or Math3D.Distance(Origin, Value.People.Path.Positions[0]) > 0.1
+            End For
+
+            If Not Moved Then
+
+                For Frame = 0 To 19
+                    Call Town.MoveParty(Value, P.Vector(0.0, 0.0, 1.0), 50)
+
+                    Moved = Moved Or Math3D.Distance(Origin, Value.People.Path.Positions[0]) > 0.1
+                End For
+
+            End If
+
+            Call Check(Moved, Name + " allows party movement")
+
+        End If
+
+        Call Town.Destroy(Value)
+    End For
+
+End If
+
+Print "MAP_CHECK_FAILURES=" + Formatting.NumberText(Failures)
+End Program
+
+Sub Check(Passed As Boolean, Message As Text)
+
+    If Passed Then
+        Print "PASS " + Message
+    Else
+        Failures = Failures + 1
+        Print "FAIL " + Message
+    End If
+
+End Sub

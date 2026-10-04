@@ -1,0 +1,219 @@
+''' Thumbnail navigation and scene selection. Town simulation remains in MapExploration.
+Module SinStarI.MapBrowser
+
+Option Explicit
+
+Import SinStarI.MapCatalog As Catalog
+Import SinStarI.MapExploration As Exploration
+
+Private Dim Photos[17] As Image
+Private Dim PhotoCount As Number
+Private Dim Selection As Number
+Private Dim Exploring As Boolean
+
+Public Sub Enter()
+
+    Exploring = False
+
+End Sub
+
+Private Function Columns() As Number
+
+    Dim Result As Number
+
+    Result = Max(2, Min(4, Window_Width() / 260))
+
+    Return Result
+
+End Function
+
+Private Function CardWidth() As Number
+
+    Dim Result As Number
+
+    Result = (Window_Width() - 48) / Columns()
+
+    Return Result
+
+End Function
+
+Private Function CardHeight() As Number
+
+    Dim Result As Number
+
+    Result = Max(110, Min(210, (Window_Height() - 170) / 3))
+
+    Return Result
+
+End Function
+
+Private Function PageSize() As Number
+
+    Dim Result As Number
+
+    Result = Columns() * Max(1, Min(3, (Window_Height() - 170) / CardHeight()))
+
+    Return Result
+
+End Function
+
+Public Function BackRequested(Key As Number) As Boolean
+
+    Dim Result As Boolean
+
+    Result = Not Exploring And (Key = KEY_ESCAPE Or
+        (Pointer_Pressed(POINTER_PRIMARY) And Pointer_X() < 140 And Pointer_Y() < 66))
+
+    Return Result
+
+End Function
+
+Public Sub Update(Key As Number)
+
+    Dim Index As Number
+    Dim First As Number
+    Dim Slot As Number
+    Dim X As Number
+    Dim Y As Number
+    Dim Confirm As Boolean
+
+    If Exploring Then
+
+        If Exploration.BackRequested(Key) Then
+            Call Exploration.Shutdown()
+
+            Exploring = False
+        Else
+
+            Call Exploration.Update(Key)
+        End If
+
+        Return
+
+    End If
+
+    Call Catalog.Update()
+
+    If PhotoCount < Catalog.EntryCount() Then
+        Load Image Photos[PhotoCount] From "Assets\Maps\" + Catalog.Name(PhotoCount) + ".png"
+        PhotoCount = PhotoCount + 1
+    End If
+
+    If Key = KEY_RIGHT Or Key = KEY_D Then
+        Selection = (Selection + 1) Mod Catalog.EntryCount()
+    Else If Key = KEY_LEFT Or Key = KEY_A Then
+        Selection = (Selection + Catalog.EntryCount() - 1) Mod Catalog.EntryCount()
+    Else If Key = KEY_DOWN Or Key = KEY_S Then
+        Selection = Min(Catalog.EntryCount() - 1, Selection + Columns())
+    Else If Key = KEY_UP Or Key = KEY_W Then
+        Selection = Max(0, Selection - Columns())
+    End If
+
+    If Pointer_Pressed(POINTER_PRIMARY) And Pointer_Y() >= Window_Height() - 64 Then
+
+        If Pointer_X() > Window_Width() / 2 Then
+            Selection = Min(Catalog.EntryCount() - 1, Selection + PageSize())
+        Else
+            Selection = Max(0, Selection - PageSize())
+        End If
+
+    End If
+
+    First = (Selection / PageSize()) * PageSize()
+    Confirm = Key = KEY_ENTER Or Key = KEY_SPACE
+
+    For Index = First To Min(Catalog.EntryCount() - 1, First + PageSize() - 1)
+
+        Slot = Index - First
+        X = 24 + (Slot Mod Columns()) * CardWidth()
+        Y = 102 + (Slot / Columns()) * CardHeight()
+
+        If (Pointer_Pressed(POINTER_PRIMARY) And
+            Pointer_X() >= X And Pointer_X() < X + CardWidth() - 12 And
+            Pointer_Y() >= Y And Pointer_Y() < Y + CardHeight() - 12) Then
+            Selection = Index
+            Confirm = True
+        End If
+
+    End For
+
+    If Confirm And Catalog.Ready() Then
+        Call Exploration.Enter(Selection)
+
+        Exploring = True
+    End If
+
+End Sub
+
+Public Sub Draw()
+
+    Dim Index As Number
+    Dim First As Number
+    Dim Slot As Number
+    Dim X As Number
+    Dim Y As Number
+    Dim Width As Number
+    Dim Height As Number
+    Dim Tint As Number
+
+    If Exploring Then
+        Call Exploration.Draw()
+
+        Return
+    End If
+
+    Clear RGB(9, 18, 29)
+    Draw Text "< Back" At 24, 24 Size 20 Color WHITE
+    Draw Text "Maps & Towns" At Window_Width() / 2, 18 Size 32 Color WHITE Centered
+    Draw Text "Choose A Map To Explore With Arin And Party" At Window_Width() / 2, 61 Size 17 Color CYAN Centered
+    First = (Selection / PageSize()) * PageSize()
+    Width = CardWidth() - 12
+    Height = CardHeight() - 12
+
+    For Index = First To Min(Catalog.EntryCount() - 1, First + PageSize() - 1)
+
+        Slot = Index - First
+        X = 24 + (Slot Mod Columns()) * CardWidth()
+        Y = 102 + (Slot / Columns()) * CardHeight()
+        Tint = RGB(34, 54, 72)
+
+        If Index = Selection Then
+            Tint = RGB(55, 185, 198)
+        End If
+
+        Fill Rectangle X, Y, Width, Height, Tint
+
+        If Index < PhotoCount Then
+            Draw Image Photos[Index] At X + 3, Y + 3 Size Width - 6 By Height - 36 Filter Smooth
+        End If
+
+        Draw Text Catalog.Name(Index) At X + Width / 2, Y + Height - 29 Size 16 Color WHITE Centered
+    End For
+
+    If Not Catalog.Ready() Then
+        Draw Text Catalog.Message() At Window_Width() / 2, Window_Height() - 78 Size 16 Color WHITE Centered
+        Fill Rectangle 24, Window_Height() - 53, (Window_Width() - 48) * Catalog.Progress() / 100, 4, CYAN
+    End If
+
+    Draw Text "< Previous Page" At 24, Window_Height() - 38 Size 18 Color WHITE
+    Draw Text "Next Page >" At Window_Width() - 156, Window_Height() - 38 Size 18 Color WHITE
+    Draw Text "Arrows: Select   Enter: Explore   Esc: Back" At Window_Width() / 2, Window_Height() - 34 Size 14 Color LIGHT_GRAY Centered
+
+End Sub
+
+Public Sub Shutdown()
+
+    Dim Index As Number
+
+    Call Exploration.Shutdown()
+
+    For Index = 0 To PhotoCount - 1
+        Unload Image Photos[Index]
+    End For
+
+    PhotoCount = 0
+    Exploring = False
+
+End Sub
+
+End Module

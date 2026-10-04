@@ -1,0 +1,109 @@
+''' Game scene host; Studio's town owners retain rendering, party movement and camera state.
+Module SinStarI.MapExploration
+
+Option Explicit
+
+Import Smile.Tools.NerisTown As Town
+Import Smile.Tools.TownEditorSession As Session
+Import SinStarI.MapCatalog As Catalog
+
+Private Dim Scene As Town.State
+Private Dim Active As Boolean
+Private Dim Failed As Boolean
+Private Dim LastTick As Number
+Private Dim Heading As Text
+
+Public Sub Enter(Index As Number)
+
+    Call Shutdown()
+
+    Heading = Catalog.Name(Index)
+    Failed = Not Session.OpenForPlay(Heading)
+
+    If Failed Then
+        Return
+    End If
+
+    Call Town.Start(Scene)
+
+    Active = True
+    LastTick = Timer()
+
+End Sub
+
+Public Sub Update(Key As Number)
+
+    Dim Elapsed As Number
+
+    If Not Active Then
+        Return
+    End If
+
+    Elapsed = Max(0, Min(50, Timer() - LastTick))
+    LastTick = Timer()
+
+    Call Town.Input(Scene, Key, False, Pointer_Y() < 94, True)
+    Call Town.Update(Scene, Elapsed)
+
+    Failed = Scene.Failed
+
+End Sub
+
+Public Function BackRequested(Key As Number) As Boolean
+
+    Dim Result As Boolean
+
+    Result = Key = KEY_ESCAPE Or (Pointer_Pressed(POINTER_PRIMARY) And
+        Pointer_X() >= 18 And Pointer_X() < 182 And
+        Pointer_Y() >= 128 And Pointer_Y() < 164)
+
+    Return Result
+
+End Function
+
+Public Sub Draw()
+
+    If Active Then
+        Call Town.Draw(Scene)
+        Call Town.Overlay(Scene, True)
+    Else
+        Clear RGB(10, 18, 30)
+    End If
+
+    If Scene.Ready Then
+        Fill Rectangle 18, 128, 164, 36, RGB(12, 28, 42)
+        Draw Text "< Maps & Towns" At 27, 137 Size 18 Color WHITE
+    End If
+
+    If Failed Then
+
+        Fill Rectangle 0, 96, Window_Width(), 76, RGB(60, 18, 25)
+        Draw Text "Could not load " + Heading + ". Return to Maps & Towns to try again." At 24, 120 Size 20 Color WHITE
+
+    Else If Not Scene.Ready Then
+
+        Fill Rectangle 0, 96, Window_Width(), 80, RGB(10, 22, 34)
+        Draw Text "Loading " + Heading + "..." At 24, 107 Size 20 Color WHITE
+        Fill Rectangle 24, 144, Window_Width() - 48, 10, RGB(30, 48, 62)
+        Fill Rectangle 24, 144, (Window_Width() - 48) * Session.Progress() / 100, 10, CYAN
+
+    End If
+
+    If Scene.Ready Then
+        Draw Text "WASD: Move Party   R: Walk / Run   Tab: Follow Party   Ctrl+Tab: Leader   Esc: Maps" At 18, 99 Size 14 Color WHITE
+    End If
+
+End Sub
+
+Public Sub Shutdown()
+
+    If Active Then
+        Call Town.Destroy(Scene)
+    End If
+
+    Active = False
+    Failed = False
+
+End Sub
+
+End Module

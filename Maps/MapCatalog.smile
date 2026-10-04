@@ -1,0 +1,125 @@
+''' Game-owned packaged map import. One background transfer advances per frame.
+Module SinStarI.MapCatalog
+
+Option Explicit
+
+Import Smile.Tools.TownLibrary As Library
+Import Smile.Tools.TownDocument As Document
+Import Smile.Tools.TownDocumentStore As Store
+Import Smile.Tools.TownDerivedCache As Derived
+Import Smile.Tools.Character3DViewerCalibration As Formatting
+Import SinStarI.MapAssets As Assets
+
+Private Dim Imported As Number
+Private Dim Job As Number
+Private Dim Pending As Document.State
+Private Dim Failure As Text
+
+Public Function EntryCount() As Number
+
+    Dim Result As Number
+
+    Result = Library.PERMANENT_COUNT
+
+    Return Result
+
+End Function
+
+Public Function Name(Index As Number) As Text
+
+    Dim Result As Text
+
+    Result = Library.PermanentName(Index)
+
+    Return Result
+
+End Function
+
+Public Function Ready() As Boolean
+
+    Dim Result As Boolean
+
+    Result = Imported = EntryCount()
+
+    Return Result
+
+End Function
+
+Public Function Message() As Text
+
+    Dim Result As Text
+
+    If Text_Length(Failure) > 0 Then
+        Return Failure
+    End If
+
+    Result = "Preparing Maps: " + Formatting.NumberText(Imported) + " / " + Formatting.NumberText(EntryCount())
+
+    Return Result
+
+End Function
+
+Public Function Progress() As Number
+
+    Dim Result As Number
+
+    Result = Imported * 100 / EntryCount()
+
+    Return Result
+
+End Function
+
+Public Sub Update()
+
+    Dim Key As Text
+    Dim Status As Number
+    Dim Ok As Boolean
+
+    If Ready() Or Text_Length(Failure) > 0 Then
+        Return
+    End If
+
+    Key = "SinStarI.MapBundle." + Name(Imported)
+
+    If Job = 0 Then
+
+        Call Assets.Begin(Name(Imported), Key)
+
+        Job = 1
+
+        Return
+
+    End If
+
+    Status = Assets.Update()
+
+    If Status = 0 Then
+        Return
+    End If
+
+    Ok = Status = 1
+
+    If Ok Then
+        Ok = Store.LoadDocument(Pending, Key)
+    End If
+
+    If Ok Then
+        Ok = Pending.Name = Name(Imported)
+    End If
+
+    If Ok Then
+        Ok = Derived.BindBundle(Pending, Key)
+        Ok = Store.SaveDocument(Pending, Library.PermanentKey(Pending.Name), False) And Ok
+    End If
+
+    If Not Ok Then
+        Failure = "Could not prepare " + Name(Imported) + "."
+        Return
+    End If
+
+    Imported = Imported + 1
+    Job = 0
+
+End Sub
+
+End Module
