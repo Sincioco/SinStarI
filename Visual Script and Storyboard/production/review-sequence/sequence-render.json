@@ -1,10 +1,10 @@
 {
   "status": "Rendered",
-  "rendered_at": "2026-09-16T04:23:01.554946+00:00",
+  "rendered_at": "2026-09-16T14:59:24.563106+00:00",
   "output": "asset\\videos\\Sin-Star-I-Story-Video-Sequence-Review.mp4",
-  "sha256": "65dece09885dc61bff90ffbbbda8fab9395766fec230ffc42280e0100f135668",
-  "clips": 135,
-  "seconds": 681.667,
+  "sha256": "5bde6f8d0e24a9094440bdeed5362dbdd87f3536deec49501540d33e604154f4",
+  "clips": 137,
+  "seconds": 707.667,
   "dimensions": "1920x1080",
   "fps": 24,
   "encoder": "libx264",
@@ -40,7 +40,30 @@
   "music_crossfade_seconds": 2.0,
   "timeline": "production\\review-sequence\\sequence-timeline.csv",
   "layout": "overlay",
-  "muted_clips": [],
-  "panel_positions": {},
-  "config_sha256": "3153767730fc7542dbcc63d355f7d32faea1035805590bb9e322f7c1219a5cca"
+  "muted_clips": [
+    "cast-milo"
+  ],
+  "panel_positions": {
+    "panel-02-3": {
+      "scene_info": "upper-left",
+      "scene_context": "upper-right"
+    },
+    "panel-03-1": {
+      "scene_info": "lower-left",
+      "scene_context": "upper-right"
+    },
+    "new-c02-s01": {
+      "scene_info": "lower-left",
+      "scene_context": "upper-right"
+    },
+    "panel-04-1": {
+      "scene_info": "lower-left",
+      "scene_context": "upper-right"
+    },
+    "new-c03-s01": {
+      "scene_info": "lower-left",
+      "scene_context": "upper-right"
+    }
+  },
+  "config_sha256": "b132e68c2dc64d5eee407bf4a891934a76197a7d38793a3be9942d07310b65f0"
 }

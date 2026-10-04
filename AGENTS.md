@@ -15,3 +15,13 @@
 - Use exactly one Codex agent for this project. Keep implementation simple and reuse installed tools; do not install dependencies.
 - Write detailed commit messages. Prefix every Codex-created commit subject exactly with `Sin and Codex: `.
 - For static changes, no .NET compilation or app restart is needed. Refresh the browser with Ctrl+F5 and version changed assets.
+
+## Architecture and controlled growth
+
+- Before substantial changes, read the relevant ownership notes and validation commands in `Visual Script and Storyboard/production/README.md`, then inspect the implementation and its callers. Identify the behavior's owner, state, dependencies, expected growth and validation before editing.
+- Reuse cohesive modules. Keep launchers and entry points focused on startup, wiring, delegation and shutdown; place UI, playback, persistence and rendering behavior with their respective owners.
+- Pass only the state a module needs. Avoid dependency cycles, broad mutable globals, generic manager modules and replacement monoliths.
+- Make only the smallest extraction needed for the requested change. Preserve public formats and existing behavior, capture behavior before risky extraction, and keep structural moves distinguishable from behavior changes. Record unrelated debt instead of starting a broad refactor.
+- Review changed handwritten source for physical-line growth and responsibility drift. Respect established no-growth baselines; never silently raise budgets, broaden exclusions or compress code to bypass a check.
+- Run relevant existing validation and available architecture checks. Report actual results, changed-file growth, ownership changes, exceptions and unvalidated behavior. Update ownership notes when boundaries change.
+- Architecture review is currently manual: no automated size/dependency gate or reviewed numeric baseline is installed. The reusable kit at `D:\Sin - AI Prompt - Contents\2026-09-12-0851 Codex Architecture Guardrails` supplies proposed budgets and future checker guidance; tailor source/data classifications and test pass/fail behavior before adopting an enforced gate. Its alternative project prompts do not authorize additional product work.
