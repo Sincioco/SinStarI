@@ -37,6 +37,18 @@ The game is an active work in progress. The longer-term direction spans three wo
 | <img src="Visual%20Script%20and%20Storyboard/asset/images/cast-kael.png" alt="Kael portrait" width="150"><br>**Kael** | A mysterious swordsman who detects Arin's remote resonance while visiting Earth. His long history with the experiment behind their reality makes him both a formidable opponent and a central figure in the story's unanswered questions. |
 | <img src="Visual%20Script%20and%20Storyboard/asset/images/cast-aevos.png" alt="Aevos portrait" width="150"><br>**Aevos** | A cosmic supervisory power whose authority over the experiment threatens the lives within it. The party's struggle with Aevos asks whether preserving a world must mean accepting the power that controls it. |
 
+## Storyboard
+
+Four moments from the illustrated story, from a rescue beneath Neris to a confrontation at the Origin. **Click any picture to watch its corresponding animated scene on YouTube.** These cinematic concept clips explore the story in development.
+
+| C01-S01 · The Water Under Neris | C02-S02 · The Man Who Came Back |
+| --- | --- |
+| [![Mira shields an injured Arin from collapsing machinery in the flooded waterworks](Visual%20Script%20and%20Storyboard/asset/images/panel-02-1.png)](https://www.youtube.com/watch?v=ztBLmXnGfW0&autoplay=1) | [![Orin returns to stand beside Arin while Mira treats evacuees at Veyra terminal](Visual%20Script%20and%20Storyboard/asset/images/panel-03-2.png)](https://www.youtube.com/watch?v=iWCkcNwKYEw&autoplay=1) |
+| **A stranger who comes back.** When a conduit collapses in the waterworks, Mira raises a water shield over the injured Arin. With a surveyor still trapped nearby, their first meeting becomes a shared refusal to leave someone behind. | **Survival before victory.** As raiders attack Veyra's evacuation terminal, Orin gives up the last lift to stand beside Arin. Mira tends the wounded while a Kynari engineer restores the rail; their goal is to get people out alive. |
+| **C03-S03 · Persons, Not Property** | **C09-S04 · The Origin** |
+| [![Milo reunites with his route partner as the party visits a Kynari community hall](Visual%20Script%20and%20Storyboard/asset/images/panel-04-3.png)](https://www.youtube.com/watch?v=stwmeophW-w&autoplay=1) | [![Kael intercepts Aevos's strike with a cracking protective field around the party](Visual%20Script%20and%20Storyboard/asset/images/panel-14-2.png)](https://www.youtube.com/watch?v=3MPv3tdpjdI&autoplay=1) |
+| **A community with its own voice.** Milo reunites with his rescued route partner as the companions enter a Kynari hall. Its architecture, language, and customs reveal a people whose intelligence exists independently of the translators their visitors need. | **Protection at a personal cost.** Kael steps between Aevos's strike and the party. His protective field fractures, making his first act as an ally a costly choice to protect the lives in front of him. |
+
 ## Battles in motion
 
 These are actual native-renderer frames from the current battle simulations. Each encounter shows a separate turn for Arin, Orin, Zara, and Mira. Orin's Thor Attack and Mira's Heal Party are sampled during their action phases.
