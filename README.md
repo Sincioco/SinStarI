@@ -139,6 +139,14 @@ For the native map regression and refreshed town photographs:
 
 The illustrated script and storyboard remain in their original folder. Local video files are intentionally excluded from Git; the trailer and verified online clips are linked instead.
 
+## License
+
+Sin Star I is licensed under the [GNU Affero General Public License v3.0](LICENSE), the same license used by [PMT](https://github.com/Sincioco/PMT/blob/main/LICENSE).
+
+Copyright (c) 2026 Louiery R. Sincioco (Sin).
+
+Third-party assets and components remain subject to their respective licenses and notices. See the accompanying source-asset documentation for applicable terms.
+
 ## Credits
 
 **Sin Star I is the first game to use the SMILE 2.0 Game Engine.**
