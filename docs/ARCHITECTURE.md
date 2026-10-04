@@ -4,6 +4,11 @@ Sin Star I is developed at this repository's root. The independent sibling
 `SMILE 2.0` checkout owns the compiler, runtime, libraries and Studio.
 `Visual Script and Storyboard` remains the canonical story-production folder.
 
+Studio is authoritative for Battle Systems, Battle Simulations, and Towns/Maps.
+Sin develops these in Studio and brings the approved behavior and authored content
+into the game. Shared implementations stay aligned; the game wraps them only for
+its own navigation and lifecycle instead of maintaining divergent versions.
+
 ## Ownership
 
 | Owner | Responsibility |
@@ -17,11 +22,28 @@ Sin Star I is developed at this repository's root. The independent sibling
 | Studio `TownEditorSession` | The authored document, terrain, map selection and existing persistence. `OpenForPlay` suppresses editing and automatic showcase changes for the game host. |
 | Studio `NerisTown` and its existing collaborators | Rendering, collision, movement, followers, camera, day/night lighting and scene resources. Optional play-only input and overlay flags preserve ordinary Studio defaults. |
 | `CharacterPresentation.smile` / Studio `ViewerWorkflow` | Game presentation navigation / shared actors, battle choreography and effects. |
-| `Battle/` | Game-owned turn-based battle rules, actors, feedback, UI and tests. |
+| `Battle/BattleScreen.smile` | Game navigation, music and lifetime around Studio's native Battle System; retains its host for session EXP across title visits. |
+| Studio `NativeViewerHost` and its battle collaborators | Party orders, Auto Battle, presentation, cameras, HUD, statistics, rewards and restart; game embedding disables Studio tab navigation. |
+| Other `Battle/` modules | Shared battle rules, attacks, feedback and icons; the older arena implementation remains available in source. |
 
 The game does not duplicate the Studio map simulation. Documents stay with their
 existing owner; no reverse dependency into the game entry point was added.
 The game application identity is `smile.game.sin-star-i`, separate from Studio's.
+
+The battle wrapper passes its Viewer session to the existing host, which owns the
+encounter and menu state. It does not copy the battle algorithms. Host navigation
+defaults remain unchanged for Studio. The game reserves the former tab row for
+returning to its title, lets nested menus consume Escape first, and defers window
+closure while an inspector has unsaved edits. The game music owner stays active.
+
+The Battle System integration adds three lifecycle lines to `Program.smile`
+(141 to 144), keeps `TitleScreen.smile` at 409 lines, and changes the battle wrapper
+from 97 to 111 lines. The shared native host grows from 471 to 506 lines for the
+optional navigation boundary and read-only UI queries. No numeric guardrail or
+exception changed. Existing native battle planning and real-asset scene checks
+pass, as do the four focused style checks. Interactive checks cover order and
+attack menus, nested Escape, statistics, Auto Battle, pause, camera return, panel
+visibility, returning to the title and reopening the encounter.
 
 ## Maps and build inputs
 

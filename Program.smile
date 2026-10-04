@@ -11,6 +11,7 @@ Import SinStarI.MapBrowser As MapBrowser
 Dim Mode As TitleScreen.TitleAction
 Dim PendingAction As TitleScreen.TitleAction
 Dim PressedKey As Number
+Dim CloseDeferred As Boolean
 
 Game Window "Sin Star I" Size 1280 By 720
 
@@ -38,6 +39,8 @@ Do
         Call HandleScene(PressedKey)
 
     End If
+
+    CloseDeferred = Window_DeferClose(BattleScreen.HasEdits())
 
     If Mode = TitleScreen.TitleAction.None Then
         Call TitleScreen.Draw()

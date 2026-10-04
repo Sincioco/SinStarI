@@ -19,7 +19,7 @@ This is the **first game to use the SMILE 2.0 Game Engine**. Its native game, ch
 
 - **Characters:** animated presentations and level-growth tables for the developing cast.
 - **Maps & Towns:** a visual browser of all 17 permanent Studio maps, with Arin, Orin, Zara, and Mira exploring through the shared navigation, camera, and party systems.
-- **Battle:** native turn-based orders, attacks, magic, defense, limit breaks, and escape against Kael.
+- **Battle System:** Studio's shared party-order system against Kael, with Auto Battle, cinematic cameras, attacks, magic, healing, statistics, and session EXP rewards.
 - **Battle Simulations:** four-hero encounters with Vrax, Kael, and a dragon, including elemental effects and Mira's healing.
 - **Story and production:** an illustrated script, scene-by-scene storyboard, character references, and linked video work.
 
@@ -128,6 +128,8 @@ From the game root:
 You can also open `SinStarI.slnx` in Visual Studio with the existing SMILE extension. The build reuses the locally installed compiler, Studio asset preparation, and existing authoring inputs. Some licensed/private character sources are local development inputs and are not redistributed in Git; a fresh checkout alone does not supply them. The build does not install packages or download dependencies.
 
 In **Maps & Towns**, select a thumbnail or use the arrow keys and Enter. In a map: **WASD** moves the party, **R** switches walk/run, **Tab** follows the party, **Ctrl+Tab** changes the leader, and **Esc** returns to the gallery. The shared camera controls also remain available.
+
+In **Battle System**, choose Fight, Order, or Auto for the party. **Enter** confirms orders or requests new orders after the current round, **Space** pauses, **C** returns the camera, and **right-click** restarts while retaining session EXP. **Backtick** cycles Studio's inspector and header-free views. **Esc** closes a nested menu or statistics view before returning to the title; the **< Title** button is available with the header visible when menus and edits are settled. The game uses the same battle implementation as Studio, with game navigation and music around it.
 
 For the native map regression and refreshed town photographs:
 

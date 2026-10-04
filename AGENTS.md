@@ -1,6 +1,7 @@
 # SinStarI Working Instructions
 
 - This repository is the canonical home of the native Sin Star I game at the root and its visual story production under `Visual Script and Storyboard`. The compiler, shared libraries and Studio remain in the sibling `D:\SMILE 2.0` repository.
+- Studio is the authoritative version of Battle Systems, Battle Simulations, and Towns/Maps. Sin builds and approves these in Studio, then their implementation and authored content are brought into Sin Star I. Preserve Studio behavior when integrating or copying them here; do not create a separate or divergent game implementation. Reuse the existing shared owners where practical. Game-specific title navigation and lifecycle may wrap the Studio version. Make changes to these shared systems in their Studio workflow first unless Sin explicitly requests otherwise.
 - Work directly in `Visual Script and Storyboard` for all Script and Storyboard edits. This is the canonical local working copy.
 - Preserve the existing artwork, narrative, shared navigation, theme, audio and remembered clip selections unless a request changes them.
 - Keep artwork, templates, prompts and render sources needed for authoring inside this folder. External tools such as ComfyUI remain installed separately.

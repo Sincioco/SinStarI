@@ -163,7 +163,7 @@ Public Function Label(Action As TitleAction) As Text
         Case TitleAction.KaelBattle
             Return "Kael Party"
         Case TitleAction.Battle
-            Return "Battle"
+            Return "Battle System"
         Case TitleAction.Maps
             Return "Maps & Towns"
         Case TitleAction.DragonBattle
@@ -332,7 +332,7 @@ Private Function ChoiceLabel(Index As Number) As Text
             Case 1
                 Result = "Maps & Towns"
             Case 2
-                Result = "Battle"
+                Result = Label(TitleAction.Battle)
             Case 3
                 Result = "Battle Simulations"
             Case 4

@@ -1,85 +1,98 @@
-''' Native encounter coordinator: independent rules, presentation and UI owners.
+''' Game navigation and music around the shared Studio Battle System.
 Module SinStarI.BattleScreen
 
 Option Explicit
 
-Import SinStarI.BattleRules As Rules
-Import SinStarI.BattleActors As Actors
-Import SinStarI.BattleArena As Arena
-Import SinStarI.BattleUI As UI
+Import Smile.Tools.Character3DViewerWorkflow As Workflow
+Import Smile.Tools.NativeViewerHost As NativeHost
+Import Smile.UI.Controls As UI
 Import SinStarI.BackgroundMusic As BackgroundMusic
 
-Private Dim Encounter As Rules.State
-Private Dim Scene As Arena.State
-Private Dim Menus As UI.State
-Private Dim PreviousTime As Number
+Private Dim Viewer As Workflow.Session
+Private Dim Host As NativeHost.Session
 Private Dim Active As Boolean
 
 Public Sub Enter()
 
-    Dim EmptyMenu As UI.State
+    If Active Then
+        Call Shutdown()
+    End If
 
     If Not Window_Loading() Then
         Return
     End If
 
-    Menus = EmptyMenu
+    If Host Is Nothing Then
+        Host = New NativeHost.Session()
+    End If
 
-    Call Rules.Start(Encounter)
-    Call Arena.Create(Scene)
-    Call Arena.Update(Scene, Encounter, 0, KEY_NONE, True)
+    Viewer = New Workflow.Session()
+
+    Call Host.Start(Viewer, NativeHost.BATTLE_TAB, True, Window_Width(), Window_Height(), False)
     Call BackgroundMusic.SelectTrack("Starforge Ascend (Kael)")
 
-    PreviousTime = Timer()
     Active = True
 
 End Sub
+
+Public Function HasEdits() As Boolean
+
+    Dim Result As Boolean
+
+    If Active Then
+        Result = Viewer.HasEdits()
+    End If
+
+    Return Result
+
+End Function
 
 Public Function BackRequested(Key As Number) As Boolean
 
     Dim Result As Boolean
 
-    If Not Scene.Ready And Key = KEY_ESCAPE Then
-        Return True
+    If Not Active Then
+        Return False
     End If
 
-    Result = UI.BackRequested(Menus, Encounter, Key)
+    If Not Host.CanLeaveBattle(Viewer) Then
+        Return False
+    End If
+
+    Result = Key = KEY_ESCAPE Or UI.Clicked(18, 62, 110, 26)
+
     Return Result
 
 End Function
 
 Public Sub Update(Key As Number)
 
-    Dim Now As Number
-    Dim Elapsed As Number
-    Dim EscapeRoll As Number
-    Dim EnemyTargetRoll As Number
-
-    If Not Active Or Not Scene.Ready Then
-        Return
+    If Active Then
+        Call Host.StandaloneInput(Viewer, Key)
+        Call Host.UpdateFrame(Viewer, Window_Width(), Window_Height())
     End If
-
-    Now = Timer()
-    Elapsed = Min(100, Max(0, Now - PreviousTime))
-    PreviousTime = Now
-
-    Random EscapeRoll From 0 To 99
-    Random EnemyTargetRoll From 0 To 3
-
-    Call UI.Update(Menus, Encounter, Key)
-    Call Actors.BeginAction(Scene.Actors, Encounter)
-    Call Rules.Advance(Encounter, Elapsed, EscapeRoll, EnemyTargetRoll)
-    Call Actors.BeginAction(Scene.Actors, Encounter)
-    Call Arena.Update(Scene, Encounter, Elapsed, Key, UI.Blocked(Menus))
 
 End Sub
 
 Public Sub Draw()
 
-    If Active Then
-        Call Arena.Draw(Scene, Encounter)
+    If Not Active Then
+        Return
+    End If
 
-        Call UI.Draw(Menus, Encounter)
+    Call Host.DrawFrame(Viewer)
+    Call Host.DrawStandaloneOverlay(Viewer)
+
+    If Not Host.HeaderVisible() Then
+        Return
+    End If
+
+    If Viewer.PanelVisibility() = 2 Then
+        Draw Text "Sin Star I - Battle System" At 18, 12 Size 22 Color WHITE
+    End If
+
+    If Host.CanLeaveBattle(Viewer) Then
+        Call UI.DrawButton(18, 62, 110, 26, "< Title", False)
     End If
 
 End Sub
@@ -87,9 +100,10 @@ End Sub
 Public Sub Shutdown()
 
     If Active Then
-        Call Arena.Destroy(Scene)
+        Call Host.Release(Viewer)
     End If
 
+    Viewer = Nothing
     Active = False
 
 End Sub
