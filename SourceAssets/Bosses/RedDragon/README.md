@@ -1,9 +1,10 @@
 # Red Dragon V1.0 Source Asset
 
-The Character Viewer now uses the animated **RedDragonV11** package in the adjacent
-folder. It includes the preserved source, reference image, Blender rig, five clips,
-animated GLB, SM3D descriptor, validation and checksums. V1.0 below remains the
-unchanged historical source. Rebuild V1.1 with `scripts/rig-red-dragon.py` in Blender 5.2.
+Studio now uses [RedDragonV13](RedDragonV13/README.md): eight original clips,
+four-foot IK authoring, baked full-body animation, preserved source/reference,
+Blender rig, SM3D descriptor and contact validation. V1.0 below and the v1.1
+preview remain unchanged historical sources. Read the v1.3 creation and repair
+journey before further rigging or animation work.
 
 `RedDragonV1.0.original.glb` is the preserved Tripo3D source for the Sin Star I boss arena preview.
 

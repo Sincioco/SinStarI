@@ -1,0 +1,77 @@
+{
+  "version": "1.3",
+  "source": "Source/red-dragon-v1.1-rig.blend",
+  "sourceSha256": "a1ed9018629fab8bda57dea110913a0a92078637f776bccbf6641a7cc6ca2892",
+  "modelSha256": "2ec0c7ed60d7e317dff75ab4d825f66338986da41bff7280e94618285c7e2435",
+  "geometryUvSha256": "94f3dc0bab0c92ea60d5961c90d460cc0e396bd616a3909934e5193b3396ada7",
+  "geometryChanged": false,
+  "bindMinimumZ": 0.0,
+  "sampleRate": 30,
+  "runtimeScalePercent": 25000,
+  "deformBones": 28,
+  "controlBones": 8,
+  "clips": {
+    "Idle": 120,
+    "Walk": 60,
+    "Run": 30,
+    "Roar": 90,
+    "FireBreath": 120,
+    "ClawStrike": 66,
+    "Hit": 24,
+    "Fireball": 150
+  },
+  "footControls": {
+    "FrontL": {
+      "poleAngle": 1.5336573123931885,
+      "ankle": [
+        -0.09000000357627869,
+        -0.6499999761581421,
+        0.03200000151991844
+      ]
+    },
+    "FrontR": {
+      "poleAngle": 1.6079353094100952,
+      "ankle": [
+        0.09000000357627869,
+        -0.6499999761581421,
+        0.03200000151991844
+      ]
+    },
+    "HindL": {
+      "poleAngle": 1.7729817628860474,
+      "ankle": [
+        -0.0860000029206276,
+        -0.20000000298023224,
+        0.01600000075995922
+      ]
+    },
+    "HindR": {
+      "poleAngle": 1.3686108589172363,
+      "ankle": [
+        0.0860000029206276,
+        -0.20000000298023224,
+        0.01600000075995922
+      ]
+    }
+  },
+  "locomotion": {
+    "Walk": {
+      "stride": 0.12,
+      "seconds": 2,
+      "stanceFraction": 0.72
+    },
+    "Run": {
+      "stride": 0.18,
+      "seconds": 1,
+      "stanceFraction": 0.5
+    }
+  },
+  "attackCuesSeconds": {
+    "ClawStrike": 1,
+    "FireBreath": [
+      0.85,
+      3.1
+    ],
+    "Fireball": 1.8
+  }
+}
