@@ -89,7 +89,7 @@ All 17 permanent maps are accessible from **Maps & Towns**. These paired photogr
 | **Willowstep Highlands** | ![Willowstep Highlands by day](docs/images/towns/Willowstep%20Highlands-day.png) | ![Willowstep Highlands at night](docs/images/towns/Willowstep%20Highlands-night.png) |
 | **Silverfall Basin** | ![Silverfall Basin by day](docs/images/towns/Silverfall%20Basin-day.png) | ![Silverfall Basin at night](docs/images/towns/Silverfall%20Basin-night.png) |
 
-## For employers and collaborators
+## Technical Background
 
 Sin Star I connects creative direction with hands-on language, engine, and tools development. The game is written in SMILE and compiled to a native Windows executable. It reuses Studio's rendering, character animation, effects, terrain, and navigation modules, while the game owns its title flow, map selection, and combat rules.
 
