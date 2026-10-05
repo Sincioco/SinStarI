@@ -1,0 +1,354 @@
+{
+  "version": "1.0",
+  "status": "Candidate, awaiting Sin animation review",
+  "source": "Original/Milo - 4K - Low Poly - No Lighting.zip",
+  "builder": "build_milo.py",
+  "motionSource": "Original authored canine actions in milo_motion.py",
+  "vertices": 5241,
+  "triangles": 9502,
+  "geometryChanged": false,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "detachedVerticesWeightTransferred": 547,
+  "bones": {
+    "Root": {
+      "head": [
+        0,
+        0,
+        0.44
+      ],
+      "tail": [
+        0,
+        -0.08,
+        0.44
+      ],
+      "parent": null
+    },
+    "Pelvis": {
+      "head": [
+        0,
+        0.28,
+        0.49
+      ],
+      "tail": [
+        0,
+        0.13,
+        0.52
+      ],
+      "parent": "Root"
+    },
+    "Spine": {
+      "head": [
+        0,
+        0.13,
+        0.52
+      ],
+      "tail": [
+        0,
+        -0.08,
+        0.54
+      ],
+      "parent": "Pelvis"
+    },
+    "Chest": {
+      "head": [
+        0,
+        -0.08,
+        0.54
+      ],
+      "tail": [
+        0,
+        -0.23,
+        0.59
+      ],
+      "parent": "Spine"
+    },
+    "Neck": {
+      "head": [
+        0,
+        -0.23,
+        0.59
+      ],
+      "tail": [
+        0,
+        -0.28,
+        0.71
+      ],
+      "parent": "Chest"
+    },
+    "Head": {
+      "head": [
+        0,
+        -0.28,
+        0.71
+      ],
+      "tail": [
+        0,
+        -0.4,
+        0.74
+      ],
+      "parent": "Neck"
+    },
+    "Tail1": {
+      "head": [
+        0,
+        0.34,
+        0.54
+      ],
+      "tail": [
+        0,
+        0.395,
+        0.39
+      ],
+      "parent": "Pelvis"
+    },
+    "Tail2": {
+      "head": [
+        0,
+        0.395,
+        0.39
+      ],
+      "tail": [
+        0,
+        0.43,
+        0.24
+      ],
+      "parent": "Tail1"
+    },
+    "Tail3": {
+      "head": [
+        0,
+        0.43,
+        0.24
+      ],
+      "tail": [
+        0,
+        0.49,
+        0.16
+      ],
+      "parent": "Tail2"
+    },
+    "EarL": {
+      "head": [
+        0.092,
+        -0.258,
+        0.824
+      ],
+      "tail": [
+        0.132,
+        -0.285,
+        0.762
+      ],
+      "parent": "Head"
+    },
+    "FrontUpperL": {
+      "head": [
+        0.105,
+        -0.215,
+        0.48
+      ],
+      "tail": [
+        0.105,
+        -0.19,
+        0.285
+      ],
+      "parent": "Chest"
+    },
+    "FrontLowerL": {
+      "head": [
+        0.105,
+        -0.19,
+        0.285
+      ],
+      "tail": [
+        0.105,
+        -0.23,
+        0.072
+      ],
+      "parent": "FrontUpperL"
+    },
+    "FrontPawL": {
+      "head": [
+        0.105,
+        -0.23,
+        0.072
+      ],
+      "tail": [
+        0.105,
+        -0.305,
+        0.025
+      ],
+      "parent": "FrontLowerL"
+    },
+    "HindUpperL": {
+      "head": [
+        0.105,
+        0.27,
+        0.47
+      ],
+      "tail": [
+        0.105,
+        0.18,
+        0.3
+      ],
+      "parent": "Pelvis"
+    },
+    "HindLowerL": {
+      "head": [
+        0.105,
+        0.18,
+        0.3
+      ],
+      "tail": [
+        0.105,
+        0.33,
+        0.135
+      ],
+      "parent": "HindUpperL"
+    },
+    "HindAnkleL": {
+      "head": [
+        0.105,
+        0.33,
+        0.135
+      ],
+      "tail": [
+        0.105,
+        0.32,
+        0.065
+      ],
+      "parent": "HindLowerL"
+    },
+    "HindPawL": {
+      "head": [
+        0.105,
+        0.32,
+        0.065
+      ],
+      "tail": [
+        0.105,
+        0.245,
+        0.025
+      ],
+      "parent": "HindAnkleL"
+    },
+    "EarR": {
+      "head": [
+        -0.092,
+        -0.258,
+        0.824
+      ],
+      "tail": [
+        -0.132,
+        -0.285,
+        0.762
+      ],
+      "parent": "Head"
+    },
+    "FrontUpperR": {
+      "head": [
+        -0.105,
+        -0.215,
+        0.48
+      ],
+      "tail": [
+        -0.105,
+        -0.19,
+        0.285
+      ],
+      "parent": "Chest"
+    },
+    "FrontLowerR": {
+      "head": [
+        -0.105,
+        -0.19,
+        0.285
+      ],
+      "tail": [
+        -0.105,
+        -0.23,
+        0.072
+      ],
+      "parent": "FrontUpperR"
+    },
+    "FrontPawR": {
+      "head": [
+        -0.105,
+        -0.23,
+        0.072
+      ],
+      "tail": [
+        -0.105,
+        -0.305,
+        0.025
+      ],
+      "parent": "FrontLowerR"
+    },
+    "HindUpperR": {
+      "head": [
+        -0.105,
+        0.27,
+        0.47
+      ],
+      "tail": [
+        -0.105,
+        0.18,
+        0.3
+      ],
+      "parent": "Pelvis"
+    },
+    "HindLowerR": {
+      "head": [
+        -0.105,
+        0.18,
+        0.3
+      ],
+      "tail": [
+        -0.105,
+        0.33,
+        0.135
+      ],
+      "parent": "HindUpperR"
+    },
+    "HindAnkleR": {
+      "head": [
+        -0.105,
+        0.33,
+        0.135
+      ],
+      "tail": [
+        -0.105,
+        0.32,
+        0.065
+      ],
+      "parent": "HindLowerR"
+    },
+    "HindPawR": {
+      "head": [
+        -0.105,
+        0.32,
+        0.065
+      ],
+      "tail": [
+        -0.105,
+        0.245,
+        0.025
+      ],
+      "parent": "HindAnkleR"
+    }
+  },
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Attack",
+    "Defend",
+    "Hit",
+    "Death",
+    "Victory"
+  ],
+  "blenderVersion": "5.2.1 LTS",
+  "modelSha256": "E60E8DB4252F7796F9E716D65660F219B0FEEED99F62872DBEB5E7B06A4E91F4"
+}

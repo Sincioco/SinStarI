@@ -1,0 +1,2067 @@
+{
+  "units": "meters; Blender Z becomes runtime Y",
+  "sampleRate": 30,
+  "bindMinimumY": 0.0,
+  "clips": {
+    "Idle": {
+      "durationSeconds": 3.0,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": -0.0,
+          "maximumY": 0.8745018
+        },
+        {
+          "frame": 2,
+          "minimumY": -0.0,
+          "maximumY": 0.8744907
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8744788
+        },
+        {
+          "frame": 4,
+          "minimumY": -0.0,
+          "maximumY": 0.874466
+        },
+        {
+          "frame": 5,
+          "minimumY": -0.0,
+          "maximumY": 0.8744525
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.8744384
+        },
+        {
+          "frame": 7,
+          "minimumY": -0.0,
+          "maximumY": 0.8744237
+        },
+        {
+          "frame": 8,
+          "minimumY": -0.0,
+          "maximumY": 0.8744089
+        },
+        {
+          "frame": 9,
+          "minimumY": -0.0,
+          "maximumY": 0.8743939
+        },
+        {
+          "frame": 10,
+          "minimumY": -0.0,
+          "maximumY": 0.8743788
+        },
+        {
+          "frame": 11,
+          "minimumY": -0.0,
+          "maximumY": 0.874364
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8743497
+        },
+        {
+          "frame": 13,
+          "minimumY": -0.0,
+          "maximumY": 0.874336
+        },
+        {
+          "frame": 14,
+          "minimumY": -0.0,
+          "maximumY": 0.874323
+        },
+        {
+          "frame": 15,
+          "minimumY": -0.0,
+          "maximumY": 0.874311
+        },
+        {
+          "frame": 16,
+          "minimumY": -0.0,
+          "maximumY": 0.8743001
+        },
+        {
+          "frame": 17,
+          "minimumY": -0.0,
+          "maximumY": 0.8742906
+        },
+        {
+          "frame": 18,
+          "minimumY": -0.0,
+          "maximumY": 0.8742824
+        },
+        {
+          "frame": 19,
+          "minimumY": -0.0,
+          "maximumY": 0.8742756
+        },
+        {
+          "frame": 20,
+          "minimumY": -0.0,
+          "maximumY": 0.8742705
+        },
+        {
+          "frame": 21,
+          "minimumY": -0.0,
+          "maximumY": 0.8742671
+        },
+        {
+          "frame": 22,
+          "minimumY": -0.0,
+          "maximumY": 0.8742653
+        },
+        {
+          "frame": 23,
+          "minimumY": -0.0,
+          "maximumY": 0.8742653
+        },
+        {
+          "frame": 24,
+          "minimumY": -0.0,
+          "maximumY": 0.8742671
+        },
+        {
+          "frame": 25,
+          "minimumY": -0.0,
+          "maximumY": 0.8742705
+        },
+        {
+          "frame": 26,
+          "minimumY": -0.0,
+          "maximumY": 0.8742756
+        },
+        {
+          "frame": 27,
+          "minimumY": -0.0,
+          "maximumY": 0.8742824
+        },
+        {
+          "frame": 28,
+          "minimumY": -0.0,
+          "maximumY": 0.8742906
+        },
+        {
+          "frame": 29,
+          "minimumY": -0.0,
+          "maximumY": 0.8743001
+        },
+        {
+          "frame": 30,
+          "minimumY": -0.0,
+          "maximumY": 0.874311
+        },
+        {
+          "frame": 31,
+          "minimumY": -0.0,
+          "maximumY": 0.874323
+        },
+        {
+          "frame": 32,
+          "minimumY": -0.0,
+          "maximumY": 0.874336
+        },
+        {
+          "frame": 33,
+          "minimumY": -0.0,
+          "maximumY": 0.8743497
+        },
+        {
+          "frame": 34,
+          "minimumY": -0.0,
+          "maximumY": 0.874364
+        },
+        {
+          "frame": 35,
+          "minimumY": -0.0,
+          "maximumY": 0.8743788
+        },
+        {
+          "frame": 36,
+          "minimumY": -0.0,
+          "maximumY": 0.8743939
+        },
+        {
+          "frame": 37,
+          "minimumY": -0.0,
+          "maximumY": 0.8744089
+        },
+        {
+          "frame": 38,
+          "minimumY": -0.0,
+          "maximumY": 0.8744237
+        },
+        {
+          "frame": 39,
+          "minimumY": -0.0,
+          "maximumY": 0.8744384
+        },
+        {
+          "frame": 40,
+          "minimumY": -0.0,
+          "maximumY": 0.8744525
+        },
+        {
+          "frame": 41,
+          "minimumY": -0.0,
+          "maximumY": 0.874466
+        },
+        {
+          "frame": 42,
+          "minimumY": -0.0,
+          "maximumY": 0.8744788
+        },
+        {
+          "frame": 43,
+          "minimumY": -0.0,
+          "maximumY": 0.8744907
+        },
+        {
+          "frame": 44,
+          "minimumY": -0.0,
+          "maximumY": 0.8745018
+        },
+        {
+          "frame": 45,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 46,
+          "minimumY": -0.0,
+          "maximumY": 0.8746769
+        },
+        {
+          "frame": 47,
+          "minimumY": -0.0,
+          "maximumY": 0.8748405
+        },
+        {
+          "frame": 48,
+          "minimumY": -0.0,
+          "maximumY": 0.8750018
+        },
+        {
+          "frame": 49,
+          "minimumY": -0.0,
+          "maximumY": 0.8751598
+        },
+        {
+          "frame": 50,
+          "minimumY": -0.0,
+          "maximumY": 0.875314
+        },
+        {
+          "frame": 51,
+          "minimumY": -0.0,
+          "maximumY": 0.8754638
+        },
+        {
+          "frame": 52,
+          "minimumY": -0.0,
+          "maximumY": 0.8756083
+        },
+        {
+          "frame": 53,
+          "minimumY": -0.0,
+          "maximumY": 0.875747
+        },
+        {
+          "frame": 54,
+          "minimumY": -0.0,
+          "maximumY": 0.8758791
+        },
+        {
+          "frame": 55,
+          "minimumY": -0.0,
+          "maximumY": 0.8760042
+        },
+        {
+          "frame": 56,
+          "minimumY": -0.0,
+          "maximumY": 0.8761217
+        },
+        {
+          "frame": 57,
+          "minimumY": -0.0,
+          "maximumY": 0.8762311
+        },
+        {
+          "frame": 58,
+          "minimumY": -0.0,
+          "maximumY": 0.8763322
+        },
+        {
+          "frame": 59,
+          "minimumY": -0.0,
+          "maximumY": 0.8764243
+        },
+        {
+          "frame": 60,
+          "minimumY": -0.0,
+          "maximumY": 0.8765069
+        },
+        {
+          "frame": 61,
+          "minimumY": -0.0,
+          "maximumY": 0.8765801
+        },
+        {
+          "frame": 62,
+          "minimumY": -0.0,
+          "maximumY": 0.8766433
+        },
+        {
+          "frame": 63,
+          "minimumY": -0.0,
+          "maximumY": 0.8766963
+        },
+        {
+          "frame": 64,
+          "minimumY": -0.0,
+          "maximumY": 0.8767391
+        },
+        {
+          "frame": 65,
+          "minimumY": -0.0,
+          "maximumY": 0.8767712
+        },
+        {
+          "frame": 66,
+          "minimumY": -0.0,
+          "maximumY": 0.8767927
+        },
+        {
+          "frame": 67,
+          "minimumY": -0.0,
+          "maximumY": 0.8768035
+        },
+        {
+          "frame": 68,
+          "minimumY": -0.0,
+          "maximumY": 0.8768035
+        },
+        {
+          "frame": 69,
+          "minimumY": -0.0,
+          "maximumY": 0.8767927
+        },
+        {
+          "frame": 70,
+          "minimumY": -0.0,
+          "maximumY": 0.8767712
+        },
+        {
+          "frame": 71,
+          "minimumY": -0.0,
+          "maximumY": 0.8767391
+        },
+        {
+          "frame": 72,
+          "minimumY": -0.0,
+          "maximumY": 0.8766963
+        },
+        {
+          "frame": 73,
+          "minimumY": -0.0,
+          "maximumY": 0.8766433
+        },
+        {
+          "frame": 74,
+          "minimumY": -0.0,
+          "maximumY": 0.8765801
+        },
+        {
+          "frame": 75,
+          "minimumY": -0.0,
+          "maximumY": 0.8765069
+        },
+        {
+          "frame": 76,
+          "minimumY": -0.0,
+          "maximumY": 0.8764243
+        },
+        {
+          "frame": 77,
+          "minimumY": -0.0,
+          "maximumY": 0.8763322
+        },
+        {
+          "frame": 78,
+          "minimumY": -0.0,
+          "maximumY": 0.8762311
+        },
+        {
+          "frame": 79,
+          "minimumY": -0.0,
+          "maximumY": 0.8761217
+        },
+        {
+          "frame": 80,
+          "minimumY": -0.0,
+          "maximumY": 0.8760042
+        },
+        {
+          "frame": 81,
+          "minimumY": -0.0,
+          "maximumY": 0.8758791
+        },
+        {
+          "frame": 82,
+          "minimumY": -0.0,
+          "maximumY": 0.875747
+        },
+        {
+          "frame": 83,
+          "minimumY": -0.0,
+          "maximumY": 0.8756083
+        },
+        {
+          "frame": 84,
+          "minimumY": -0.0,
+          "maximumY": 0.8754638
+        },
+        {
+          "frame": 85,
+          "minimumY": -0.0,
+          "maximumY": 0.875314
+        },
+        {
+          "frame": 86,
+          "minimumY": -0.0,
+          "maximumY": 0.8751598
+        },
+        {
+          "frame": 87,
+          "minimumY": -0.0,
+          "maximumY": 0.8750018
+        },
+        {
+          "frame": 88,
+          "minimumY": -0.0,
+          "maximumY": 0.8748405
+        },
+        {
+          "frame": 89,
+          "minimumY": -0.0,
+          "maximumY": 0.8746769
+        },
+        {
+          "frame": 90,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        }
+      ]
+    },
+    "Walk": {
+      "durationSeconds": 1.2,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.859796
+        },
+        {
+          "frame": 1,
+          "minimumY": 0.0,
+          "maximumY": 0.8593925
+        },
+        {
+          "frame": 2,
+          "minimumY": -0.0,
+          "maximumY": 0.8583523
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8567854
+        },
+        {
+          "frame": 4,
+          "minimumY": 0.0,
+          "maximumY": 0.8548668
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.0,
+          "maximumY": 0.8528174
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.8508769
+        },
+        {
+          "frame": 7,
+          "minimumY": -0.0,
+          "maximumY": 0.8492738
+        },
+        {
+          "frame": 8,
+          "minimumY": -0.0,
+          "maximumY": 0.8481947
+        },
+        {
+          "frame": 9,
+          "minimumY": -0.0,
+          "maximumY": 0.8477603
+        },
+        {
+          "frame": 10,
+          "minimumY": -0.0,
+          "maximumY": 0.8480095
+        },
+        {
+          "frame": 11,
+          "minimumY": -0.0,
+          "maximumY": 0.8488944
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8502871
+        },
+        {
+          "frame": 13,
+          "minimumY": 0.0,
+          "maximumY": 0.8519971
+        },
+        {
+          "frame": 14,
+          "minimumY": 1e-07,
+          "maximumY": 0.8537956
+        },
+        {
+          "frame": 15,
+          "minimumY": -0.0,
+          "maximumY": 0.8554464
+        },
+        {
+          "frame": 16,
+          "minimumY": -0.0,
+          "maximumY": 0.8567356
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.0,
+          "maximumY": 0.8574967
+        },
+        {
+          "frame": 18,
+          "minimumY": -0.0,
+          "maximumY": 0.8598844
+        },
+        {
+          "frame": 19,
+          "minimumY": 0.0,
+          "maximumY": 0.8599258
+        },
+        {
+          "frame": 20,
+          "minimumY": 0.0,
+          "maximumY": 0.8593219
+        },
+        {
+          "frame": 21,
+          "minimumY": 0.0,
+          "maximumY": 0.8581708
+        },
+        {
+          "frame": 22,
+          "minimumY": 0.0,
+          "maximumY": 0.8566337
+        },
+        {
+          "frame": 23,
+          "minimumY": 0.0,
+          "maximumY": 0.8549172
+        },
+        {
+          "frame": 24,
+          "minimumY": -0.0,
+          "maximumY": 0.8532481
+        },
+        {
+          "frame": 25,
+          "minimumY": 0.0,
+          "maximumY": 0.8518437
+        },
+        {
+          "frame": 26,
+          "minimumY": 0.0,
+          "maximumY": 0.8508826
+        },
+        {
+          "frame": 27,
+          "minimumY": -1e-07,
+          "maximumY": 0.8504807
+        },
+        {
+          "frame": 28,
+          "minimumY": -0.0,
+          "maximumY": 0.8506761
+        },
+        {
+          "frame": 29,
+          "minimumY": 0.0,
+          "maximumY": 0.8514231
+        },
+        {
+          "frame": 30,
+          "minimumY": -0.0,
+          "maximumY": 0.8526002
+        },
+        {
+          "frame": 31,
+          "minimumY": 0.0,
+          "maximumY": 0.8540259
+        },
+        {
+          "frame": 32,
+          "minimumY": 0.0,
+          "maximumY": 0.8554835
+        },
+        {
+          "frame": 33,
+          "minimumY": -0.0,
+          "maximumY": 0.8567507
+        },
+        {
+          "frame": 34,
+          "minimumY": -0.0,
+          "maximumY": 0.8576276
+        },
+        {
+          "frame": 35,
+          "minimumY": 0.0,
+          "maximumY": 0.8579614
+        },
+        {
+          "frame": 36,
+          "minimumY": -0.0,
+          "maximumY": 0.859796
+        }
+      ]
+    },
+    "Run": {
+      "durationSeconds": 0.8,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": 0.0,
+          "maximumY": 0.8599045
+        },
+        {
+          "frame": 1,
+          "minimumY": 0.004,
+          "maximumY": 0.8623353
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.012,
+          "maximumY": 0.8673409
+        },
+        {
+          "frame": 3,
+          "minimumY": 0.016,
+          "maximumY": 0.8675887
+        },
+        {
+          "frame": 4,
+          "minimumY": 0.012,
+          "maximumY": 0.8599309
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.004,
+          "maximumY": 0.8491937
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.8439535
+        },
+        {
+          "frame": 7,
+          "minimumY": 0.0,
+          "maximumY": 0.844378
+        },
+        {
+          "frame": 8,
+          "minimumY": 0.0,
+          "maximumY": 0.8461801
+        },
+        {
+          "frame": 9,
+          "minimumY": 0.0,
+          "maximumY": 0.8486937
+        },
+        {
+          "frame": 10,
+          "minimumY": 0.0,
+          "maximumY": 0.8510513
+        },
+        {
+          "frame": 11,
+          "minimumY": 0.0,
+          "maximumY": 0.8535995
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8599968
+        },
+        {
+          "frame": 13,
+          "minimumY": 0.004,
+          "maximumY": 0.8648391
+        },
+        {
+          "frame": 14,
+          "minimumY": 0.012,
+          "maximumY": 0.8721603
+        },
+        {
+          "frame": 15,
+          "minimumY": 0.016,
+          "maximumY": 0.8744153
+        },
+        {
+          "frame": 16,
+          "minimumY": 0.012,
+          "maximumY": 0.868284
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.004,
+          "maximumY": 0.8584648
+        },
+        {
+          "frame": 18,
+          "minimumY": -0.0,
+          "maximumY": 0.853461
+        },
+        {
+          "frame": 19,
+          "minimumY": 0.0,
+          "maximumY": 0.8534277
+        },
+        {
+          "frame": 20,
+          "minimumY": 0.0,
+          "maximumY": 0.8541276
+        },
+        {
+          "frame": 21,
+          "minimumY": -0.0,
+          "maximumY": 0.8550025
+        },
+        {
+          "frame": 22,
+          "minimumY": 0.0,
+          "maximumY": 0.8556076
+        },
+        {
+          "frame": 23,
+          "minimumY": 0.0,
+          "maximumY": 0.8561477
+        },
+        {
+          "frame": 24,
+          "minimumY": 0.0,
+          "maximumY": 0.8599045
+        }
+      ]
+    },
+    "Attack": {
+      "durationSeconds": 1.2,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": -0.0,
+          "maximumY": 0.8747714
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.0,
+          "maximumY": 0.8749955
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8750131
+        },
+        {
+          "frame": 4,
+          "minimumY": 0.0,
+          "maximumY": 0.8745409
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.0,
+          "maximumY": 0.8733972
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.871796
+        },
+        {
+          "frame": 7,
+          "minimumY": 0.0,
+          "maximumY": 0.870621
+        },
+        {
+          "frame": 8,
+          "minimumY": -0.0,
+          "maximumY": 0.8694253
+        },
+        {
+          "frame": 9,
+          "minimumY": 0.0,
+          "maximumY": 0.8679416
+        },
+        {
+          "frame": 10,
+          "minimumY": -0.0,
+          "maximumY": 0.8644326
+        },
+        {
+          "frame": 11,
+          "minimumY": 0.0,
+          "maximumY": 0.8579654
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8466225
+        },
+        {
+          "frame": 13,
+          "minimumY": 0.0,
+          "maximumY": 0.8301608
+        },
+        {
+          "frame": 14,
+          "minimumY": -0.0,
+          "maximumY": 0.8132836
+        },
+        {
+          "frame": 15,
+          "minimumY": 0.0,
+          "maximumY": 0.7933883
+        },
+        {
+          "frame": 16,
+          "minimumY": 0.0,
+          "maximumY": 0.7820013
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.0,
+          "maximumY": 0.7905087
+        },
+        {
+          "frame": 18,
+          "minimumY": 0.0,
+          "maximumY": 0.7878923
+        },
+        {
+          "frame": 19,
+          "minimumY": -0.0,
+          "maximumY": 0.7802462
+        },
+        {
+          "frame": 20,
+          "minimumY": -0.0,
+          "maximumY": 0.7992222
+        },
+        {
+          "frame": 21,
+          "minimumY": -0.0,
+          "maximumY": 0.8186716
+        },
+        {
+          "frame": 22,
+          "minimumY": 0.0,
+          "maximumY": 0.8346887
+        },
+        {
+          "frame": 23,
+          "minimumY": -0.0,
+          "maximumY": 0.8505068
+        },
+        {
+          "frame": 24,
+          "minimumY": 0.0,
+          "maximumY": 0.8608551
+        },
+        {
+          "frame": 25,
+          "minimumY": -0.0,
+          "maximumY": 0.8675373
+        },
+        {
+          "frame": 26,
+          "minimumY": -0.0,
+          "maximumY": 0.8718372
+        },
+        {
+          "frame": 27,
+          "minimumY": 0.0,
+          "maximumY": 0.8739381
+        },
+        {
+          "frame": 28,
+          "minimumY": -0.0,
+          "maximumY": 0.8748705
+        },
+        {
+          "frame": 29,
+          "minimumY": 0.0,
+          "maximumY": 0.875224
+        },
+        {
+          "frame": 30,
+          "minimumY": -0.0,
+          "maximumY": 0.8753049
+        },
+        {
+          "frame": 31,
+          "minimumY": -0.0,
+          "maximumY": 0.8752601
+        },
+        {
+          "frame": 32,
+          "minimumY": 0.0,
+          "maximumY": 0.875155
+        },
+        {
+          "frame": 33,
+          "minimumY": 0.0,
+          "maximumY": 0.8750175
+        },
+        {
+          "frame": 34,
+          "minimumY": -0.0,
+          "maximumY": 0.8748599
+        },
+        {
+          "frame": 35,
+          "minimumY": -0.0,
+          "maximumY": 0.8746895
+        },
+        {
+          "frame": 36,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        }
+      ]
+    },
+    "Defend": {
+      "durationSeconds": 1.0,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": 0.0,
+          "maximumY": 0.8742262
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.0,
+          "maximumY": 0.872804
+        },
+        {
+          "frame": 3,
+          "minimumY": 0.0,
+          "maximumY": 0.8702323
+        },
+        {
+          "frame": 4,
+          "minimumY": 0.0,
+          "maximumY": 0.8665419
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.0,
+          "maximumY": 0.8618126
+        },
+        {
+          "frame": 6,
+          "minimumY": 0.0,
+          "maximumY": 0.8561565
+        },
+        {
+          "frame": 7,
+          "minimumY": -0.0,
+          "maximumY": 0.8497057
+        },
+        {
+          "frame": 8,
+          "minimumY": -0.0,
+          "maximumY": 0.8426066
+        },
+        {
+          "frame": 9,
+          "minimumY": -0.0,
+          "maximumY": 0.8350174
+        },
+        {
+          "frame": 10,
+          "minimumY": -0.0,
+          "maximumY": 0.8271067
+        },
+        {
+          "frame": 11,
+          "minimumY": 0.0,
+          "maximumY": 0.819053
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8110443
+        },
+        {
+          "frame": 13,
+          "minimumY": -0.0,
+          "maximumY": 0.8032773
+        },
+        {
+          "frame": 14,
+          "minimumY": 0.0,
+          "maximumY": 0.7960736
+        },
+        {
+          "frame": 15,
+          "minimumY": 0.0,
+          "maximumY": 0.790011
+        },
+        {
+          "frame": 16,
+          "minimumY": 0.0,
+          "maximumY": 0.7848188
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.0,
+          "maximumY": 0.7806847
+        },
+        {
+          "frame": 18,
+          "minimumY": 0.0,
+          "maximumY": 0.777796
+        },
+        {
+          "frame": 19,
+          "minimumY": 0.0,
+          "maximumY": 0.7763365
+        },
+        {
+          "frame": 20,
+          "minimumY": -0.0,
+          "maximumY": 0.7762647
+        },
+        {
+          "frame": 21,
+          "minimumY": -0.0,
+          "maximumY": 0.7763624
+        },
+        {
+          "frame": 22,
+          "minimumY": -0.0,
+          "maximumY": 0.7764121
+        },
+        {
+          "frame": 23,
+          "minimumY": -0.0,
+          "maximumY": 0.7764121
+        },
+        {
+          "frame": 24,
+          "minimumY": -0.0,
+          "maximumY": 0.7763624
+        },
+        {
+          "frame": 25,
+          "minimumY": -0.0,
+          "maximumY": 0.7762647
+        },
+        {
+          "frame": 26,
+          "minimumY": -0.0,
+          "maximumY": 0.776123
+        },
+        {
+          "frame": 27,
+          "minimumY": -0.0,
+          "maximumY": 0.7759426
+        },
+        {
+          "frame": 28,
+          "minimumY": -0.0,
+          "maximumY": 0.7757308
+        },
+        {
+          "frame": 29,
+          "minimumY": -0.0,
+          "maximumY": 0.7754961
+        },
+        {
+          "frame": 30,
+          "minimumY": -0.0,
+          "maximumY": 0.7752486
+        }
+      ]
+    },
+    "Hit": {
+      "durationSeconds": 0.8,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": -0.0,
+          "maximumY": 0.8722099
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.0,
+          "maximumY": 0.8637499
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8517988
+        },
+        {
+          "frame": 4,
+          "minimumY": -0.0,
+          "maximumY": 0.840908
+        },
+        {
+          "frame": 5,
+          "minimumY": -0.0,
+          "maximumY": 0.8373045
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.8378994
+        },
+        {
+          "frame": 7,
+          "minimumY": -0.0,
+          "maximumY": 0.8391393
+        },
+        {
+          "frame": 8,
+          "minimumY": -0.0,
+          "maximumY": 0.840908
+        },
+        {
+          "frame": 9,
+          "minimumY": 0.0,
+          "maximumY": 0.8430848
+        },
+        {
+          "frame": 10,
+          "minimumY": 0.0,
+          "maximumY": 0.8455509
+        },
+        {
+          "frame": 11,
+          "minimumY": 0.0,
+          "maximumY": 0.8481942
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8509151
+        },
+        {
+          "frame": 13,
+          "minimumY": -0.0,
+          "maximumY": 0.8538898
+        },
+        {
+          "frame": 14,
+          "minimumY": 0.0,
+          "maximumY": 0.857493
+        },
+        {
+          "frame": 15,
+          "minimumY": 0.0,
+          "maximumY": 0.8608431
+        },
+        {
+          "frame": 16,
+          "minimumY": 0.0,
+          "maximumY": 0.8638447
+        },
+        {
+          "frame": 17,
+          "minimumY": -1e-07,
+          "maximumY": 0.8664238
+        },
+        {
+          "frame": 18,
+          "minimumY": -0.0,
+          "maximumY": 0.86853
+        },
+        {
+          "frame": 19,
+          "minimumY": -0.0,
+          "maximumY": 0.8705864
+        },
+        {
+          "frame": 20,
+          "minimumY": -0.0,
+          "maximumY": 0.8723693
+        },
+        {
+          "frame": 21,
+          "minimumY": -0.0,
+          "maximumY": 0.8736088
+        },
+        {
+          "frame": 22,
+          "minimumY": 0.0,
+          "maximumY": 0.8743358
+        },
+        {
+          "frame": 23,
+          "minimumY": 0.0,
+          "maximumY": 0.8746117
+        },
+        {
+          "frame": 24,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        }
+      ]
+    },
+    "Death": {
+      "durationSeconds": 2.2,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": 0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": -0.0,
+          "maximumY": 0.8745633
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.0,
+          "maximumY": 0.8744637
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8742135
+        },
+        {
+          "frame": 4,
+          "minimumY": -0.0,
+          "maximumY": 0.8738083
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.0,
+          "maximumY": 0.8732413
+        },
+        {
+          "frame": 6,
+          "minimumY": 0.0,
+          "maximumY": 0.8725029
+        },
+        {
+          "frame": 7,
+          "minimumY": -0.0,
+          "maximumY": 0.871584
+        },
+        {
+          "frame": 8,
+          "minimumY": 0.0,
+          "maximumY": 0.8704753
+        },
+        {
+          "frame": 9,
+          "minimumY": -0.0,
+          "maximumY": 0.8691692
+        },
+        {
+          "frame": 10,
+          "minimumY": 0.0,
+          "maximumY": 0.8676614
+        },
+        {
+          "frame": 11,
+          "minimumY": -0.0,
+          "maximumY": 0.8659495
+        },
+        {
+          "frame": 12,
+          "minimumY": -1e-07,
+          "maximumY": 0.8640354
+        },
+        {
+          "frame": 13,
+          "minimumY": 0.0,
+          "maximumY": 0.861926
+        },
+        {
+          "frame": 14,
+          "minimumY": 0.0,
+          "maximumY": 0.8596317
+        },
+        {
+          "frame": 15,
+          "minimumY": -0.0,
+          "maximumY": 0.8571689
+        },
+        {
+          "frame": 16,
+          "minimumY": 0.0,
+          "maximumY": 0.8545587
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.0,
+          "maximumY": 0.8518748
+        },
+        {
+          "frame": 18,
+          "minimumY": 1e-07,
+          "maximumY": 0.8505898
+        },
+        {
+          "frame": 19,
+          "minimumY": -1e-07,
+          "maximumY": 0.8505479
+        },
+        {
+          "frame": 20,
+          "minimumY": 0.0,
+          "maximumY": 0.8514059
+        },
+        {
+          "frame": 21,
+          "minimumY": 0.0,
+          "maximumY": 0.8527287
+        },
+        {
+          "frame": 22,
+          "minimumY": 1e-07,
+          "maximumY": 0.8545636
+        },
+        {
+          "frame": 23,
+          "minimumY": -1e-07,
+          "maximumY": 0.8568808
+        },
+        {
+          "frame": 24,
+          "minimumY": 1e-07,
+          "maximumY": 0.8582131
+        },
+        {
+          "frame": 25,
+          "minimumY": 0.0,
+          "maximumY": 0.858015
+        },
+        {
+          "frame": 26,
+          "minimumY": 0.0,
+          "maximumY": 0.8562875
+        },
+        {
+          "frame": 27,
+          "minimumY": -0.0,
+          "maximumY": 0.8520669
+        },
+        {
+          "frame": 28,
+          "minimumY": 0.0,
+          "maximumY": 0.8451576
+        },
+        {
+          "frame": 29,
+          "minimumY": -0.0,
+          "maximumY": 0.8350974
+        },
+        {
+          "frame": 30,
+          "minimumY": -0.0,
+          "maximumY": 0.8230043
+        },
+        {
+          "frame": 31,
+          "minimumY": 0.0,
+          "maximumY": 0.8092573
+        },
+        {
+          "frame": 32,
+          "minimumY": 0.0,
+          "maximumY": 0.7918311
+        },
+        {
+          "frame": 33,
+          "minimumY": 0.0,
+          "maximumY": 0.7704324
+        },
+        {
+          "frame": 34,
+          "minimumY": 0.0,
+          "maximumY": 0.7452781
+        },
+        {
+          "frame": 35,
+          "minimumY": 0.0,
+          "maximumY": 0.7167134
+        },
+        {
+          "frame": 36,
+          "minimumY": 0.0,
+          "maximumY": 0.6855612
+        },
+        {
+          "frame": 37,
+          "minimumY": -0.0,
+          "maximumY": 0.6529434
+        },
+        {
+          "frame": 38,
+          "minimumY": 0.0,
+          "maximumY": 0.6185454
+        },
+        {
+          "frame": 39,
+          "minimumY": -0.0,
+          "maximumY": 0.5830657
+        },
+        {
+          "frame": 40,
+          "minimumY": -0.0,
+          "maximumY": 0.5475165
+        },
+        {
+          "frame": 41,
+          "minimumY": -0.0,
+          "maximumY": 0.5124915
+        },
+        {
+          "frame": 42,
+          "minimumY": -0.0,
+          "maximumY": 0.4786454
+        },
+        {
+          "frame": 43,
+          "minimumY": -0.0,
+          "maximumY": 0.447135
+        },
+        {
+          "frame": 44,
+          "minimumY": 0.0,
+          "maximumY": 0.4183438
+        },
+        {
+          "frame": 45,
+          "minimumY": 0.0,
+          "maximumY": 0.4004855
+        },
+        {
+          "frame": 46,
+          "minimumY": 0.0,
+          "maximumY": 0.4060838
+        },
+        {
+          "frame": 47,
+          "minimumY": 1e-07,
+          "maximumY": 0.4102025
+        },
+        {
+          "frame": 48,
+          "minimumY": 0.0,
+          "maximumY": 0.4128998
+        },
+        {
+          "frame": 49,
+          "minimumY": 0.0,
+          "maximumY": 0.4142456
+        },
+        {
+          "frame": 50,
+          "minimumY": -1e-07,
+          "maximumY": 0.4144171
+        },
+        {
+          "frame": 51,
+          "minimumY": -1e-07,
+          "maximumY": 0.4144282
+        },
+        {
+          "frame": 52,
+          "minimumY": -1e-07,
+          "maximumY": 0.4144502
+        },
+        {
+          "frame": 53,
+          "minimumY": -1e-07,
+          "maximumY": 0.414483
+        },
+        {
+          "frame": 54,
+          "minimumY": -1e-07,
+          "maximumY": 0.4145261
+        },
+        {
+          "frame": 55,
+          "minimumY": -1e-07,
+          "maximumY": 0.4145793
+        },
+        {
+          "frame": 56,
+          "minimumY": -1e-07,
+          "maximumY": 0.4146417
+        },
+        {
+          "frame": 57,
+          "minimumY": -1e-07,
+          "maximumY": 0.4147129
+        },
+        {
+          "frame": 58,
+          "minimumY": -1e-07,
+          "maximumY": 0.4147921
+        },
+        {
+          "frame": 59,
+          "minimumY": -1e-07,
+          "maximumY": 0.4148784
+        },
+        {
+          "frame": 60,
+          "minimumY": -1e-07,
+          "maximumY": 0.414971
+        },
+        {
+          "frame": 61,
+          "minimumY": -1e-07,
+          "maximumY": 0.4150689
+        },
+        {
+          "frame": 62,
+          "minimumY": 0.0,
+          "maximumY": 0.4151712
+        },
+        {
+          "frame": 63,
+          "minimumY": -1e-07,
+          "maximumY": 0.4152768
+        },
+        {
+          "frame": 64,
+          "minimumY": -1e-07,
+          "maximumY": 0.4153849
+        },
+        {
+          "frame": 65,
+          "minimumY": -1e-07,
+          "maximumY": 0.4154943
+        },
+        {
+          "frame": 66,
+          "minimumY": -1e-07,
+          "maximumY": 0.4156039
+        }
+      ]
+    },
+    "Victory": {
+      "durationSeconds": 3.0,
+      "frames": [
+        {
+          "frame": 0,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        },
+        {
+          "frame": 1,
+          "minimumY": -0.0,
+          "maximumY": 0.8745402
+        },
+        {
+          "frame": 2,
+          "minimumY": 0.0,
+          "maximumY": 0.8744338
+        },
+        {
+          "frame": 3,
+          "minimumY": -0.0,
+          "maximumY": 0.8741823
+        },
+        {
+          "frame": 4,
+          "minimumY": -0.0,
+          "maximumY": 0.8737769
+        },
+        {
+          "frame": 5,
+          "minimumY": 0.0,
+          "maximumY": 0.8732173
+        },
+        {
+          "frame": 6,
+          "minimumY": -0.0,
+          "maximumY": 0.8725125
+        },
+        {
+          "frame": 7,
+          "minimumY": 0.0,
+          "maximumY": 0.8716798
+        },
+        {
+          "frame": 8,
+          "minimumY": 0.0,
+          "maximumY": 0.8707414
+        },
+        {
+          "frame": 9,
+          "minimumY": 0.0,
+          "maximumY": 0.8697231
+        },
+        {
+          "frame": 10,
+          "minimumY": -0.0,
+          "maximumY": 0.8686525
+        },
+        {
+          "frame": 11,
+          "minimumY": 0.0,
+          "maximumY": 0.8675585
+        },
+        {
+          "frame": 12,
+          "minimumY": -0.0,
+          "maximumY": 0.8664711
+        },
+        {
+          "frame": 13,
+          "minimumY": -1e-07,
+          "maximumY": 0.8654226
+        },
+        {
+          "frame": 14,
+          "minimumY": -0.0,
+          "maximumY": 0.8644474
+        },
+        {
+          "frame": 15,
+          "minimumY": -0.0,
+          "maximumY": 0.8635831
+        },
+        {
+          "frame": 16,
+          "minimumY": 1e-07,
+          "maximumY": 0.8628724
+        },
+        {
+          "frame": 17,
+          "minimumY": 0.0,
+          "maximumY": 0.8623618
+        },
+        {
+          "frame": 18,
+          "minimumY": 0.0,
+          "maximumY": 0.8621024
+        },
+        {
+          "frame": 19,
+          "minimumY": 0.0,
+          "maximumY": 0.8619768
+        },
+        {
+          "frame": 20,
+          "minimumY": 0.0,
+          "maximumY": 0.8618341
+        },
+        {
+          "frame": 21,
+          "minimumY": 0.0,
+          "maximumY": 0.8616771
+        },
+        {
+          "frame": 22,
+          "minimumY": 0.0,
+          "maximumY": 0.8615565
+        },
+        {
+          "frame": 23,
+          "minimumY": 0.0,
+          "maximumY": 0.8614459
+        },
+        {
+          "frame": 24,
+          "minimumY": 0.0,
+          "maximumY": 0.8613284
+        },
+        {
+          "frame": 25,
+          "minimumY": 0.0,
+          "maximumY": 0.8612064
+        },
+        {
+          "frame": 26,
+          "minimumY": 0.0,
+          "maximumY": 0.8610819
+        },
+        {
+          "frame": 27,
+          "minimumY": 0.0,
+          "maximumY": 0.8609577
+        },
+        {
+          "frame": 28,
+          "minimumY": 0.0,
+          "maximumY": 0.8608362
+        },
+        {
+          "frame": 29,
+          "minimumY": 0.0,
+          "maximumY": 0.860719
+        },
+        {
+          "frame": 30,
+          "minimumY": 0.0,
+          "maximumY": 0.8606088
+        },
+        {
+          "frame": 31,
+          "minimumY": 0.0,
+          "maximumY": 0.8605398
+        },
+        {
+          "frame": 32,
+          "minimumY": 0.0,
+          "maximumY": 0.8606331
+        },
+        {
+          "frame": 33,
+          "minimumY": 0.0,
+          "maximumY": 0.8607198
+        },
+        {
+          "frame": 34,
+          "minimumY": 0.0,
+          "maximumY": 0.8607996
+        },
+        {
+          "frame": 35,
+          "minimumY": 0.0,
+          "maximumY": 0.8608717
+        },
+        {
+          "frame": 36,
+          "minimumY": 0.0,
+          "maximumY": 0.8609359
+        },
+        {
+          "frame": 37,
+          "minimumY": 0.0,
+          "maximumY": 0.8609921
+        },
+        {
+          "frame": 38,
+          "minimumY": 0.0,
+          "maximumY": 0.86104
+        },
+        {
+          "frame": 39,
+          "minimumY": 0.0,
+          "maximumY": 0.8610797
+        },
+        {
+          "frame": 40,
+          "minimumY": 0.0,
+          "maximumY": 0.8611115
+        },
+        {
+          "frame": 41,
+          "minimumY": 0.0,
+          "maximumY": 0.8611355
+        },
+        {
+          "frame": 42,
+          "minimumY": 0.0,
+          "maximumY": 0.8611528
+        },
+        {
+          "frame": 43,
+          "minimumY": 0.0,
+          "maximumY": 0.8611639
+        },
+        {
+          "frame": 44,
+          "minimumY": 0.0,
+          "maximumY": 0.8611701
+        },
+        {
+          "frame": 45,
+          "minimumY": 0.0,
+          "maximumY": 0.8611724
+        },
+        {
+          "frame": 46,
+          "minimumY": 0.0,
+          "maximumY": 0.8611726
+        },
+        {
+          "frame": 47,
+          "minimumY": 0.0,
+          "maximumY": 0.8611722
+        },
+        {
+          "frame": 48,
+          "minimumY": 0.0,
+          "maximumY": 0.861173
+        },
+        {
+          "frame": 49,
+          "minimumY": 0.0,
+          "maximumY": 0.8611769
+        },
+        {
+          "frame": 50,
+          "minimumY": 0.0,
+          "maximumY": 0.8611856
+        },
+        {
+          "frame": 51,
+          "minimumY": 0.0,
+          "maximumY": 0.8612006
+        },
+        {
+          "frame": 52,
+          "minimumY": 0.0,
+          "maximumY": 0.8612237
+        },
+        {
+          "frame": 53,
+          "minimumY": 0.0,
+          "maximumY": 0.8612562
+        },
+        {
+          "frame": 54,
+          "minimumY": 0.0,
+          "maximumY": 0.8612988
+        },
+        {
+          "frame": 55,
+          "minimumY": 0.0,
+          "maximumY": 0.8613526
+        },
+        {
+          "frame": 56,
+          "minimumY": 0.0,
+          "maximumY": 0.8614178
+        },
+        {
+          "frame": 57,
+          "minimumY": 0.0,
+          "maximumY": 0.8614943
+        },
+        {
+          "frame": 58,
+          "minimumY": 0.0,
+          "maximumY": 0.8615817
+        },
+        {
+          "frame": 59,
+          "minimumY": 0.0,
+          "maximumY": 0.8616791
+        },
+        {
+          "frame": 60,
+          "minimumY": 0.0,
+          "maximumY": 0.8617857
+        },
+        {
+          "frame": 61,
+          "minimumY": 0.0,
+          "maximumY": 0.8618994
+        },
+        {
+          "frame": 62,
+          "minimumY": 0.0,
+          "maximumY": 0.8620189
+        },
+        {
+          "frame": 63,
+          "minimumY": 0.0,
+          "maximumY": 0.8621417
+        },
+        {
+          "frame": 64,
+          "minimumY": 0.0,
+          "maximumY": 0.8622658
+        },
+        {
+          "frame": 65,
+          "minimumY": 0.0,
+          "maximumY": 0.8623891
+        },
+        {
+          "frame": 66,
+          "minimumY": 0.0,
+          "maximumY": 0.8625087
+        },
+        {
+          "frame": 67,
+          "minimumY": 0.0,
+          "maximumY": 0.8626227
+        },
+        {
+          "frame": 68,
+          "minimumY": 0.0,
+          "maximumY": 0.8627287
+        },
+        {
+          "frame": 69,
+          "minimumY": 0.0,
+          "maximumY": 0.8628246
+        },
+        {
+          "frame": 70,
+          "minimumY": 0.0,
+          "maximumY": 0.8629086
+        },
+        {
+          "frame": 71,
+          "minimumY": 0.0,
+          "maximumY": 0.8629789
+        },
+        {
+          "frame": 72,
+          "minimumY": 0.0,
+          "maximumY": 0.863034
+        },
+        {
+          "frame": 73,
+          "minimumY": 0.0,
+          "maximumY": 0.8631989
+        },
+        {
+          "frame": 74,
+          "minimumY": 1e-07,
+          "maximumY": 0.8635721
+        },
+        {
+          "frame": 75,
+          "minimumY": -0.0,
+          "maximumY": 0.8641126
+        },
+        {
+          "frame": 76,
+          "minimumY": -0.0,
+          "maximumY": 0.8647802
+        },
+        {
+          "frame": 77,
+          "minimumY": -1e-07,
+          "maximumY": 0.8655369
+        },
+        {
+          "frame": 78,
+          "minimumY": -0.0,
+          "maximumY": 0.8663469
+        },
+        {
+          "frame": 79,
+          "minimumY": 0.0,
+          "maximumY": 0.8671775
+        },
+        {
+          "frame": 80,
+          "minimumY": -0.0,
+          "maximumY": 0.8679981
+        },
+        {
+          "frame": 81,
+          "minimumY": 0.0,
+          "maximumY": 0.8689981
+        },
+        {
+          "frame": 82,
+          "minimumY": 0.0,
+          "maximumY": 0.8701345
+        },
+        {
+          "frame": 83,
+          "minimumY": 0.0,
+          "maximumY": 0.8711851
+        },
+        {
+          "frame": 84,
+          "minimumY": -0.0,
+          "maximumY": 0.872122
+        },
+        {
+          "frame": 85,
+          "minimumY": 0.0,
+          "maximumY": 0.8729216
+        },
+        {
+          "frame": 86,
+          "minimumY": -0.0,
+          "maximumY": 0.8735656
+        },
+        {
+          "frame": 87,
+          "minimumY": -0.0,
+          "maximumY": 0.8740439
+        },
+        {
+          "frame": 88,
+          "minimumY": 0.0,
+          "maximumY": 0.874356
+        },
+        {
+          "frame": 89,
+          "minimumY": -0.0,
+          "maximumY": 0.874509
+        },
+        {
+          "frame": 90,
+          "minimumY": -0.0,
+          "maximumY": 0.8745117
+        }
+      ]
+    }
+  }
+}

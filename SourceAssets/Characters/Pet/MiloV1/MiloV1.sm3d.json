@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "sampleRate": 30,
+  "clips": {
+    "Idle": {
+      "loop": true
+    },
+    "Walk": {
+      "loop": true
+    },
+    "Run": {
+      "loop": true
+    },
+    "Attack": {
+      "loop": false
+    },
+    "Defend": {
+      "loop": false
+    },
+    "Hit": {
+      "loop": false
+    },
+    "Death": {
+      "loop": false
+    },
+    "Victory": {
+      "loop": false
+    }
+  },
+  "sockets": {
+    "Root": {
+      "node": "Root",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Chest": {
+      "node": "Chest",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Head": {
+      "node": "Head",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "FrontPawL": {
+      "node": "FrontPawL",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "FrontPawR": {
+      "node": "FrontPawR",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "HindPawL": {
+      "node": "HindPawL",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "HindPawR": {
+      "node": "HindPawR",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Tail3": {
+      "node": "Tail3",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

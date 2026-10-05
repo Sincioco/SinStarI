@@ -1,0 +1,53 @@
+{
+  "Idle": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": 0.0,
+    "maximumContactY": 0.0,
+    "finalMinimumY": 0.0,
+    "maximumLoopSeamMeters": 0.0
+  },
+  "Walk": {
+    "frameZeroMinimumY": -0.0,
+    "minimumY": -1e-07,
+    "maximumContactY": 2e-07,
+    "finalMinimumY": -0.0,
+    "maximumLoopSeamMeters": 0.0
+  },
+  "Run": {
+    "frameZeroMinimumY": 1e-07,
+    "minimumY": 0.0,
+    "maximumContactY": 0.0160001,
+    "finalMinimumY": 1e-07,
+    "maximumLoopSeamMeters": 0.0
+  },
+  "Attack": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": -1e-07,
+    "maximumContactY": 3e-07,
+    "finalMinimumY": 0.0
+  },
+  "Defend": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": 0.0,
+    "maximumContactY": 3e-07,
+    "finalMinimumY": 2e-07
+  },
+  "Hit": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": -1e-07,
+    "maximumContactY": 3e-07,
+    "finalMinimumY": 0.0
+  },
+  "Death": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": -1e-07,
+    "maximumContactY": 3e-07,
+    "finalMinimumY": -1e-07
+  },
+  "Victory": {
+    "frameZeroMinimumY": 0.0,
+    "minimumY": -1e-07,
+    "maximumContactY": 2e-07,
+    "finalMinimumY": 0.0
+  }
+}
