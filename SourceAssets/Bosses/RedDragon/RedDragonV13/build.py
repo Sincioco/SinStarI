@@ -5,6 +5,7 @@ Only this revision's outputs are replaced; the earlier packages are read-only.
 """
 import bpy
 import hashlib
+import importlib
 import json
 import math
 import sys
@@ -13,6 +14,9 @@ from mathutils import Matrix, Vector
 
 PACKAGE = Path(__file__).resolve().parent
 sys.path.insert(0, str(PACKAGE))
+import animate
+# Blender MCP keeps Python modules loaded between edits and rebuilds.
+importlib.reload(animate)
 from animate import CLIPS, LOOPS, pose
 
 SOURCE = PACKAGE / 'Source'
@@ -72,7 +76,59 @@ for region in ('Front', 'Hind'):
         if upper.x_axis.cross(projected).dot(upper.tail - upper.head) > 0:
             angle = -angle
         limbs[limb] = {'poleAngle': angle, 'ankle': list(ankle)}
+
+# The source has separate arms in front of the wings. The preview incorrectly
+# skinned both appendages to one chain, leaving the hands spread like a T-pose.
+for side, sign in [('L', -1), ('R', 1)]:
+    points = [(.085, -.558, .478), (.225, -.558, .48),
+              (.377, -.582, .493), (.442, -.592, .495), (.5, -.618, .491)]
+    parent = 'Chest'
+    for index, name in enumerate(('UpperArm', 'Forearm', 'Hand', 'Claws')):
+        bone = rig.data.edit_bones.new(name + side)
+        bone.head = (sign * points[index][0], *points[index][1:])
+        bone.tail = (sign * points[index + 1][0], *points[index + 1][1:])
+        bone.parent = rig.data.edit_bones[parent]
+        parent = bone.name
+    shoulder = rig.data.edit_bones['WingRoot' + side]
+    shoulder.head = (sign * .075, -.462, .452)
+    shoulder.tail = (sign * .245, -.415, .55)
+    rig.data.edit_bones['WingArm' + side].head = shoulder.tail
 bpy.ops.object.mode_set(mode='OBJECT')
+
+def blend_weights(a, b, amount):
+    u = max(0, min(1, amount))
+    u = u * u * (3 - 2 * u)
+    return {a: 1 - u, b: u}
+
+for side in ('L', 'R'):
+    for name in ('UpperArm', 'Forearm', 'Hand', 'Claws'):
+        body.vertex_groups.new(name=name + side)
+wing_groups = {g.index for g in body.vertex_groups if g.name.startswith('Wing')}
+for vertex in body.data.vertices:
+    if not any(g.group in wing_groups and g.weight > 0 for g in vertex.groups):
+        continue
+    x, y, z = vertex.co
+    ax, side = abs(x), 'R' if x >= 0 else 'L'
+    if y < -.495 and z < .565:
+        if ax < .16:
+            weights = blend_weights('Chest', 'UpperArm' + side, (ax - .075) / .07)
+        elif ax < .3:
+            weights = blend_weights('UpperArm' + side, 'Forearm' + side, (ax - .2) / .065)
+        elif ax < .42:
+            weights = blend_weights('Forearm' + side, 'Hand' + side, (ax - .35) / .055)
+        else:
+            weights = blend_weights('Hand' + side, 'Claws' + side, (ax - .435) / .035)
+    elif ax < .2:
+        weights = blend_weights('Chest', 'WingRoot' + side, (ax - .05) / .12)
+    elif ax < .4:
+        weights = blend_weights('WingRoot' + side, 'WingArm' + side, (ax - .21) / .14)
+    else:
+        weights = blend_weights('WingArm' + side, 'WingTip' + side, (ax - .43) / .15)
+    for group_index in [g.group for g in vertex.groups]:
+        body.vertex_groups[group_index].remove([vertex.index])
+    for name, weight in weights.items():
+        if weight > 0:
+            body.vertex_groups[name].add([vertex.index], weight, 'REPLACE')
 
 # The low claws get independent, level paws; knee/ankle transitions stay smooth.
 for limb in limbs:
@@ -201,12 +257,13 @@ bpy.ops.export_scene.gltf(filepath=str(model), export_format='GLB', use_selectio
 descriptor = json.loads((SOURCE / 'RedDragonV11.sm3d.json').read_text())
 descriptor['clips'] = {name: {'loop': name in LOOPS} for name in CLIPS}
 (PACKAGE / 'RedDragonV13.sm3d.json').write_text(json.dumps(descriptor, indent=2) + '\n')
-manifest = {'version': '1.3', 'source': 'Source/red-dragon-v1.1-rig.blend',
+manifest = {'version': '1.3.1', 'source': 'Source/red-dragon-v1.1-rig.blend',
     'sourceSha256': hashlib.sha256((SOURCE / 'red-dragon-v1.1-rig.blend').read_bytes()).hexdigest(),
     'modelSha256': hashlib.sha256(model.read_bytes()).hexdigest(),
     'geometryUvSha256': original_hash, 'geometryChanged': False,
     'bindMinimumZ': original_floor, 'sampleRate': 30, 'runtimeScalePercent': 25000,
-    'deformBones': 28, 'controlBones': 8, 'clips': CLIPS, 'footControls': limbs,
+    'deformBones': 36, 'controlBones': 8, 'clips': CLIPS, 'footControls': limbs,
+    'upperBody': 'Separate upper-arm, forearm, hand and claw chains; independent wing hinges',
     'locomotion': {'Walk': {'stride': .12, 'seconds': 2, 'stanceFraction': .72},
                    'Run': {'stride': .18, 'seconds': 1, 'stanceFraction': .5}},
     'attackCuesSeconds': {'ClawStrike': 1, 'FireBreath': [.85, 3.1], 'Fireball': 1.8}}

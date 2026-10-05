@@ -20,12 +20,20 @@ rig = next(o for o in scene.objects if o.type == 'ARMATURE')
 body = next(o for o in scene.objects if o.type == 'MESH')
 actions = {a.name: a for a in bpy.data.actions}
 assert set(actions) == set(CLIPS), list(actions)
-assert len(rig.data.bones) == 28, len(rig.data.bones)
+assert all(name + side in rig.data.bones for side in ('L', 'R')
+           for name in ('UpperArm', 'Forearm', 'Hand', 'Claws')), \
+    'The hands still share the wing chain; independent arm, wrist and claw joints are missing'
+assert len(rig.data.bones) == 36, len(rig.data.bones)
 groups = {g.index: g.name for g in body.vertex_groups}
 feet = {limb: [v.index for v in body.data.vertices if any(
     groups[g.group] == 'Paw_' + limb and g.weight > .999 for g in v.groups)]
     for limb in ('FrontL', 'FrontR', 'HindL', 'HindR')}
 assert all(feet.values())
+regions = {kind + side: [v.index for v in body.data.vertices if any(
+    groups[g.group] in ((('Hand' + side), ('Claws' + side)) if kind == 'Hand'
+                       else ('WingTip' + side,)) and g.weight > .7 for g in v.groups)]
+    for kind in ('Hand', 'Wing') for side in ('L', 'R')}
+assert all(regions.values()), 'Hand/wing controls must actually deform mesh vertices'
 report = {'modelSha256': hashlib.sha256((PACKAGE / 'red-dragon-v1.3-animated.glb').read_bytes()).hexdigest(),
           'sampleRate': 30, 'axes': 'Blender Z up (SM3D Y up)', 'clips': {}, 'issues': []}
 for name, action in actions.items():
@@ -37,6 +45,8 @@ for name, action in actions.items():
     first_min = None
     foot_min = {limb: 100 for limb in feet}
     positions = []
+    appendage_positions = []
+    recoil_angles = []
     for frame in range(first, last + 1):
         scene.frame_set(frame)
         deps = bpy.context.evaluated_depsgraph_get()
@@ -50,6 +60,12 @@ for name, action in actions.items():
         for limb, indices in feet.items():
             foot_min[limb] = min(foot_min[limb], min(pts[i].z for i in indices))
         erig = rig.evaluated_get(deps)
+        chest_inverse = (erig.matrix_world @ erig.pose.bones['Chest'].matrix).inverted()
+        appendage_positions.append({region: chest_inverse @
+            (sum((pts[i] for i in indices), Vector()) / len(indices))
+            for region, indices in regions.items()})
+        recoil_angles.append({bone: erig.pose.bones[bone].rotation_quaternion.copy()
+                              for bone in ('Chest', 'Head', 'HandR')})
         positions.append({limb: list(erig.matrix_world @ erig.pose.bones['Paw_' + limb].head)
                           for limb in feet})
         if frame in (first, last):
@@ -61,6 +77,36 @@ for name, action in actions.items():
     check = {'frames': len(positions), 'minimumZ': all_min, 'firstFrameMinimumZ': first_min,
              'firstFrameFeet': positions[0],
              'footMinimumZ': foot_min, 'footMotionSpan': span, 'loopSeamMaxDistance': seam}
+    motion = {region: max((p[region] - q[region]).length
+                          for p in appendage_positions for q in appendage_positions)
+              for region in regions}
+    check['appendageMotionRelativeToChest'] = motion
+    for region, distance in motion.items():
+        minimum = (.025 if region.startswith('Hand') else .09)
+        if distance < minimum:
+            report['issues'].append(f'{name}: insufficient visible {region} motion {distance:.4f}')
+    if name == 'Idle':
+        scene.frame_set(first)
+        erig = rig.evaluated_get(bpy.context.evaluated_depsgraph_get())
+        drops = {side: (erig.pose.bones['UpperArm' + side].head.z -
+                       erig.pose.bones['Hand' + side].head.z) for side in ('L', 'R')}
+        check['restingWristDropBelowShoulder'] = drops
+        if min(drops.values()) < .09:
+            report['issues'].append('Idle: arms still resemble a horizontal T-pose')
+    if name == 'Hit':
+        deviations = {bone: [recoil_angles[0][bone].rotation_difference(p[bone])
+                             for p in recoil_angles] for bone in ('Chest', 'Head', 'HandR')}
+        peaks = {bone: max(range(len(recoil_angles)), key=lambda i: deviations[bone][i].angle) / 30
+                 for bone in ('Chest', 'Head', 'HandR')}
+        check['recoilPeakSeconds'] = peaks
+        if peaks['Head'] <= peaks['Chest'] or peaks['HandR'] <= peaks['Chest']:
+            report['issues'].append('Hit: head and wrist recoil have no follow-through delay')
+        chest = deviations['Chest']
+        impact = chest[round(peaks['Chest'] * 30)]
+        rebound = min(sum(a * b for a, b in zip(impact[1:], q[1:])) for q in chest)
+        check['chestReboundDot'] = rebound
+        if rebound >= -.001 or chest[-1].angle > .001:
+            report['issues'].append('Hit: chest does not overshoot and settle to rest')
     if all_min < -.004:
         report['issues'].append(f'{name}: floor penetration {all_min:.6f}')
     if name in LOOPS and seam > .0001:

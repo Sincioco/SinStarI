@@ -62,7 +62,8 @@ def select(name, frame):
     rig.animation_data.action_slot = action.slots[0]
     scene.frame_set(frame)
 
-for name, frame in [('Walk', 15), ('Run', 7), ('ClawStrike', 30), ('FireBreath', 50), ('Fireball', 54), ('Roar', 30)]:
+for name, frame in [('Idle', 0), ('Walk', 15), ('Run', 7), ('ClawStrike', 30),
+                    ('FireBreath', 50), ('Fireball', 54), ('Roar', 30), ('Hit', 6)]:
     select(name, frame)
     scene.render.filepath = str(PREVIEWS / (name + '.png'))
     bpy.ops.render.render(write_still=True)
@@ -70,8 +71,9 @@ for name, frame in [('Walk', 15), ('Run', 7), ('ClawStrike', 30), ('FireBreath',
 if '--motion' in sys.argv:
     frames = PACKAGE / 'LocalReview' / 'frames'
     frames.mkdir(parents=True, exist_ok=True)
-    sequence = [('Walk', 60, 2), ('Run', 30, 3), ('ClawStrike', 66, 1),
-                ('FireBreath', 120, 1), ('Fireball', 150, 1)]
+    sequence = [('Idle', 120, 1), ('Walk', 60, 1), ('Run', 30, 2),
+                ('ClawStrike', 66, 1), ('FireBreath', 120, 1),
+                ('Hit', 24, 3), ('Fireball', 150, 1), ('Roar', 90, 1)]
     output = 0
     for name, count, repeats in sequence:
         for repeat in range(repeats):

@@ -1,14 +1,14 @@
 {
-  "version": "1.3",
+  "version": "1.3.1",
   "source": "Source/red-dragon-v1.1-rig.blend",
   "sourceSha256": "a1ed9018629fab8bda57dea110913a0a92078637f776bccbf6641a7cc6ca2892",
-  "modelSha256": "2ec0c7ed60d7e317dff75ab4d825f66338986da41bff7280e94618285c7e2435",
+  "modelSha256": "13cf5c281b8122f758dea8a632327db2feaa7bb0ce35b6b18648f506ce3f96e5",
   "geometryUvSha256": "94f3dc0bab0c92ea60d5961c90d460cc0e396bd616a3909934e5193b3396ada7",
   "geometryChanged": false,
   "bindMinimumZ": 0.0,
   "sampleRate": 30,
   "runtimeScalePercent": 25000,
-  "deformBones": 28,
+  "deformBones": 36,
   "controlBones": 8,
   "clips": {
     "Idle": 120,
@@ -54,6 +54,7 @@
       ]
     }
   },
+  "upperBody": "Separate upper-arm, forearm, hand and claw chains; independent wing hinges",
   "locomotion": {
     "Walk": {
       "stride": 0.12,

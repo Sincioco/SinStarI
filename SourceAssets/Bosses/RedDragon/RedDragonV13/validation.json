@@ -1,5 +1,5 @@
 {
-  "modelSha256": "2ec0c7ed60d7e317dff75ab4d825f66338986da41bff7280e94618285c7e2435",
+  "modelSha256": "13cf5c281b8122f758dea8a632327db2feaa7bb0ce35b6b18648f506ce3f96e5",
   "sampleRate": 30,
   "axes": "Blender Z up (SM3D Y up)",
   "clips": {
@@ -42,6 +42,12 @@
         "HindR": 5.6127850021051095e-06
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.06908727780445709,
+        "HandR": 0.264666088683949,
+        "WingL": 0.2679885532329673,
+        "WingR": 0.22419191781016998
+      },
       "plantedFootMaxDrift": 8.37769336415733e-06
     },
     "Fireball": {
@@ -83,6 +89,12 @@
         "HindR": 7.980490045315404e-06
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.11376938543596869,
+        "HandR": 0.11384892584087418,
+        "WingL": 0.3235896553704234,
+        "WingR": 0.3449639524216425
+      },
       "plantedFootMaxDrift": 7.985347233630377e-06
     },
     "FireBreath": {
@@ -124,11 +136,17 @@
         "HindR": 2.018076094014411e-06
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.06457046011886523,
+        "HandR": 0.06485789148219723,
+        "WingL": 0.43025668982190196,
+        "WingR": 0.45318370266195307
+      },
       "plantedFootMaxDrift": 2.0237345961216703e-06
     },
     "Hit": {
       "frames": 25,
-      "minimumZ": -4.410983933667012e-07,
+      "minimumZ": -3.772417471736844e-07,
       "firstFrameMinimumZ": -3.722499855030037e-07,
       "firstFrameFeet": {
         "FrontL": [
@@ -153,19 +171,31 @@
         ]
       },
       "footMinimumZ": {
-        "FrontL": 0.0053887381218373775,
-        "FrontR": -4.410983933667012e-07,
-        "HindL": 0.0009693775791674852,
-        "HindR": 0.0048839072696864605
+        "FrontL": 0.005388772580772638,
+        "FrontR": -3.772417471736844e-07,
+        "HindL": 0.0009596843156032264,
+        "HindR": 0.0048742652870714664
       },
       "footMotionSpan": {
-        "FrontL": 3.0144942289805277e-07,
-        "FrontR": 2.445107561561754e-07,
-        "HindL": 6.261019776807571e-06,
-        "HindR": 6.267656729645697e-06
+        "FrontL": 2.9876735293512675e-07,
+        "FrontR": 2.7767785122371053e-07,
+        "HindL": 1.6275554139888424e-05,
+        "HindR": 1.6298609539633955e-05
       },
       "loopSeamMaxDistance": 0.0,
-      "plantedFootMaxDrift": 6.267656729645697e-06
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.16053437535617915,
+        "HandR": 0.16118989153842142,
+        "WingL": 0.5074788427934305,
+        "WingR": 0.6374513267420475
+      },
+      "recoilPeakSeconds": {
+        "Chest": 0.13333333333333333,
+        "Head": 0.2,
+        "HandR": 0.2
+      },
+      "chestReboundDot": -0.00500136210349196,
+      "plantedFootMaxDrift": 1.6298609539633955e-05
     },
     "Idle": {
       "frames": 121,
@@ -206,6 +236,16 @@
         "HindR": 2.4665810700128747e-07
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.06755638994944767,
+        "HandR": 0.0627285234241087,
+        "WingL": 0.21793982431795755,
+        "WingR": 0.22164512566510478
+      },
+      "restingWristDropBelowShoulder": {
+        "L": 0.10581007599830627,
+        "R": 0.10644975304603577
+      },
       "plantedFootMaxDrift": 3.1462717688264076e-07
     },
     "Roar": {
@@ -247,6 +287,12 @@
         "HindR": 2.628038510732032e-06
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.1367783752787093,
+        "HandR": 0.1375399002234748,
+        "WingL": 0.2837569198862179,
+        "WingR": 0.30165611331066805
+      },
       "plantedFootMaxDrift": 2.6473580958289767e-06
     },
     "Run": {
@@ -288,6 +334,12 @@
         "HindR": 0.15083496360034768
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.11067296375760784,
+        "HandR": 0.10125934874446219,
+        "WingL": 0.22012451163074748,
+        "WingR": 0.22246188958142638
+      },
       "footPathMaxError": 2.1723676385374276e-05
     },
     "Walk": {
@@ -329,6 +381,12 @@
         "HindR": 0.08333258210119622
       },
       "loopSeamMaxDistance": 0.0,
+      "appendageMotionRelativeToChest": {
+        "HandL": 0.1107771334771067,
+        "HandR": 0.10129510191757952,
+        "WingL": 0.22012498125902624,
+        "WingR": 0.2227781656343106
+      },
       "footPathMaxError": 2.4542714614977517e-05
     }
   },

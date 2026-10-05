@@ -33,7 +33,7 @@ The self-contained Source directory holds the accepted v1.1 rig, original and
 cleaned meshes, descriptor and reference art. The current `.blend` is a live
 IK authoring rig. `animate.py` defines action beats and foot paths. The export
 evaluates constraints, converts world poses into parent-local transforms, and
-stores quaternion/location/scale keys on the 28 deformation bones. Controls
+stores quaternion/location/scale keys on the 36 deformation bones. Controls
 are excluded from GLB. The six established socket frames retain their rest
 definitions and follow the new poses through Studio's existing owners.
 
@@ -65,3 +65,32 @@ and loop closure. There are no Block or Death actions in this package; do not
 claim that those nonexistent clips were validated. Bind/Idle share the measured
 floor baseline. The original texture and angular membrane topology impose an
 art-quality limit that more keyframes alone cannot remove.
+
+## v1.3.1 correction after Sin's visual review
+
+Sin correctly rejected the fixed T-pose hands, weak wings and robotic Hit.
+The earlier passing checks measured feet and loop seams; they did not prove
+that the arms or wings read as living appendages. Never use contact metrics
+or a few attack stills as a substitute for reviewing the complete performance.
+
+The source has separate arms in front of the wings. The preview mistakenly
+assigned both to WingRoot/WingArm. Added UpperArm, Forearm, Hand and Claws on
+each side, reassigned arm weights to those joints, and moved wing shoulders to
+the actual wing roots. Geometry and UVs remain unchanged. The common pose now
+lowers and bends the arms; attacks include independent reaching and claw flex.
+Fire Breath uses repeated wing up/down strokes, and other attacks have their
+own anticipations and follow-through. Hit has staggered torso, head, arm, wrist
+and wing impulses with a decreasing opposite-direction rebound.
+
+An interactive Blender rebuild initially reused Python's cached `animate`
+module. The builder now reloads that module before authoring. A fresh-process
+rebuild and exported-mesh regression verified the actual saved animation.
+An early Hit stroke clipped the floor because the wing did not counter the
+backward chest pitch; wing-root counterrotation fixed that without lifting feet.
+
+The added regression first failed on the previous GLB's missing arm joints.
+It now checks actual hand/wing vertices in chest space, lowered resting wrists,
+delayed recoil peaks, opposite-direction chest rebound, and the existing full
+floor/contact/loop checks. The 24.6-second 720p review includes all eight clips
+and three Hit repetitions. Existing angular membrane topology is still an art
+limitation, but it was not the cause of the fixed arms and weak performance.
