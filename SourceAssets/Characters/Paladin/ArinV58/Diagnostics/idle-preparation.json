@@ -1,0 +1,27 @@
+{
+  "version": "5.8-candidate",
+  "sourceCalibrationApplied": false,
+  "bodyTriangles": 84110,
+  "rigBones": 55,
+  "skinTransfer": {
+    "method": "Body: fitted donor surface; arms: new anatomical weights; hands: welded-proxy heat weights",
+    "maximumDistance": 0.05650731548666954,
+    "medianDistance": 0.008690161630511284,
+    "percentile95Distance": 0.029569104313850403,
+    "unweightedVertices": 0,
+    "artistDeformationApproval": "Pending"
+  },
+  "bindBodyMinimumZ": -1.9824226704656667e-09,
+  "idleBodyMinimumZBeforePlacement": 0.018530895933508873,
+  "standingOffsetZ": -0.018530895933508873,
+  "idleBodyMinimumZ": 0.0,
+  "idleFrameRange": [
+    1.0,
+    77.0
+  ],
+  "otherAnimations": "Pending approved Idle grip",
+  "equipment": [
+    "Sword \u2014 Adjust This",
+    "Shield \u2014 Adjust This"
+  ]
+}

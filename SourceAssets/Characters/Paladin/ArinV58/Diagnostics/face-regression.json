@@ -1,0 +1,192 @@
+{
+  "faceVertices": 2135,
+  "bothSidesChecked": true,
+  "attackActionUnchanged": true,
+  "attackActionSha256": "75361dd396ac5d597a19919e8e5fbc194fa98204c12d722ea17719faf8389a32",
+  "frames": [
+    {
+      "frame": 1,
+      "maximumHeadRelativeError": 6.269675746450885e-08
+    },
+    {
+      "frame": 2,
+      "maximumHeadRelativeError": 6.188917057900187e-08
+    },
+    {
+      "frame": 3,
+      "maximumHeadRelativeError": 6.064333243705223e-08
+    },
+    {
+      "frame": 4,
+      "maximumHeadRelativeError": 6.188917057900187e-08
+    },
+    {
+      "frame": 5,
+      "maximumHeadRelativeError": 6.244724472701628e-08
+    },
+    {
+      "frame": 6,
+      "maximumHeadRelativeError": 6.188917057900187e-08
+    },
+    {
+      "frame": 7,
+      "maximumHeadRelativeError": 6.155189738369847e-08
+    },
+    {
+      "frame": 8,
+      "maximumHeadRelativeError": 6.214092417661949e-08
+    },
+    {
+      "frame": 9,
+      "maximumHeadRelativeError": 5.972094663188382e-08
+    },
+    {
+      "frame": 10,
+      "maximumHeadRelativeError": 6.705522537231445e-08
+    },
+    {
+      "frame": 11,
+      "maximumHeadRelativeError": 6.188917057900187e-08
+    },
+    {
+      "frame": 12,
+      "maximumHeadRelativeError": 6.214092417661949e-08
+    },
+    {
+      "frame": 13,
+      "maximumHeadRelativeError": 6.757064591056501e-08
+    },
+    {
+      "frame": 14,
+      "maximumHeadRelativeError": 6.687388968101233e-08
+    },
+    {
+      "frame": 15,
+      "maximumHeadRelativeError": 6.674406255472048e-08
+    },
+    {
+      "frame": 16,
+      "maximumHeadRelativeError": 8.437597493012342e-08
+    },
+    {
+      "frame": 17,
+      "maximumHeadRelativeError": 6.828569911354542e-08
+    },
+    {
+      "frame": 18,
+      "maximumHeadRelativeError": 6.828569911354542e-08
+    },
+    {
+      "frame": 19,
+      "maximumHeadRelativeError": 6.705522537231445e-08
+    },
+    {
+      "frame": 20,
+      "maximumHeadRelativeError": 6.064333243705223e-08
+    },
+    {
+      "frame": 21,
+      "maximumHeadRelativeError": 6.664001874625056e-08
+    },
+    {
+      "frame": 22,
+      "maximumHeadRelativeError": 6.143906154658885e-08
+    },
+    {
+      "frame": 23,
+      "maximumHeadRelativeError": 7.300048299977713e-08
+    },
+    {
+      "frame": 24,
+      "maximumHeadRelativeError": 7.300048299977713e-08
+    },
+    {
+      "frame": 25,
+      "maximumHeadRelativeError": 6.828569911354542e-08
+    },
+    {
+      "frame": 26,
+      "maximumHeadRelativeError": 8.560065398421926e-08
+    },
+    {
+      "frame": 27,
+      "maximumHeadRelativeError": 8.024520884654677e-08
+    },
+    {
+      "frame": 28,
+      "maximumHeadRelativeError": 6.828569911354542e-08
+    },
+    {
+      "frame": 29,
+      "maximumHeadRelativeError": 8.940696716308594e-08
+    },
+    {
+      "frame": 30,
+      "maximumHeadRelativeError": 8.024520884654677e-08
+    },
+    {
+      "frame": 31,
+      "maximumHeadRelativeError": 1.2377834115800373e-07
+    },
+    {
+      "frame": 32,
+      "maximumHeadRelativeError": 6.664001874625056e-08
+    },
+    {
+      "frame": 33,
+      "maximumHeadRelativeError": 7.300048299977713e-08
+    },
+    {
+      "frame": 34,
+      "maximumHeadRelativeError": 7.028863677424642e-08
+    },
+    {
+      "frame": 35,
+      "maximumHeadRelativeError": 8.560065398421926e-08
+    },
+    {
+      "frame": 36,
+      "maximumHeadRelativeError": 8.560065398421926e-08
+    },
+    {
+      "frame": 37,
+      "maximumHeadRelativeError": 6.828569911354542e-08
+    },
+    {
+      "frame": 38,
+      "maximumHeadRelativeError": 8.560065398421926e-08
+    },
+    {
+      "frame": 39,
+      "maximumHeadRelativeError": 7.09029522190775e-08
+    },
+    {
+      "frame": 40,
+      "maximumHeadRelativeError": 6.674406255472048e-08
+    },
+    {
+      "frame": 41,
+      "maximumHeadRelativeError": 6.664001874625056e-08
+    },
+    {
+      "frame": 42,
+      "maximumHeadRelativeError": 6.664001874625056e-08
+    },
+    {
+      "frame": 43,
+      "maximumHeadRelativeError": 6.666604492132843e-08
+    },
+    {
+      "frame": 44,
+      "maximumHeadRelativeError": 6.664001874625056e-08
+    },
+    {
+      "frame": 45,
+      "maximumHeadRelativeError": 6.188917057900187e-08
+    },
+    {
+      "frame": 46,
+      "maximumHeadRelativeError": 6.322027276634104e-08
+    }
+  ]
+}

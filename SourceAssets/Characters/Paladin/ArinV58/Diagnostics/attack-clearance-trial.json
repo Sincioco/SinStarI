@@ -1,0 +1,748 @@
+{
+  "before": [
+    {
+      "frame": 1,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.08260620385408401
+    },
+    {
+      "frame": 2,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.09727979451417923
+    },
+    {
+      "frame": 3,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.11413566023111343
+    },
+    {
+      "frame": 4,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13439549505710602
+    },
+    {
+      "frame": 5,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15501321852207184
+    },
+    {
+      "frame": 6,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1765103042125702
+    },
+    {
+      "frame": 7,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.19969423115253448
+    },
+    {
+      "frame": 8,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.22597329318523407
+    },
+    {
+      "frame": 9,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24848350882530212
+    },
+    {
+      "frame": 10,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.2662558853626251
+    },
+    {
+      "frame": 11,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.27463486790657043
+    },
+    {
+      "frame": 12,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.268746942281723
+    },
+    {
+      "frame": 13,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.2588159739971161
+    },
+    {
+      "frame": 14,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24615049362182617
+    },
+    {
+      "frame": 15,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24120867252349854
+    },
+    {
+      "frame": 16,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.23638124763965607
+    },
+    {
+      "frame": 17,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.2426646649837494
+    },
+    {
+      "frame": 18,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.23563463985919952
+    },
+    {
+      "frame": 19,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.2163051813840866
+    },
+    {
+      "frame": 20,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15808482468128204
+    },
+    {
+      "frame": 21,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.04769211262464523
+    },
+    {
+      "frame": 22,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.017644239589571953
+    },
+    {
+      "frame": 23,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 98,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.004535499960184097
+    },
+    {
+      "frame": 24,
+      "handForearmLegPairs": 86,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 388,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 2.5945141715055797e-06
+    },
+    {
+      "frame": 25,
+      "handForearmLegPairs": 349,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 198,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 1.456043992220657e-05
+    },
+    {
+      "frame": 26,
+      "handForearmLegPairs": 721,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 122,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 1.9824705077553517e-07
+    },
+    {
+      "frame": 27,
+      "handForearmLegPairs": 1307,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 336,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 3.6486856060946593e-06
+    },
+    {
+      "frame": 28,
+      "handForearmLegPairs": 1466,
+      "swordShieldPairs": 20,
+      "swordLegPairs": 1228,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 4.103856554138474e-06
+    },
+    {
+      "frame": 29,
+      "handForearmLegPairs": 1816,
+      "swordShieldPairs": 99,
+      "swordLegPairs": 1314,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 4.177563823759556e-06
+    },
+    {
+      "frame": 30,
+      "handForearmLegPairs": 1022,
+      "swordShieldPairs": 98,
+      "swordLegPairs": 1576,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 2.896963451348711e-06
+    },
+    {
+      "frame": 31,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 101,
+      "swordLegPairs": 1797,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.001593562075868249
+    },
+    {
+      "frame": 32,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 96,
+      "swordLegPairs": 1598,
+      "shieldLegPairs": 156,
+      "handLegMinimumSurfaceDistance": 0.05364580452442169
+    },
+    {
+      "frame": 33,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 88,
+      "swordLegPairs": 507,
+      "shieldLegPairs": 240,
+      "handLegMinimumSurfaceDistance": 0.10410366952419281
+    },
+    {
+      "frame": 34,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 79,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 10,
+      "handLegMinimumSurfaceDistance": 0.13022667169570923
+    },
+    {
+      "frame": 35,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 99,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13138611614704132
+    },
+    {
+      "frame": 36,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 68,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.12956608831882477
+    },
+    {
+      "frame": 37,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 26,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1287117600440979
+    },
+    {
+      "frame": 38,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13002902269363403
+    },
+    {
+      "frame": 39,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13209988176822662
+    },
+    {
+      "frame": 40,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13294488191604614
+    },
+    {
+      "frame": 41,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.12911804020404816
+    },
+    {
+      "frame": 42,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1219550147652626
+    },
+    {
+      "frame": 43,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.11457917839288712
+    },
+    {
+      "frame": 44,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1044609397649765
+    },
+    {
+      "frame": 45,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.09349308162927628
+    },
+    {
+      "frame": 46,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.08260618895292282
+    }
+  ],
+  "after": [
+    {
+      "frame": 1,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.08260613679885864
+    },
+    {
+      "frame": 2,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.09727979451417923
+    },
+    {
+      "frame": 3,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.11413562297821045
+    },
+    {
+      "frame": 4,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13439545035362244
+    },
+    {
+      "frame": 5,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15501321852207184
+    },
+    {
+      "frame": 6,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.17651034891605377
+    },
+    {
+      "frame": 7,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.19969423115253448
+    },
+    {
+      "frame": 8,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.22597333788871765
+    },
+    {
+      "frame": 9,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24848352372646332
+    },
+    {
+      "frame": 10,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.26625585556030273
+    },
+    {
+      "frame": 11,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.27463486790657043
+    },
+    {
+      "frame": 12,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.2687469720840454
+    },
+    {
+      "frame": 13,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.25881582498550415
+    },
+    {
+      "frame": 14,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24615052342414856
+    },
+    {
+      "frame": 15,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24120865762233734
+    },
+    {
+      "frame": 16,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.23638126254081726
+    },
+    {
+      "frame": 17,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.24266459047794342
+    },
+    {
+      "frame": 18,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.23563461005687714
+    },
+    {
+      "frame": 19,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.22767676413059235
+    },
+    {
+      "frame": 20,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.18161047995090485
+    },
+    {
+      "frame": 21,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.09611944854259491
+    },
+    {
+      "frame": 22,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.05060141906142235
+    },
+    {
+      "frame": 23,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.03346334025263786
+    },
+    {
+      "frame": 24,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.027091559022665024
+    },
+    {
+      "frame": 25,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.021439485251903534
+    },
+    {
+      "frame": 26,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.021321039646863937
+    },
+    {
+      "frame": 27,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.025765269994735718
+    },
+    {
+      "frame": 28,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.03766382113099098
+    },
+    {
+      "frame": 29,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.06233189254999161
+    },
+    {
+      "frame": 30,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.09543383121490479
+    },
+    {
+      "frame": 31,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.10525530576705933
+    },
+    {
+      "frame": 32,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.12712633609771729
+    },
+    {
+      "frame": 33,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15233170986175537
+    },
+    {
+      "frame": 34,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15686342120170593
+    },
+    {
+      "frame": 35,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.15377910435199738
+    },
+    {
+      "frame": 36,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.14480440318584442
+    },
+    {
+      "frame": 37,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.14286750555038452
+    },
+    {
+      "frame": 38,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1400291472673416
+    },
+    {
+      "frame": 39,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.13902990520000458
+    },
+    {
+      "frame": 40,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.1351172924041748
+    },
+    {
+      "frame": 41,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.12897542119026184
+    },
+    {
+      "frame": 42,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.12168942391872406
+    },
+    {
+      "frame": 43,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.11457917094230652
+    },
+    {
+      "frame": 44,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.10446090996265411
+    },
+    {
+      "frame": 45,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.0934930294752121
+    },
+    {
+      "frame": 46,
+      "handForearmLegPairs": 0,
+      "swordShieldPairs": 0,
+      "swordLegPairs": 0,
+      "shieldLegPairs": 0,
+      "handLegMinimumSurfaceDistance": 0.0826062336564064
+    }
+  ],
+  "offset": [
+    0,
+    -0.09,
+    0.055
+  ],
+  "wristTurnDegrees": -30
+}

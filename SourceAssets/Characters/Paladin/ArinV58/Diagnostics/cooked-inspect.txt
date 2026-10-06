@@ -1,0 +1,44 @@
+SM3D
+Version: 2
+Name: Scene
+Parts: 3
+Vertices: 74931
+Indices: 278649
+Triangles: 92883
+Materials: 3
+TextureReferences: 7
+Bounds: -0.631736,-0.018531,-0.468412 | 0.581392,0.982804,0.243595
+Tangents: +647 -74284
+Bones: 55
+Nodes: 59
+Clips: 11
+AnimationBytes: 1518168
+Clip 0: BlockImpact | DurationMs 800 | SampleRate 30 | Samples 25 | Tracks 56 | Bytes 13580 | Loop False
+Clip 1: Death | DurationMs 3933 | SampleRate 30 | Samples 119 | Tracks 56 | Bytes 49308 | Loop False
+Clip 2: Defend | DurationMs 1433 | SampleRate 30 | Samples 44 | Tracks 56 | Bytes 20420 | Loop True
+Clip 3: Hit | DurationMs 1000 | SampleRate 30 | Samples 31 | Tracks 56 | Bytes 16220 | Loop False
+Clip 4: Idle | DurationMs 2567 | SampleRate 30 | Samples 78 | Tracks 56 | Bytes 32968 | Loop True
+Clip 5: Run | DurationMs 733 | SampleRate 30 | Samples 23 | Tracks 56 | Bytes 13212 | Loop True
+Clip 6: SwordAttack | DurationMs 1533 | SampleRate 30 | Samples 47 | Tracks 56 | Bytes 22236 | Loop False
+Clip 7: SwordAttack2 | DurationMs 1033 | SampleRate 30 | Samples 32 | Tracks 56 | Bytes 16596 | Loop False
+Clip 8: TownIdle | DurationMs 2033 | SampleRate 30 | Samples 62 | Tracks 56 | Bytes 5916 | Loop True
+Clip 9: Victory | DurationMs 8567 | SampleRate 30 | Samples 258 | Tracks 56 | Bytes 101572 | Loop False
+Clip 10: Walk | DurationMs 1133 | SampleRate 30 | Samples 35 | Tracks 56 | Bytes 17724 | Loop True
+Events: 0
+Sockets: 21
+RootMotionClips: 0
+StaticBytes: 4714420
+TotalBytes: 6232588
+Part 0: Shield/Mesh_33.001 [Node 56, Mesh 1, Primitive 0, Instance 1] | Vertices 242 | Indices 648 | Material 1 | Bounds 0.304615,0.725612,-0.1984 | 0.581392,0.822031,0.243595
+Part 1: Sword/tripo_mesh_19a209bb-db0f-4eb2-acd0-4f35a129c470 [Node 57, Mesh 2, Primitive 0, Instance 2] | Vertices 8696 | Indices 25671 | Material 2 | Bounds -0.631736,0.688577,-0.468412 | -0.411697,0.823685,0.089918
+Part 2: Body/Mesh_30 [Node 55, Mesh 0, Primitive 0, Instance 3] | Vertices 65993 | Indices 252330 | Material 0 | Bounds -0.499021,-0.018531,-0.109805 | 0.499795,0.982804,0.111119
+Material 0: Material.001 | BaseColor Assets/Generation2/ArinV58/Textures/ArinV58-m0-base-color-87bf38da1752.png | Normal - | ORM - | Emissive - | BaseFactor 1,1,1,1 | Metallic 0 | Roughness 0.5 | NormalStrength 1 | OcclusionStrength 1 | EmissiveFactor 0,0,0 | Alpha OPAQUE | Cutoff 0.5 | DoubleSided True
+Material 1: Material.002 | BaseColor Assets/Generation2/ArinV58/Textures/ArinV58-m1-base-color-2efa61a12b5b.png | Normal Assets/Generation2/ArinV58/Textures/ArinV58-m1-normal-fc0687edec99.png | ORM Assets/Generation2/ArinV58/Textures/ArinV58-m1-orm-4fa60d5a765d.png | Emissive - | BaseFactor 1,1,1,1 | Metallic 1 | Roughness 1 | NormalStrength 1 | OcclusionStrength 1 | EmissiveFactor 0,0,0 | Alpha OPAQUE | Cutoff 0.5 | DoubleSided True
+Material 2: tripo_mat_19a209bb-db0f-4eb2-acd0-4f35a129c470 | BaseColor Assets/Generation2/ArinV58/Textures/ArinV58-m2-base-color-bfbaad50782b.png | Normal Assets/Generation2/ArinV58/Textures/ArinV58-m2-normal-c8c014628284.png | ORM Assets/Generation2/ArinV58/Textures/ArinV58-m2-orm-056d4c8360cb.png | Emissive - | BaseFactor 1,1,1,1 | Metallic 1 | Roughness 1 | NormalStrength 1 | OcclusionStrength 1 | EmissiveFactor 0,0,0 | Alpha OPAQUE | Cutoff 0.5 | DoubleSided False
+Texture 0: BaseColor | Assets/Generation2/ArinV58/Textures/ArinV58-m0-base-color-87bf38da1752.png
+Texture 1: BaseColor | Assets/Generation2/ArinV58/Textures/ArinV58-m1-base-color-2efa61a12b5b.png
+Texture 2: Normal | Assets/Generation2/ArinV58/Textures/ArinV58-m1-normal-fc0687edec99.png
+Texture 3: ORM | Assets/Generation2/ArinV58/Textures/ArinV58-m1-orm-4fa60d5a765d.png
+Texture 4: BaseColor | Assets/Generation2/ArinV58/Textures/ArinV58-m2-base-color-bfbaad50782b.png
+Texture 5: Normal | Assets/Generation2/ArinV58/Textures/ArinV58-m2-normal-c8c014628284.png
+Texture 6: ORM | Assets/Generation2/ArinV58/Textures/ArinV58-m2-orm-056d4c8360cb.png

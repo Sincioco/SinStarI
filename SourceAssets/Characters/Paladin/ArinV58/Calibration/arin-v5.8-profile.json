@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "assetId": "sin-star-i.character-1.paladin",
+  "characterVersion": "v5.8",
+  "modelSha256": "1D6A1BC2DCAC02E6EBE3DC3CED1B6429CC363E92D027AB99F9CF452F9A22D072",
+  "descriptorSha256": "F27BBBB3EE45183440F712A7AB323AF63FB0D9B8EBA12FDEB99DDA1845206A09",
+  "sm3dSha256": "D4B8249AB47D444901EA897733F02C30D22FA5CB7AFB64A260BC21B02D9626C4",
+  "clips": [
+    {
+      "name": "BlockImpact",
+      "sampleCount": 25
+    },
+    {
+      "name": "Death",
+      "sampleCount": 119
+    },
+    {
+      "name": "Defend",
+      "sampleCount": 44
+    },
+    {
+      "name": "Hit",
+      "sampleCount": 31
+    },
+    {
+      "name": "Idle",
+      "sampleCount": 78
+    },
+    {
+      "name": "Run",
+      "sampleCount": 23
+    },
+    {
+      "name": "SwordAttack",
+      "sampleCount": 47
+    },
+    {
+      "name": "SwordAttack2",
+      "sampleCount": 32
+    },
+    {
+      "name": "TownIdle",
+      "sampleCount": 62
+    },
+    {
+      "name": "Victory",
+      "sampleCount": 258
+    },
+    {
+      "name": "Walk",
+      "sampleCount": 35
+    }
+  ],
+  "sockets": [
+    "Chest",
+    "FootLeft",
+    "FootRight",
+    "HandLeft",
+    "HandRight",
+    "Head",
+    "Root",
+    "ShieldCenter",
+    "ShieldFireLeft",
+    "ShieldFireRight",
+    "ShieldFireTip",
+    "ShieldRim0",
+    "ShieldRim1",
+    "ShieldRim2",
+    "ShieldRim3",
+    "ShieldRim4",
+    "ShieldRim5",
+    "ShieldRim6",
+    "ShieldRim7",
+    "SwordBase",
+    "SwordTip"
+  ]
+}

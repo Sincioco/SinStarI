@@ -1,0 +1,12 @@
+CLIP BlockImpact 25
+CLIP Death 119
+CLIP Defend 44
+CLIP Hit 31
+CLIP Idle 78
+CLIP Run 23
+CLIP SwordAttack 47
+CLIP SwordAttack2 32
+CLIP TownIdle 62
+CLIP Victory 258
+CLIP Walk 35
+Arin v5.8 native clips, draw and calibration isolation PASS

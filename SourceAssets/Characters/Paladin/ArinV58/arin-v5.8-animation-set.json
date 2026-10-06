@@ -1,0 +1,72 @@
+{
+  "animations": [
+    {
+      "name": "Idle",
+      "file": "Source/arin-v5.7-idle-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Walk",
+      "file": "Source/arin-v5.8-walk-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Run",
+      "file": "Source/arin-v5.8-run-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Defend",
+      "file": "Source/arin-v5.8-defend-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "SwordAttack",
+      "file": "Source/arin-v5.8-primary-attack-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "SwordAttack2",
+      "file": "Source/arin-v5.8-swordattack2-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "BlockImpact",
+      "file": "Source/arin-v5.8-blockimpact-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Hit",
+      "file": "Source/arin-v5.8-hit-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Death",
+      "file": "Source/arin-v5.8-death-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "Victory",
+      "file": "Source/arin-v5.8-victory-motion.fbx",
+      "sourceRevision": "ArinV57 raw motion reference",
+      "calibrationApplied": false
+    },
+    {
+      "name": "TownIdle",
+      "file": "Source/arin-v5.8-town-idle-motion.blend",
+      "sourceRevision": "ArinV57 authored TownIdle skeleton/action; original rest basis retained",
+      "calibrationApplied": false
+    }
+  ],
+  "gripSource": "Blender/arin-v5.8-idle-approved.blend",
+  "excluded": "Collision-adjustment trials; v5.7 calibration and arm stabilization"
+}

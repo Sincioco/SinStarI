@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "sampleRate": 30,
+  "clips": {
+    "BlockImpact": {
+      "loop": false
+    },
+    "Death": {
+      "loop": false
+    },
+    "Defend": {
+      "loop": true
+    },
+    "Hit": {
+      "loop": false
+    },
+    "Idle": {
+      "loop": true
+    },
+    "Run": {
+      "loop": true
+    },
+    "SwordAttack": {
+      "loop": false
+    },
+    "SwordAttack2": {
+      "loop": false
+    },
+    "TownIdle": {
+      "loop": true
+    },
+    "Victory": {
+      "loop": false
+    },
+    "Walk": {
+      "loop": true
+    }
+  },
+  "sockets": {
+    "Root": {
+      "node": "mixamorig:Hips"
+    },
+    "Head": {
+      "node": "mixamorig:Head"
+    },
+    "Chest": {
+      "node": "mixamorig:Spine2"
+    },
+    "HandRight": {
+      "node": "mixamorig:RightHand"
+    },
+    "HandLeft": {
+      "node": "mixamorig:LeftHand"
+    },
+    "FootLeft": {
+      "node": "mixamorig:LeftFoot"
+    },
+    "FootRight": {
+      "node": "mixamorig:RightFoot"
+    },
+    "SwordBase": {
+      "node": "mixamorig:RightHand",
+      "translation": [
+        -0.09105798602104187,
+        0.08945829421281815,
+        -0.0020427899435162544
+      ]
+    },
+    "SwordTip": {
+      "node": "mixamorig:RightHand",
+      "translation": [
+        -0.4724118411540985,
+        0.2717992663383484,
+        0.05719958245754242
+      ]
+    },
+    "ShieldCenter": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.0007723731105215847,
+        0.05067288130521774,
+        0.0016174090560525656
+      ]
+    },
+    "ShieldRim0": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.22217682003974915,
+        0.0486888624727726,
+        0.017004042863845825
+      ]
+    },
+    "ShieldRim1": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.17924916744232178,
+        0.15165388584136963,
+        -0.017594721168279648
+      ]
+    },
+    "ShieldRim2": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.0029007981065660715,
+        0.1781315803527832,
+        -0.02862798050045967
+      ]
+    },
+    "ShieldRim3": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        -0.14176331460475922,
+        0.1414899080991745,
+        -0.009849343448877335
+      ]
+    },
+    "ShieldRim4": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        -0.2169109731912613,
+        0.06250198185443878,
+        0.02381550334393978
+      ]
+    },
+    "ShieldRim5": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        -0.1342296302318573,
+        -0.016975946724414825,
+        0.04500630125403404
+      ]
+    },
+    "ShieldRim6": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        -0.0037102748174220324,
+        -0.06724134087562561,
+        0.04130170866847038
+      ]
+    },
+    "ShieldRim7": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.16969715058803558,
+        -0.05231821909546852,
+        0.04083697497844696
+      ]
+    },
+    "ShieldFireLeft": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.17924916744232178,
+        0.15165388584136963,
+        -0.017594721168279648
+      ]
+    },
+    "ShieldFireRight": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        0.16969715058803558,
+        -0.05231821909546852,
+        0.04083697497844696
+      ]
+    },
+    "ShieldFireTip": {
+      "node": "mixamorig:LeftHand",
+      "translation": [
+        -0.2169109731912613,
+        0.06250198185443878,
+        0.02381550334393978
+      ]
+    }
+  }
+}

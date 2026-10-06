@@ -1,0 +1,14 @@
+{
+  "changedVertices": 11257,
+  "faceVerticesRigidToHead": 10509,
+  "maximumRestPositionChange": 0.0,
+  "removedFaceInfluences": {
+    "mixamorig:Neck": 2211,
+    "mixamorig:Spine2": 262,
+    "mixamorig:RightShoulder": 28,
+    "mixamorig:LeftShoulder": 2,
+    "mixamorig:RightArm": 1
+  },
+  "neckBlendStartZ": 0.805,
+  "rigidFaceStartZ": 0.852
+}

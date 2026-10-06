@@ -1,0 +1,9 @@
+{
+  "repair": "Rigid grip/pommel alignment with a short guard transition",
+  "bladeHandleAngleBeforeDegrees": 5.636073173834945,
+  "bladeHandleAngleAfterDegrees": 0.0,
+  "bladeMaximumVertexChange": 0.0,
+  "maximumVertexDisplacement": 0.01419397983754628,
+  "topologyAndUVsPreserved": true,
+  "vertices": 259
+}

@@ -1,0 +1,19 @@
+{
+  "source": "arin-v5.8-new-sword.original.glb",
+  "sourceSha256": "e3fc9b82765de6042f24c83546cf6b7b1a49cc545e9d68f2d74afbc7933904ab",
+  "originalTriangles": 1648018,
+  "cleanedTriangles": 8558,
+  "reductionPercent": 99.4807095553568,
+  "openBoundaryEdges": 14,
+  "remainingSideProtrusionVertices": 0,
+  "bladeOpenBoundaryEdges": 0,
+  "originalHiltBoundaryEdges": 16,
+  "originalNonManifoldEdges": 20,
+  "smallCutHolesCapped": 0,
+  "residualBladeVerticesFlattened": 197,
+  "bladeSideLimit": 0.0137,
+  "collarStartZ": 0.62,
+  "outputSha256": "b2c7a65dc272e1e1b868df694d658638d2ef58bf67d25019974d104d1c01db5c",
+  "materials": "Original base color, normal, and metallic/roughness textures retained",
+  "exportedTriangles": 8557
+}

@@ -1,0 +1,20 @@
+{
+  "frames": {
+    "1": {
+      "bodyMinimumZ": 0.0,
+      "maximumHandSeamGap": 0
+    },
+    "39": {
+      "bodyMinimumZ": -3.630295395851135e-05,
+      "maximumHandSeamGap": 0
+    },
+    "77": {
+      "bodyMinimumZ": 3.46451997756958e-07,
+      "maximumHandSeamGap": 0
+    }
+  },
+  "bodyTriangles": 84110,
+  "allBodyVerticesWeighted": true,
+  "sourceSha256": "df27ef75f8a3965477910c08977a67016cea377b7ac88a6b28d16bc80cca8378",
+  "maximumRestGeometryDifference": 0.0
+}

@@ -1,0 +1,260 @@
+{
+  "clip": "SwordAttack",
+  "displayName": "Attack",
+  "source": "arin-v5.8-primary-attack-motion.fbx",
+  "sourceSha256": "cd58d062937ed5a4cceff99752538d6890c10bb953a73390411d15dcfb5094a9",
+  "idleCheckpointSha256": "5ba0bb034ce44db5fe85d02ac278c1f9eba1eb316a39acb3f343f39d7fb7a50c",
+  "outputSha256": "c3f54d11a53864ced608d4c15b90b62827db4c88aae1a13632fe6ba7f5e2e324",
+  "frameRange": [
+    1,
+    46
+  ],
+  "reviewFrame": 22,
+  "bodyTriangles": 84110,
+  "maximumHandRelativeMatrixDrift": 2.980232238769531e-07,
+  "maximumHandSeamGap": 0.0,
+  "firstBodyMinimumZBeforePlacement": 3.166496753692627e-08,
+  "clipPlacementAdjustmentZ": -3.166496753692627e-08,
+  "maximumFloorContactLift": 0.016800405457615852,
+  "frames": [
+    {
+      "frame": 1,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": 0.0
+    },
+    {
+      "frame": 2,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0004590693861246109
+    },
+    {
+      "frame": 3,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0009515900164842606
+    },
+    {
+      "frame": 4,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0010818243026733398
+    },
+    {
+      "frame": 5,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0007943771779537201
+    },
+    {
+      "frame": 6,
+      "bodyMinimumZ": 0.00048818811774253845,
+      "bodyMinimumZBeforeContactRepair": 0.00048818811774253845
+    },
+    {
+      "frame": 7,
+      "bodyMinimumZ": 0.006271582096815109,
+      "bodyMinimumZBeforeContactRepair": 0.006271582096815109
+    },
+    {
+      "frame": 8,
+      "bodyMinimumZ": 0.011764831840991974,
+      "bodyMinimumZBeforeContactRepair": 0.011764831840991974
+    },
+    {
+      "frame": 9,
+      "bodyMinimumZ": 0.01248113252222538,
+      "bodyMinimumZBeforeContactRepair": 0.01248113252222538
+    },
+    {
+      "frame": 10,
+      "bodyMinimumZ": 0.01572807878255844,
+      "bodyMinimumZBeforeContactRepair": 0.01572807878255844
+    },
+    {
+      "frame": 11,
+      "bodyMinimumZ": 0.003493059426546097,
+      "bodyMinimumZBeforeContactRepair": 0.003493059426546097
+    },
+    {
+      "frame": 12,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0037388931959867477
+    },
+    {
+      "frame": 13,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0015145521610975266
+    },
+    {
+      "frame": 14,
+      "bodyMinimumZ": 0.00011182762682437897,
+      "bodyMinimumZBeforeContactRepair": 0.00011182762682437897
+    },
+    {
+      "frame": 15,
+      "bodyMinimumZ": 0.0010816734284162521,
+      "bodyMinimumZBeforeContactRepair": 0.0010816734284162521
+    },
+    {
+      "frame": 16,
+      "bodyMinimumZ": 0.0015085525810718536,
+      "bodyMinimumZBeforeContactRepair": 0.0015085525810718536
+    },
+    {
+      "frame": 17,
+      "bodyMinimumZ": 0.0012728646397590637,
+      "bodyMinimumZBeforeContactRepair": 0.0012728646397590637
+    },
+    {
+      "frame": 18,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0015939436852931976
+    },
+    {
+      "frame": 19,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.007221601903438568
+    },
+    {
+      "frame": 20,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.010623691603541374
+    },
+    {
+      "frame": 21,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.009301835671067238
+    },
+    {
+      "frame": 22,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.010160242207348347
+    },
+    {
+      "frame": 23,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.010905797593295574
+    },
+    {
+      "frame": 24,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.012231347151100636
+    },
+    {
+      "frame": 25,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.01393152866512537
+    },
+    {
+      "frame": 26,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.01510030310600996
+    },
+    {
+      "frame": 27,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.01562773808836937
+    },
+    {
+      "frame": 28,
+      "bodyMinimumZ": 9.313225746154785e-10,
+      "bodyMinimumZBeforeContactRepair": -0.0162392258644104
+    },
+    {
+      "frame": 29,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.016800405457615852
+    },
+    {
+      "frame": 30,
+      "bodyMinimumZ": 9.313225746154785e-10,
+      "bodyMinimumZBeforeContactRepair": -0.016742181032896042
+    },
+    {
+      "frame": 31,
+      "bodyMinimumZ": 9.313225746154785e-10,
+      "bodyMinimumZBeforeContactRepair": -0.015990786254405975
+    },
+    {
+      "frame": 32,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.014806605875492096
+    },
+    {
+      "frame": 33,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.012778252363204956
+    },
+    {
+      "frame": 34,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.005439396947622299
+    },
+    {
+      "frame": 35,
+      "bodyMinimumZ": 0.0019847434014081955,
+      "bodyMinimumZBeforeContactRepair": 0.0019847434014081955
+    },
+    {
+      "frame": 36,
+      "bodyMinimumZ": 0.0016317106783390045,
+      "bodyMinimumZBeforeContactRepair": 0.0016317106783390045
+    },
+    {
+      "frame": 37,
+      "bodyMinimumZ": 0.0013061147183179855,
+      "bodyMinimumZBeforeContactRepair": 0.0013061147183179855
+    },
+    {
+      "frame": 38,
+      "bodyMinimumZ": 0.0007077716290950775,
+      "bodyMinimumZBeforeContactRepair": 0.0007077716290950775
+    },
+    {
+      "frame": 39,
+      "bodyMinimumZ": 0.0033180471509695053,
+      "bodyMinimumZBeforeContactRepair": 0.0033180471509695053
+    },
+    {
+      "frame": 40,
+      "bodyMinimumZ": 0.0011560507118701935,
+      "bodyMinimumZBeforeContactRepair": 0.0011560507118701935
+    },
+    {
+      "frame": 41,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0005224663764238358
+    },
+    {
+      "frame": 42,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -0.0015178322792053223
+    },
+    {
+      "frame": 43,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -5.752965807914734e-05
+    },
+    {
+      "frame": 44,
+      "bodyMinimumZ": 0.0003932882100343704,
+      "bodyMinimumZBeforeContactRepair": 0.0003932882100343704
+    },
+    {
+      "frame": 45,
+      "bodyMinimumZ": 4.241056740283966e-05,
+      "bodyMinimumZBeforeContactRepair": 4.241056740283966e-05
+    },
+    {
+      "frame": 46,
+      "bodyMinimumZ": 0.0,
+      "bodyMinimumZBeforeContactRepair": -3.725290298461914e-08
+    }
+  ],
+  "equipmentLocalTransformsPreserved": true,
+  "calibrationImported": false,
+  "artistAttackReview": "Pending",
+  "reopenedFileValidation": {
+    "samples": 46,
+    "minimumBodyZ": 0.0,
+    "maximumHandRelativeMatrixDrift": 2.980232238769531e-07,
+    "approvedIdleCheckpointUnchanged": true
+  }
+}
