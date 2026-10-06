@@ -1,0 +1,9 @@
+Studio publication verified: 414 runtime assets.
+Royal Entry Reached
+1840.0
+PASS Neris Town Routes
+Arin Pose Keys 0
+Castle Parts 98
+Castle Moving Parts 7
+PASS Neris Town Scene
+PASS Neris native route, authored scene, calibration and resource acceptance. Evidence: D:\SMILE 2.0\artifacts\tests\neris-town-30b69556471640a5a9cf0fda75d72e68

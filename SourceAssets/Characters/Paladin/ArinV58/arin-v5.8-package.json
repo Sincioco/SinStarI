@@ -1,13 +1,13 @@
 {
   "character": "Arin",
   "version": "5.8",
-  "status": "Studio candidate ready for artist pose review",
-  "recordedAt": "2026-10-06T12:23:51.704174+08:00",
+  "status": "Approved active native Arin",
+  "recordedAt": "2026-10-06T12:54:29.511863+08:00",
   "bodyTriangles": 84110,
   "exportedSwordTriangles": 8557,
   "blenderSwordTriangles": 8558,
   "oldCalibrationsApplied": false,
-  "studioIntegration": "Separate Arin v5.8 Characters tab; independent calibration; v5.7 retained",
+  "studioIntegration": "Main Arin tab, Party, battle previews, Battle System, towns and Sin Star I game; independent v5.8 calibration",
   "defaultBlenderFile": "Blender/arin-v5.8-all-animations.blend",
   "approvedIdleCheckpoint": "Blender/arin-v5.8-idle-approved.blend",
   "reviewFrame": 1,
@@ -17,15 +17,14 @@
   ],
   "knownLimits": [
     "Tiny original decorative sword-hilt seams retained; cleaned blade has no open boundary edges.",
-    "Artist will correct Attack hand/leg collision at frames 27–30, sword/shield at 29–36 and shield/leg at 32–33 in Studio.",
-    "Party keeps approved v5.7; v5.8 remains an isolated review profile.",
+    "Artist will correct Attack hand/leg collision at frames 27Ã¢â‚¬â€œ30, sword/shield at 29Ã¢â‚¬â€œ36 and shield/leg at 32Ã¢â‚¬â€œ33 in Studio.",
     "Native model cap updated; Web work remains paused."
   ],
   "files": [
     {
       "path": "ARIN-CREATION-AND-REPAIR-JOURNEY.md",
-      "bytes": 14256,
-      "sha256": "fbadc4211d209681fe1bb9b0a806746b80cae1753c89bb2d9b0b78676bb50b54"
+      "bytes": 15510,
+      "sha256": "2e27c595bf39f197df7baa9d3ea22b4e52e5f5aef7958d314ee46619ee2ec968"
     },
     {
       "path": "arin-v5.8-animation-checkpoint.glb",
@@ -34,13 +33,13 @@
     },
     {
       "path": "arin-v5.8-animation-set.json",
-      "bytes": 2271,
-      "sha256": "38e13158ba5e4074b6258be1f37636228dddbf2fb6e8844c17a57ab6289da2dc"
+      "bytes": 2200,
+      "sha256": "da9638f9113954d539b054ffcf9a8791a63b62fcbab2815e00223c833521d7f2"
     },
     {
       "path": "ArinV58.sm3d.json",
-      "bytes": 3684,
-      "sha256": "f27bbbb3ee45183440f712a7ab323af63fb0d9b8eba12fdeb99dda1845206a09"
+      "bytes": 3510,
+      "sha256": "45a826c047d559271ae89b3734c9e6eda58e01ce25979d6df85c1c3ab2b2159f"
     },
     {
       "path": "Blender/arin-v5.8-all-animations.blend",
@@ -84,8 +83,8 @@
     },
     {
       "path": "Blender/export-runtime.py",
-      "bytes": 2795,
-      "sha256": "34e3292e97bf7cee4cc73d3759da6dbc569e78f1e765cdd40e61a61476f717a4"
+      "bytes": 2738,
+      "sha256": "546d7d990906736a0ae251ac5f9897834ee60a022f3ae88326d1e1e05dff5e3f"
     },
     {
       "path": "Blender/face_weights.py",
@@ -99,8 +98,8 @@
     },
     {
       "path": "Blender/prepare-animation-set.py",
-      "bytes": 8026,
-      "sha256": "f32058688439c50bb73c3d6b3a0ec16d529a67d886ec2afe8e93a04820899759"
+      "bytes": 7867,
+      "sha256": "4496708f18996404e36736b0cbe52d0039f93e028c06f3026f723f719090bca3"
     },
     {
       "path": "Blender/prepare-attack.py",
@@ -109,8 +108,8 @@
     },
     {
       "path": "Blender/prepare-flame-sockets.py",
-      "bytes": 3379,
-      "sha256": "f7def5092707f11a10ea319f860e5afb0a98bdb275fe5679dc0ef58c4ee84419"
+      "bytes": 3407,
+      "sha256": "1304e10c1d284236ac70362325167fd839d51d372883baea8585ecd395ce17a8"
     },
     {
       "path": "Blender/prepare-idle.py",
@@ -129,8 +128,8 @@
     },
     {
       "path": "Blender/validate-attack.py",
-      "bytes": 1530,
-      "sha256": "3afccbe7fa6009bf9683e4238652e5617b41ee4944873c51423ed806db9254c6"
+      "bytes": 1507,
+      "sha256": "0a93214394a7d62fb43bd288da19fd7a89c57c6c900c776132e2c935299f90db"
     },
     {
       "path": "Blender/validate-face.py",
@@ -139,8 +138,8 @@
     },
     {
       "path": "Blender/validate-idle.py",
-      "bytes": 2310,
-      "sha256": "7574e2728eaf99ae81d878ebd4858c659c320c10a8963d5e3ea84444b663a67c"
+      "bytes": 2309,
+      "sha256": "8316c1e2e338902ca6703a10ae9b6c4d158386ec4957eb71ef87dc9e62c64e8a"
     },
     {
       "path": "Blender/validate-runtime.py",
@@ -149,98 +148,113 @@
     },
     {
       "path": "Calibration/arin-v5.8-pose-calibration.json",
-      "bytes": 1723,
-      "sha256": "37a5280df46de3f324faba4cb67bddfb3270ccb07a6af7f41c1c0b5177f40e60"
+      "bytes": 1648,
+      "sha256": "382dcecf5505e78b1238506bf94a35bed40cad0632643d8f61cc28c3ecc61607"
     },
     {
       "path": "Calibration/arin-v5.8-profile.json",
-      "bytes": 1515,
-      "sha256": "d499a3c34896fb7a095b50e77041a4bf1e213f8618fe5205fde17d94ba4249b3"
+      "bytes": 1438,
+      "sha256": "12f9465adbb380f3e596455f4f12a7f2fef36e5160242f8e7a84ffabac085113"
+    },
+    {
+      "path": "Calibration/town-locomotion-retarget.json",
+      "bytes": 1346,
+      "sha256": "94aee63ffc1505510936d8807b17bba22fdc3187d8224f3a51583a3da312e8ba"
     },
     {
       "path": "Diagnostics/animation-set-validation.json",
-      "bytes": 7748,
-      "sha256": "7d5b701d3d8f67d6fab4685e14c1fcec94b80329e290a3a3480b1b77fc0d7d1f"
+      "bytes": 7428,
+      "sha256": "26919fdddd065ab988368f82a95ecfd38bcbee203909e2c906ffdba6fbddf9e9"
     },
     {
       "path": "Diagnostics/attack-before-clearance.json",
-      "bytes": 2400,
-      "sha256": "6c41baa068b31533c379e6b68fe565f7d87d60c98c4881884745a2f8062e3645"
+      "bytes": 2281,
+      "sha256": "18d714a6d8daa1c9b32316986aeb1e24f2309cb0a726f14949cfecdab677a0a9"
     },
     {
       "path": "Diagnostics/attack-clearance-inspection.json",
-      "bytes": 46564,
-      "sha256": "63723155bf4d67d0949deac2ff0665c2f94389d32d91f5b3a3c5ace8ac31811e"
+      "bytes": 44497,
+      "sha256": "dc8f1c93b8e174005e0ef6d4255862354a3e2a1374cc89bd71bde93295dfea41"
     },
     {
       "path": "Diagnostics/attack-clearance-trial.json",
-      "bytes": 19768,
-      "sha256": "c46f2fdfd935c6948520d2a34357527be4ad53b80d4a5797aec6bfff20257d97"
+      "bytes": 19021,
+      "sha256": "1b181197e8267f2a215cc89b15ef4c75908f2bcef364fe8486c97758c14987fe"
     },
     {
       "path": "Diagnostics/attack-validation.json",
-      "bytes": 7241,
-      "sha256": "a0b893b935046a5ba1c194b4afe76681ba81b5e4bfe7956189d1536ff15169d2"
+      "bytes": 6982,
+      "sha256": "1969fe420ffd649f444d41a476b686c8d92132805ca8d5f96fe8244f69775532"
     },
     {
       "path": "Diagnostics/cooked-inspect.txt",
-      "bytes": 3939,
-      "sha256": "d6be3768e7081faad68f569122c07d3afb9707dbd5cb6deb6398332847ecf0ea"
+      "bytes": 3895,
+      "sha256": "b3936ad4d11d706378beb15f671daae6dc2b6be28b031d173c3c71b68e380da1"
     },
     {
       "path": "Diagnostics/face-regression.json",
-      "bytes": 4427,
-      "sha256": "ee4ede5d52efc809e1b36d06d15063dd94dacdb7c474d5a54433bdcc846b9cf3"
+      "bytes": 4236,
+      "sha256": "e78d770d8edfbe10e239492238c63a12ff588b846e1c089870dc11ac8b911f58"
     },
     {
       "path": "Diagnostics/face-weight-repair.json",
-      "bytes": 358,
-      "sha256": "52ced3384bc793607cc1761ad5934da9840f4f3467d2da1aaeab1dddf3a94085"
+      "bytes": 345,
+      "sha256": "d663d3f761d12780c1eb677eedd0e1f3140e4e517b21075a4da144f7ff88d79a"
     },
     {
       "path": "Diagnostics/flame-sockets.json",
-      "bytes": 1009,
-      "sha256": "8ab3d7248eb1a40023ca0ea6870bf4e8bea845e56f23c10480ad38010fe2e1d4"
+      "bytes": 958,
+      "sha256": "364fd0b528965f9e598f8b609c6edbad34bb358d208d2f62d5d7568f72afb8b6"
     },
     {
       "path": "Diagnostics/idle-approved-grip.json",
-      "bytes": 3838,
-      "sha256": "3b3e7ebd3e4ec0e8b7dddc589d5672a4341b3c8424ca017d1c5ccce1eab042f5"
+      "bytes": 3663,
+      "sha256": "e8b46e75bdabd31970a934cbe84600094c47eb75900452abc1f1f39db02b5703"
     },
     {
       "path": "Diagnostics/idle-preparation.json",
-      "bytes": 841,
-      "sha256": "f25b0cfba3eb514b58447842561320ad2296108123afd75a9a378c55cc908b48"
+      "bytes": 815,
+      "sha256": "b2959d33c18cea8f5c629fbec4e4f49aeb473660d30730d6a9367211dabd55fe"
     },
     {
       "path": "Diagnostics/idle-validation.json",
-      "bytes": 489,
-      "sha256": "da0692995b655b7a12302d666c64ffb869db5d3414e7a3da20486bbe523b3c73"
+      "bytes": 470,
+      "sha256": "64ebdb76963eeed50ed411f40bfe7351265b76f55c22512d4aca8fb294431e48"
     },
     {
       "path": "Diagnostics/native-check.stdout.txt",
-      "bytes": 247,
-      "sha256": "2bb9da2069d303d49f82125347aa5dc63ed82ee4a85541851b94748d524efb2d"
+      "bytes": 235,
+      "sha256": "a47bdc3388035140e3ebf71ff1d9687dcde2b94c6da1fc473e290e5211c45c03"
     },
     {
       "path": "Diagnostics/new-sword-cleanup.json",
-      "bytes": 745,
-      "sha256": "069451523502d32277609eadbb4e1641e5f2393d402e93a389f58db433d31ffe"
+      "bytes": 727,
+      "sha256": "1e6300bba088b42af527b7674e631e83973f166a9e3f1993c39d5ea6a4c1e347"
+    },
+    {
+      "path": "Diagnostics/promotion-hardening-check.txt",
+      "bytes": 4127,
+      "sha256": "c0c007b5aca737e338e07748b6dbca7a2d6347ad32db062019a5e4034ecc3796"
+    },
+    {
+      "path": "Diagnostics/promotion-town-check.txt",
+      "bytes": 337,
+      "sha256": "5265623fcc15457c37b36d4bad5ca8a0647a018af73799105c5d0ff645dc5f31"
     },
     {
       "path": "Diagnostics/runtime-textures.json",
-      "bytes": 564,
-      "sha256": "53f690df95e5dd1d9d1d1dcc31841d11a2f6e4b6aefc1545b1ad144ce34238d4"
+      "bytes": 530,
+      "sha256": "07411aad0e05849da5f85d06cec7cdf27e41a0f4d1410dc594811b8b37c05cf2"
     },
     {
       "path": "Diagnostics/runtime-validation.json",
-      "bytes": 4479,
-      "sha256": "a514ec705fa338af81d1d41813ed4049fb29678e75e78df177923721155b62ac"
+      "bytes": 4270,
+      "sha256": "dceb2d786ff1492922251cabd75ec20eeb72b959ae6c3fb37464bc28158af292"
     },
     {
       "path": "Diagnostics/studio-validation.md",
-      "bytes": 3010,
-      "sha256": "487b0d61d9dda19bde65a300a17689234cae48162e6f8add7bed4cd1edc6f420"
+      "bytes": 6156,
+      "sha256": "e91cd88fe7c3484aa6bba7fd63265857a7ba14f6f9c9c6c256f44a5fe6709a5a"
     },
     {
       "path": "Diagnostics/sword-before-vertices.json",
@@ -249,8 +263,8 @@
     },
     {
       "path": "Diagnostics/sword-grip-repair.json",
-      "bytes": 317,
-      "sha256": "8c23f5680a26bf9bb8f11976bb18f60f3cc41e3680191e640140598695fec1cf"
+      "bytes": 309,
+      "sha256": "258f213155318965c013cc753b47445229cb61e1db6b81a97e02226131acccaf"
     },
     {
       "path": "Equipment/arin-v5.8-sword.cleaned.glb",
@@ -447,5 +461,10 @@
   "animationCount": 11,
   "faceRepair": "Head skin weights corrected on both lower cheeks/jawline; original Attack curves unchanged",
   "effects": "Existing warm blade fire and faint shield flames; equipment-derived v5.8 sockets",
-  "collisionTrialsApplied": false
+  "collisionTrialsApplied": false,
+  "approvalCheckpoint": {
+    "engine": "ba133b2b7857ec55863ac1100b79a8819adcafeb",
+    "game": "6215f516352d4fa137656dd7af817b4b9749c272"
+  },
+  "townLocomotionReport": "Calibration/town-locomotion-retarget.json"
 }

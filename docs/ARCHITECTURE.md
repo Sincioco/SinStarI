@@ -30,6 +30,12 @@ The game does not duplicate the Studio map simulation. Documents stay with their
 existing owner; no reverse dependency into the game entry point was added.
 The game application identity is `smile.game.sin-star-i`, separate from Studio's.
 
+Arin v5.8 is the active native character. The shared `Profiles.PROFILE_ARIN`
+alias selects his versioned model and calibration identity in all character,
+battle and town consumers. The game project publishes the ArinV58 asset and
+metadata; Studio build preparation supplies its private unarmed town variant.
+ArinV57 and its accepted corrections remain historical, separate package data.
+
 The battle wrapper passes its Viewer session to the existing host, which owns the
 encounter and menu state. It does not copy the battle algorithms. Host navigation
 defaults remain unchanged for Studio. The game reserves the former tab row for

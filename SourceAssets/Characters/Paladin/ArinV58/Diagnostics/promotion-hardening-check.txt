@@ -1,0 +1,57 @@
+Prepared Character Viewer cooking inputs from Sin Star I: D:\SMILE 2.0\tools\Character3DViewer\BuildAssets
+Packaged Arin calibration: 24 keys; SHA-256 F9EDFD6FA6DF520186E8571A089FA0D300F6D7C55893BAFDF9B899A7DCA44C61
+Packaged Orin calibration: 0 keys; SHA-256 82397119FE59E854B4EC2A005DD923DDFE6F80E23C7D6243880C719AC4BA8DB6
+Packaged ArinV58 calibration: 0 keys; SHA-256 D5F48F933FA5DCA340F1E851FF81F574EA11B8A3C7598F032F6808672454FD4A
+Converted D:\SMILE 2.0\artifacts\temp\dragonfall-arin-prototype-preparation\Prepared\ArinPrototype.gltf
+Output: D:\SMILE 2.0\artifacts\temp\dragonfall-arin-prototype-preparation\Runtime\ArinPrototype.sm3d
+Version: 2
+Bytes: 709884
+Equivalent preparation; historical cooker F17B305A1DBFBD52A149185A1711773A8A753D37643346412269EF43C0F652A3, current cooker 76FED6C14542F26EA46160ECFEC35AF32DBE3B4F6DC5E0AD136BCC85C3695588
+Dragonfall Arin prototype preparation check passed.
+SM3D
+Version: 2
+Name: Scene
+Parts: 1
+Vertices: 6631
+Indices: 29922
+Triangles: 9974
+Materials: 1
+TextureReferences: 3
+Bounds: -0.381257,0.000212,-0.120926 | 0.381316,1.000579,0.120926
+Tangents: +6624 -7
+Bones: 41
+Nodes: 73
+Clips: 3
+AnimationBytes: 269852
+Clip 0: preset:biped:walk | DurationMs 2375 | SampleRate 30 | Samples 73 | Tracks 41 | Bytes 21832 | Loop True
+Clip 1: preset:biped:idle | DurationMs 15375 | SampleRate 30 | Samples 463 | Tracks 41 | Bytes 120072 | Loop True
+Clip 2: preset:biped:run | DurationMs 1292 | SampleRate 30 | Samples 40 | Tracks 41 | Bytes 13516 | Loop True
+Events: 4
+Sockets: 6
+RootMotionClips: 0
+StaticBytes: 440032
+TotalBytes: 709884
+Part 0: tripo_part_0/Mesh_0.001 [Node 41, Mesh 0, Primitive 0, Instance 1] [Merged] | Vertices 6631 | Indices 29922 | Material 0 | Bounds -0.381257,0.000212,-0.120926 | 0.381316,1.000579,0.120926
+Material 0: Material | BaseColor Assets/Generation2/Arin/Textures/Arin-base-color.png | Normal Assets/Generation2/Arin/Textures/Arin-normal.png | ORM Assets/Generation2/Arin/Textures/Arin-orm.png | Emissive - | BaseFactor 1,1,1,1 | Metallic 1 | Roughness 1 | NormalStrength 1 | OcclusionStrength 1 | EmissiveFactor 0,0,0 | Alpha OPAQUE | Cutoff 0.5 | DoubleSided True
+Texture 0: BaseColor | Assets/Generation2/Arin/Textures/Arin-base-color.png
+Texture 1: Normal | Assets/Generation2/Arin/Textures/Arin-normal.png
+Texture 2: ORM | Assets/Generation2/Arin/Textures/Arin-orm.png
+SMILE [0s]: Reading project and source files
+SMILE [0s]: Analyzing 102 source files
+SMILE [1s]: Validating assets and project dependencies
+Dependency is up to date: D:\SMILE 2.0\libraries\Smile.Simple3D\bin\Release\Smile.Simple3D.smilelib
+Dependency is up to date: D:\SMILE 2.0\libraries\Smile.UI\bin\Release\Smile.UI.smilelib
+SMILE [1s]: Preparing project assets
+CACHE-HIT Model3DAsset AnimationArticulated.glb -> Assets/Generation2/RedDragon/RedDragon.sm3d [ef2caab95370cf2f29291151ffb74d77f1de759ed6015b635d36ded8d651d7c9]
+CACHE-HIT Model3DAsset AnimationArticulated.glb -> Assets/Generation2/VraxV1/Vrax.sm3d [fc2af558394c278b58390f0e51895031227633677790c3c656d1cb0b194fcc39]
+SMILE [1s]: Waiting for output access
+SMILE [1s]: Generating native assembly
+SMILE [2s]: Assembling and linking native executable
+SMILE [5s]: Publishing executable and project assets
+Compiled D:\SMILE 2.0\artifacts\tests\viewer-hardening-fixture\HardeningTests.smileproj
+Output: D:\SMILE 2.0\artifacts\tests\Character3DViewerHardeningTests.exe
+Published 2 project assets.
+Viewer recovery report: D:\SMILE 2.0\artifacts\tests\viewer-recovery\c0606165cd1e1128fa2f5c16e55139ef24c568db8f9a23d5de43bb0155a53ec9\Recovery-20261006-044610-111Z-Stage25-EarthHurl-c0606165-0322e21dad32c62d.txt
+Viewer recovery report: D:\SMILE 2.0\artifacts\tests\viewer-recovery\c0606165cd1e1128fa2f5c16e55139ef24c568db8f9a23d5de43bb0155a53ec9\Recovery-20261006-044610-120Z-Stage25-EarthHurl-c0606165-26ed0ea3b2f7764a.txt
+59 native graphics, pointer-input, and audio-focus checks passed.
+Character 3D Viewer identity, release gate, profile auto-fit, elapsed zoom, self-healing pointer drags, precision wheel, O-key auto-orbit mapping, material inspection, socket metadata and preparation safety passed. Web checks skipped: True

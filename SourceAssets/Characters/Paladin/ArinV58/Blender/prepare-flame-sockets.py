@@ -75,9 +75,9 @@ tip = max(v.co.z for v in sword.data.vertices)
 # The cleaned blade starts beyond the decorative guard at local Z=.10.
 socket('SwordBase',sword,(0,0,.10))
 socket('SwordTip',sword,(0,0,tip))
-path.write_text(json.dumps(descriptor,indent=2)+'\n')
+path.write_text(json.dumps(descriptor,indent=2)+'\n', newline='\n')
 report = {'source':'approved v5.8 equipment geometry','socketCount':len(sockets),
           'shieldRimLocal':[p.tolist() for p in rim],
           'swordBladeLocalZ':[.10,tip],'oldCalibrationImported':False}
-(PACKAGE/'Diagnostics/flame-sockets.json').write_text(json.dumps(report,indent=2)+'\n')
+(PACKAGE/'Diagnostics/flame-sockets.json').write_text(json.dumps(report,indent=2)+'\n', newline='\n')
 print('FLAME_SOCKETS='+json.dumps(report))
