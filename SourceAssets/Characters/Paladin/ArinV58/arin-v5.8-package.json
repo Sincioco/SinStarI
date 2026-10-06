@@ -1,7 +1,7 @@
 {
   "character": "Arin",
   "version": "5.8",
-  "status": "Local animation repair candidate; model approved, motion awaiting Sin review",
+  "status": "Approved active native Arin, including reviewed motion repairs",
   "recordedAt": "2026-10-06T13:29:55.527430+08:00",
   "bodyTriangles": 84110,
   "exportedSwordTriangles": 8557,
@@ -17,15 +17,14 @@
   ],
   "knownLimits": [
     "Tiny original decorative sword-hilt seams retained; cleaned blade has no open boundary edges.",
-    "Automatic motion repairs are a local review candidate, not artist-approved. No commit or push is authorized.",
     "Collision validation samples the listed body/equipment pairs every half frame; it is not continuous physical simulation.",
     "Native only; Web work remains paused."
   ],
   "files": [
     {
       "path": "ARIN-CREATION-AND-REPAIR-JOURNEY.md",
-      "bytes": 18180,
-      "sha256": "61126f54d9e75bae338df2c661a0b417e834d0551bd28607b56ffb5382d3794f"
+      "bytes": 18244,
+      "sha256": "9bc4f93da5cb7f6027a1d46952ae5da13fad3969798e48c196438ce427c522d5"
     },
     {
       "path": "arin-v5.8-animation-checkpoint.glb",
@@ -249,8 +248,8 @@
     },
     {
       "path": "Diagnostics/motion-review.md",
-      "bytes": 4282,
-      "sha256": "cf855c2d234ea2afa3ffdaed21d69d3564906f3a75f606989e7a9f84ae8aa338"
+      "bytes": 4361,
+      "sha256": "b3d9923b7dd5224cfb1bc65f56bef33cecb8a64ab647744327cd9420cdc74e5b"
     },
     {
       "path": "Diagnostics/native-check.stdout.txt",
@@ -537,6 +536,8 @@
     ],
     "wristLocalRotationsPreserved": true,
     "approvedGripsPreserved": true,
-    "oldTrialApplied": false
+    "oldTrialApplied": false,
+    "publicationApprovedBy": "Sin",
+    "publicationApprovalDate": "2026-10-06"
   }
 }

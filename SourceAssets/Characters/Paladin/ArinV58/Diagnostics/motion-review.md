@@ -1,7 +1,8 @@
-# Arin v5.8 local motion review - October 6, 2026
+# Arin v5.8 motion repair approval - October 6, 2026
 
-Status: implemented and locally validated; awaiting Sin's visual approval.
-No commit or push was performed. The previous approved checkpoints remain intact.
+Status: implemented, locally validated, and approved by Sin for commit and push.
+Sin authorized publication after the local review handoff. The previous approved
+checkpoints remain intact for rollback.
 
 ## Changes
 
@@ -46,7 +47,7 @@ No commit or push was performed. The previous approved checkpoints remain intact
 
 ## Review and rollback
 
-Studio is left on Arin's individual tab at Attack frame 27 with Demo off and the
+At the review handoff, Studio was left on Arin's individual tab at Attack frame 27 with Demo off and the
 Pose panel visible. Use `< Frame` / `Frame >`, hover-wheel over the timeline, or
 scrub it. Sword Fire, Shield Fire and Glow are temporarily hidden for visibility;
 their effects remain included and can be toggled back on. The dragon, grid and
@@ -64,6 +65,6 @@ The existing face validator now protects Head/Neck curves instead of requiring
 the deliberately edited full Attack action to remain identical.
 
 These are sampled geometry checks and visual spot checks, not continuous
-collision simulation or final artistic approval. Sin should inspect the motion
-and wrist appearance before approving a commit. No rebuild or browser refresh
-is required to inspect the already-running native Studio candidate.
+collision simulation. Sin subsequently authorized committing and pushing the
+motion repair, then expanded publication to all current unstaged repository
+changes. No additional rebuild or browser refresh is required for publication.

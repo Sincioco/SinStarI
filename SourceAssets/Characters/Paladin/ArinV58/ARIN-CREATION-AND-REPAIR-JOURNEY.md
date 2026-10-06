@@ -249,10 +249,11 @@ the profile and zero-key working calibration were migrated together after a
 graceful Studio shutdown and live export. No pose values or animation data changed.
 
 
-## October 6 - local automatic motion repair candidate (not approved)
+## October 6 - automatic motion repair approved for publication
 
 After the approved v5.8 promotion, Sin explicitly resumed automatic collision and
-wrist repair. This candidate must not be committed or pushed before inspection.
+wrist repair. After the local review handoff, Sin authorized committing and
+pushing the repair and all current unstaged changes in both repositories.
 The approved checkpoint remains in Git (game commit 1431c536c209dce52f08faab5948857dda0be264)
 and `Blender/arin-v5.8-approved-before-motion-repair.blend`; its SHA-256 is
 `2b94dc2891012817f725dd28311161012575f3d2e151d6c6521a5e3fd463af19`.
