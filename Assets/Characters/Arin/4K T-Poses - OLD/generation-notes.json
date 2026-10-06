@@ -1,0 +1,70 @@
+{
+  "title": "Arin — four individual 4K T-pose reference images",
+  "tool": "Built-in imagegen, one regeneration per view",
+  "identityReference": "D:\\SMILE 2.0 - Sin Star I\\Visual Script and Storyboard\\production\\character-references\\arin-head-contact-sheet-2x2-4k.png",
+  "exportMethod": "Windows System.Drawing high-quality bicubic resampling, aspect ratio preserved, centered on a transparent 4096 x 4096 PNG canvas.",
+  "resolutionDisclosure": "The images contain newly generated face/hair/armor detail guided by the approved head sheet and supplied body slices. Imagegen returned about 1.25K per view. The 4096 x 4096 files are upscaled exports, not native 4K generation; resampling alone adds no new detail. Generative refinement can change small design details and is not exact 3D geometry.",
+  "constraints": "T-pose; front, left-facing, right-facing and back; true alpha transparency; no weapons, text, floor or cast shadows.",
+  "files": [
+    {
+      "view": "Front",
+      "input": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\Original Image - Slices\\Arin - Front.png",
+      "generatedSource": "C:\\Users\\louie\\.codex\\generated_images\\01a10d79-6dc5-7a30-ad7b-93719c020dff\\exec-2dc97200-5bbd-4f77-b9d4-0842a2405587.png",
+      "generatedDimensions": [
+        1254,
+        1254
+      ],
+      "output": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\4K T-Poses\\Arin - Front - 4K.png",
+      "outputDimensions": [
+        4096,
+        4096
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE polished high-resolution full-body Arin T-pose reference image, not a contact sheet. Input image 1 is the exact body/armor/pose edit target. Input image 2 is the approved Arin head identity reference. Reproduce the first image faithfully while reconstructing fine details, and use the appropriate head from image 2 to correct/refine the face and hair. Preserve the ivory/silver armor, gold trim, dark navy undersuit and tabard, cyan inset accents, sun emblem, armor plate geometry, gloves, boots, athletic proportions and all equipment worn as clothing. No redesign. Improve skin pores, facial contours, eyes, brows, fine hair strands, clean armor engravings, cloth weave and material definition without oversharpening. All four intended outputs must represent the same man, hairstyle, outfit and scale. Pose: neutral standing T-pose, both arms straight sideways at shoulder height, elbows straight, wrists neutral, hands empty and flat, straight legs, feet slightly apart. Orthographic camera with no perspective distortion. Complete character centered on a square canvas, head to boots and every fingertip fully inside the frame, approximately 93 percent canvas height and sufficient transparent margin around the silhouette. Retain normal head-to-body proportions. Neutral expression, level head. Clean true transparent alpha background, including between limbs. Remove ALL colored edge contamination, red/yellow/white halos and stray opaque pixels. No floor, no shadows or cast shadow, no glow halos, no weapons, shield or scabbard, no text, label, border, logo, watermark, backdrop or checkerboard drawn into the pixels. Flat soft even illumination; clear readable skin and materials. Render at exactly 4096 x 4096 pixels if supported, with the highest available true detail. Output transparent PNG.\nVIEW: Straight-on FRONT. Use the TOP-LEFT frontal face in the approved head contact sheet as the facial identity authority: same facial geometry, blue-gray eyes, brows, nose, mouth, jaw, light skin, and swept brown hair. His chest sun emblem faces the camera squarely; shoulders and hands remain symmetric at equal height. Show one front-view character only."
+    },
+    {
+      "view": "Left",
+      "input": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\Original Image - Slices\\Arin - Left.png",
+      "generatedSource": "C:\\Users\\louie\\.codex\\generated_images\\01a10d79-6dc5-7a30-ad7b-93719c020dff\\exec-27fd15d3-d100-4867-920b-bd82650e8cd4.png",
+      "generatedDimensions": [
+        1247,
+        1261
+      ],
+      "output": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\4K T-Poses\\Arin - Left - 4K.png",
+      "outputDimensions": [
+        4096,
+        4096
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE polished high-resolution full-body Arin T-pose reference image, not a contact sheet. Input image 1 is the exact body/armor/pose edit target. Input image 2 is the approved Arin head identity reference. Reproduce the first image faithfully while reconstructing fine details, and use the appropriate head from image 2 to correct/refine the face and hair. Preserve the ivory/silver armor, gold trim, dark navy undersuit and tabard, cyan inset accents, sun emblem, armor plate geometry, gloves, boots, athletic proportions and all equipment worn as clothing. No redesign. Improve skin pores, facial contours, eyes, brows, fine hair strands, clean armor engravings, cloth weave and material definition without oversharpening. All four intended outputs must represent the same man, hairstyle, outfit and scale. Pose: neutral standing T-pose, both arms straight sideways at shoulder height, elbows straight, wrists neutral, hands empty and flat, straight legs, feet slightly apart. Orthographic camera with no perspective distortion. Complete character centered on a square canvas, head to boots and every fingertip fully inside the frame, approximately 93 percent canvas height and sufficient transparent margin around the silhouette. Retain normal head-to-body proportions. Neutral expression, level head. Clean true transparent alpha background, including between limbs. Remove ALL colored edge contamination, red/yellow/white halos and stray opaque pixels. No floor, no shadows or cast shadow, no glow halos, no weapons, shield or scabbard, no text, label, border, logo, watermark, backdrop or checkerboard drawn into the pixels. Flat soft even illumination; clear readable skin and materials. Render at exactly 4096 x 4096 pixels if supported, with the highest available true detail. Output transparent PNG.\nVIEW: Exact LEFT-FACING SIDE PROFILE, nose points toward the LEFT edge of the image. Use the BOTTOM-LEFT head in the approved contact sheet. Match its forehead, nose, lips, jawline, ear shape and swept brown hair exactly as closely as possible. Keep body strictly side-on to match image 1. T-pose is still three-dimensional with arms extended sideways from the torso: the near arm projects directly toward the camera and is strongly foreshortened, the far arm extends directly away and is naturally occluded. Do not turn the head or body toward the camera. Do not lower arms or invent detached hands. One full-body left-facing character only. Input image 3 is the newly refined front-view costume and detail reference; retain consistency with it while preserving the left profile of image 1."
+    },
+    {
+      "view": "Right",
+      "input": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\Original Image - Slices\\Arin - Right.png",
+      "generatedSource": "C:\\Users\\louie\\.codex\\generated_images\\01a10d79-6dc5-7a30-ad7b-93719c020dff\\exec-e2d59964-8366-4db0-8cce-bbd05da8f7e0.png",
+      "generatedDimensions": [
+        1239,
+        1270
+      ],
+      "output": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\4K T-Poses\\Arin - Right - 4K.png",
+      "outputDimensions": [
+        4096,
+        4096
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE polished high-resolution full-body Arin T-pose reference image, not a contact sheet. Input image 1 is the exact body/armor/pose edit target. Input image 2 is the approved Arin head identity reference. Reproduce the first image faithfully while reconstructing fine details, and use the appropriate head from image 2 to correct/refine the face and hair. Preserve the ivory/silver armor, gold trim, dark navy undersuit and tabard, cyan inset accents, sun emblem, armor plate geometry, gloves, boots, athletic proportions and all equipment worn as clothing. No redesign. Improve skin pores, facial contours, eyes, brows, fine hair strands, clean armor engravings, cloth weave and material definition without oversharpening. All four intended outputs must represent the same man, hairstyle, outfit and scale. Pose: neutral standing T-pose, both arms straight sideways at shoulder height, elbows straight, wrists neutral, hands empty and flat, straight legs, feet slightly apart. Orthographic camera with no perspective distortion. Complete character centered on a square canvas, head to boots and every fingertip fully inside the frame, approximately 93 percent canvas height and sufficient transparent margin around the silhouette. Retain normal head-to-body proportions. Neutral expression, level head. Clean true transparent alpha background, including between limbs. Remove ALL colored edge contamination, red/yellow/white halos and stray opaque pixels. No floor, no shadows or cast shadow, no glow halos, no weapons, shield or scabbard, no text, label, border, logo, watermark, backdrop or checkerboard drawn into the pixels. Flat soft even illumination; clear readable skin and materials. Render at exactly 4096 x 4096 pixels if supported, with the highest available true detail. Output transparent PNG.\nVIEW: Exact RIGHT-FACING SIDE PROFILE, nose points toward the RIGHT edge of the image. Use the BOTTOM-RIGHT head in the approved contact sheet. Match its forehead, nose, lips, jawline, ear shape and swept brown hair exactly as closely as possible. Keep body strictly side-on to match image 1. T-pose is still three-dimensional with arms extended sideways from the torso: the near arm projects directly toward the camera and is strongly foreshortened, the far arm extends directly away and is naturally occluded. Do not turn the head or body toward the camera. Do not lower arms or invent detached hands. One full-body right-facing character only. Input image 3 is the newly refined front-view costume and detail reference; retain consistency with it while preserving the right profile of image 1."
+    },
+    {
+      "view": "Back",
+      "input": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\Original Image - Slices\\Arin - Back.png",
+      "generatedSource": "C:\\Users\\louie\\.codex\\generated_images\\01a10d79-6dc5-7a30-ad7b-93719c020dff\\exec-f9205257-dccf-4369-a79f-ea102d436430.png",
+      "generatedDimensions": [
+        1254,
+        1254
+      ],
+      "output": "D:\\SMILE 2.0 - Sin Star I\\Assets\\Characters\\Arin\\4K T-Poses\\Arin - Back - 4K.png",
+      "outputDimensions": [
+        4096,
+        4096
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE polished high-resolution full-body Arin T-pose reference image, not a contact sheet. Input image 1 is the exact body/armor/pose edit target. Input image 2 is the approved Arin head identity reference. Reproduce the first image faithfully while reconstructing fine details, and use the appropriate head from image 2 to correct/refine the face and hair. Preserve the ivory/silver armor, gold trim, dark navy undersuit and tabard, cyan inset accents, sun emblem, armor plate geometry, gloves, boots, athletic proportions and all equipment worn as clothing. No redesign. Improve skin pores, facial contours, eyes, brows, fine hair strands, clean armor engravings, cloth weave and material definition without oversharpening. All four intended outputs must represent the same man, hairstyle, outfit and scale. Pose: neutral standing T-pose, both arms straight sideways at shoulder height, elbows straight, wrists neutral, hands empty and flat, straight legs, feet slightly apart. Orthographic camera with no perspective distortion. Complete character centered on a square canvas, head to boots and every fingertip fully inside the frame, approximately 93 percent canvas height and sufficient transparent margin around the silhouette. Retain normal head-to-body proportions. Neutral expression, level head. Clean true transparent alpha background, including between limbs. Remove ALL colored edge contamination, red/yellow/white halos and stray opaque pixels. No floor, no shadows or cast shadow, no glow halos, no weapons, shield or scabbard, no text, label, border, logo, watermark, backdrop or checkerboard drawn into the pixels. Flat soft even illumination; clear readable skin and materials. Render at exactly 4096 x 4096 pixels if supported, with the highest available true detail. Output transparent PNG.\nVIEW: Straight-on BACK/REAR view, no face visible. Use the TOP-RIGHT rear head from the approved head contact sheet to reproduce the exact hairstyle, head shape, brown hair strands, ears and nape. Back of armor faces the camera squarely, arms extend horizontally left and right at shoulder height. Keep the original back armor plate layout from image 1; no front chest sun emblem on the back. Retain symmetry, clean details, gloves and boots. One back-view full-body character only. Input image 3 is the newly refined front-view costume and detail reference; keep matching overall proportions, head scale, armor finishes and framing."
+    }
+  ]
+}

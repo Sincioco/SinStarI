@@ -1,8 +1,8 @@
 {
   "faceVertices": 2135,
   "bothSidesChecked": true,
-  "attackActionUnchanged": true,
-  "attackActionSha256": "75361dd396ac5d597a19919e8e5fbc194fa98204c12d722ea17719faf8389a32",
+  "attackHeadNeckCurvesUnchanged": true,
+  "headNeckCurveSha256": "5acfdc55599a1b7d1cce3fd111a71567376fd1439dd6dd5560ab8b43b819061f",
   "frames": [
     {
       "frame": 1,

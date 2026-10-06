@@ -197,7 +197,7 @@ the same blade fire and faint shield flames, with its own measured attachments.
 Known pose collisions are deliberately retained at Sin's direction: sword hand
 against left leg in Attack frames 27–30, sword against shield in 29–36, and shield
 against left leg in 32–33. The next action is Sin's manual Studio correction and
-saved per-clip keys. Do not resume automatic wrist or collision solving.
+saved per-clip keys. That hold was superseded by Sin's later request below to attempt automatic motion repair for local review.
 
 Focused native validation loads and draws all 11 clips, checks the 21-socket publication
 and three parts, verifies calibration-bank isolation, and checks the 100,000
@@ -247,3 +247,43 @@ Text files follow the repository LF policy so package/descriptor checksums survi
 a fresh checkout. Normalizing descriptor line endings changes its byte identity;
 the profile and zero-key working calibration were migrated together after a
 graceful Studio shutdown and live export. No pose values or animation data changed.
+
+
+## October 6 - local automatic motion repair candidate (not approved)
+
+After the approved v5.8 promotion, Sin explicitly resumed automatic collision and
+wrist repair. This candidate must not be committed or pushed before inspection.
+The approved checkpoint remains in Git (game commit 1431c536c209dce52f08faab5948857dda0be264)
+and `Blender/arin-v5.8-approved-before-motion-repair.blend`; its SHA-256 is
+`2b94dc2891012817f725dd28311161012575f3d2e151d6c6521a5e3fd463af19`.
+The exact prior runtime, descriptor, calibration identity and package manifest
+also remain in the local engine `artifacts/arin-v58-motion-repair/approved` backup.
+
+`Blender/repair-animation-clearance.py` generates the candidate from that approved
+Blender baseline. It redirects upper-arm and forearm chains, retaining elbow bend
+and the original local wrist rotations. It does not independently twist a wrist,
+move a prop away from its hand, change geometry/skin weights, or apply v5.7 keys.
+Primary Attack eases its sword hand forward/up over frames 20-42 and the shield
+arm outward/up over frames 27-41. Victory moves both arm chains slightly away
+from the hip/body; TownIdle eases the sword hand away from hip armor at frames
+11-51. The other eight actions remain unchanged. Equivalent quaternion signs in
+the three repaired actions are made consistent to prevent Blender subframe spins.
+
+The active local authoring file is `Blender/arin-v5.8-all-animations.blend` and
+opens at Attack frame 27. `prepare-animation-set.py` still rebuilds the original
+retargeted baseline; run the clearance repair afterwards to reproduce this
+candidate. Export with `export-runtime.py`, recook, refresh the v5.8 profile
+fingerprint, and migrate only its own compatible calibration identity. The live
+v5.8 save had zero artist keys before migration; v5.7 and Orin are untouched.
+Regenerate Arin's private town locomotion derivative from the new runtime.
+
+`validate-animation-clearance.py` is the focused regression for the reported
+collisions, including interpolated half frames. It also protects original wrist
+rotations, all mesh/skin data, prop transforms, and all eight other actions.
+`validate-face.py` protects the original Head/Neck animation and checks 2,135
+face vertices at every Attack frame; the full Attack action is intentionally
+different now. `validate-runtime.py` checks clip floor placement and exported
+equipment against the candidate Blender scene. These are bounded sample checks,
+not a claim of continuous physical collision simulation or artist approval.
+
+See `Diagnostics/motion-review.md` for final native build and review evidence.

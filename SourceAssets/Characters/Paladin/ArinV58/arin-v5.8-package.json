@@ -1,8 +1,8 @@
 {
   "character": "Arin",
   "version": "5.8",
-  "status": "Approved active native Arin",
-  "recordedAt": "2026-10-06T12:54:29.511863+08:00",
+  "status": "Local animation repair candidate; model approved, motion awaiting Sin review",
+  "recordedAt": "2026-10-06T13:29:55.527430+08:00",
   "bodyTriangles": 84110,
   "exportedSwordTriangles": 8557,
   "blenderSwordTriangles": 8558,
@@ -10,26 +10,27 @@
   "studioIntegration": "Main Arin tab, Party, battle previews, Battle System, towns and Sin Star I game; independent v5.8 calibration",
   "defaultBlenderFile": "Blender/arin-v5.8-all-animations.blend",
   "approvedIdleCheckpoint": "Blender/arin-v5.8-idle-approved.blend",
-  "reviewFrame": 1,
+  "reviewFrame": 27,
   "attackFrames": [
     1,
     46
   ],
   "knownLimits": [
     "Tiny original decorative sword-hilt seams retained; cleaned blade has no open boundary edges.",
-    "Artist will correct Attack hand/leg collision at frames 27Ã¢â‚¬â€œ30, sword/shield at 29Ã¢â‚¬â€œ36 and shield/leg at 32Ã¢â‚¬â€œ33 in Studio.",
-    "Native model cap updated; Web work remains paused."
+    "Automatic motion repairs are a local review candidate, not artist-approved. No commit or push is authorized.",
+    "Collision validation samples the listed body/equipment pairs every half frame; it is not continuous physical simulation.",
+    "Native only; Web work remains paused."
   ],
   "files": [
     {
       "path": "ARIN-CREATION-AND-REPAIR-JOURNEY.md",
-      "bytes": 15510,
-      "sha256": "2e27c595bf39f197df7baa9d3ea22b4e52e5f5aef7958d314ee46619ee2ec968"
+      "bytes": 18180,
+      "sha256": "61126f54d9e75bae338df2c661a0b417e834d0551bd28607b56ffb5382d3794f"
     },
     {
       "path": "arin-v5.8-animation-checkpoint.glb",
-      "bytes": 16433608,
-      "sha256": "1d6a1bc2dcac02e6ebe3dc3ced1b6429cc363e92d027ab99f9cf452f9a22d072"
+      "bytes": 16435784,
+      "sha256": "a1e3f265d91e7ad25e154b25a8f90b9c45b2f834a1545272b5dee2286e44ce75"
     },
     {
       "path": "arin-v5.8-animation-set.json",
@@ -43,6 +44,11 @@
     },
     {
       "path": "Blender/arin-v5.8-all-animations.blend",
+      "bytes": 19448573,
+      "sha256": "d0bbed201c452ba4136958bdfafa8b92b80482bfb3ce68218bfe8a5654b4dbcc"
+    },
+    {
+      "path": "Blender/arin-v5.8-approved-before-motion-repair.blend",
       "bytes": 19445942,
       "sha256": "2b94dc2891012817f725dd28311161012575f3d2e151d6c6521a5e3fd463af19"
     },
@@ -122,9 +128,19 @@
       "sha256": "c7fb183724ce683d2572ce9d0460af884d30165d78e9de915f3c744d706e3426"
     },
     {
+      "path": "Blender/repair-animation-clearance.py",
+      "bytes": 6998,
+      "sha256": "271bdecf67d13efaa83f105e2c8c85b6ac59118dfbd28e862bd1b436caf7e845"
+    },
+    {
       "path": "Blender/sword_geometry.py",
       "bytes": 4594,
       "sha256": "5a00af3f59a5c676bf5e9970f45bbcfe89b4f334081c3f65d25dab073f8972d9"
+    },
+    {
+      "path": "Blender/validate-animation-clearance.py",
+      "bytes": 6335,
+      "sha256": "dc857932d1038503c1c54e4ba9c16b54c8d531626ce190bf75f29cbcdc496f46"
     },
     {
       "path": "Blender/validate-attack.py",
@@ -133,8 +149,8 @@
     },
     {
       "path": "Blender/validate-face.py",
-      "bytes": 3721,
-      "sha256": "fee8ab8e5d5317e0aa907844ce2ffb0e8867e47791a87c469f2577520c41dfce"
+      "bytes": 3900,
+      "sha256": "6ff18aa11f89b6a5e71641601258b6aa7c910bde1fd6e2669a1c52ba0ecb1eb7"
     },
     {
       "path": "Blender/validate-idle.py",
@@ -149,17 +165,17 @@
     {
       "path": "Calibration/arin-v5.8-pose-calibration.json",
       "bytes": 1648,
-      "sha256": "382dcecf5505e78b1238506bf94a35bed40cad0632643d8f61cc28c3ecc61607"
+      "sha256": "fbe3d6348a03270cc1356bf879f49f3f4fb57fde128ea7be74189264f5ae8fc1"
     },
     {
       "path": "Calibration/arin-v5.8-profile.json",
       "bytes": 1438,
-      "sha256": "12f9465adbb380f3e596455f4f12a7f2fef36e5160242f8e7a84ffabac085113"
+      "sha256": "8ff89b33797fe0f1def19ad8c88ffb0dae7a2a7f70e7108a89224710990b3c3c"
     },
     {
       "path": "Calibration/town-locomotion-retarget.json",
-      "bytes": 1346,
-      "sha256": "94aee63ffc1505510936d8807b17bba22fdc3187d8224f3a51583a3da312e8ba"
+      "bytes": 1347,
+      "sha256": "d4845fa04b6516ad020a5a3bc5f4afd232702c096c33840e972a19fdee5a344c"
     },
     {
       "path": "Diagnostics/animation-set-validation.json",
@@ -193,8 +209,8 @@
     },
     {
       "path": "Diagnostics/face-regression.json",
-      "bytes": 4236,
-      "sha256": "e78d770d8edfbe10e239492238c63a12ff588b846e1c089870dc11ac8b911f58"
+      "bytes": 4245,
+      "sha256": "04fe76fbaf788b642ea6836647248a6504ab8570f5ac231e86553a92b95dd9b9"
     },
     {
       "path": "Diagnostics/face-weight-repair.json",
@@ -222,6 +238,21 @@
       "sha256": "64ebdb76963eeed50ed411f40bfe7351265b76f55c22512d4aca8fb294431e48"
     },
     {
+      "path": "Diagnostics/motion-repair-authoring.json",
+      "bytes": 31879,
+      "sha256": "2cbe510cc1332bb2eaef971dda8881c4dd19ae71f3b23dd5b8f8adab4a569e70"
+    },
+    {
+      "path": "Diagnostics/motion-repair-validation.json",
+      "bytes": 901,
+      "sha256": "a516fdadc80bb85c1dec1a0ca0d0a6d2300b89294d7e2204aca57b2d8ac0a17d"
+    },
+    {
+      "path": "Diagnostics/motion-review.md",
+      "bytes": 4282,
+      "sha256": "cf855c2d234ea2afa3ffdaed21d69d3564906f3a75f606989e7a9f84ae8aa338"
+    },
+    {
       "path": "Diagnostics/native-check.stdout.txt",
       "bytes": 235,
       "sha256": "a47bdc3388035140e3ebf71ff1d9687dcde2b94c6da1fc473e290e5211c45c03"
@@ -244,12 +275,12 @@
     {
       "path": "Diagnostics/runtime-textures.json",
       "bytes": 530,
-      "sha256": "07411aad0e05849da5f85d06cec7cdf27e41a0f4d1410dc594811b8b37c05cf2"
+      "sha256": "6e5d79519bcf97ce357909c07b14b66b3b9d4940d39ff11ec8f9c4eb83a8b003"
     },
     {
       "path": "Diagnostics/runtime-validation.json",
-      "bytes": 4270,
-      "sha256": "dceb2d786ff1492922251cabd75ec20eeb72b959ae6c3fb37464bc28158af292"
+      "bytes": 4272,
+      "sha256": "6d2790418403de7d9432d00352ddcf7b37fdf23a754c77fb61eaa19e74ab77e4"
     },
     {
       "path": "Diagnostics/studio-validation.md",
@@ -304,32 +335,32 @@
     {
       "path": "Previews/Face-11--1.png",
       "bytes": 622047,
-      "sha256": "a104ea175839207279b20e8192e53181b8a65d17d0535f5052b72a1f2f692ab0"
+      "sha256": "ba6fe02621565118e8fd2f3366c719cee61aceb24e4dd9ecf05180e0c002be57"
     },
     {
       "path": "Previews/Face-11-1.png",
       "bytes": 596107,
-      "sha256": "ee81338945d2fda48f701ea05f91063f56d14b09282410b6e223c47ff4e9adac"
+      "sha256": "39993e7e6ae7873e57b175155bcb65a11f2df548c36c21cc897b52d26fece564"
     },
     {
       "path": "Previews/Face-28--1.png",
-      "bytes": 535788,
-      "sha256": "37804c76d56914a0f19cc642b3301b79696dc9f13d3df3358887b4a10644b655"
+      "bytes": 543475,
+      "sha256": "ec06d6c64bcc5b990ae4e1b4720b9e54b98e2025c6bfb6ba9fb5c7ecdb1739b9"
     },
     {
       "path": "Previews/Face-28-1.png",
-      "bytes": 585035,
-      "sha256": "286bb7292748d8fade94d25d942eeadd0b1b68c74cfbb64fe91cb031254f1f2c"
+      "bytes": 586540,
+      "sha256": "9eff6adaf96fc4ce1b4b7f99c8e15078435458bd8398fab68d6abffacdf2664c"
     },
     {
       "path": "Previews/Face-38--1.png",
-      "bytes": 585947,
-      "sha256": "cc69934b79f4e991fa7c14232ba658aa049f5e6827f6854809b0c5c22370c412"
+      "bytes": 599096,
+      "sha256": "1876e329b5d097a329d34ca556f7a826f92458473053970001bc97be1df5bd26"
     },
     {
       "path": "Previews/Face-38-1.png",
-      "bytes": 540257,
-      "sha256": "6ec7e9fa32c14f0e25d9295be27420100173c7a9e9bc2abb2eab63c43874b4e9"
+      "bytes": 537520,
+      "sha256": "a762432b199fd25b8fe46cdbec6e4e56c1b911d658080b358b3a09f354f8264b"
     },
     {
       "path": "Previews/Idle-Body.png",
@@ -345,6 +376,36 @@
       "path": "Previews/Idle.png",
       "bytes": 1199612,
       "sha256": "eb0336ea3a9d4a79b6e710f83a2d093c008943427e8b9657a8dd872777fafaac"
+    },
+    {
+      "path": "Previews/Motion-Review-SwordAttack-27.png",
+      "bytes": 971064,
+      "sha256": "69924896f97904a614c530a75e75a939cdbd7c0ae9ac0beb00b24ac34dd11161"
+    },
+    {
+      "path": "Previews/Motion-Review-SwordAttack-33.png",
+      "bytes": 1022073,
+      "sha256": "4dd2394c36dfe9370958e2bdc49e5922f785d5264a41231d0a3133800de2fe2c"
+    },
+    {
+      "path": "Previews/Motion-Review-SwordAttack-36.png",
+      "bytes": 985971,
+      "sha256": "4f6e43499c5e5e69ea26eaf205ffd4ee7ebc4a1c06b73be6c7b2e5695dcc5b44"
+    },
+    {
+      "path": "Previews/Motion-Review-TownIdle-30.png",
+      "bytes": 1098840,
+      "sha256": "bd7fa7a9eecab15866c9b68418e5ca17ca7531724182d3d3b7c7bf111eceb041"
+    },
+    {
+      "path": "Previews/Motion-Review-Victory-1.png",
+      "bytes": 1093327,
+      "sha256": "e82145d66d757bcbee34a0822dbba3248270517a67244e1420d60658c349240c"
+    },
+    {
+      "path": "Previews/Motion-Review-Victory-145.png",
+      "bytes": 1011492,
+      "sha256": "8ff7c8a34e444984bc19d9609bf2f375d2b5c556f3372f23534d408501591d97"
     },
     {
       "path": "Previews/New-Sword-Front.png",
@@ -466,5 +527,16 @@
     "engine": "ba133b2b7857ec55863ac1100b79a8819adcafeb",
     "game": "6215f516352d4fa137656dd7af817b4b9749c272"
   },
-  "townLocomotionReport": "Calibration/town-locomotion-retarget.json"
+  "townLocomotionReport": "Calibration/town-locomotion-retarget.json",
+  "approvedMotionBaseline": "Blender/arin-v5.8-approved-before-motion-repair.blend",
+  "motionRepair": {
+    "clips": [
+      "SwordAttack",
+      "Victory",
+      "TownIdle"
+    ],
+    "wristLocalRotationsPreserved": true,
+    "approvedGripsPreserved": true,
+    "oldTrialApplied": false
+  }
 }

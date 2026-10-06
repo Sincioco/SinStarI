@@ -1,0 +1,29 @@
+{
+  "candidateSha256": "d0bbed201c452ba4136958bdfafa8b92b80482bfb3ce68218bfe8a5654b4dbcc",
+  "baselineSha256": "2b94dc2891012817f725dd28311161012575f3d2e151d6c6521a5e3fd463af19",
+  "geometryAndSkinWeightsUnchanged": true,
+  "approvedGripUnchanged": true,
+  "protectedLocalRotationError": 1.7881393432617188e-07,
+  "eightOtherActionsUnchanged": true,
+  "results": [
+    {
+      "clip": "SwordAttack",
+      "samples": 91,
+      "failures": [],
+      "minimumSwordZ": 0.22151295840740204
+    },
+    {
+      "clip": "Victory",
+      "samples": 513,
+      "failures": [],
+      "minimumSwordZ": 0.44423097372055054
+    },
+    {
+      "clip": "TownIdle",
+      "samples": 121,
+      "failures": [],
+      "minimumSwordZ": 0.23999442160129547
+    }
+  ],
+  "method": "Triangle BVH intersections, both forearm/hand regions versus legs; equipment versus legs, torso/head, and each other; 0.5-frame samples."
+}

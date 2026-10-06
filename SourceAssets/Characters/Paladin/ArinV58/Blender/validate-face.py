@@ -1,4 +1,4 @@
-"""Regression: both lower cheeks follow Head, with the original Attack retained."""
+"""Regression: both lower cheeks follow Head, with protected head/neck motion."""
 import bpy
 import hashlib
 import json
@@ -15,6 +15,9 @@ def signature(action):
         for strip in layer.strips:
             for bag in strip.channelbags:
                 for curve in bag.fcurves:
+                    if not any('"mixamorig:' + bone + '"' in curve.data_path
+                               for bone in ('Head', 'Neck')):
+                        continue
                     curves.append((curve.data_path, curve.array_index,
                         [(list(k.co), k.interpolation) for k in curve.keyframe_points]))
     return hashlib.sha256(json.dumps(sorted(curves)).encode()).hexdigest()
@@ -56,7 +59,7 @@ for frame in range(1, 47):
     errors.append({'frame':frame, 'maximumHeadRelativeError':error})
 assert max(e['maximumHeadRelativeError'] for e in errors) < 1e-5
 report = {'faceVertices':len(indices), 'bothSidesChecked':True,
-          'attackActionUnchanged':True, 'attackActionSha256':original, 'frames':errors}
+          'attackHeadNeckCurvesUnchanged':True, 'headNeckCurveSha256':original, 'frames':errors}
 (PACKAGE/'Diagnostics/face-regression.json').write_text(json.dumps(report, indent=2))
 scene.render.engine = 'CYCLES'
 scene.cycles.samples = 16
