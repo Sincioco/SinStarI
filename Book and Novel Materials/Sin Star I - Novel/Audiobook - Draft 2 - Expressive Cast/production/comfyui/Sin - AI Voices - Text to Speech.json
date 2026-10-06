@@ -1,0 +1,64 @@
+{
+  "id": "fb4ae5a4-9a96-4152-aead-7bc65c80958d",
+  "revision": 0,
+  "last_node_id": 1,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "SinAIVoicesTextToSpeech",
+      "pos": [
+        70,
+        70
+      ],
+      "size": [
+        690,
+        540
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "wav_path",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 0
+        },
+        {
+          "name": "mp3_path",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SinAIVoicesTextToSpeech"
+      },
+      "widgets_values": [
+        "Text",
+        "am_michael",
+        0.97,
+        "Sin Narration",
+        true,
+        "Welcome. This is Michael, reading with a calm and measured voice.",
+        ""
+      ],
+      "title": "Sin - AI Voices - Text to Speech"
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "version": 0.4
+}

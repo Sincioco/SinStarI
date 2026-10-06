@@ -1,0 +1,1017 @@
+{
+  "edition": "Draft 2a",
+  "verified_files": 84,
+  "pending_files": 0,
+  "audio_reencoded": false,
+  "scope": "42 root chapter MP3s and their 42 local mobile copies",
+  "records": [
+    {
+      "file": "00 - Prologue — The World He Ended.mp3",
+      "sha256": "86f6f612253d68d2fb0a4680668c01de52457e48473bffa2a54271b4f8405ed3",
+      "audio_essence_sha256": "9d332512cd0a6f0d43f4e39d3ddd0d09f1e836f6f25c054acbb1d292a8483f57",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 00 - Prologue — The World He Ended",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "01 - Chapter One — A Room for One.mp3",
+      "sha256": "3dfb0567fc7afc7281267351606d329929e0320c8481358366cd553910d87488",
+      "audio_essence_sha256": "61afbb66bd1447dfea4515da32d690a0d912efbe8554df27c6612fed789997f0",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 01 - Chapter One — A Room for One",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "02 - Chapter Two — Another Voice.mp3",
+      "sha256": "a2eba2476837b56bda0db73c80f5616a7dc037966a6a3d81ba4b27ae6ae747de",
+      "audio_essence_sha256": "50e2c41b20e9307e8bbaeb00f3297a6640224a405b9f476ceb5646549d7c6bd5",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 02 - Chapter Two — Another Voice",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "03 - Chapter Three — What the Reports Omitted.mp3",
+      "sha256": "8e2756db2082177d2164845e5b2f1db1378f487b9048093c592d1d08121e4684",
+      "audio_essence_sha256": "c89306e0f8e6977e1f8c247dab85fe39b342eb2eacd7a4255aded47f8b4eca08",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 03 - Chapter Three — What the Reports Omitted",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "04 - Chapter Four — The Woman in the Channel.mp3",
+      "sha256": "1c97aa11572ac5da86eddb80b8c036a5997ce04e10b7708df2670e4a3a07a73f",
+      "audio_essence_sha256": "f8808079e6dd6de22c1e3e79a52026d7a3288a6613a9772feefe2f399cbd9519",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 04 - Chapter Four — The Woman in the Channel",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "05 - Chapter Five — The Names of Rain.mp3",
+      "sha256": "3545624734ea37822b15e5b795c7f11c4bccfc4adbcb7b7324a2a6ba93af65ef",
+      "audio_essence_sha256": "a2d335b381f2edd9dc2be750325805eadd3116ade2eeb482fbe1e8cbf5d37a1c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 05 - Chapter Five — The Names of Rain",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "06 - Chapter Six — The Chamber That Answered.mp3",
+      "sha256": "5fa0ca9a3acffa5214f4f10ee04df42a254291fd3aff72a0c6c86af43420873d",
+      "audio_essence_sha256": "a174c93b6267fdd75a90e4b08885e12260957daeacd5808a76236440b5cbd041",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 06 - Chapter Six — The Chamber That Answered",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "07 - Chapter Seven — Permission to Leave.mp3",
+      "sha256": "e60a9600d3d2fe4093da304c06d3fe7a6a576abfba731b022cdac9f1bb2a71cb",
+      "audio_essence_sha256": "68a8d7f9f760dcb98536918236856a660e9dac5a3b65ad60a03bb930ea61c14e",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 07 - Chapter Seven — Permission to Leave",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "08 - Chapter Eight — A Place for Hope.mp3",
+      "sha256": "ca024844809da21782ce5268d927cbc7e975e4996c84310b2f90272acb29ae47",
+      "audio_essence_sha256": "f8fe937cdff06cec2c7b7846219bf21555c182bf99cd34acf87e236d86667dc5",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 08 - Chapter Eight — A Place for Hope",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "09 - Chapter Nine — The Last Lift.mp3",
+      "sha256": "73e6204edb32f099dd42c109e087ff0ecca3d890cc86690762e0df05257957b2",
+      "audio_essence_sha256": "fdd1aff74ab68d6b494bd1292289695489be8c4b319f15ecf0aed296902c334a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 09 - Chapter Nine — The Last Lift",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "10 - Chapter Ten — The Officer Without Insignia.mp3",
+      "sha256": "cf9427ee0a3f7d1deaf033170b672829056aec5138f0bddd74b7476c838dcc13",
+      "audio_essence_sha256": "a2048af3a60a1aad88e734721d5b1d53a983d9a230d930e6fc35f5b159ea0746",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 10 - Chapter Ten — The Officer Without Insignia",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "11 - Chapter Eleven — No Ownership Claim.mp3",
+      "sha256": "ef6e860dc807df60434bb08400658255d9c89a8705406ed00b2110a9744f8f7f",
+      "audio_essence_sha256": "fcf1c2a71d383ecb7a6407cb50243d2e688f893570db7120ac0b8465430e692b",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 11 - Chapter Eleven — No Ownership Claim",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "12 - Chapter Twelve — The Way Home Smelled.mp3",
+      "sha256": "18cf5723ec54dc0c6e4136f834909853b65ce37f72aafc65a927c296f6fad749",
+      "audio_essence_sha256": "01df21159e25d0045a66e37ceb7acf50ac630ba5651a83483164ebb7fa41a6b8",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 12 - Chapter Twelve — The Way Home Smelled",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "13 - Chapter Thirteen — The Years He Removed.mp3",
+      "sha256": "2ac9584dfb82d254dfd4b0399841c84de1372adda7146dbcfc4149acd44977bd",
+      "audio_essence_sha256": "ca20cd85b4f8e5fdecf79914662c8079a86dba9d291abb1fc0af77a666ed228c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 13 - Chapter Thirteen — The Years He Removed",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "14 - Chapter Fourteen — Five Portions.mp3",
+      "sha256": "48d68900ea29d1a68df3e555ef3ee4c4370a3b6c90f85d9995842d531bee49ec",
+      "audio_essence_sha256": "2fa1963a437e0c9450d9f51680221a322d2849a029f26b7ada7087c43c8876e7",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 14 - Chapter Fourteen — Five Portions",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "15 - Chapter Fifteen — Before the Storm.mp3",
+      "sha256": "a7712a10bc91c664d7ac66c10a38cba6b0b78dcbcfb727b7562b83293e0c8bed",
+      "audio_essence_sha256": "49f4747cc83ceb19b33e38ffd92bac1539a1dcdec80787d43e54d4ace9d5b5b5",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 15 - Chapter Fifteen — Before the Storm",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "16 - Chapter Sixteen — The Lesson He Had Not Asked For.mp3",
+      "sha256": "3a9e96e73c541fa9b0b50964196d2eea06a6ae87fec958a217fa0b2232a1c6ea",
+      "audio_essence_sha256": "930c5d512dbbf3170c08cc97a4ba0a00d7d1803bc2bc9758c12f15e166a33a73",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 16 - Chapter Sixteen — The Lesson He Had Not Asked For",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "17 - Chapter Seventeen — What the Cold Reached.mp3",
+      "sha256": "c480c7c12f37ae6675b18291fd6a1848a415778cc01c17cec42a17854f874180",
+      "audio_essence_sha256": "5564a465b6b5572bccf402b2f60465570bab851711fe0963b878f9bda497d7b2",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 17 - Chapter Seventeen — What the Cold Reached",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "18 - Chapter Eighteen — The Survivor Who Would Not Thank Him.mp3",
+      "sha256": "95abbbcefeaefa9b7208fe52952103831cb59b6cac29a12cbf9908ca0b303984",
+      "audio_essence_sha256": "1e7fdc1f06962610ddad8298a27162c78a703cb67117cc385801838e3e845b2c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 18 - Chapter Eighteen — The Survivor Who Would Not Thank Him",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "19 - Chapter Nineteen — The Name on the Record.mp3",
+      "sha256": "113c83b4e542703f0b4f2b2f6b35a78abeb058ff1e197a8db7752753e887bba9",
+      "audio_essence_sha256": "19af6cd10f5f2575514a59f6abf3546af70feeb070ec41918418bbc88bdbd8a9",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 19 - Chapter Nineteen — The Name on the Record",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "20 - Chapter Twenty — What an Apology Could Not Buy.mp3",
+      "sha256": "df747afa8cc760ed17da9d764f66d21e38ae05506bb983ff3a671cf857520a20",
+      "audio_essence_sha256": "5ed2e8fbdbd9e0351b3eb4cc5de32f56a12643ab3e45e4636497b7116eb98153",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 20 - Chapter Twenty — What an Apology Could Not Buy",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "21 - Chapter Twenty-One — The Second Dawn.mp3",
+      "sha256": "f0e92a6029db5bccfd346fa3c1b5309c039f4d5afcb28b734a68f3532bd52085",
+      "audio_essence_sha256": "4cc34c8ff958bdeedb98cc5fa54b038dd728bf207d832d8d4180f539f7466d98",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 21 - Chapter Twenty-One — The Second Dawn",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "22 - Chapter Twenty-Two — The People Waiting.mp3",
+      "sha256": "033d8ee673f98a0a1abbbc583f446768275b1c7f160161e610052d18caf7ad72",
+      "audio_essence_sha256": "967d5d91cb448c4c481a8e437ebdba1ae8f2e652074c17c677f7296adcd0d7e7",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 22 - Chapter Twenty-Two — The People Waiting",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "23 - Chapter Twenty-Three — The Village That Waited.mp3",
+      "sha256": "418f03a189b3d4b74be5ece179c50d33aafd68d0d3b4b94b9435dcf4d9414498",
+      "audio_essence_sha256": "081284ecdbae77c1c0f5c86562c51b075271baae169efe97c887188f5988c3f4",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 23 - Chapter Twenty-Three — The Village That Waited",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "24 - Chapter Twenty-Four — The Letters They Kept.mp3",
+      "sha256": "e0999b6e57cf7a21667f92b5555bf3a2cdf73aee99ff53e908b35d2a929393f0",
+      "audio_essence_sha256": "677be25fef696a13cee75dc9de7bcded8afbdbdd6e0565bfddf86bf35bbb10aa",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 24 - Chapter Twenty-Four — The Letters They Kept",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "25 - Chapter Twenty-Five — The Other End of the Road.mp3",
+      "sha256": "e58b5b1c03c3c06bbf8b126fb5d7b46c74f6a3b604c727b031e764720a76c164",
+      "audio_essence_sha256": "7cafada0752695df9a2c5b4cdbcd7a6bcac67d64392314c552e704005cd27165",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 25 - Chapter Twenty-Five — The Other End of the Road",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "26 - Chapter Twenty-Six — The Weight of a Signature.mp3",
+      "sha256": "5fe1543d04280879f1f76465143c3109b045a60b040534ba5c1ab5fe7368861e",
+      "audio_essence_sha256": "d227f297ffe6fc2417135f159d6b36633e39638cb180eeac0fbad690bb1405d4",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 26 - Chapter Twenty-Six — The Weight of a Signature",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "27 - Chapter Twenty-Seven — The Beneficiaries.mp3",
+      "sha256": "52eccd4e7483a4aa7dbf8f66ed814b60722ab493219ac8facf35eb5fdd127521",
+      "audio_essence_sha256": "ba3ff64c6c53518720a746f0209b77c9f4ec99a7ea7c4c1b0247ae83f799486a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 27 - Chapter Twenty-Seven — The Beneficiaries",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "28 - Chapter Twenty-Eight — Earth in the Afternoon.mp3",
+      "sha256": "5b1595a855194f2fd1ee1d036b4292fdbebecfd6114aad5615937b464cccdc58",
+      "audio_essence_sha256": "6afa28aef584d15742cb0aff06f3b0ed33ffdd506b4593dc619d1d17c1cf6e79",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 28 - Chapter Twenty-Eight — Earth in the Afternoon",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "29 - Chapter Twenty-Nine — The Patient World.mp3",
+      "sha256": "7f4fbcaa7cc92b01fd17da42e0c0911f0ccd8dfeadd494309a9e74bc2bfb86ab",
+      "audio_essence_sha256": "85ce7a9d88d25c3a99610324dceed8eef9c6f0ebe5ddf03c279b4880b02e078d",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 29 - Chapter Twenty-Nine — The Patient World",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "30 - Chapter Thirty — What Had Been Made.mp3",
+      "sha256": "17d71126d53774bafca26ed325f070ec920731b9a9dbbd37dd98936e26f69d61",
+      "audio_essence_sha256": "9aca7f6b0bf8153165e73ae9ebff9ffd5fab06ba8a1e3206b081b56a0ae717a9",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 30 - Chapter Thirty — What Had Been Made",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "31 - Chapter Thirty-One — The Record Released.mp3",
+      "sha256": "c109cad6d4c3a84797b6f70d3c14d845611861fa34128c6c6183d30f9ba9eae0",
+      "audio_essence_sha256": "fdbc0e30ccc2c538703127787ed00ec1f1343f2cd0fbb58580419acc85eb3ba4",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 31 - Chapter Thirty-One — The Record Released",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "32 - Chapter Thirty-Two — Asking Them to Come.mp3",
+      "sha256": "8c04cb697e9d624582078b2605ee5941bceb961ee494b107c4787313cb63c7b6",
+      "audio_essence_sha256": "003f6dd1a129c40c61e018742e4316b260d4d50f71eefc1fea95618164f570c1",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 32 - Chapter Thirty-Two — Asking Them to Come",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "33 - Chapter Thirty-Three — What He Still Wanted.mp3",
+      "sha256": "a4d3958fbb261f160ddb70c54ee1a45a792a2ab71fa5492442d65adb4da46c0d",
+      "audio_essence_sha256": "9bce92b6676da5d0134b0c192584a212ab0bf1bda46288c0054c111bbee2e8ff",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 33 - Chapter Thirty-Three — What He Still Wanted",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "34 - Chapter Thirty-Four — A Clock to Come Home To.mp3",
+      "sha256": "a9637f8bec3efae455a25de74b5a1dcdae952298829cdf6f0b02f09b4acedf47",
+      "audio_essence_sha256": "2c216e48c38d4321a3a597814efb27a8a6fe82b9d493ac8fc384ceab6db4df9f",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 34 - Chapter Thirty-Four — A Clock to Come Home To",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "35 - Chapter Thirty-Five — The Battle Outside the Dream.mp3",
+      "sha256": "eb01b597d2ff8cb9719b06250d2c542e34a1a085ca2f14c339fc3bd5ead4407a",
+      "audio_essence_sha256": "194d3b797d5d08702296d9e6dbc5c5fd9d42375726352e19f918c088d3dd1db3",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 35 - Chapter Thirty-Five — The Battle Outside the Dream",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "36 - Chapter Thirty-Six — The One Comes Home.mp3",
+      "sha256": "1cec0d5d7b0802d3c8fee2cc4ce91944944955850385fd7e2d7f617ffa1fdd43",
+      "audio_essence_sha256": "a2dec1b99e0231bf91687d4d26b966a53aa5ac3ed374905b0f8a80887205bfa7",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 36 - Chapter Thirty-Six — The One Comes Home",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "37 - Chapter Thirty-Seven — The Lives Within It.mp3",
+      "sha256": "5342a0b3a0d2abcbb5534f6a897aae8f61e25f0939f17477beec23089b339875",
+      "audio_essence_sha256": "aa61ec9581a362b4458065553daba3167f239919ec142a5426de1e7d239bb323",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 37 - Chapter Thirty-Seven — The Lives Within It",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "38 - Chapter Thirty-Eight — His Own to Spend.mp3",
+      "sha256": "6761fc9dd2b25d94add47a2273ddccfb287c4814ef85a52c2de4ab662c1f2a54",
+      "audio_essence_sha256": "33b3b023545f2b9d3b98294bbbce5ca18d6ff963081d18f42e1b712d36ad1cc3",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 38 - Chapter Thirty-Eight — His Own to Spend",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "39 - Chapter Thirty-Nine — The World That Remained.mp3",
+      "sha256": "04f09971a7fb899b4b3c36e21c0e511ad5dae2f1bbd7a5f5e5489ffc6e6b0cb7",
+      "audio_essence_sha256": "f0fba545acc6bd025940656f88108dc6128b02c538310382f68f09e005d624d0",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 39 - Chapter Thirty-Nine — The World That Remained",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "40 - Chapter Forty — What Surviving Required.mp3",
+      "sha256": "31475b9876b245cf3facdaee7d871731f97d84fb0a32c6e68523318a925d9d34",
+      "audio_essence_sha256": "61e914be1b14deaaaa2e1c361ee32b73b914245b0e4555e11354f5ff9f8c5478",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 40 - Chapter Forty — What Surviving Required",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "41 - Epilogue — The Life Ahead of Him.mp3",
+      "sha256": "638a1ef3a8eb6d4e559988b099d359eb03d9139dbbe97bea106d88f417936703",
+      "audio_essence_sha256": "ec4e7d501b0c20dd9cee5a9e8a2f8fce435be26a128fa2f6b51e31cea7874b0d",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 41 - Epilogue — The Life Ahead of Him",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/00 - Prologue — The World He Ended.mp3",
+      "sha256": "14024358d1c0312f21b2e9d371a8e9acc72a913e900f16711e46ba7ca866b7db",
+      "audio_essence_sha256": "6cd4838745d5edd5981fbfdccc0b02ffb7e06b548e8f2a1d2196fe18a2b1483c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 00 - Prologue — The World He Ended",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/01 - Chapter One — A Room for One.mp3",
+      "sha256": "85559f0ff5090794343041b4178e9995f5cfbb3a6a915d0481f7c0beb6004312",
+      "audio_essence_sha256": "69b11de4ab020f3ad6cdeaed4cfdd45148bc01d366e125119ead46b75b29aa06",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 01 - Chapter One — A Room for One",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/02 - Chapter Two — Another Voice.mp3",
+      "sha256": "ed66e47f6bfd5a306d5e1ca2eeacd284c40da9771412e164c9a914a0927d241f",
+      "audio_essence_sha256": "80f56d2c572292a9d2870b6fa018a5afdcb34099f10d2b93b71aaec532e0a12d",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 02 - Chapter Two — Another Voice",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/03 - Chapter Three — What the Reports Omitted.mp3",
+      "sha256": "835678a1fc38cb484aa584cb63f0555ba3e38acd0adad2d6ff0b8ce199ab1ef1",
+      "audio_essence_sha256": "faf6f84f9ecea79084053e871ef50e4eaaf0e43e622a643a4a7bf73d95e59bf2",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 03 - Chapter Three — What the Reports Omitted",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/04 - Chapter Four — The Woman in the Channel.mp3",
+      "sha256": "43c2b4c0f8b44d73e0416806a4d176d56e3b147af7bc1c3c9345f867527436bb",
+      "audio_essence_sha256": "a6bec8e9f51f1c46da199417ca64bf0c2b2f90b911255eff585c931cb30339c1",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 04 - Chapter Four — The Woman in the Channel",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/05 - Chapter Five — The Names of Rain.mp3",
+      "sha256": "e37136cef76155ba3552232150fcb8edf716cd676a7ad3b2b56b4e9147722257",
+      "audio_essence_sha256": "7e8e498c976a9fe6c7f33ced0e9feb697763dcbdfa22f108fbcc030c663421ee",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 05 - Chapter Five — The Names of Rain",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/06 - Chapter Six — The Chamber That Answered.mp3",
+      "sha256": "5aac6e75446a38d14a5faf88aec7294fac09b145e3e4e66f30e054cc40870172",
+      "audio_essence_sha256": "f994ae55cfe0714dc515638c1a70111dacf60987f5da6c6cec20ddb2f99f3d2f",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 06 - Chapter Six — The Chamber That Answered",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/07 - Chapter Seven — Permission to Leave.mp3",
+      "sha256": "8413f1ff72a1acc0e4c43eb778441022f4447294ac847af11052552fb1007a8e",
+      "audio_essence_sha256": "c3df4afe0de0b0b118dab24c50727b355d8ca01b7754ff6b15b74be2b9a0fdf8",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 07 - Chapter Seven — Permission to Leave",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/08 - Chapter Eight — A Place for Hope.mp3",
+      "sha256": "088509ca84e05973e745b50adc63794e65af46c27757124313989353e5f840ee",
+      "audio_essence_sha256": "cc6a92dbc2c428396cb63afab3e063cb3e8d4917ad2914f2d9cf1ce39a6bad77",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 08 - Chapter Eight — A Place for Hope",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/09 - Chapter Nine — The Last Lift.mp3",
+      "sha256": "e8be102e00f7e551337c50cf0e12905c23057a33326f71711d3fec87a2d4d06c",
+      "audio_essence_sha256": "6a2a4221d324683ae9bcb3fdd18ea7c7d9574200b818dbce79b495168ae37e1d",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 09 - Chapter Nine — The Last Lift",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/10 - Chapter Ten — The Officer Without Insignia.mp3",
+      "sha256": "698bd52edf4dcc8a265c5cef878037b66b9adcd97c2d6ef1d39c312561f2958b",
+      "audio_essence_sha256": "f20b182f9060e414571eb45da026fdd82dc873f1ffd9c47dfd21e7be0505cc6c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 10 - Chapter Ten — The Officer Without Insignia",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/11 - Chapter Eleven — No Ownership Claim.mp3",
+      "sha256": "257536f1c4797aae843c35c841739868e632154a71cd62c0bc64f443d594e1ec",
+      "audio_essence_sha256": "41f78f2683a1b7ddb6e44d4e6c1cda65696ae0d66bb25978cf4f06e9ce6f376a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 11 - Chapter Eleven — No Ownership Claim",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/12 - Chapter Twelve — The Way Home Smelled.mp3",
+      "sha256": "d69be4a099f25e12ad735fffabdb1371393576a7ec13476d58df31113a4ebc96",
+      "audio_essence_sha256": "3da2c98d45951ce957ae3ac7240687aca99deea65d50e79a82fbef17d9a32313",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 12 - Chapter Twelve — The Way Home Smelled",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/13 - Chapter Thirteen — The Years He Removed.mp3",
+      "sha256": "f21584266841a6e24911455b1c0f6d4a5ade953b64eadef752c5c70886b2d45b",
+      "audio_essence_sha256": "3b03e5ce0faf4b961f0b2302678cb5ff4a4ed010594c0581de3569d07b1095f9",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 13 - Chapter Thirteen — The Years He Removed",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/14 - Chapter Fourteen — Five Portions.mp3",
+      "sha256": "989f5d3373e34a9898c1f913b19f975437f2d573af67a3050d2c9c51798b216b",
+      "audio_essence_sha256": "5574db0f336f805e7c951e9a9b53ab3d260474f670fbca52f26fcc8f2f571a06",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 14 - Chapter Fourteen — Five Portions",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/15 - Chapter Fifteen — Before the Storm.mp3",
+      "sha256": "96975f550f9218078c889a1e852b8bcc4ea7633ef7f1854f87ee0b91772effce",
+      "audio_essence_sha256": "3503474751ea3896a9c5308f61118a002689aed5b15126af3b8639b1069e8a1d",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 15 - Chapter Fifteen — Before the Storm",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/16 - Chapter Sixteen — The Lesson He Had Not Asked For.mp3",
+      "sha256": "b6b2a9fb4c80768a6c7346eab6c96a4a88f0deb61e1154c95ae9dc4dc4f1151f",
+      "audio_essence_sha256": "f356ee5774627fe4a841ed0d39eaa99c9092ebfcb2280182b7407e7da7b6919a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 16 - Chapter Sixteen — The Lesson He Had Not Asked For",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/17 - Chapter Seventeen — What the Cold Reached.mp3",
+      "sha256": "523f7abe11d410577f0dfdf076fb01a76d39b75c8032bbbdf09279fc8d977eca",
+      "audio_essence_sha256": "5af590e55015fca59118495ab2acc89e718dada93581afbe3267777eedce01ac",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 17 - Chapter Seventeen — What the Cold Reached",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/18 - Chapter Eighteen — The Survivor Who Would Not Thank Him.mp3",
+      "sha256": "04768cdddcec8d8da25bc768016d86ace5aa722c6dadec66053582fabdcebf54",
+      "audio_essence_sha256": "030ebadd9c3477766b68cbc83e487c4c3d85e19d242c08ef9e08875a250d7209",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 18 - Chapter Eighteen — The Survivor Who Would Not Thank Him",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/19 - Chapter Nineteen — The Name on the Record.mp3",
+      "sha256": "4c37d5e6332a0ff0694db9d55cf4e97e317e1fa6669a1ea64edb313b1932b75a",
+      "audio_essence_sha256": "25822c2f1beb351c12eec0478acdf573837fc06ac4e97a7833c01da75ddc9c5a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 19 - Chapter Nineteen — The Name on the Record",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/20 - Chapter Twenty — What an Apology Could Not Buy.mp3",
+      "sha256": "976324070846207773d0187782fc6f5058955fec104aa42ca4d35d4f5f2ab311",
+      "audio_essence_sha256": "317f81d2cc28c5db56297f474a1ecffd5adb319e5f804167e23ca078d86fe38c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 20 - Chapter Twenty — What an Apology Could Not Buy",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/21 - Chapter Twenty-One — The Second Dawn.mp3",
+      "sha256": "5b28cb58a2ec99eb314cdde39612a2a545a42d61ec99a4d52c2d31a48f3de523",
+      "audio_essence_sha256": "a5c8d54ac735bdbdd178c835116c5a548add8899398067f436648ba08ac954a1",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 21 - Chapter Twenty-One — The Second Dawn",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/22 - Chapter Twenty-Two — The People Waiting.mp3",
+      "sha256": "67d19661ed38fd5e31fb2cc08184709611a115dc1697684e7fe8d441b7d3d7e9",
+      "audio_essence_sha256": "30b4d812559dc57b6bccfaef0fcee79d37a39d740126c8ca0dcda2504e3a0666",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 22 - Chapter Twenty-Two — The People Waiting",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/23 - Chapter Twenty-Three — The Village That Waited.mp3",
+      "sha256": "371675dd80526ba57c56bfc42646b4cce0d148674ae1c232b7bb5c5db60bc0d5",
+      "audio_essence_sha256": "7817afe227fffdbcc6e6aa7a5bedd9d4a4a84f4bc7555b9432d9dec19e45e4c8",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 23 - Chapter Twenty-Three — The Village That Waited",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/24 - Chapter Twenty-Four — The Letters They Kept.mp3",
+      "sha256": "7b8a4fda15a8b2bcdb82993fc32231027a9785e8203cadd76ac8231087919dc9",
+      "audio_essence_sha256": "85b984f247cb358eeb96c33605632f4b8c37d74f138e769782cb00cd30aec6e3",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 24 - Chapter Twenty-Four — The Letters They Kept",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/25 - Chapter Twenty-Five — The Other End of the Road.mp3",
+      "sha256": "8a429908a061aa62ebf792c4a999b70dda4e1970f0fac4304582a06141483613",
+      "audio_essence_sha256": "afb145ca858a9c4072d7aea1229ed0bf44ca56c0899ff0486e27e24bbd130a81",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 25 - Chapter Twenty-Five — The Other End of the Road",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/26 - Chapter Twenty-Six — The Weight of a Signature.mp3",
+      "sha256": "39589f38d68625bf117c66b8aad93268f0b30c29499691833c3c6f43e415ff70",
+      "audio_essence_sha256": "ba1a44d0463a93e5a701eefe528c64b85cdb5c5c9790496861ecba9d62a0a7ca",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 26 - Chapter Twenty-Six — The Weight of a Signature",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/27 - Chapter Twenty-Seven — The Beneficiaries.mp3",
+      "sha256": "b649a8d7af919be8d591304b98b2a786c180eeb490092c7a7f3a73ddab6d8591",
+      "audio_essence_sha256": "c2a8c076a60cf916f72780c4372f3add5e95706a84ed305c26390afbed922810",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 27 - Chapter Twenty-Seven — The Beneficiaries",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/28 - Chapter Twenty-Eight — Earth in the Afternoon.mp3",
+      "sha256": "c8f6eb30f0c2df33668430e3bbe3b3a8b9505e87c84dc0a8fa301de871c8af41",
+      "audio_essence_sha256": "ab0039a32ac268fafe6af43f80fd25a1f94ac03e4073bd5c135904d737e76d3c",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 28 - Chapter Twenty-Eight — Earth in the Afternoon",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/29 - Chapter Twenty-Nine — The Patient World.mp3",
+      "sha256": "ef8ab5b01ef155e5aae92f2393527db593d99a7eceb4db028e21d0fcf3d29c45",
+      "audio_essence_sha256": "88aa00a30137ff67d047c8374d39ed6ad70df206a67298d88f3de64887f74edf",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 29 - Chapter Twenty-Nine — The Patient World",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/30 - Chapter Thirty — What Had Been Made.mp3",
+      "sha256": "72d913d9fb7abceac466cd60348f45771ccc8232d0d2a84e91f20d45b5ff1a3b",
+      "audio_essence_sha256": "1e1de6fe1c61c8a5d9e290568ae7f1ee201ce3a896755daedcab9978e5d38c35",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 30 - Chapter Thirty — What Had Been Made",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/31 - Chapter Thirty-One — The Record Released.mp3",
+      "sha256": "b0236ec557fa69f28ce653af2c809586264ed3f4cc1aee0fbc6462a28e811647",
+      "audio_essence_sha256": "5dd367f079f15c973a1fd4053c5327ac84d1b1c3c1a7b35e91c2b25d6e0b3212",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 31 - Chapter Thirty-One — The Record Released",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/32 - Chapter Thirty-Two — Asking Them to Come.mp3",
+      "sha256": "7823ab046f666e6741391e29f310b82034cffc87eefda760f427aa04aa7fc0d9",
+      "audio_essence_sha256": "9120891656b6bbaaad24fd708c4d2108934a71a72b9ce0695ebe65ec058b9bad",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 32 - Chapter Thirty-Two — Asking Them to Come",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/33 - Chapter Thirty-Three — What He Still Wanted.mp3",
+      "sha256": "20d4e4448b4e177c59b06b8dbdde00aafaa6083304e917204904dbcf8752902d",
+      "audio_essence_sha256": "b7d87c102acf1cf40d915e807689868034e676d3ba09aa40770e587fde7b1ecc",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 33 - Chapter Thirty-Three — What He Still Wanted",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/34 - Chapter Thirty-Four — A Clock to Come Home To.mp3",
+      "sha256": "45ba6b622b0f7c5a9a0a29c68c83a9036272fdc859a5b6dbf4b65bf89516764f",
+      "audio_essence_sha256": "27fe8d6eca813f8a4afc67d3e0ec31e21cc0664f938dfcb73492acacb6dec74a",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 34 - Chapter Thirty-Four — A Clock to Come Home To",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/35 - Chapter Thirty-Five — The Battle Outside the Dream.mp3",
+      "sha256": "5c9cf2ffdea49abd1dc6b3dbd6e28b13b196458a5edbc93075275be8baa57746",
+      "audio_essence_sha256": "76a9271b7c7c20b94dbfd76f8302c0d252f3cf31f49a42449ca98f5d9e28375b",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 35 - Chapter Thirty-Five — The Battle Outside the Dream",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/36 - Chapter Thirty-Six — The One Comes Home.mp3",
+      "sha256": "3079e0c99dccdad925d114c34084e357aa90ccafc93895963aaf61ff708eba7c",
+      "audio_essence_sha256": "86a906014208718fe28bfac660a0c3443b2e1a16c1ceba19af13fb346acb4481",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 36 - Chapter Thirty-Six — The One Comes Home",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/37 - Chapter Thirty-Seven — The Lives Within It.mp3",
+      "sha256": "187f912a22590aedfcf45440889755be79f2ce8c74515f34a6881e615abafd0b",
+      "audio_essence_sha256": "23137be1e1ac131c706f006fa4beab19403066cfeb7680361233bc2d3493b9f8",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 37 - Chapter Thirty-Seven — The Lives Within It",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/38 - Chapter Thirty-Eight — His Own to Spend.mp3",
+      "sha256": "2fd3c8ebfa484e205299ad288749f9abe9be0b0ed6aaf0f831c57e4aa3c8a063",
+      "audio_essence_sha256": "16a821a84d38b058c5aa474301e6de10aa9ab3034d707355f2d5179a8bb195f4",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 38 - Chapter Thirty-Eight — His Own to Spend",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/39 - Chapter Thirty-Nine — The World That Remained.mp3",
+      "sha256": "a767cb290c652a92f67b1dec0070d16e8a85810f2cd2351a6ebc4de64563eb18",
+      "audio_essence_sha256": "5408de7b457414f08c9e39e2085318d27eb4fb2f858663bb7c5f95211b3285c0",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 39 - Chapter Thirty-Nine — The World That Remained",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/40 - Chapter Forty — What Surviving Required.mp3",
+      "sha256": "937884db4b567ab276963ec51847f6fa6fa4cfe23dda8727c11dbe09af5032e3",
+      "audio_essence_sha256": "95abb5fad23f87dd5df0f3052cdf04f8614f131e771e304ef23f6795b67d7ffb",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 40 - Chapter Forty — What Surviving Required",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    },
+    {
+      "file": "mobile/41 - Epilogue — The Life Ahead of Him.mp3",
+      "sha256": "c83d819080fdb7a90d6f4ec2574b78a482d388b29f3dada6f1924cdf6cae3b36",
+      "audio_essence_sha256": "12e7b2607bb49952500d0d9d701904b52723df6ab4e7ce304e02e4471080bdaa",
+      "essence_unchanged": true,
+      "other_frames_preserved_byte_for_byte": true,
+      "tags": {
+        "title": "Sin Star I - Book One - Draft 2a - 41 - Epilogue — The Life Ahead of Him",
+        "artist": "Produced by Sin",
+        "album": "Sin Star I - Book One"
+      }
+    }
+  ]
+}

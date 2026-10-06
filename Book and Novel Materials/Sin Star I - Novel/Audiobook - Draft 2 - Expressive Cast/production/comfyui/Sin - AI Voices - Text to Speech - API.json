@@ -1,0 +1,14 @@
+{
+  "1": {
+    "class_type": "SinAIVoicesTextToSpeech",
+    "inputs": {
+      "source": "Text",
+      "voice": "am_michael",
+      "speed": 0.97,
+      "output_name": "Sin Narration",
+      "resume": true,
+      "text": "Welcome. This is Michael, reading with a calm and measured voice.",
+      "file_path": ""
+    }
+  }
+}

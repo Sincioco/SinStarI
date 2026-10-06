@@ -1,0 +1,9 @@
+{
+  "title_base": "Sin Star I - Book One",
+  "draft_label": "Draft 2a",
+  "artist": "Produced by Sin",
+  "album": "Sin Star I - Book One",
+  "chapter_info": "actual MP3 filename stem, including numbering and Unicode",
+  "final_edition_rule": "Set draft_label to null or an empty string to omit the draft label.",
+  "scope": "Chapter MP3s listed in release-manifest.json (or local manifest.json), plus existing matching mobile copies."
+}

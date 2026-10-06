@@ -1,0 +1,19 @@
+# Commit only the accepted chapter recordings and portable production records.
+/*
+!/.gitignore
+!/[0-9][0-9] - *.mp3
+!/README.md
+!/QA REPORT.md
+!/AUDIOBOOK-METADATA.md
+!/apply_chapter_metadata.py
+!/rebuild_editions.py
+!/chapter-metadata-defaults.json
+!/chapter-manifest.csv
+!/release-manifest.json
+!/cast-and-direction.json
+!/qa-summary.json
+!/Sin Star I - Draft 2 - Chapters.m3u
+!/plans/
+!/production/
+__pycache__/
+*.pyc

@@ -1,0 +1,663 @@
+{
+  "model": "Kokoro-82M am_michael narration and af_bella as Mira; Qwen3-TTS-12Hz-1.7B-CustomVoice for remaining character dialogue",
+  "principal_cast": [
+    "N",
+    "A",
+    "K",
+    "M",
+    "O",
+    "L",
+    "Z",
+    "S",
+    "V",
+    "E"
+  ],
+  "cast": {
+    "N": {
+      "name": "Narrator",
+      "preset": "am_michael",
+      "direction": "User-selected audition B: American Michael, Kokoro-82M am_michael, speed 0.97 and established pronunciation lexicon. Narrative passages and genuinely unidentified speakers."
+    },
+    "A": {
+      "name": "Arin",
+      "preset": "Aiden",
+      "direction": "Young adult male. Guarded, earnest and thoughtful, a little rough with uncertainty; occasional dry humor. Natural conversational English."
+    },
+    "K": {
+      "name": "Kael",
+      "preset": "Uncle_Fu",
+      "direction": "Older adult male. Low, mellow, composed and intelligent, carrying restrained grief and regret beneath a patient surface. Speak fluent natural English clearly, with quiet gravity."
+    },
+    "M": {
+      "name": "Mira",
+      "preset": "af_bella",
+      "direction": "User-approved Bella audition D. American English, speed 0.97, natural Kokoro prosody; explicit Qwen emotional instructions do not apply.",
+      "model": "hexgrad/Kokoro-82M",
+      "speed": 0.97,
+      "previous_preset": "Serena"
+    },
+    "O": {
+      "name": "Orin",
+      "preset": "Dylan",
+      "direction": "Adult male. Solid, steady, plainspoken, protective and compassionate; concise dry humor. Fluent natural English with a grounded lower register and unhurried confidence."
+    },
+    "L": {
+      "name": "Milo",
+      "preset": "Eric",
+      "direction": "Adult male. Bright, attentive, warm, quick-witted and perceptive, emotionally honest. Clear fluent English with lively but restrained conversational rhythm. A person speaking naturally."
+    },
+    "Z": {
+      "name": "Zara",
+      "preset": "Vivian",
+      "direction": "Adult female. Intelligent, crisp, observant and independent, with precise dry humor and real human feeling. Clear fluent English, natural rhythm and a restrained wry smile when appropriate."
+    },
+    "S": {
+      "name": "Sena",
+      "preset": "Sohee",
+      "direction": "Adult female. Warm, candid, intelligent and loving, with quiet strength. Fluent natural English and emotional sincerity, restrained and intimate."
+    },
+    "V": {
+      "name": "Vesa",
+      "preset": "Ono_Anna",
+      "direction": "Adult female. Precise, independent and quietly resolute, speaking from lived grief with controlled anger and courage. Fluent natural English, direct and measured."
+    },
+    "T": {
+      "name": "Tal",
+      "preset": "Aiden",
+      "direction": "Adult male. Friendly, quietly loyal and practical, a gently lilting conversational delivery in fluent natural English."
+    },
+    "D": {
+      "name": "Dessa",
+      "preset": "Vivian",
+      "direction": "Mature female captain. Clipped, brisk, authoritative and practical. Fluent natural English, dry understated humor and quiet professional confidence."
+    },
+    "I": {
+      "name": "Iri",
+      "preset": "Serena",
+      "direction": "Female, clear and earnest, gentle and direct. Fluent natural English with a lighter youthful tone."
+    },
+    "R": {
+      "name": "Reth",
+      "preset": "Sohee",
+      "direction": "Adult female station worker. Tired and worried, trying to stay composed for others. Clear fluent natural English."
+    },
+    "Pell": {
+      "name": "Pell",
+      "preset": "Eric",
+      "direction": "Older male armorer, practical, blunt, gruff but kind. Fluent natural English."
+    },
+    "Tessa": {
+      "name": "Tessa",
+      "preset": "Vivian",
+      "direction": "Adult female clerk, brisk, practical, wry and perceptive. Fluent natural English."
+    },
+    "Halen": {
+      "name": "Halen",
+      "preset": "Eric",
+      "direction": "Adult male engineer, practical, curious, precise and professionally cautious. Fluent natural English."
+    },
+    "Maelin": {
+      "name": "Maelin",
+      "preset": "Sohee",
+      "direction": "Adult female clinic worker, tired, candid and competent, caring without sentimentality. Fluent natural English."
+    },
+    "Venn": {
+      "name": "Venn",
+      "preset": "Serena",
+      "direction": "Adult female, composed but physically hurt, clear and quietly insistent. Fluent natural English."
+    },
+    "Ruun": {
+      "name": "Ruun",
+      "preset": "Sohee",
+      "direction": "Older female historian, thoughtful, warm and wry, speaking in fluent natural English."
+    },
+    "King": {
+      "name": "Miras father, the king",
+      "preset": "Uncle_Fu",
+      "direction": "Older male ruler and father. Formal, careful, worried beneath his composure. Fluent natural English."
+    },
+    "Queen": {
+      "name": "Miras mother, the queen",
+      "preset": "Sohee",
+      "direction": "Mature female ruler and mother. Controlled, incisive, caring but firm. Fluent natural English."
+    },
+    "Lysa": {
+      "name": "Lysa",
+      "preset": "Ono_Anna",
+      "direction": "Adult female, grounded, practical and emotionally candid, restrained warmth. Fluent natural English."
+    },
+    "OldMan": {
+      "name": "Man in Orins storm memory",
+      "preset": "Uncle_Fu",
+      "direction": "Older male, strained during rescue, then mysterious, grave and matter of fact. Fluent natural English."
+    },
+    "StationMan": {
+      "name": "Station colleague",
+      "preset": "Aiden",
+      "direction": "Adult male station worker, tense and hurried but controlled. Fluent natural English."
+    },
+    "StationGirl": {
+      "name": "Girl at relief station",
+      "preset": "Ono_Anna",
+      "direction": "Young girl, curious and direct with innocent concern. Fluent natural English. Light, natural delivery."
+    },
+    "TeaSeller": {
+      "name": "Tea seller",
+      "preset": "Serena",
+      "direction": "Adult female tea seller, friendly, matter of fact, gently amused. Fluent natural English."
+    },
+    "TeaChild": {
+      "name": "Tea sellers child",
+      "preset": "Ono_Anna",
+      "direction": "Young child, curious, literal and direct. Fluent natural English. Light, natural delivery."
+    },
+    "Marshal": {
+      "name": "Marshal",
+      "preset": "Aiden",
+      "direction": "Adult male official, formal, controlled and diplomatically insistent. Fluent natural English."
+    },
+    "Secretary": {
+      "name": "Secretary",
+      "preset": "Serena",
+      "direction": "Adult female official, formal and clear, professional restraint. Fluent natural English."
+    },
+    "WaterTutor": {
+      "name": "Water tutor",
+      "preset": "Uncle_Fu",
+      "direction": "Older male teacher, measured, precise and instructive. Fluent natural English."
+    },
+    "SurveyorWife": {
+      "name": "Surveyors wife",
+      "preset": "Serena",
+      "direction": "Adult female, frightened and exhausted but direct and determined. Fluent natural English."
+    },
+    "Surveyor": {
+      "name": "Surveyor",
+      "preset": "Eric",
+      "direction": "Adult male, cautious and practical, urgent during danger. Fluent natural English."
+    },
+    "Technician": {
+      "name": "Technician",
+      "preset": "Aiden",
+      "direction": "Adult male technician, precise, concerned and restrained. Fluent natural English."
+    },
+    "RoyalGuard": {
+      "name": "Guard",
+      "preset": "Dylan",
+      "direction": "Adult male guard, firm and formal, controlled urgency. Fluent natural English."
+    },
+    "KynariAdministrator": {
+      "name": "Kynari administrator",
+      "preset": "Aiden",
+      "direction": "Adult male administrator, controlled and concerned, formal clarity. Fluent natural English."
+    },
+    "KynariCoordinator": {
+      "name": "Kynari coordinator",
+      "preset": "Serena",
+      "direction": "Adult female coordinator, urgent, efficient and practical. Fluent natural English."
+    },
+    "KynariEngineer": {
+      "name": "Kynari engineer",
+      "preset": "Eric",
+      "direction": "Adult male engineer, practical and hurried. Fluent natural English."
+    },
+    "Controller": {
+      "name": "Controller",
+      "preset": "Aiden",
+      "direction": "Adult male official, clipped and authoritative. Fluent natural English."
+    },
+    "Chief": {
+      "name": "Station chief",
+      "preset": "Dylan",
+      "direction": "Adult male station chief, clipped, suspicious and authoritative. Fluent natural English."
+    },
+    "ValleyWoman": {
+      "name": "East Valley woman",
+      "preset": "Sohee",
+      "direction": "Adult female, tired, grieving and quietly firm, direct and unsentimental. Fluent natural English."
+    },
+    "ValleyBoy": {
+      "name": "East Valley boy",
+      "preset": "Aiden",
+      "direction": "Young boy, curious and matter of fact, light natural tone. Fluent natural English."
+    },
+    "Father": {
+      "name": "Orins father",
+      "preset": "Uncle_Fu",
+      "direction": "Older male, weary and candid, restrained grief, shame, love and unresolved conviction. Speak fluent natural English slowly and conversationally."
+    },
+    "Physician": {
+      "name": "Physician",
+      "preset": "Vivian",
+      "direction": "Adult female physician, calmly decisive and professionally direct. Fluent natural English."
+    },
+    "Coordinator": {
+      "name": "Relief coordinator",
+      "preset": "Serena",
+      "direction": "Adult female coordinator, practical, efficient and clear. Fluent natural English."
+    },
+    "PastPartner": {
+      "name": "Kaels partner in an earlier Earth family",
+      "preset": "Ono_Anna",
+      "direction": "Adult female, loving but firmly independent, practical and candid. Fluent natural English."
+    },
+    "E": {
+      "name": "Aevos",
+      "preset": "Ryan",
+      "direction": "Very deep adult male voice, lower and more formal than the narrator. Precise, measured, calm and detached, with quiet absolute authority and subtle curiosity. Fluent natural English; deliberate, even pacing, never a caricature or robotic voice."
+    }
+  },
+  "note": "Mira changed from Serena to user-selected Kokoro af_bella. Kael remains approved Uncle_Fu, Arin remains Aiden, narrator remains Michael. Only 140 Mira clips changed; other 2908 audio clips are byte-identical. Eight principal characters retain Qwen presets; supporting roles retain their previous assignments. No real-person voice cloning. Performance and subtle pronunciation remain subject to listener review.",
+  "pronunciation": "Names retained exactly: Kael, Arin, Mira, Orin, Zara, Milo, Aevos, Neris. Consistent presets and English language conditioning; no phonetic rewriting of source.",
+  "chapters": [
+    {
+      "index": 0,
+      "heading": "Prologue — The World He Ended",
+      "source_words": 1189,
+      "source_body_sha256": "023ae7ec865178246569aa3aa2a5cd689a1d225ba0d1149ff34db39393458bf4",
+      "segments": 54,
+      "dialogue_quotes": 3,
+      "plan": "plans/00.json"
+    },
+    {
+      "index": 1,
+      "heading": "Chapter One — A Room for One",
+      "source_words": 1107,
+      "source_body_sha256": "2733f08687da169c3018545d1e406b5ddbdc3a972ca148b76974b1e7b6ec7957",
+      "segments": 65,
+      "dialogue_quotes": 24,
+      "plan": "plans/01.json"
+    },
+    {
+      "index": 2,
+      "heading": "Chapter Two — Another Voice",
+      "source_words": 1167,
+      "source_body_sha256": "5a7a7d4f015500a6ea07a167b354afc8ba49f40454baf461bbf03226ed9393a2",
+      "segments": 62,
+      "dialogue_quotes": 8,
+      "plan": "plans/02.json"
+    },
+    {
+      "index": 3,
+      "heading": "Chapter Three — What the Reports Omitted",
+      "source_words": 987,
+      "source_body_sha256": "8704b30674bb2185ec2a730cbd2499237412fdbd3cc01050d4a16a7c82fed59e",
+      "segments": 65,
+      "dialogue_quotes": 24,
+      "plan": "plans/03.json"
+    },
+    {
+      "index": 4,
+      "heading": "Chapter Four — The Woman in the Channel",
+      "source_words": 1121,
+      "source_body_sha256": "d622c57bc158b73caf0616b5e3edc0c89d122f7bd3fdea8fbefecbdac5328878",
+      "segments": 87,
+      "dialogue_quotes": 39,
+      "plan": "plans/04.json"
+    },
+    {
+      "index": 5,
+      "heading": "Chapter Five — The Names of Rain",
+      "source_words": 1136,
+      "source_body_sha256": "2f435719ce81bb8235dcd03af1bfeeded1fba0d6b2174a98376788b274d5e201",
+      "segments": 58,
+      "dialogue_quotes": 17,
+      "plan": "plans/05.json"
+    },
+    {
+      "index": 6,
+      "heading": "Chapter Six — The Chamber That Answered",
+      "source_words": 998,
+      "source_body_sha256": "8e28a91494c584f46e006ddf3be07158bf55296bd73a41635d79c7c6e446d0e5",
+      "segments": 75,
+      "dialogue_quotes": 29,
+      "plan": "plans/06.json"
+    },
+    {
+      "index": 7,
+      "heading": "Chapter Seven — Permission to Leave",
+      "source_words": 1000,
+      "source_body_sha256": "bae17311d8d8426130edb2f2f64e2cdb1a1460c726877ce90b49c61364adcd6e",
+      "segments": 69,
+      "dialogue_quotes": 30,
+      "plan": "plans/07.json"
+    },
+    {
+      "index": 8,
+      "heading": "Chapter Eight — A Place for Hope",
+      "source_words": 1142,
+      "source_body_sha256": "18d2b8923e5c09ab06c9987bb4f13a6458648588a79662fff58b4e9bb0a28e2d",
+      "segments": 50,
+      "dialogue_quotes": 1,
+      "plan": "plans/08.json"
+    },
+    {
+      "index": 9,
+      "heading": "Chapter Nine — The Last Lift",
+      "source_words": 1109,
+      "source_body_sha256": "1eeb730d5fdb3816aab66acd1aff49106b85873465c4316c48718672e5b46574",
+      "segments": 72,
+      "dialogue_quotes": 24,
+      "plan": "plans/09.json"
+    },
+    {
+      "index": 10,
+      "heading": "Chapter Ten — The Officer Without Insignia",
+      "source_words": 966,
+      "source_body_sha256": "701718a94dbed281de4f37f4566291f19fc86cb4cea6e8f21080498b05b17917",
+      "segments": 60,
+      "dialogue_quotes": 19,
+      "plan": "plans/10.json"
+    },
+    {
+      "index": 11,
+      "heading": "Chapter Eleven — No Ownership Claim",
+      "source_words": 1033,
+      "source_body_sha256": "0d17f2b345dbf68f9aab6c1e10c05d9febf40abf70b9a72b9452c47e483da79b",
+      "segments": 66,
+      "dialogue_quotes": 26,
+      "plan": "plans/11.json"
+    },
+    {
+      "index": 12,
+      "heading": "Chapter Twelve — The Way Home Smelled",
+      "source_words": 985,
+      "source_body_sha256": "07cbabe6a7e07bca5a3eafd6923dfb8128f8f2017365d2834877f7170bfaeb1a",
+      "segments": 67,
+      "dialogue_quotes": 28,
+      "plan": "plans/12.json"
+    },
+    {
+      "index": 13,
+      "heading": "Chapter Thirteen — The Years He Removed",
+      "source_words": 1103,
+      "source_body_sha256": "b4160f5c8a3e8bfa12233272d21b39ef0be11d52cd7b96e3bcae10c3e4f48e88",
+      "segments": 59,
+      "dialogue_quotes": 12,
+      "plan": "plans/13.json"
+    },
+    {
+      "index": 14,
+      "heading": "Chapter Fourteen — Five Portions",
+      "source_words": 941,
+      "source_body_sha256": "e6509a82bc0cce7e500faf8e9854c7e9c29a6287b209ca0d81ba3dfc4e26bbfe",
+      "segments": 74,
+      "dialogue_quotes": 32,
+      "plan": "plans/14.json"
+    },
+    {
+      "index": 15,
+      "heading": "Chapter Fifteen — Before the Storm",
+      "source_words": 999,
+      "source_body_sha256": "fcc6cc404cfcc9755b30fdc765794e905ad6a3aa1eea1b71815f203527a9d154",
+      "segments": 64,
+      "dialogue_quotes": 27,
+      "plan": "plans/15.json"
+    },
+    {
+      "index": 16,
+      "heading": "Chapter Sixteen — The Lesson He Had Not Asked For",
+      "source_words": 980,
+      "source_body_sha256": "06d655eaa5cf4df1978cdf47c868c48a3e2e0509990f78c454f4d6fc511bc54c",
+      "segments": 85,
+      "dialogue_quotes": 43,
+      "plan": "plans/16.json"
+    },
+    {
+      "index": 17,
+      "heading": "Chapter Seventeen — What the Cold Reached",
+      "source_words": 902,
+      "source_body_sha256": "86a65ecf36e6f0011e5f353f8705f5e35533c7498af0d05f1acb408e2a62d921",
+      "segments": 66,
+      "dialogue_quotes": 29,
+      "plan": "plans/17.json"
+    },
+    {
+      "index": 18,
+      "heading": "Chapter Eighteen — The Survivor Who Would Not Thank Him",
+      "source_words": 997,
+      "source_body_sha256": "b3eac653f60bb347716e1ceb96a48e3c7de194588bb0abb26f51ce5a65efb4bc",
+      "segments": 85,
+      "dialogue_quotes": 44,
+      "plan": "plans/18.json"
+    },
+    {
+      "index": 19,
+      "heading": "Chapter Nineteen — The Name on the Record",
+      "source_words": 898,
+      "source_body_sha256": "b0377b6e9fdbcb402a6922c68608b677613a07c3058aabbd30b4f4a43b0370be",
+      "segments": 68,
+      "dialogue_quotes": 30,
+      "plan": "plans/19.json"
+    },
+    {
+      "index": 20,
+      "heading": "Chapter Twenty — What an Apology Could Not Buy",
+      "source_words": 970,
+      "source_body_sha256": "e4a1a96c606133f92e3a02e86affbc5b1185743b744565afd346d8ec97015390",
+      "segments": 68,
+      "dialogue_quotes": 28,
+      "plan": "plans/20.json"
+    },
+    {
+      "index": 21,
+      "heading": "Chapter Twenty-One — The Second Dawn",
+      "source_words": 1099,
+      "source_body_sha256": "c6b69137bac6d44ec868ce501368c9888a2474f292ee4faed9053f65db274e0b",
+      "segments": 86,
+      "dialogue_quotes": 41,
+      "plan": "plans/21.json"
+    },
+    {
+      "index": 22,
+      "heading": "Chapter Twenty-Two — The People Waiting",
+      "source_words": 863,
+      "source_body_sha256": "3fab69f73db361b254fd62f550c6f48e3352da2002dfc9ee16e50a095cbbc55d",
+      "segments": 54,
+      "dialogue_quotes": 18,
+      "plan": "plans/22.json"
+    },
+    {
+      "index": 23,
+      "heading": "Chapter Twenty-Three — The Village That Waited",
+      "source_words": 861,
+      "source_body_sha256": "90cce5dd5bb04a27692b3fea4d65df1cec0adc4564ceb5575d34f79562c9930a",
+      "segments": 60,
+      "dialogue_quotes": 26,
+      "plan": "plans/23.json"
+    },
+    {
+      "index": 24,
+      "heading": "Chapter Twenty-Four — The Letters They Kept",
+      "source_words": 1064,
+      "source_body_sha256": "38a0942d22634b18a1425291f5dafb7b51c1647d62040060861ea7e814196365",
+      "segments": 87,
+      "dialogue_quotes": 37,
+      "plan": "plans/24.json"
+    },
+    {
+      "index": 25,
+      "heading": "Chapter Twenty-Five — The Other End of the Road",
+      "source_words": 1320,
+      "source_body_sha256": "47fbaa880500e607bcc33bd01cc38505bbdadaac8f75840715e98b354155cbf8",
+      "segments": 110,
+      "dialogue_quotes": 62,
+      "plan": "plans/25.json"
+    },
+    {
+      "index": 26,
+      "heading": "Chapter Twenty-Six — The Weight of a Signature",
+      "source_words": 1011,
+      "source_body_sha256": "0b73733e58f8f75fd9b4312ab622984ce132c31642cf029d45d08c519c3bc509",
+      "segments": 59,
+      "dialogue_quotes": 15,
+      "plan": "plans/26.json"
+    },
+    {
+      "index": 27,
+      "heading": "Chapter Twenty-Seven — The Beneficiaries",
+      "source_words": 1005,
+      "source_body_sha256": "f4b65459567180dcd49bdab1dd6c88f4c268f7a3b598b92b8a8693d0b71c8910",
+      "segments": 70,
+      "dialogue_quotes": 25,
+      "plan": "plans/27.json"
+    },
+    {
+      "index": 28,
+      "heading": "Chapter Twenty-Eight — Earth in the Afternoon",
+      "source_words": 975,
+      "source_body_sha256": "92f2dc0bb37cbc227358345415a213713880c606ccdbdf7e2269475beac34713",
+      "segments": 69,
+      "dialogue_quotes": 28,
+      "plan": "plans/28.json"
+    },
+    {
+      "index": 29,
+      "heading": "Chapter Twenty-Nine — The Patient World",
+      "source_words": 977,
+      "source_body_sha256": "d150a21889f906fa0c6bb8cb05d69cc1a1036bb9c39e7550f8acaf03c9bb99e8",
+      "segments": 68,
+      "dialogue_quotes": 26,
+      "plan": "plans/29.json"
+    },
+    {
+      "index": 30,
+      "heading": "Chapter Thirty — What Had Been Made",
+      "source_words": 1029,
+      "source_body_sha256": "8759ab9771352954f8b9899bca8984808b64c6f5b06a292388a76414d10a42df",
+      "segments": 65,
+      "dialogue_quotes": 16,
+      "plan": "plans/30.json"
+    },
+    {
+      "index": 31,
+      "heading": "Chapter Thirty-One — The Record Released",
+      "source_words": 952,
+      "source_body_sha256": "243d680f4d7f562f03bfde48eee0fcf6056fa942f183edf2ee1c0d661a1a557a",
+      "segments": 54,
+      "dialogue_quotes": 17,
+      "plan": "plans/31.json"
+    },
+    {
+      "index": 32,
+      "heading": "Chapter Thirty-Two — Asking Them to Come",
+      "source_words": 982,
+      "source_body_sha256": "6842dacd3932604a433f0912a35c70085a544c7074ce546ee433f38b1e95d94a",
+      "segments": 74,
+      "dialogue_quotes": 30,
+      "plan": "plans/32.json"
+    },
+    {
+      "index": 33,
+      "heading": "Chapter Thirty-Three — What He Still Wanted",
+      "source_words": 939,
+      "source_body_sha256": "6034a3d462ddf535dd2024333bbb9bb8a864baeadc966c91d38aa64c118581c8",
+      "segments": 60,
+      "dialogue_quotes": 23,
+      "plan": "plans/33.json"
+    },
+    {
+      "index": 34,
+      "heading": "Chapter Thirty-Four — A Clock to Come Home To",
+      "source_words": 882,
+      "source_body_sha256": "f81e783fc2c14185dd329832f3a67708a3e7676b8445c42a62d48dc1374a14f7",
+      "segments": 53,
+      "dialogue_quotes": 18,
+      "plan": "plans/34.json"
+    },
+    {
+      "index": 35,
+      "heading": "Chapter Thirty-Five — The Battle Outside the Dream",
+      "source_words": 1189,
+      "source_body_sha256": "bbc8fa4dd36cf8f983b17c3ab48b6249fe34a06985c56efb85d2f9654a6a5a61",
+      "segments": 91,
+      "dialogue_quotes": 25,
+      "plan": "plans/35.json"
+    },
+    {
+      "index": 36,
+      "heading": "Chapter Thirty-Six — The One Comes Home",
+      "source_words": 1402,
+      "source_body_sha256": "15195a7f90ddd72c6b8130ebd476a6a659dd76e8fa12ddb73fdc94ad1c9e1a9b",
+      "segments": 115,
+      "dialogue_quotes": 53,
+      "plan": "plans/36.json"
+    },
+    {
+      "index": 37,
+      "heading": "Chapter Thirty-Seven — The Lives Within It",
+      "source_words": 1325,
+      "source_body_sha256": "deb3b064dc2f2cefb4d77bcae71e885d1a330c5c5bcac4fef4cb1d0b304c46ba",
+      "segments": 93,
+      "dialogue_quotes": 39,
+      "plan": "plans/37.json"
+    },
+    {
+      "index": 38,
+      "heading": "Chapter Thirty-Eight — His Own to Spend",
+      "source_words": 1386,
+      "source_body_sha256": "9e3d2f724c6a4925f5f2f0414f26f40f09dbe99a3b9ca357ab3288e1d8428053",
+      "segments": 97,
+      "dialogue_quotes": 30,
+      "plan": "plans/38.json"
+    },
+    {
+      "index": 39,
+      "heading": "Chapter Thirty-Nine — The World That Remained",
+      "source_words": 1539,
+      "source_body_sha256": "78434fd545328549114ffa55835c8e97ae693a3d0bb9635d2715d756d50a2cd4",
+      "segments": 96,
+      "dialogue_quotes": 20,
+      "plan": "plans/39.json"
+    },
+    {
+      "index": 40,
+      "heading": "Chapter Forty — What Surviving Required",
+      "source_words": 1521,
+      "source_body_sha256": "c572e648a6701b438e1687501dcfda127ad08859650da8c5af32f6c9aeefe702",
+      "segments": 86,
+      "dialogue_quotes": 25,
+      "plan": "plans/40.json"
+    },
+    {
+      "index": 41,
+      "heading": "Epilogue — The Life Ahead of Him",
+      "source_words": 1497,
+      "source_body_sha256": "1abba254a5e912a2461026aa8b3cd7e2fc679063b5672221cd890801eb88b641",
+      "segments": 82,
+      "dialogue_quotes": 22,
+      "plan": "plans/41.json"
+    }
+  ],
+  "narrator_pronunciation": {
+    "Kael": "KAYL",
+    "Arin": "ARR-in",
+    "Mira": "MEER-uh",
+    "Orin": "OR-in",
+    "Zara": "ZAR-uh",
+    "Milo": "MY-loh",
+    "Aevos": "AY-voss",
+    "Neris": "NEH-riss",
+    "Ilyr": "ILL-eer"
+  },
+  "narrator_phonemes": {
+    "Kael": "kˈAl",
+    "Arin": "ˈæɹɪn",
+    "Mira": "mˈɪɹə",
+    "Orin": "ˈɔɹɪn",
+    "Zara": "zˈɑɹə",
+    "Milo": "mˈIloʊ",
+    "Aevos": "ˈAvɑs",
+    "Neris": "nˈɛɹɪs",
+    "Ilyr": "ˈɪlɪɹ"
+  },
+  "source_sha256": "c5a45cba2c5a3cb5fcfeffbc6f06ef99bcaa5364ce9988705451479c93ad9f72",
+  "source": "../2026-10-06-1423-sin-star-i-novel-draft-v1.md",
+  "model_sources": [
+    "https://huggingface.co/hexgrad/Kokoro-82M",
+    "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "https://github.com/QwenLM/Qwen3-TTS"
+  ],
+  "licenses": "Both model releases Apache-2.0; already installed/cached. Inference fully local, no manuscript upload for synthesis.",
+  "cast_revision": "mira-bella-v1"
+}

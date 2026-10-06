@@ -1,0 +1,15 @@
+{
+  "source_hash_verified": true,
+  "chapter_hashes_verified": 42,
+  "chapter_tags_verified": 42,
+  "plans_word_order_verified": 42,
+  "synthesis_chunks": 3048,
+  "portable_files_scanned": 63,
+  "absolute_desktop_paths_or_library_ids_found": 0,
+  "python_compile": "passed",
+  "metadata_updater_portable_single_chapter_apply": "passed; final-label omission and encoded audio preservation",
+  "comfyui_chunk_coverage": "passed; no GPU synthesis rerun",
+  "full_mp3_rebuild": "passed; 42 inputs and duration validated",
+  "chapter_audio_bytes": 216771429,
+  "full_m4b_rebuild": "passed; full duration and 42 chapter markers verified"
+}
