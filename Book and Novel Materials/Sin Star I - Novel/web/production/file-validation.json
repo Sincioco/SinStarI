@@ -1,0 +1,14 @@
+{
+  "original_html_sha256": "d7e7b97db75cbd56a90966db5766543a7735a561fd0ce8a534f94843beebf697",
+  "exact_rendered_prose_preserved_chapters": 42,
+  "audio_assets_hash_and_probe_verified": 43,
+  "audio_bytes": 72303282,
+  "website_total_bytes": 74136917,
+  "title_mp3_full_decode": "passed",
+  "title_voice": "Kokoro am_michael",
+  "title_spoken_text": "Sin Star. Book One. Created by Sin.",
+  "title_source_coverage_checked_during_generation": true,
+  "subjective_listening_claimed": false,
+  "portable_text_scan": "passed; no desktop private paths, Library IDs or credentials",
+  "python_and_javascript_syntax": "passed"
+}

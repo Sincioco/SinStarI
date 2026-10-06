@@ -1,0 +1,8 @@
+{
+  "expected": "Sin Star. Book One. Created by Sin.",
+  "transcribed": "Sin Star Book I, created by Sin.",
+  "duration_seconds": 2.8609375,
+  "engine": "faster-whisper-small.en; CPU int8; existing cache",
+  "token_match": false,
+  "review": "Reviewed orthographic variant: ASR rendered Book One as Book I. All three requested phrases are present; exact synthesis text and grapheme coverage were verified. No subjective listening is claimed."
+}

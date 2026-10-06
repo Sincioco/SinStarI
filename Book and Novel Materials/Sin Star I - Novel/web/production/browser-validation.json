@@ -1,0 +1,118 @@
+{
+  "browser": "Google Chrome desktop; interactive responsive viewport 390 x 844",
+  "checks": [
+    {
+      "name": "All cue text maps to stable IDs",
+      "status": "passed",
+      "details": "3048 cues"
+    },
+    {
+      "name": "Image and caption insertion",
+      "status": "passed",
+      "details": "Existing phrase target unchanged; temporary fixture removed"
+    },
+    {
+      "name": "Edited/missing-match fail-safe",
+      "status": "passed",
+      "details": "Old highlight cleared; restoring original text recovered it"
+    },
+    {
+      "name": "Pause clears highlight",
+      "status": "passed",
+      "details": "Passed"
+    },
+    {
+      "name": "Return visit resume",
+      "status": "passed",
+      "details": "Chapter One at 27.3 seconds"
+    },
+    {
+      "name": "Position-storage failure",
+      "status": "passed",
+      "details": "Playback continues; memory-unavailable message appears"
+    },
+    {
+      "name": "Rapid chapter selection",
+      "status": "passed",
+      "details": "One audio element and final requested chapter"
+    },
+    {
+      "name": "Partial response guard",
+      "status": "passed",
+      "details": "HTTP 206 rejected; no partial audio cached"
+    },
+    {
+      "name": "Insufficient quota",
+      "status": "passed",
+      "details": "Download stopped with actionable message"
+    },
+    {
+      "name": "Cancel download",
+      "status": "passed",
+      "details": "No stuck controls; previously completed chapters retained"
+    },
+    {
+      "name": "Retry and whole-book download",
+      "status": "passed",
+      "details": "43 complete SHA-256 verified files, 72303282 bytes"
+    },
+    {
+      "name": "Cached Range requests",
+      "status": "passed",
+      "details": "206 exact/suffix ranges and 416 invalid range"
+    },
+    {
+      "name": "Final chapter ends cleanly",
+      "status": "passed",
+      "details": "No wraparound or remaining highlight"
+    },
+    {
+      "name": "Remove offline chapter",
+      "status": "passed",
+      "details": "Chapter Two deleted for missing-audio check"
+    },
+    {
+      "name": "Origin unavailable: reload and seek",
+      "status": "passed",
+      "details": "App shell, text and cached MP3 work with local HTTP server stopped"
+    },
+    {
+      "name": "Origin unavailable: auto-next",
+      "status": "passed",
+      "details": "Cached Chapter One starts automatically"
+    },
+    {
+      "name": "Origin unavailable: missing chapter",
+      "status": "passed",
+      "details": "Clear unavailable/download message and cleared highlight"
+    },
+    {
+      "name": "Mobile navigation",
+      "status": "passed",
+      "details": "390 x 844 viewport; CSS content width375; no horizontal overflow; menu closes on selection"
+    },
+    {
+      "name": "Manual scrolling",
+      "status": "passed",
+      "details": "PageDown disables Follow narration; user can re-enable it"
+    },
+    {
+      "name": "Mobile controls",
+      "status": "passed",
+      "details": "Player bottom844 equals viewport height844; offline panel usable and scrollable"
+    }
+  ],
+  "first_visit": "Fresh desktop visit showed title and Play prompt after browser blocked audible autoplay; Play started title and automatically advanced to prologue",
+  "fixed_issue": "Ordinary HTTP cache retained removed audio during offline testing; no-store on audio downloads/network fallback now makes explicit removal effective. Offline missing-chapter retest passed.",
+  "screenshots": {
+    "preview-desktop.png": "Fresh-profile headless Chrome 1440 x 1000 title page",
+    "preview-mobile.png": "Fresh-profile headless Chrome 500 x 900 responsive title page; separate interactive phone tests used390 x844"
+  },
+  "limits": [
+    "No physical mobile device or Safari test.",
+    "Highlight timing is production phrase/chunk timing, not word-level forced alignment.",
+    "Browser autoplay and storage eviction remain browser-controlled.",
+    "No subjective listening claim."
+  ],
+  "deployment": "Not deployed to sincioco.com; repository commit and push authorized by user."
+}
