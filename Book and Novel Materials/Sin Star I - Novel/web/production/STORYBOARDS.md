@@ -1,24 +1,30 @@
-# Adding illustrations without shifting narration
+# Approved illustrations and narration
 
-`index.html` owns presentation. `book.json` owns chapter/audio identities and timed narration cues. Audio files retain their SHA-256 identities. A cue looks up exact `data-cue-id` values and checks normalized words plus their hash, independently of element positions or paragraph numbers.
+Sin approved these 10 existing images after reviewing the proposed placements. The original novel HTML is the placement source and embeds the optimized WebPs. `illustrations.json` records each approved source, checksum, insertion paragraph, stable block ID, dimensions and descriptive alt text. Storyboard originals and the Markdown manuscript remain unchanged.
 
-Existing paragraphs have stable IDs such as `ch-00-b0002`; narrated spans have IDs such as `data-cue-id="ch-00-s0001"`. A phrase crossing emphasis/paragraph boundaries can have several spans carrying the same cue ID. Preserve all of them and their original words. Do not renumber IDs when inserting content. Do not add a cue ID to a caption.
+| Chapter | Storyboard source | Insert after block |
+| --- | --- | --- |
+| ch-01 | `panel-01-1.png` | `ch-01-b0005` |
+| ch-04 | `c01-s01-carry.png` | `ch-04-b0043` |
+| ch-09 | `panel-03-2.png` | `ch-09-b0045` |
+| ch-14 | `c04-s02-added.png` | `ch-14-b0023` |
+| ch-19 | `c05-s01-added.png` | `ch-19-b0005` |
+| ch-21 | `panel-07-3.png` | `ch-21-b0048` |
+| ch-25 | `panel-08-4.png` | `ch-25-b0059` |
+| ch-34 | `panel-11-2.png` | `ch-34-b0007` |
+| ch-36 | `c09-s01-added.png` | `ch-36-b0017` |
+| ch-41 | `e01-s01-added.png` | `ch-41-b0068` |
 
-Insert a figure **between** existing paragraphs, for example before the paragraph whose ID is `ch-00-b0002`:
+`ch-41` is the epilogue; its image follows the last narrative paragraph and precedes The End. Reveal illustrations stay inside their chapters. The images have no visible captions or additional narrated text.
 
-```html
-<figure id="scene-c00-s01" data-no-narration="true">
-  <img src="images/c00-s01.webp" width="1280" height="720"
-       alt="Describe the actual illustration for readers who cannot see it."
-       loading="lazy" decoding="async">
-  <figcaption>Your optional caption.</figcaption>
-</figure>
-```
+## Build and cache ownership
 
-This is an authoring example; no image with that filename is supplied. Keep real image paths relative and inside the web folder. Width/height reserve layout space; ResizeObserver also rechecks the active passage after layout changes. Figure/caption text is excluded even if accidentally placed near a spoken span. If a narrated phrase is edited or a target is missing, the reader clears the highlight instead of guessing a different passage.
+`build_site.py` reads the original novel HTML. `illustrations.py` verifies each embedded image against its approved checksum, exports the WebP to the web `images/` folder and writes `storyboards.json`. Rebuilds reuse the single source figure rather than adding another one. The annotation parser excludes figure content from narration and paragraph numbering. Do not hand-edit the web-only image placement; change the original source and approved record together if Sin requests a different placement.
 
-Register each real image for offline reading in `storyboards.json`, for example `{"images":["images/c00-s01.webp"]}`, then run `python production/refresh_cache.py`. This refreshes the shell cache only and preserves existing audio downloads. Images in this explicit registry are cached with the page; consider their size before adding many. The audio download total shown to readers refers to audio only.
+`book.json` owns the unchanged audio and timed cues. A cue matches exact `data-cue-id` values and normalized words plus their hash, independently of DOM positions. Preserve existing paragraphs, spans, text and IDs. A caption must never receive a cue ID.
 
-Do not rerun the full HTML builder after hand-authoring illustrations unless you intend to recreate the website from the original HTML. Keep a source-control checkpoint of your web edits. No source novel/manuscript changes are required for illustration insertion.
+Figures use `data-no-narration="true"`, stable illustration IDs, descriptive alt text, lazy loading and asynchronous decoding. Intrinsic width/height reserve space; responsive CSS keeps the complete image within the reading column without cropping. The existing ResizeObserver rechecks following after layout changes. Figure clicks do not seek or start playback.
 
-A Chrome test inserted a temporary image and caption before an active paragraph, confirmed the same stable phrase remained highlighted, then edited that phrase and confirmed the previous highlight cleared. The temporary fixture was removed; no test illustration remains in the production book.
+`refresh_cache.py` hashes the shell and every explicit image in `storyboards.json`. The 10 WebPs add 1,575,256 bytes to offline page storage, separate from the 72,303,282 audio bytes shown in the download UI. The builder keeps the previous audio-cache version when the manuscript, media and cues are unchanged, so image updates do not discard downloaded audio or saved listening position.
+
+Run `python production/build_site.py` to rebuild from the embedded source, or `python production/refresh_cache.py` after presentation-only edits. Authoring files under `production/` are not deployment assets. Include `images/` and `storyboards.json` when the parent coordinates deployment.

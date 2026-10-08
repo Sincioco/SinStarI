@@ -1,0 +1,122 @@
+{
+  "utc": "2026-10-08T11:19:26.026Z",
+  "physical_iPhone": false,
+  "results": [
+    {
+      "name": "Fresh music preference is 8%; settings panel starts closed",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "desktop: original height retained closed/open, 44px target, dialog fits, Escape returns focus",
+      "passed": true,
+      "details": {
+        "baseline": 178,
+        "current": 178,
+        "button": {
+          "x": 1189,
+          "y": 849.609375,
+          "width": 44,
+          "height": 44,
+          "right": 1233,
+          "bottom": 893.609375,
+          "playerTop": 722,
+          "playerBottom": 900
+        },
+        "dialog": {
+          "left": 889,
+          "right": 1249,
+          "top": 398.71875,
+          "bottom": 710
+        }
+      }
+    },
+    {
+      "name": "phone: original height retained closed/open, 44px target, dialog fits, Escape returns focus",
+      "passed": true,
+      "details": {
+        "baseline": 199,
+        "current": 199,
+        "button": {
+          "x": 330,
+          "y": 793.609375,
+          "width": 44,
+          "height": 44,
+          "right": 374,
+          "bottom": 837.609375,
+          "playerTop": 645,
+          "playerBottom": 844
+        },
+        "dialog": {
+          "left": 16,
+          "right": 374,
+          "top": 321.71875,
+          "bottom": 633
+        }
+      }
+    },
+    {
+      "name": "small-phone: original height retained closed/open, 44px target, dialog fits, Escape returns focus",
+      "passed": true,
+      "details": {
+        "baseline": 199,
+        "current": 199,
+        "button": {
+          "x": 260,
+          "y": 649.609375,
+          "width": 44,
+          "height": 44,
+          "right": 304,
+          "bottom": 693.609375,
+          "playerTop": 501,
+          "playerBottom": 700
+        },
+        "dialog": {
+          "left": 16,
+          "right": 304,
+          "top": 177.71875,
+          "bottom": 489
+        }
+      }
+    },
+    {
+      "name": "landscape: original height retained closed/open, 44px target, dialog fits, Escape returns focus",
+      "passed": true,
+      "details": {
+        "baseline": 178,
+        "current": 178,
+        "button": {
+          "x": 769,
+          "y": 339.609375,
+          "width": 44,
+          "height": 44,
+          "right": 813,
+          "bottom": 383.609375,
+          "playerTop": 212,
+          "playerBottom": 390
+        },
+        "dialog": {
+          "left": 453,
+          "right": 813,
+          "top": 62.71875,
+          "bottom": 374
+        }
+      }
+    },
+    {
+      "name": "Keyboard opens panel, tabs to slider, adjusts volume, and close restores focus",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Saved 31% and mute are preserved on reload",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Narration starts music with the panel closed; Pause still stops music",
+      "passed": true,
+      "details": true
+    }
+  ]
+}

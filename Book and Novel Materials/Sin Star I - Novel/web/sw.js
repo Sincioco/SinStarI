@@ -1,11 +1,11 @@
 const AUDIO_VERSION = 'fbd157d67b266088';
-const SHELL_VERSION = 'b8253ad6eee4ac35';
+const SHELL_VERSION = '92f4743ed27732cf';
 const ROOT = new URL('./',self.location.href);
 const SCOPE = encodeURIComponent(ROOT.pathname);
 const AUDIO = 'sin-star-audio-'+SCOPE+'-'+AUDIO_VERSION;
 const SHELL_PREFIX = 'sin-star-shell-'+SCOPE+'-';
 const SHELL = SHELL_PREFIX+SHELL_VERSION;
-const ASSETS = ["./", "./index.html", "./reader.css", "./app.js", "./offline.js", "./book.json", "./manifest.webmanifest", "./icon.svg", "./storyboards.json"];
+const ASSETS = ["./", "./index.html", "./reader.css", "./app.js", "./cue-navigation.js", "./follow-narration.js", "./offline.js", "./music.js", "./music-cache.js", "./music.json", "./bookmarks.js", "./bookmark-anchors.js", "./book.json", "./manifest.webmanifest", "./icon.svg", "./storyboards.json", "./images/01-panel-01-1.webp", "./images/02-c01-s01-carry.webp", "./images/03-panel-03-2.webp", "./images/04-c04-s02-added.webp", "./images/05-c05-s01-added.webp", "./images/06-panel-07-3.webp", "./images/07-panel-08-4.webp", "./images/08-panel-11-2.webp", "./images/09-c09-s01-added.webp", "./images/10-e01-s01-added.webp"];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(SHELL);
   await cache.addAll(ASSETS.map(path=>new Request(new URL(path,ROOT),{cache:'reload'})));
@@ -29,7 +29,8 @@ async function audioResponse(request){
     if(start>=size||start>end||!Number.isSafeInteger(start)||!Number.isSafeInteger(end))return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});
     return new Response(blob.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Content-Length':String(end-start+1),'Content-Range':`bytes ${start}-${end}/${size}`,'Accept-Ranges':'bytes'}});
   }
-  try{return await fetch(request,{cache:'no-store'});}catch{return new Response('This chapter is not saved offline.',{status:503,headers:{'Content-Type':'text/plain'}});}
+  // Preserve the browser's privileged media Range header by forwarding the original request.
+  try{return await fetch(request);}catch{return new Response('This chapter is not saved offline.',{status:503,headers:{'Content-Type':'text/plain'}});}
 }
 self.addEventListener('fetch',event=>{
   const request=event.request,url=new URL(request.url);

@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-08T12:21:47.854Z",
+  "passed": 12,
+  "results": [
+    {
+      "name": "No audio context until gesture; initial gain 8%",
+      "passed": true
+    },
+    {
+      "name": "An existing user volume/mute preference survives the new default",
+      "passed": true
+    },
+    {
+      "name": "Enable while paused confirms readiness without starting a source",
+      "passed": true
+    },
+    {
+      "name": "Enable clears mute and restores 8% when volume is zero",
+      "passed": true
+    },
+    {
+      "name": "Playlist advances Horizon → March → Bloom → Horizon without overlapping sources",
+      "passed": true
+    },
+    {
+      "name": "Pause and chapter source changes retain track and offset",
+      "passed": true
+    },
+    {
+      "name": "Pause while fetch/decode is pending cannot start late music",
+      "passed": true
+    },
+    {
+      "name": "Mute and zero volume stop music; unmute resumes same position",
+      "passed": true
+    },
+    {
+      "name": "All missing tracks try once then leave narration alone",
+      "passed": true
+    },
+    {
+      "name": "A missing track skips to next available track",
+      "passed": true
+    },
+    {
+      "name": "Browser interruption stops source and waits for a resume gesture",
+      "passed": true
+    },
+    {
+      "name": "Narration ending stops the playlist",
+      "passed": true
+    }
+  ]
+}

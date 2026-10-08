@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-08T11:16:18.888Z",
+  "passed": 4,
+  "results": [
+    {
+      "name": "Malformed old records and oversized quotes are discarded",
+      "passed": true
+    },
+    {
+      "name": "Notes remain literal text and tolerate missing notes",
+      "passed": true
+    },
+    {
+      "name": "Bookmark data is bounded",
+      "passed": true
+    },
+    {
+      "name": "Stable cue requires matching id, hash and currently valid text",
+      "passed": true
+    }
+  ]
+}

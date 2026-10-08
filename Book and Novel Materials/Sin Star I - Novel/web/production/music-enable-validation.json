@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-08",
+  "scope": "Actual user Chrome tab 35163925 at http://127.0.0.1:8897/#ch-01",
+  "result": "passed",
+  "reproduction": "The former Enable music button had no visible state change while narration was paused; starting narration did start the music source.",
+  "changes": [
+    "Enable now reports Music enabled and tells the reader to press Play while narration is paused.",
+    "The button reports Music playing during playback and Retry music after a recoverable failure.",
+    "Enable unmutes music and restores 8% when the volume is zero.",
+    "A single-note icon uses a 34 by 28 px visible button inside the existing 44 by 44 px touch target."
+  ],
+  "actual_audio_observations": {
+    "method": "Temporary localhost-only AnalyserNode branch from the music GainNode, observed through the browser console. No synthetic audio or narration modification.",
+    "context_state": "running",
+    "gain_at_8_percent": 0.07999999821186066,
+    "track": "Starforge Horizon (Title Screen)",
+    "decoded_duration_seconds": 157.9735,
+    "playing_samples": [
+      {"music_position_seconds": 7.570666666666666, "rms": 0.009048482834570855},
+      {"music_position_seconds": 8.570666666666666, "rms": 0.010298874811445691},
+      {"music_position_seconds": 9.570666666666666, "rms": 0.011044509640180842}
+    ],
+    "after_narration_pause": {"source_active": false, "rms": 0, "retained_music_position_seconds": 10.44},
+    "browser_errors_or_warnings_observed": [],
+    "limitation": "Nonzero browser audio output was measured; subjective speaker audibility and a physical iPhone were not tested."
+  },
+  "actual_ui_observations": {
+    "initial_saved_volume_percent": 32,
+    "test_volume_percent": 8,
+    "restored_saved_volume_percent": 32,
+    "muted": false,
+    "desktop_player_height_px": 178,
+    "phone_player_height_px_at_390_and_320_width": 199,
+    "text_button_visible_size_px": [33.953125, 28],
+    "music_button_visible_size_px": [34, 28],
+    "music_button_touch_target_px": [44, 44],
+    "single_note_head_count": 1,
+    "narrow_dialog_fits_viewport": true,
+    "escape_closes_dialog_and_returns_focus": true,
+    "follow_narration_checked": true,
+    "temporary_viewport_override_reset": true
+  },
+  "unit_tests": {"follow": 35, "startup_resume": 8, "bookmark_data": 4, "music": 12, "total": 59},
+  "cleanup": {
+    "temporary_probe_removed": true,
+    "runtime_and_service_worker_restored_exactly": true,
+    "source_and_public_copy_updater_check": "74 files, 43 chapters, 3048 cues; no additions, changes or removals pending",
+    "browser_storage_or_caches_cleared": false,
+    "service_worker_unregistered": false,
+    "committed_or_published": false
+  }
+}

@@ -29,7 +29,8 @@ async function audioResponse(request){
     if(start>=size||start>end||!Number.isSafeInteger(start)||!Number.isSafeInteger(end))return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});
     return new Response(blob.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Content-Length':String(end-start+1),'Content-Range':`bytes ${start}-${end}/${size}`,'Accept-Ranges':'bytes'}});
   }
-  try{return await fetch(request,{cache:'no-store'});}catch{return new Response('This chapter is not saved offline.',{status:503,headers:{'Content-Type':'text/plain'}});}
+  // Preserve the browser's privileged media Range header by forwarding the original request.
+  try{return await fetch(request);}catch{return new Response('This chapter is not saved offline.',{status:503,headers:{'Content-Type':'text/plain'}});}
 }
 self.addEventListener('fetch',event=>{
   const request=event.request,url=new URL(request.url);

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-08T11:20:00.829Z",
+  "physical_iPhone": false,
+  "results": [
+    {
+      "name": "Actual MP3 decode and Web Audio ended events cycle 1→2→3→1 at gain .08 (sources shortened to .25s)",
+      "passed": true,
+      "details": [
+        157.9735,
+        182.8135,
+        142.2135,
+        157.9735
+      ]
+    },
+    {
+      "name": "All music files unavailable leaves narration playing",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Touch selection clearing and long press do not seek",
+      "passed": true,
+      "details": {
+        "clearSafe": true,
+        "longPressSafe": true
+      }
+    },
+    {
+      "name": "Rapid chapter navigation settles on latest source; manual Follow opt-out survives",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Blocked localStorage permits session bookmarks and clearly discloses no persistence",
+      "passed": true,
+      "details": true
+    }
+  ]
+}

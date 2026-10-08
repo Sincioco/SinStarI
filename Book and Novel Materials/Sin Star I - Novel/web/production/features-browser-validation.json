@@ -1,0 +1,75 @@
+{
+  "utc": "2026-10-08T11:18:44.217Z",
+  "browser": "Chrome headless isolated profile",
+  "physical_iPhone": false,
+  "results": [
+    {
+      "name": "Follow on, music initial 8%, autoplay requires Play",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Trusted chapter click starts narration and Web Audio music; Pause stops both",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Selection across spans/blocks creates exact quote and safe literal note",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Edit and cross-chapter bookmark navigation seek to verified cue with independent highlight",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Bookmark and edited note survive reload",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Stable anchor resolution, changed quote, missing block, and honest untimed title",
+      "passed": true,
+      "details": {
+        "valid": true,
+        "stale": true,
+        "bad": true,
+        "noCue": true
+      }
+    },
+    {
+      "name": "390px phone layout has visible controls and no horizontal overflow",
+      "passed": true,
+      "details": [
+        {
+          "selector": "#bookmarks-toggle",
+          "left": 58.390625,
+          "right": 102.390625,
+          "bottom": 52.5
+        },
+        {
+          "selector": "#music-toggle",
+          "left": 330,
+          "right": 374,
+          "bottom": 837.609375
+        }
+      ]
+    },
+    {
+      "name": "Delete confirmation removes bookmark from local storage",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Explicit chapter and optional three-track music downloads complete",
+      "passed": true,
+      "details": true
+    },
+    {
+      "name": "Offline reload restores shell, downloaded narration and downloaded music",
+      "passed": true,
+      "details": true
+    }
+  ]
+}

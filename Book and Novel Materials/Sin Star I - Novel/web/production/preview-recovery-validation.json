@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-08T12:05:53.823679+00:00",
+  "root_cause": "Preview origin was stopped: no listener on 8897 and direct HTTP connection refused. Existing service worker fell back to older cached UI and returned 503 for uncached narration.",
+  "server": {
+    "service": "Sin Star Book One preview",
+    "pid": 40292,
+    "root": "D:\\My Documents - 2026\\SinStar_Audio_BookOne\\docs",
+    "port": 8897,
+    "uptime_seconds": 301.0
+  },
+  "http": {
+    "full_status": 200,
+    "range_status": 206,
+    "content_range": "bytes 10-41/1663809",
+    "invalid_range": 416,
+    "audio_hash_matches_disk": true
+  },
+  "actual_user_chrome_tab": {
+    "id": "35163925",
+    "url": "http://127.0.0.1:8897/#ch-01",
+    "before": "Old inline controls and Audio unavailable",
+    "after": "Final music-note dialog, 8%, Chapter One playback observed advancing to 30.8 seconds",
+    "resume_after_reload_seconds": 30.8,
+    "bookmarks_before": 2,
+    "bookmarks_after": 2,
+    "saved_chapters_before_after": 0,
+    "saved_music_before_after": 0,
+    "storage_cleared": false,
+    "service_worker_unregistered": false
+  },
+  "lifecycle": "Hidden pythonw process created via Win32_Process.Create. Launching process exited; server remained healthy across subsequent tool calls. No scheduled task or startup entry.",
+  "runtime_modified_for_recovery": false,
+  "published": false
+}

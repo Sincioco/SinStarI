@@ -1,0 +1,16 @@
+{
+  "narration_audio_hashes_unchanged": 43,
+  "exact_narrative_sections_unchanged": 43,
+  "cues_unchanged": 3048,
+  "storyboards_unchanged": 10,
+  "music_original_copies_verified": 3,
+  "audio_identity_unchanged": "fbd157d67b266088",
+  "repeatable_rebuild": true,
+  "publication_validation": {
+    "files": 74,
+    "bytes": 87167068,
+    "audio_bytes": 72303282,
+    "chapters": 43,
+    "cues": 3048
+  }
+}
