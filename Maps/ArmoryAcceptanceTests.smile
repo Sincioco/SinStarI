@@ -1,0 +1,281 @@
+''' Real doorway, full-screen room, party movement, conversation, purchases and return acceptance.
+
+Option Explicit
+
+Import SinStarI.MapCatalog As Catalog
+Import Smile.Tools.NerisTown As Town
+Import Smile.Tools.NerisTownParty As Party
+Import Smile.Tools.TownEditorSession As Session
+Import Smile.Tools.TownLibrary As Library
+Import Smile.Tools.TownDocument As Document
+Import Smile.Tools.TownDocumentStore As Store
+Import Smile.Tools.TownCatalogFeatures As Features
+Import Smile.Tools.TownGeometry As Geometry
+Import Smile.Tools.TownDocumentNavigation As Navigation
+Import Smile.Tools.TownArmory As Armory
+Import Smile.Tools.TownArmoryPanel As Panel
+Import Smile.Tools.TownArmoryRoom As Room
+Import Smile.Simple3D.Character3D As Character
+Import Smile.Simple3D.Precision3D As P
+Import Smile.Simple3D.PrecisionMath3D As M
+Import Smile.Simple3D.PrecisionCamera3D As Camera
+Import Smile.Simple3D.Graphics3D As G
+
+Dim Value As Town.State
+Dim SavedTown As Document.State
+Dim Door As Features.Door
+Dim Position As P.Vector3
+Dim Origin As P.Vector3
+Dim B As Panel.Bounds
+Dim Head As P.Vector3
+Dim Projected As Camera.ProjectedPoint
+Dim Index As Number
+Dim Frame As Number
+Dim Deadline As Number
+Dim Failures As Number
+Dim Key As Number
+Dim Ok As Boolean
+Dim Found As Boolean
+
+Game Window "Garran Armory Native Acceptance" Size 1280 By 720
+
+Deadline = Timer() + 120000
+
+Do
+    Call Catalog.Update()
+
+    Show Screen
+
+Loop Until Catalog.Ready() Or Timer() >= Deadline Or Game_Closed()
+
+Call Check(Catalog.Ready(), "Packaged maps import")
+
+Ok = Session.OpenForPlay("Neris Town")
+
+Call Check(Ok, "Neris Town opens")
+Call Town.Start(Value)
+
+Deadline = Timer() + 60000
+
+Do
+    Call Town.Update(Value, 16)
+
+    Show Screen
+
+Loop Until Value.Ready Or Value.Failed Or Timer() >= Deadline Or Game_Closed()
+
+Call Check(Value.Ready And Not Value.Failed, "Full town and party load")
+
+For Frame = 0 To 300
+    Call Town.Update(Value, 16)
+End For
+
+Call Check(Value.Residents.Loaded = 9 And Not Value.Residents.Failed, "Nine existing residents coexist")
+
+Ok = Store.LoadDocument(SavedTown, Library.PermanentKey("Neris Town"))
+
+For Index = 0 To SavedTown.ItemCount - 1
+
+    If SavedTown.Items[Index].Active And SavedTown.Items[Index].Template = 12 Then
+
+        Door = Features.DoorAt(12, 0)
+        Position = Geometry.ToWorld(SavedTown.Items[Index], M.Add(Door.Position, P.Vector(0.0, 0.0, -2.0)))
+        Found = True
+
+        Exit For
+
+    End If
+
+End For
+
+Call Check(Ok And Found, "Find the actual authored weapon shop")
+
+If Found Then
+
+    Print "ARMORY_DOOR "; Position.X; ","; Position.Y; ","; Position.Z
+
+    Call Check(Navigation.CanStand(Position.X, Position.Z), "Doorway is walkable")
+    Call Party.Teleport(Value.People, Position, 0.0)
+    Call Town.Update(Value, 16)
+    Call Check(Value.Armory.Active, "Entering weapon doorway opens the armory")
+
+    Origin = Value.People.Path.Positions[0]
+
+    For Frame = 0 To 3
+        Call Town.Update(Value, 16)
+    End For
+
+    Call Check(Value.Armory.Ready And Value.Armory.Room.Ready And Not Value.Armory.Failed, "3D room loads beside full town")
+    Call Check(Value.People.Interior And Value.People.MemberCount = 4, "All four party members enter")
+    Call Check(Not Value.Armory.Menu, "Entry does not open the menu")
+    Call Check(Character.HasClip(Value.Armory.Actor, "Walk") And Character.HasClip(Value.Armory.Actor, "Idle"), "Walk and idle clips are available")
+    Call Armory.Buy(Value.Armory)
+    Call Check(Value.Armory.Purchases = 0, "Purchases require conversation")
+
+    Ok = Armory.Talk(Value.Armory, Value.People)
+
+    Call Check(Not Ok And Not Value.Armory.Menu, "Cannot talk across the room")
+
+    Call Check(Not Room.CanStand(P.Vector(0.0, 0.0, -4.2)), "Dawnstar pedestal blocks walking through it")
+
+    For Frame = 0 To 15
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(1.0, 0.0, 0.0), 50)
+    End For
+
+    For Frame = 0 To 24
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(0.0, 0.0, 1.0), 50)
+    End For
+
+    Call Check(Value.People.Path.Positions[0].Z > 8.0, "Party walks up to counter")
+    Call Check(M.Distance(Value.People.Path.Positions[0], Value.People.Path.Positions[1]) > 5.0, "Followers remain separate")
+
+    For Index = 0 To Value.People.MemberCount - 1
+        Call Check(Value.People.Members[Index].Visible, "Every party member is visible")
+    End For
+
+    Ok = Armory.Input(Value.Armory, Value.People, KEY_E)
+
+    Call Check(Ok And Value.Armory.Menu, "Speaking opens greeting and menu")
+
+    For Frame = 0 To 59
+        Call Town.Update(Value, 50)
+        Call Town.Draw(Value)
+        Call Town.Overlay(Value, True)
+
+        Show Screen
+    End For
+
+    Call Check(Not Value.Armory.Failed And Value.People.Ready, "3D room and party draw successfully")
+    Call Check(Abs(Value.Armory.Heading) > 1.0, "Garran turns toward party")
+
+    B = Panel.Layout()
+
+    Ok = Character.TryPosition(Value.Armory.Actor, Head)
+    Call Check(Ok And M.Distance(Head, P.Vector(0.0, 0.0, 52.0)) < 0.001, "Garran stays behind counter")
+
+    Head.Y = Head.Y + 19.0
+    Projected = Camera.ProjectViewerPoint(Head, Room.Camera(Value.People.Path.Positions[0], Value.Armory.Zoom, True), Window_Width(), Window_Height())
+
+    ' Regression: the original viewport put Garran behind the weapon-list panel.
+    Call Check(Ok And Projected.Visible And Projected.X > 45.0 And Projected.X < ToDouble(B.MenuX - 25),
+        "Garran stays visible left of the weapon list")
+
+    For Index = 0 To 5
+        Value.Armory.Selected = Index
+        Ok = Armory.Input(Value.Armory, Value.People, KEY_ENTER)
+
+        Call Check(Value.Armory.Quantity[Index] = 1, "Every weapon can be bought without a wallet")
+    End For
+
+    Call Check(Value.Armory.Purchases = 6, "Demonstration quantities are recorded")
+
+    Ok = Armory.Input(Value.Armory, Value.People, KEY_ESCAPE)
+
+    Call Check(Value.Armory.Active And Not Value.Armory.Menu, "Escape ends only the conversation")
+
+    For Frame = 0 To 29
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(0.0, 0.0, 1.0), 50)
+    End For
+
+    Call Check(Value.People.Path.Positions[0].Z <= 24.0, "Counter blocks movement")
+
+    For Frame = 0 To 49
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(1.0, 0.0, 0.0), 50)
+    End For
+
+    Call Check(Value.People.Path.Positions[0].X <= 62.0, "Walls block movement")
+
+    Ok = Armory.Input(Value.Armory, Value.People, KEY_ESCAPE)
+
+    For Index = 0 To Value.People.MemberCount - 1
+        Call Check(M.Distance(Value.People.Path.Positions[Index], Value.Armory.OutdoorPath.Positions[Index]) < 0.001,
+            "Every party member returns to the original trail")
+    End For
+
+    Call Check(Value.People.SpeedPercent = Value.Armory.OutdoorSpeed And Value.People.Running = Value.Armory.OutdoorRunning,
+        "Outdoor travel settings restored")
+    Call Town.Update(Value, 16)
+    Call Check(Not Value.Armory.Active And M.Distance(Origin, Value.People.Path.Positions[0]) < 0.001, "Escape closes without moving party or reopening at same door")
+    Call Check(Not Value.People.Interior, "Outdoor presentation restored")
+
+    Position = Value.People.Path.Positions[0]
+    Value.People.Path.Positions[0] = P.Vector(0.0, 0.0, 0.0)
+
+    Call Armory.Observe(Value.Armory, Value.People, True)
+
+    Value.People.Path.Positions[0] = Position
+    Call Town.Update(Value, 16)
+    Call Check(Value.Armory.Active, "Leaving doorway rearms the next visit")
+
+    For Frame = 0 To 3
+        Call Town.Update(Value, 16)
+    End For
+
+    For Frame = 0 To 29
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(0.0, 0.0, -1.0), 50)
+    End For
+
+    Call Check(Not Value.Armory.Active And Not Value.People.Interior, "Walking through door exits shop")
+    Call Check(M.Distance(Origin, Value.People.Path.Positions[0]) < 0.001, "Door exit restores outdoor coordinates")
+    Call Armory.Open(Value.Armory, Value.People)
+
+    For Frame = 0 To 3
+        Call Town.Update(Value, 16)
+    End For
+
+    For Frame = 0 To 15
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(1.0, 0.0, 0.0), 50)
+    End For
+
+    For Frame = 0 To 24
+        Call Armory.MoveParty(Value.Armory, Value.People, P.Vector(0.0, 0.0, 1.0), 50)
+        Call Town.Update(Value, 50)
+        Call Town.Draw(Value)
+        Call Town.Overlay(Value, True)
+
+        Show Screen
+    End For
+
+    Call Check(Not Value.Armory.Failed, "Reopened shop reloads and draws cleanly")
+
+End If
+
+If Failures = 0 Then
+    Print "Garran armory native acceptance PASS"
+Else
+    Print "Garran armory native acceptance FAIL "; Failures
+End If
+
+If @INSPECT@ Then
+
+    Ok = Armory.Talk(Value.Armory, Value.People)
+
+    Do
+        Get Key Key
+
+        Call Town.Input(Value, Key, False, False, True)
+        Call Town.Update(Value, 16)
+        Call Town.Draw(Value)
+        Call Town.Overlay(Value, True)
+
+        Show Screen
+        Wait 8 Milliseconds
+
+    Loop Until Game_Closed()
+
+End If
+
+Call Town.Destroy(Value)
+
+End Program
+
+Sub Check(Passed As Boolean, Message As Text)
+
+    If Passed Then
+        Print "PASS " + Message
+    Else
+        Failures = Failures + 1
+        Print "FAIL " + Message
+    End If
+
+End Sub

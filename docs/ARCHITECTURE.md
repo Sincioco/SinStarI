@@ -53,6 +53,20 @@ visibility, returning to the title and reopening the encounter.
 
 ## Maps and build inputs
 
+The Neris weapon shop is shared Studio behavior. `TownArmory` owns the visit,
+conversation, temporary outdoor-trail snapshot and demonstration purchases.
+`TownArmoryRoom` owns static room resources, bounded floor movement and camera;
+`TownArmoryPanel` owns the conversation overlay and `TownArmoryCatalog` owns stock.
+`NerisTownParty.Interior` keeps the existing actor presentation on the flat room
+floor with visible followers; outdoor defaults and navigation stay unchanged.
+The game host suppresses its Back action and map HUD while the shop consumes input.
+Leaving restores all outdoor trail positions and travel settings. The canonical
+`SourceAssets/Characters/Civilians/GarranV1` package supplies the keeper, while
+`SourceAssets/Towns/Neris/NerisWeaponShopV2` owns the rebuilt room and its complete
+editable Blender model. Studio and game use the same thirteen-part cutaway export;
+the room owner reserves clearance around its central display. No saved inventory
+or authored resident changed.
+
 `Prepare-Maps.ps1` reads the permanent catalog and the authored `.town` bundles
 under `SourceAssets/Towns/Neris`. It verifies bundle and record checksums, then
 prepares payload assets and a small record manifest in ignored `Assets/Maps`.

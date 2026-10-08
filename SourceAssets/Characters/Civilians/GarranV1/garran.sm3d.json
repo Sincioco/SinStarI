@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sampleRate": 30,
+  "clips": {
+    "Idle": {
+      "loop": true
+    },
+    "Walk": {
+      "loop": true
+    }
+  }
+}

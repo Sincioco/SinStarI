@@ -1,0 +1,25 @@
+{
+  "name": "Garran",
+  "role": "Neris Town weapon shop owner",
+  "heightMeters": 1.8,
+  "bindMinimumY": 0.0,
+  "triangles": 10460,
+  "bones": 14,
+  "materials": 1,
+  "removedDegenerateTriangles": 1,
+  "clips": {
+    "Idle": {
+      "frames": 61,
+      "minimumY": 5.68225799746358e-10,
+      "maximumMinimumY": 5.68225799746358e-10,
+      "frameZeroY": 5.68225799746358e-10
+    },
+    "Walk": {
+      "frames": 33,
+      "minimumY": -2.60770320892334e-08,
+      "maximumMinimumY": 2.421438694000244e-08,
+      "frameZeroY": -2.1113116810411725e-10
+    }
+  },
+  "sha256": "23217a138b63e1083dbd9b6f4aada0faae25075f7bece217cfcbcec876585d1f"
+}

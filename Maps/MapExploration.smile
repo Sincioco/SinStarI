@@ -53,6 +53,10 @@ Public Function BackRequested(Key As Number) As Boolean
 
     Dim Result As Boolean
 
+    If Scene.Armory.Active Then
+        Return False
+    End If
+
     Result = Key = KEY_ESCAPE Or (Pointer_Pressed(POINTER_PRIMARY) And
         Pointer_X() >= 18 And Pointer_X() < 182 And
         Pointer_Y() >= 128 And Pointer_Y() < 164)
@@ -68,6 +72,10 @@ Public Sub Draw()
         Call Town.Overlay(Scene, True)
     Else
         Clear RGB(10, 18, 30)
+    End If
+
+    If Scene.Armory.Active Then
+        Return
     End If
 
     If Scene.Ready Then
