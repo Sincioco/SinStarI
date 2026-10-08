@@ -56,7 +56,9 @@ visibility, returning to the title and reopening the encounter.
 The Neris weapon shop is shared Studio behavior. `TownArmory` owns the visit,
 conversation, temporary outdoor-trail snapshot and demonstration purchases.
 `TownArmoryRoom` owns static room resources, bounded floor movement and camera;
-`TownArmoryPanel` owns the conversation overlay and `TownArmoryCatalog` owns stock.
+`TownArmoryPanel` owns unboxed conversation captions and compact stock controls;
+`TownArmoryCatalog` owns stock. Speaking keeps the 3D scene visible without a
+framed dialog; keyboard and pointer controls browse, buy and end the conversation.
 `NerisTownParty.Interior` keeps the existing actor presentation on the flat room
 floor with visible followers; outdoor defaults and navigation stay unchanged.
 The game host suppresses its Back action and map HUD while the shop consumes input.

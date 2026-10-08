@@ -135,7 +135,7 @@ If Found Then
 
     Ok = Armory.Input(Value.Armory, Value.People, KEY_E)
 
-    Call Check(Ok And Value.Armory.Menu, "Speaking opens greeting and menu")
+    Call Check(Ok And Value.Armory.Menu, "Speaking starts the in-scene conversation")
 
     For Frame = 0 To 59
         Call Town.Update(Value, 50)
@@ -156,9 +156,20 @@ If Found Then
     Head.Y = Head.Y + 19.0
     Projected = Camera.ProjectViewerPoint(Head, Room.Camera(Value.People.Path.Positions[0], Value.Armory.Zoom, True), Window_Width(), Window_Height())
 
-    ' Regression: the original viewport put Garran behind the weapon-list panel.
-    Call Check(Ok And Projected.Visible And Projected.X > 45.0 And Projected.X < ToDouble(B.MenuX - 25),
-        "Garran stays visible left of the weapon list")
+    ' Regression: Garran must remain visible above the unboxed conversation captions.
+    Call Check(Ok And Projected.Visible And Projected.X > 45.0 And Projected.X < ToDouble(Window_Width() - 45) And Projected.Y < ToDouble(B.Y - 25),
+        "Garran stays visible above the conversation captions")
+    Call Check(Panel.Hit(B, B.X + 10, B.ActionY) = Panel.PREVIOUS_ITEM, "Previous caption is clickable")
+    Call Check(Panel.Hit(B, B.X + B.ControlWidth + 10, B.ActionY) = Panel.NEXT_ITEM, "Next caption is clickable")
+    Call Check(Panel.Hit(B, B.X + B.ControlWidth * 2 + 10, B.ActionY) = Panel.BUY, "Buy caption is clickable")
+    Call Check(Panel.Hit(B, B.X + B.ControlWidth * 3 + 10, B.ActionY) = Panel.END_CONVERSATION, "End conversation caption is clickable")
+    Call Check(Panel.Hit(B, Window_Width() / 2, Window_Height() / 2) = -1, "Scene clicks do not purchase or end conversation")
+
+    Value.Armory.Selected = 0
+    Ok = Armory.Input(Value.Armory, Value.People, KEY_UP)
+    Call Check(Ok And Value.Armory.Selected = 5, "Previous weapon wraps to final item")
+    Ok = Armory.Input(Value.Armory, Value.People, KEY_DOWN)
+    Call Check(Ok And Value.Armory.Selected = 0, "Next weapon wraps to first item")
 
     For Index = 0 To 5
         Value.Armory.Selected = Index
