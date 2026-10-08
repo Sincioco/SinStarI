@@ -1,5 +1,5 @@
 const AUDIO_VERSION = '6c507e6916b72311';
-const SHELL_VERSION = '2a36ffb32717c11c';
+const SHELL_VERSION = '88d0cc42041b5f7c';
 const ROOT = new URL('./',self.location.href);
 const SCOPE = encodeURIComponent(ROOT.pathname);
 const AUDIO = 'sin-star-audio-'+SCOPE+'-'+AUDIO_VERSION;

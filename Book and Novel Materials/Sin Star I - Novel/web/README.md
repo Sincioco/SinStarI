@@ -13,11 +13,11 @@ leaving narration's yellow cue highlight and the manuscript DOM intact.
 Background music cycles Starforge Horizon (Title Screen), Starforge March (Orin),
 then Bloom (Arin). The bottom-right music-note button opens a dismissible modal panel. It keeps
 the original compact player height (178px desktop / 199px phone), with no extra
-control rows. Music starts at 3% with a slider limited to 0–10%, and retains the current edition’s volume/mute choice. The single-note icon has a 34×28px visual border,
+control rows. Music starts at 5% with a slider limited to 0–10%, and retains the current edition’s volume/mute choice. The single-note icon has a 34×28px visual border,
 matching A−/A+, inside its retained 44px touch area. The close button, Escape and
 focus return work with keyboard and touch. Enable music now confirms readiness
 while narration is paused, shows Music playing during playback, and clears mute
-or restores 3% from zero volume when explicitly pressed. One Web Audio context and GainNode play music independently
+or restores 5% from zero volume when explicitly pressed. One Web Audio context and GainNode play music independently
 of narration's media element. Playback gestures create/resume the context directly;
 Enable music retries after browser interruption. Narration pause, buffering, error,
 chapter source changes and ending stop music, preserving its current track/offset.

@@ -22,9 +22,9 @@ function setup(load=async track=>track.title,settings=null) {
  return {audio,get,contexts,music,playing(){audio.paused=false;audio.fire('playing');},pause(){audio.paused=true;audio.fire('pause');}};
 }
 async function test(name,fn){await fn();results.push({name,passed:true});}
-await test('No audio context until gesture; initial gain 3%',async()=>{
+await test('No audio context until gesture; initial gain 5%',async()=>{
  const s=setup();await s.music.ready;s.playing();await flush();assert.equal(s.contexts.length,0);
- s.music.gesture();await flush();assert.equal(s.contexts[0].gain.gain.value,.03);assert.equal(s.contexts[0].sources[0].buffer.title,'Horizon');
+ s.music.gesture();await flush();assert.equal(s.contexts[0].gain.gain.value,.05);assert.equal(s.contexts[0].sources[0].buffer.title,'Horizon');
 });
 await test('Current-schema volume is bounded and explicit mute is retained',async()=>{
  const s=setup(undefined,{volume:.31,muted:true});await s.music.ready;
@@ -32,7 +32,7 @@ await test('Current-schema volume is bounded and explicit mute is retained',asyn
  s.music.gesture();await flush();assert.equal(s.contexts[0].gain.gain.value,0);
 });
 await test('Current-schema preferences stay within the allowed range',async()=>{
- for(const [input,wanted] of [[.32,.10],[.08,.08],[.03,.03],[0,0],[-.5,0],[9,.10],[null,.03],['.08',.03]]){
+ for(const [input,wanted] of [[.32,.10],[.08,.08],[.03,.03],[0,0],[-.5,0],[9,.10],[null,.05],['.08',.05]]){
   const s=setup(undefined,{volume:input,muted:true});await s.music.ready;s.music.gesture();await flush();
   assert.equal(Number(s.get('music-volume').value),Math.round(wanted*100));assert.equal(s.get('music-mute')['aria-pressed'],'true');
  }
@@ -49,10 +49,10 @@ await test('Enable while paused confirms readiness without starting a source',as
  s.playing();await flush();assert.equal(s.get('music-enable').textContent,'Music playing');
  s.pause();assert.equal(s.get('music-enable').textContent,'Music enabled');assert.match(s.get('music-status').textContent,/press Play/);
 });
-await test('Enable clears mute and restores 3% when volume is zero',async()=>{
+await test('Enable clears mute and restores 5% when volume is zero',async()=>{
  const s=setup(undefined,{volume:0,muted:true});await s.music.ready;
  s.get('music-enable').fire('click');await flush();
- assert.equal(s.get('music-volume').value,'3');assert.equal(s.get('music-mute')['aria-pressed'],'false');assert.equal(s.contexts[0].gain.gain.value,.03);
+ assert.equal(s.get('music-volume').value,'5');assert.equal(s.get('music-mute')['aria-pressed'],'false');assert.equal(s.contexts[0].gain.gain.value,.05);
 });
 await test('Playlist advances Horizon → March → Bloom → Horizon without overlapping sources',async()=>{
  const s=setup();await s.music.ready;s.music.gesture();s.playing();await flush();const c=s.contexts[0];

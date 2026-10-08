@@ -1,9 +1,9 @@
 {
-  "utc": "2026-10-08T15:00:30.979Z",
+  "utc": "2026-10-08T15:33:42.587Z",
   "passed": 14,
   "results": [
     {
-      "name": "No audio context until gesture; initial gain 3%",
+      "name": "No audio context until gesture; initial gain 5%",
       "passed": true
     },
     {
@@ -23,7 +23,7 @@
       "passed": true
     },
     {
-      "name": "Enable clears mute and restores 3% when volume is zero",
+      "name": "Enable clears mute and restores 5% when volume is zero",
       "passed": true
     },
     {
