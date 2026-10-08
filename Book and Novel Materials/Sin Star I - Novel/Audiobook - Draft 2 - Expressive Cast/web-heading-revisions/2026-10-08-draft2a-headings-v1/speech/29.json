@@ -1,0 +1,35 @@
+{
+  "index": 29,
+  "chapterId": "ch-29",
+  "label": "Chapter Twenty-Nine",
+  "title": "The Patient World",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "29-heading.wav",
+  "samples": 98437,
+  "bodyStart": 4.101541666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.4849999999999999,
+  "titleStart": 2.035,
+  "titleEnd": 3.301541666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6902558905333254,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Nine",
+      "phonemes": "ʧˈæptəɹ twˈɛntinˌIn.",
+      "samples": 32760
+    },
+    {
+      "text": "The Patient World",
+      "phonemes": "ðə pˈAʃənt wˈɜɹld.",
+      "samples": 30397
+    }
+  ],
+  "sha256": "5fc57f480a73fd7e51a0a083001217481f24fe47f02fe10db5c65d418be30949"
+}

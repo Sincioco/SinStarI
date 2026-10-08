@@ -1,0 +1,55 @@
+{
+  "index": 36,
+  "chapterId": "ch-36",
+  "label": "Chapter Thirty-Six",
+  "title": "The One Comes Home",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/36 - Chapter Thirty-Six — The One Comes Home.mp3",
+  "samples": 99480,
+  "bodyStart": 4.152,
+  "labelStart": 0.12,
+  "labelEnd": 1.5300833333333332,
+  "titleStart": 2.0800833333333335,
+  "titleEnd": 3.345,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 2.025763143686042,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Six",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTisˌɪks.",
+      "samples": 33842
+    },
+    {
+      "text": "The One Comes Home",
+      "phonemes": "ðə wˈʌn kˈʌmz hˈOm.",
+      "samples": 30358
+    }
+  ],
+  "sha256": "cff2585ad314f71299711bfd6e13bd86d3c27174bdcca1eedb196638bddd2235",
+  "alignment_pad_seconds": 0.007,
+  "bytes": 2531334,
+  "duration_seconds": 632.6814583333334,
+  "lossless_duration_seconds": 632.6814583333334,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 632.681458,
+  "accepted_master_sha256": "1cec0d5d7b0802d3c8fee2cc4ce91944944955850385fd7e2d7f617ffa1fdd43",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "3079e0c99dccdad925d114c34084e357aa90ccafc93895963aaf61ff708eba7c",
+  "accepted_flac_sha256": "f6993801d34b64197430bc259e8287a2097ca743a51f98fc9f3da6d5887e7795",
+  "body_pcm_sha256": "9c80221635c5637924df86376b2fbf0f743846269b69fae61ca25bbeda062748",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9828424453735352,
+  "revised_body_correlation": 0.9828433394432068,
+  "revised_vs_accepted_mobile_correlation": 0.9999794363975525,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 36 - Chapter Thirty-Six — The One Comes Home",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

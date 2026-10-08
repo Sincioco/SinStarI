@@ -1,0 +1,35 @@
+{
+  "index": 33,
+  "chapterId": "ch-33",
+  "label": "Chapter Thirty-Three",
+  "title": "What He Still Wanted",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "33-heading.wav",
+  "samples": 100941,
+  "bodyStart": 4.205875,
+  "labelStart": 0.12,
+  "labelEnd": 1.4903333333333335,
+  "titleStart": 2.0403333333333338,
+  "titleEnd": 3.4058750000000004,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6763609818202343,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Three",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTiθɹˌi.",
+      "samples": 32888
+    },
+    {
+      "text": "What He Still Wanted",
+      "phonemes": "wˌʌt hˌi stˈɪl wˈɑntᵻd.",
+      "samples": 32773
+    }
+  ],
+  "sha256": "472c488e58c61dd3ee842167e31b6721c74280963d5dd00e041b4ff58614a44a"
+}

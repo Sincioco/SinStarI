@@ -1,0 +1,35 @@
+{
+  "index": 18,
+  "chapterId": "ch-18",
+  "label": "Chapter Eighteen",
+  "title": "The Survivor Who Would Not Thank Him",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "18-heading.wav",
+  "samples": 113025,
+  "bodyStart": 4.709375,
+  "labelStart": 0.12,
+  "labelEnd": 1.3391666666666668,
+  "titleStart": 1.8891666666666669,
+  "titleEnd": 3.909375,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7085816181549638,
+  "speech": [
+    {
+      "text": "Chapter Eighteen",
+      "phonemes": "ʧˈæptəɹ ˌAtˈin.",
+      "samples": 29260
+    },
+    {
+      "text": "The Survivor Who Would Not Thank Him",
+      "phonemes": "ðə səɹvˈIvəɹ hˌu wˌʊd nˌɑt θˈæŋk hˌɪm.",
+      "samples": 48485
+    }
+  ],
+  "sha256": "ddad92f0467dfdee49fb533e6cd11cb9efe6544e6cbcb447dc72aae5b1e192e5"
+}

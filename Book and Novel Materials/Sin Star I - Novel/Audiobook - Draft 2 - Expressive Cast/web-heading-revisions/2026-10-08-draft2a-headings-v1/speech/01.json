@@ -1,0 +1,35 @@
+{
+  "index": 1,
+  "chapterId": "ch-01",
+  "label": "Chapter One",
+  "title": "A Room for One",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "01-heading.wav",
+  "samples": 91555,
+  "bodyStart": 3.814791666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.1879166666666667,
+  "titleStart": 1.7379166666666668,
+  "titleEnd": 3.0147916666666665,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9975607684427081,
+  "speech": [
+    {
+      "text": "Chapter One",
+      "phonemes": "ʧˈæptəɹ wˈʌn.",
+      "samples": 25630
+    },
+    {
+      "text": "A Room for One",
+      "phonemes": "ɐ ɹˈum fɔɹ wˈʌn.",
+      "samples": 30645
+    }
+  ],
+  "sha256": "391b059a4cd889c6b6023295aa426a4593c6a19f5c5144cdc8d07201aab783b7"
+}

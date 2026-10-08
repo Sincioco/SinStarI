@@ -1,0 +1,35 @@
+{
+  "index": 16,
+  "chapterId": "ch-16",
+  "label": "Chapter Sixteen",
+  "title": "The Lesson He Had Not Asked For",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "16-heading.wav",
+  "samples": 115859,
+  "bodyStart": 4.827458333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.47375,
+  "titleStart": 2.0237499999999997,
+  "titleEnd": 4.027458333333334,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.444716330908357,
+  "speech": [
+    {
+      "text": "Chapter Sixteen",
+      "phonemes": "ʧˈæptəɹ sˌɪkstˈin.",
+      "samples": 32490
+    },
+    {
+      "text": "The Lesson He Had Not Asked For",
+      "phonemes": "ðə lˈɛsən hˌi hˌæd nˌɑt ˈæskt fˌɔɹ.",
+      "samples": 48089
+    }
+  ],
+  "sha256": "9b17e7788a5a9b840904db696207679cd847fa731871c785e581c872509aa8e1"
+}

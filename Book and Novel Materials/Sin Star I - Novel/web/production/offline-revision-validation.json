@@ -1,0 +1,11 @@
+{
+  "passed": 6,
+  "checks": [
+    "Fresh revision starts with no downloaded chapters",
+    "Obsolete reader audio cache removed",
+    "Unrelated cache preserved",
+    "Old source never returned for revised URL",
+    "Verified revised chapter is counted and playable",
+    "Explicit removal clears revised saved status"
+  ]
+}

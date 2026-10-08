@@ -1,0 +1,35 @@
+{
+  "index": 15,
+  "chapterId": "ch-15",
+  "label": "Chapter Fifteen",
+  "title": "Before the Storm",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "15-heading.wav",
+  "samples": 95802,
+  "bodyStart": 3.99175,
+  "labelStart": 0.12,
+  "labelEnd": 1.3965416666666668,
+  "titleStart": 1.9465416666666668,
+  "titleEnd": 3.19175,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.4909145174998866,
+  "speech": [
+    {
+      "text": "Chapter Fifteen",
+      "phonemes": "ʧˈæptəɹ fˌɪftˈin.",
+      "samples": 30637
+    },
+    {
+      "text": "Before the Storm",
+      "phonemes": "bəfˈɔɹ ðə stˈɔɹm.",
+      "samples": 29885
+    }
+  ],
+  "sha256": "02558ebbc80a2c7a998fbc0cb4179bcbdf949234688e66cc6537904cfc0093b2"
+}

@@ -1,0 +1,21 @@
+{
+  "passed": 4,
+  "results": [
+    {
+      "name": "Every section has separate timed headings before all body cues",
+      "passed": true
+    },
+    {
+      "name": "Current bookmarks resolve both heading and body cue times",
+      "passed": true
+    },
+    {
+      "name": "Heading revision preserves title introduction and has no migration metadata",
+      "passed": true
+    },
+    {
+      "name": "Fresh bookmark and music stores have explicit new identities",
+      "passed": true
+    }
+  ]
+}

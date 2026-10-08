@@ -1,0 +1,35 @@
+{
+  "index": 4,
+  "chapterId": "ch-04",
+  "label": "Chapter Four",
+  "title": "The Woman in the Channel",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "04-heading.wav",
+  "samples": 96396,
+  "bodyStart": 4.0165,
+  "labelStart": 0.12,
+  "labelEnd": 1.2224166666666667,
+  "titleStart": 1.7724166666666668,
+  "titleEnd": 3.2165,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7970457792333716,
+  "speech": [
+    {
+      "text": "Chapter Four",
+      "phonemes": "ʧˈæptəɹ fˈɔɹ.",
+      "samples": 26458
+    },
+    {
+      "text": "The Woman in the Channel",
+      "phonemes": "ðə wˈʊmən ɪn ðə ʧˈænᵊl.",
+      "samples": 34658
+    }
+  ],
+  "sha256": "e2f665698b87652947b4557375aa013c1f376639592c14f638e6c143b0f30209"
+}

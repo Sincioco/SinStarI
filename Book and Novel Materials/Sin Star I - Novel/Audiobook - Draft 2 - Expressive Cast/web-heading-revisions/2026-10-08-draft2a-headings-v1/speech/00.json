@@ -1,0 +1,35 @@
+{
+  "index": 0,
+  "chapterId": "ch-00",
+  "label": "Prologue",
+  "title": "The World He Ended",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "00-heading.wav",
+  "samples": 89926,
+  "bodyStart": 3.7469166666666665,
+  "labelStart": 0.12,
+  "labelEnd": 0.9976666666666667,
+  "titleStart": 1.5476666666666667,
+  "titleEnd": 2.9469166666666666,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9701532072167594,
+  "speech": [
+    {
+      "text": "Prologue",
+      "phonemes": "pɹˈOlˌɔɡ.",
+      "samples": 21064
+    },
+    {
+      "text": "The World He Ended",
+      "phonemes": "ðə wˈɜɹld hˌi ˈɛndᵻd.",
+      "samples": 33582
+    }
+  ],
+  "sha256": "150e58cda2eb6193ab8083f77dbba0305801e1c244b68600de6b73bc9c369c86"
+}

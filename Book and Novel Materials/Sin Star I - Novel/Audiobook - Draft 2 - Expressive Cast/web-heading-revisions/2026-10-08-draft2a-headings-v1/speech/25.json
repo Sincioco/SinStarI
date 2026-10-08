@@ -1,0 +1,35 @@
+{
+  "index": 25,
+  "chapterId": "ch-25",
+  "label": "Chapter Twenty-Five",
+  "title": "The Other End of the Road",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "25-heading.wav",
+  "samples": 107779,
+  "bodyStart": 4.4907916666666665,
+  "labelStart": 0.12,
+  "labelEnd": 1.5547083333333331,
+  "titleStart": 2.104708333333333,
+  "titleEnd": 3.6907916666666662,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.4522777880075612,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Five",
+      "phonemes": "ʧˈæptəɹ twˈɛntifˌIv.",
+      "samples": 34433
+    },
+    {
+      "text": "The Other End of the Road",
+      "phonemes": "ði ˈʌðəɹ ˈɛnd ʌv ðə ɹˈOd.",
+      "samples": 38066
+    }
+  ],
+  "sha256": "0e52c0bc91a3d24c6fec2dae35252459af4cfdcaca3a1f182df23ea77fb56a05"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 32,
+  "chapterId": "ch-32",
+  "label": "Chapter Thirty-Two",
+  "title": "Asking Them to Come",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/32 - Chapter Thirty-Two — Asking Them to Come.mp3",
+  "samples": 104345,
+  "bodyStart": 4.368,
+  "labelStart": 0.12,
+  "labelEnd": 1.4836666666666667,
+  "titleStart": 2.033666666666667,
+  "titleEnd": 3.5477083333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.710185289176655,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Two",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTitˌu.",
+      "samples": 32728
+    },
+    {
+      "text": "Asking Them to Come",
+      "phonemes": "ˈæskɪŋ ðˌɛm tə kˈʌm.",
+      "samples": 36337
+    }
+  ],
+  "sha256": "9d8c721a05a679a36f63482e71f0edea828bd94a8d9eb400e9591f994401d83a",
+  "alignment_pad_seconds": 0.020291666666666666,
+  "bytes": 1529095,
+  "duration_seconds": 382.10795833333333,
+  "lossless_duration_seconds": 382.10795833333333,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 382.107958,
+  "accepted_master_sha256": "8c04cb697e9d624582078b2605ee5941bceb961ee494b107c4787313cb63c7b6",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "7823ab046f666e6741391e29f310b82034cffc87eefda760f427aa04aa7fc0d9",
+  "accepted_flac_sha256": "77d7402fb512fe9a04d614545704c8be6a972f616fcabc56076e43218c22417f",
+  "body_pcm_sha256": "3b368a919a5f110b04dd8ea77620166c9756e3368632e92937d0a0bd8577fd3e",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.985898494720459,
+  "revised_body_correlation": 0.9858981966972351,
+  "revised_vs_accepted_mobile_correlation": 0.9999982714653015,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 32 - Chapter Thirty-Two — Asking Them to Come",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "index": 6,
+  "chapterId": "ch-06",
+  "label": "Chapter Six",
+  "title": "The Chamber That Answered",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "06-heading.wav",
+  "samples": 99694,
+  "bodyStart": 4.1539166666666665,
+  "labelStart": 0.12,
+  "labelEnd": 1.2278333333333333,
+  "titleStart": 1.7778333333333334,
+  "titleEnd": 3.3539166666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7091230772122497,
+  "speech": [
+    {
+      "text": "Chapter Six",
+      "phonemes": "ʧˈæptəɹ sˈɪks.",
+      "samples": 26588
+    },
+    {
+      "text": "The Chamber That Answered",
+      "phonemes": "ðə ʧˈAmbəɹ ðˈæt ˈænsəɹd.",
+      "samples": 37826
+    }
+  ],
+  "sha256": "790e4400264fd57b1eeeb4455c5069eece7b7838549f726b7c054478151a8b12"
+}

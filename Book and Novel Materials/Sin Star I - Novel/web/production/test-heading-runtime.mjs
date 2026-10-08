@@ -1,0 +1,10 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const web=new URL('../',import.meta.url),book=JSON.parse(fs.readFileSync(new URL('book.json',web),'utf8'));
+const load=async name=>import('data:text/javascript;base64,'+Buffer.from(fs.readFileSync(new URL(name,web),'utf8')).toString('base64'));
+const {resolveBookmarkCue}=await load('bookmark-anchors.js');
+const results=[],test=(name,fn)=>{fn();results.push({name,passed:true});};
+test('Every section has separate timed headings before all body cues',()=>{for(const c of book.chapters.slice(1)){assert.equal(c.cues.filter(x=>x.kind==='heading').length,2);assert.ok(c.cues[0].end<c.cues[1].start);assert.ok(c.cues[1].end<c.bodyStart);assert.equal(c.cues[2].start,c.bodyStart);assert.ok(c.cues.at(-1).end<=c.duration+.03);assert.match(c.audio,/-headings-v1\.mp3$/);}});
+test('Current bookmarks resolve both heading and body cue times',()=>{for(const chapter of book.chapters.slice(1)){for(const c of chapter.cues.slice(0,3)){assert.equal(resolveBookmarkCue({cueId:c.id,cueHash:c.textHash},[{...c,valid:true}]).start,c.start);}}});
+test('Heading revision preserves title introduction and has no migration metadata',()=>{assert.equal(book.audioRevision,'web-heading-prefix-v1');assert.equal(book.chapters[0].cues.length,0);assert.equal(book.resumeMigrations,undefined);});
+test('Fresh bookmark and music stores have explicit new identities',()=>{assert.match(fs.readFileSync(new URL('bookmarks.js',web),'utf8'),/sin-star-book-one-bookmarks-v2/);assert.match(fs.readFileSync(new URL('music.js',web),'utf8'),/sin-star-music-settings-v2/);assert.equal(fs.existsSync(new URL('resume-position.js',web)),false);});
+fs.writeFileSync(new URL('heading-runtime-validation.json',import.meta.url),JSON.stringify({passed:results.length,results},null,2));console.log(JSON.stringify({passed:results.length,results}));

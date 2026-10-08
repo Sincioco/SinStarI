@@ -1,13 +1,21 @@
 {
-  "utc": "2026-10-08T12:21:47.854Z",
-  "passed": 12,
+  "utc": "2026-10-08T15:00:30.979Z",
+  "passed": 14,
   "results": [
     {
-      "name": "No audio context until gesture; initial gain 8%",
+      "name": "No audio context until gesture; initial gain 3%",
       "passed": true
     },
     {
-      "name": "An existing user volume/mute preference survives the new default",
+      "name": "Current-schema volume is bounded and explicit mute is retained",
+      "passed": true
+    },
+    {
+      "name": "Current-schema preferences stay within the allowed range",
+      "passed": true
+    },
+    {
+      "name": "Volume input remains within zero to ten percent",
       "passed": true
     },
     {
@@ -15,7 +23,7 @@
       "passed": true
     },
     {
-      "name": "Enable clears mute and restores 8% when volume is zero",
+      "name": "Enable clears mute and restores 3% when volume is zero",
       "passed": true
     },
     {

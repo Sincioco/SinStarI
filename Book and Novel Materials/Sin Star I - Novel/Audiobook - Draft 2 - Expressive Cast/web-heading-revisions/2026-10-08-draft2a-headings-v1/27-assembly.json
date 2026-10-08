@@ -1,0 +1,55 @@
+{
+  "index": 27,
+  "chapterId": "ch-27",
+  "label": "Chapter Twenty-Seven",
+  "title": "The Beneficiaries",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/27 - Chapter Twenty-Seven — The Beneficiaries.mp3",
+  "samples": 103139,
+  "bodyStart": 4.32,
+  "labelStart": 0.12,
+  "labelEnd": 1.5408333333333335,
+  "titleStart": 2.0908333333333333,
+  "titleEnd": 3.4974583333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8050947371315686,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Seven",
+      "phonemes": "ʧˈæptəɹ twˈɛntisˌɛvən.",
+      "samples": 34100
+    },
+    {
+      "text": "The Beneficiaries",
+      "phonemes": "ðə bˌɛnəfˈɪʃiˌɛɹiz.",
+      "samples": 33759
+    }
+  ],
+  "sha256": "210cbbdd72b682c427b61efebc53785beb1d936693df07cfac1c01601d84e91d",
+  "alignment_pad_seconds": 0.022541666666666668,
+  "bytes": 1658311,
+  "duration_seconds": 414.4107916666667,
+  "lossless_duration_seconds": 414.4107916666667,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 414.410792,
+  "accepted_master_sha256": "52eccd4e7483a4aa7dbf8f66ed814b60722ab493219ac8facf35eb5fdd127521",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "b649a8d7af919be8d591304b98b2a786c180eeb490092c7a7f3a73ddab6d8591",
+  "accepted_flac_sha256": "c3ceaf3ee82312c48b2230b6cc8fe8b6ef83ad4d8511b8374a294b5f02c78dfa",
+  "body_pcm_sha256": "9904e44df81a23f4f5b366dae0047dd74aaa7a41ef9e79f389bd2ccadb8f15fe",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9834667444229126,
+  "revised_body_correlation": 0.9834660291671753,
+  "revised_vs_accepted_mobile_correlation": 0.9999920129776001,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 27 - Chapter Twenty-Seven — The Beneficiaries",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

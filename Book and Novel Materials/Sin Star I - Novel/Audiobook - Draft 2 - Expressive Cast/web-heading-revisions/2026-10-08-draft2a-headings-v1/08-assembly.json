@@ -1,0 +1,53 @@
+{
+  "index": 8,
+  "chapterId": "ch-08",
+  "label": "Chapter Eight",
+  "title": "A Place for Hope",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/08 - Chapter Eight — A Place for Hope.mp3",
+  "samples": 91754,
+  "bodyStart": 3.84,
+  "labelStart": 0.12,
+  "labelEnd": 1.2094583333333335,
+  "titleStart": 1.7594583333333336,
+  "titleEnd": 3.0230833333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7301906108609775,
+  "speech": [
+    {
+      "text": "Chapter Eight",
+      "phonemes": "ʧˈæptəɹ ˈAt.",
+      "samples": 26147
+    },
+    {
+      "text": "A Place for Hope",
+      "phonemes": "ɐ plˈAs fɔɹ hˈOp.",
+      "samples": 30327
+    }
+  ],
+  "sha256": "5ace76a7a0d029fa1b61987752658607a362b8e0e572e5ea6d50a3e7cb91ac82",
+  "alignment_pad_seconds": 0.016916666666666667,
+  "bytes": 1750175,
+  "duration_seconds": 437.39,
+  "encoded_duration_seconds": 437.39,
+  "accepted_master_sha256": "ca024844809da21782ce5268d927cbc7e975e4996c84310b2f90272acb29ae47",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "088509ca84e05973e745b50adc63794e65af46c27757124313989353e5f840ee",
+  "accepted_flac_sha256": "a5332618dd84ad974a54acb31fea4fe22bf8ee556a3ba75ea6269d3d077afeda",
+  "body_pcm_sha256": "9b157428820b67c3b4d0c3eb94a7243a82590f981238c68baa54b00326fecf71",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9844257831573486,
+  "revised_body_correlation": 0.984420895576477,
+  "revised_vs_accepted_mobile_correlation": 0.9999823570251465,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 08 - Chapter Eight — A Place for Hope",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

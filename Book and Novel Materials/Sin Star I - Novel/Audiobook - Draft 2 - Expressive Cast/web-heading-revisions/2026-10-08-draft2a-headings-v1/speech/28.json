@@ -1,0 +1,35 @@
+{
+  "index": 28,
+  "chapterId": "ch-28",
+  "label": "Chapter Twenty-Eight",
+  "title": "Earth in the Afternoon",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "28-heading.wav",
+  "samples": 105473,
+  "bodyStart": 4.394708333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.4260833333333331,
+  "titleStart": 1.9760833333333332,
+  "titleEnd": 3.594708333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.620477615945583,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Eight",
+      "phonemes": "ʧˈæptəɹ twˈɛntiˌAt.",
+      "samples": 31346
+    },
+    {
+      "text": "Earth in the Afternoon",
+      "phonemes": "ˈɜɹθ ɪn ði ˌæftəɹnˈun.",
+      "samples": 38847
+    }
+  ],
+  "sha256": "d7cd587a489e4d0e2ed8eb32fa0094bb73fb2b905cf5c7a8424b6d244697d83f"
+}

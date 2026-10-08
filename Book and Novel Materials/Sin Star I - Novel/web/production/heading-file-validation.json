@@ -1,0 +1,14 @@
+{
+  "chapters": 42,
+  "body_cues_preserved_and_shifted": 3048,
+  "heading_cues": 84,
+  "title_audio_and_cues_unchanged": true,
+  "accepted_master_essence_reproduced": 42,
+  "body_pcm_preserved": 42,
+  "minimum_mobile_body_correlation": 0.99993896484375,
+  "cache_before": "fbd157d67b266088",
+  "cache_after": "6c507e6916b72311",
+  "added_seconds": 176.352,
+  "repeatable_build": true,
+  "original_masters_modified": false
+}

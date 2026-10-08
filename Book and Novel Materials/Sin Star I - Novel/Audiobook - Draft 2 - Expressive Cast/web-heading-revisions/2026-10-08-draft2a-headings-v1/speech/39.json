@@ -1,0 +1,35 @@
+{
+  "index": 39,
+  "chapterId": "ch-39",
+  "label": "Chapter Thirty-Nine",
+  "title": "The World That Remained",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "39-heading.wav",
+  "samples": 104372,
+  "bodyStart": 4.348833333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.4619166666666668,
+  "titleStart": 2.011916666666667,
+  "titleEnd": 3.5488333333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6952012815774138,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Nine",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTinˌIn.",
+      "samples": 32206
+    },
+    {
+      "text": "The World That Remained",
+      "phonemes": "ðə wˈɜɹld ðˌæt ɹəmˈAnd.",
+      "samples": 36886
+    }
+  ],
+  "sha256": "013e64f118e9d8723004622a6299b95d6d31a9cc270bd13628c3e937f06b2e11"
+}

@@ -1,0 +1,35 @@
+{
+  "index": 27,
+  "chapterId": "ch-27",
+  "label": "Chapter Twenty-Seven",
+  "title": "The Beneficiaries",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "27-heading.wav",
+  "samples": 103139,
+  "bodyStart": 4.297458333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.5408333333333335,
+  "titleStart": 2.0908333333333333,
+  "titleEnd": 3.4974583333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8050947371315686,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Seven",
+      "phonemes": "ʧˈæptəɹ twˈɛntisˌɛvən.",
+      "samples": 34100
+    },
+    {
+      "text": "The Beneficiaries",
+      "phonemes": "ðə bˌɛnəfˈɪʃiˌɛɹiz.",
+      "samples": 33759
+    }
+  ],
+  "sha256": "ac1ae42bffdcbd00659dd5c71189a0a28104fc1556ed7f891ef2d106bf9d84f6"
+}

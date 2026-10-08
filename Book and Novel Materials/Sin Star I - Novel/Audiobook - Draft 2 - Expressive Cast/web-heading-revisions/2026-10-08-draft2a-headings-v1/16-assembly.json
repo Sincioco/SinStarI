@@ -1,0 +1,55 @@
+{
+  "index": 16,
+  "chapterId": "ch-16",
+  "label": "Chapter Sixteen",
+  "title": "The Lesson He Had Not Asked For",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/16 - Chapter Sixteen — The Lesson He Had Not Asked For.mp3",
+  "samples": 115859,
+  "bodyStart": 4.848,
+  "labelStart": 0.12,
+  "labelEnd": 1.47375,
+  "titleStart": 2.0237499999999997,
+  "titleEnd": 4.027458333333334,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.444716330908357,
+  "speech": [
+    {
+      "text": "Chapter Sixteen",
+      "phonemes": "ʧˈæptəɹ sˌɪkstˈin.",
+      "samples": 32490
+    },
+    {
+      "text": "The Lesson He Had Not Asked For",
+      "phonemes": "ðə lˈɛsən hˌi hˌæd nˌɑt ˈæskt fˌɔɹ.",
+      "samples": 48089
+    }
+  ],
+  "sha256": "e7df9c2e5460bbc0431131260a5f7350d2b4c607623c6169742e733929e609bd",
+  "alignment_pad_seconds": 0.020541666666666666,
+  "bytes": 1574128,
+  "duration_seconds": 393.36858333333333,
+  "lossless_duration_seconds": 393.36858333333333,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 393.368583,
+  "accepted_master_sha256": "3a9e96e73c541fa9b0b50964196d2eea06a6ae87fec958a217fa0b2232a1c6ea",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "b6b2a9fb4c80768a6c7346eab6c96a4a88f0deb61e1154c95ae9dc4dc4f1151f",
+  "accepted_flac_sha256": "c4ddf2b6a29c38d2813c3e4e74e5becc17c59ff9883986f68cc99e3f55c89d3a",
+  "body_pcm_sha256": "efb0230589bc3790df4f81cb35647a80484fe10ed2c283e5e10acf9e9f3c875c",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9831352829933167,
+  "revised_body_correlation": 0.9831347465515137,
+  "revised_vs_accepted_mobile_correlation": 0.999986469745636,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 16 - Chapter Sixteen — The Lesson He Had Not Asked For",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

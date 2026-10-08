@@ -1,0 +1,53 @@
+{
+  "index": 11,
+  "chapterId": "ch-11",
+  "label": "Chapter Eleven",
+  "title": "No Ownership Claim",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/11 - Chapter Eleven — No Ownership Claim.mp3",
+  "samples": 97844,
+  "bodyStart": 4.08,
+  "labelStart": 0.12,
+  "labelEnd": 1.3044583333333333,
+  "titleStart": 1.8544583333333333,
+  "titleEnd": 3.2768333333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9253070450776837,
+  "speech": [
+    {
+      "text": "Chapter Eleven",
+      "phonemes": "ʧˈæptəɹ əlˈɛvᵊn.",
+      "samples": 28427
+    },
+    {
+      "text": "No Ownership Claim",
+      "phonemes": "nˈO ˈOnəɹʃˌɪp klˈAm.",
+      "samples": 34137
+    }
+  ],
+  "sha256": "ede4b2ba98a46c8ff4a0aca7272b46d81101996ac36de5ede34c48db47050559",
+  "alignment_pad_seconds": 0.0031666666666666666,
+  "bytes": 1693346,
+  "duration_seconds": 423.185125,
+  "encoded_duration_seconds": 423.185125,
+  "accepted_master_sha256": "ef6e860dc807df60434bb08400658255d9c89a8705406ed00b2110a9744f8f7f",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "257536f1c4797aae843c35c841739868e632154a71cd62c0bc64f443d594e1ec",
+  "accepted_flac_sha256": "c4513d23ef0864a0a6ebca3e00b0aed5c10960eb839a2004f120f5f602e8e7dc",
+  "body_pcm_sha256": "9ea2a7f8c9dd140d82e19833abba20e8a715ba3b0492d63ee091b00050f2b117",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9855865836143494,
+  "revised_body_correlation": 0.9855870008468628,
+  "revised_vs_accepted_mobile_correlation": 0.9999920725822449,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 11 - Chapter Eleven — No Ownership Claim",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

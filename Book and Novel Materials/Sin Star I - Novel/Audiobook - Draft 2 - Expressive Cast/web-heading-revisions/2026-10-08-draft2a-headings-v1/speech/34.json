@@ -1,0 +1,35 @@
+{
+  "index": 34,
+  "chapterId": "ch-34",
+  "label": "Chapter Thirty-Four",
+  "title": "A Clock to Come Home To",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "34-heading.wav",
+  "samples": 107342,
+  "bodyStart": 4.472583333333334,
+  "labelStart": 0.12,
+  "labelEnd": 1.4992916666666667,
+  "titleStart": 2.049291666666667,
+  "titleEnd": 3.6725833333333338,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.615295906050962,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Four",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTifˌɔɹ.",
+      "samples": 33103
+    },
+    {
+      "text": "A Clock to Come Home To",
+      "phonemes": "ɐ klˈɑk tə kˈʌm hˈOm tu.",
+      "samples": 38959
+    }
+  ],
+  "sha256": "6fdb96b3a9c2951d9bddae4c4ec805dac2630d3f280877ab5903a87ee3eb3577"
+}

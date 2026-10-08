@@ -1,0 +1,35 @@
+{
+  "index": 32,
+  "chapterId": "ch-32",
+  "label": "Chapter Thirty-Two",
+  "title": "Asking Them to Come",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "32-heading.wav",
+  "samples": 104345,
+  "bodyStart": 4.347708333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.4836666666666667,
+  "titleStart": 2.033666666666667,
+  "titleEnd": 3.5477083333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.710185289176655,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Two",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTitˌu.",
+      "samples": 32728
+    },
+    {
+      "text": "Asking Them to Come",
+      "phonemes": "ˈæskɪŋ ðˌɛm tə kˈʌm.",
+      "samples": 36337
+    }
+  ],
+  "sha256": "277fd6169a3b5e2947ee0210347b288c0f38ef3eb3b3958fd6bf4e816ec133d8"
+}

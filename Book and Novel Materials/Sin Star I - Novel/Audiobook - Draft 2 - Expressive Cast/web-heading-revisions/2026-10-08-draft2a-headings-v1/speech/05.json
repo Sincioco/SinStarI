@@ -1,0 +1,35 @@
+{
+  "index": 5,
+  "chapterId": "ch-05",
+  "label": "Chapter Five",
+  "title": "The Names of Rain",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "05-heading.wav",
+  "samples": 95752,
+  "bodyStart": 3.9896666666666665,
+  "labelStart": 0.12,
+  "labelEnd": 1.2837083333333332,
+  "titleStart": 1.8337083333333333,
+  "titleEnd": 3.1896666666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6006774079356707,
+  "speech": [
+    {
+      "text": "Chapter Five",
+      "phonemes": "ʧˈæptəɹ fˈIv.",
+      "samples": 27929
+    },
+    {
+      "text": "The Names of Rain",
+      "phonemes": "ðə nˈAmz ʌv ɹˈAn.",
+      "samples": 32543
+    }
+  ],
+  "sha256": "1c9d2ea0ac6b2beb14f10b589e9364a8ff222ada5a366a01f257c49fc602be5e"
+}

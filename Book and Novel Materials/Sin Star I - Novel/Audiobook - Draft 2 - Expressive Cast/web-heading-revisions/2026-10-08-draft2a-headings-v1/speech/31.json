@@ -1,0 +1,35 @@
+{
+  "index": 31,
+  "chapterId": "ch-31",
+  "label": "Chapter Thirty-One",
+  "title": "The Record Released",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "31-heading.wav",
+  "samples": 99944,
+  "bodyStart": 4.164333333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.4710416666666668,
+  "titleStart": 2.021041666666667,
+  "titleEnd": 3.3643333333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7484713803865284,
+  "speech": [
+    {
+      "text": "Chapter Thirty-One",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTiwˌʌn.",
+      "samples": 32425
+    },
+    {
+      "text": "The Record Released",
+      "phonemes": "ðə ɹˈɛkəɹd ɹəlˈist.",
+      "samples": 32239
+    }
+  ],
+  "sha256": "61cfb60b7857331f1e1f1187eb11b964c43de2d6fa0555d84866e7e28532ebab"
+}

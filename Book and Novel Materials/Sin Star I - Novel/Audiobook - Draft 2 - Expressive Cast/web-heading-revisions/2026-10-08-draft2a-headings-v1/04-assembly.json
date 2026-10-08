@@ -1,0 +1,53 @@
+{
+  "index": 4,
+  "chapterId": "ch-04",
+  "label": "Chapter Four",
+  "title": "The Woman in the Channel",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/04 - Chapter Four — The Woman in the Channel.mp3",
+  "samples": 96396,
+  "bodyStart": 4.032,
+  "labelStart": 0.12,
+  "labelEnd": 1.2224166666666667,
+  "titleStart": 1.7724166666666668,
+  "titleEnd": 3.2165,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7970457792333716,
+  "speech": [
+    {
+      "text": "Chapter Four",
+      "phonemes": "ʧˈæptəɹ fˈɔɹ.",
+      "samples": 26458
+    },
+    {
+      "text": "The Woman in the Channel",
+      "phonemes": "ðə wˈʊmən ɪn ðə ʧˈænᵊl.",
+      "samples": 34658
+    }
+  ],
+  "sha256": "f8aa82a7aed6c14fec216dd6cbe250e0c27de07830d58549a945039704325c7b",
+  "alignment_pad_seconds": 0.0155,
+  "bytes": 1617894,
+  "duration_seconds": 404.310125,
+  "encoded_duration_seconds": 404.310125,
+  "accepted_master_sha256": "1c97aa11572ac5da86eddb80b8c036a5997ce04e10b7708df2670e4a3a07a73f",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "43c2b4c0f8b44d73e0416806a4d176d56e3b147af7bc1c3c9345f867527436bb",
+  "accepted_flac_sha256": "fde464fc2eec65951bf513ce13036b32b01b207783ccdddf28435e46c4c51854",
+  "body_pcm_sha256": "c6831abd217d8466ff3c92a79fd894fcaf99e4ed901cf3e6977c9959956530cf",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9852233529090881,
+  "revised_body_correlation": 0.9852258563041687,
+  "revised_vs_accepted_mobile_correlation": 0.9999823570251465,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 04 - Chapter Four — The Woman in the Channel",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

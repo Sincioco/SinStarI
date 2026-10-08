@@ -1,0 +1,35 @@
+{
+  "index": 9,
+  "chapterId": "ch-09",
+  "label": "Chapter Nine",
+  "title": "The Last Lift",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "09-heading.wav",
+  "samples": 90582,
+  "bodyStart": 3.77425,
+  "labelStart": 0.12,
+  "labelEnd": 1.2439583333333335,
+  "titleStart": 1.7939583333333335,
+  "titleEnd": 2.9742500000000005,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8945235143565922,
+  "speech": [
+    {
+      "text": "Chapter Nine",
+      "phonemes": "ʧˈæptəɹ nˈIn.",
+      "samples": 26975
+    },
+    {
+      "text": "The Last Lift",
+      "phonemes": "ðə lˈæst lˈɪft.",
+      "samples": 28327
+    }
+  ],
+  "sha256": "361ed0291ddc43103cc18e125a0e84bab42494daf145ca4cb48b31eb943ba47e"
+}

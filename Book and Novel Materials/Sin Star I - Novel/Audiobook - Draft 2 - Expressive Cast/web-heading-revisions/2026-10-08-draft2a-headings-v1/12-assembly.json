@@ -1,0 +1,53 @@
+{
+  "index": 12,
+  "chapterId": "ch-12",
+  "label": "Chapter Twelve",
+  "title": "The Way Home Smelled",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/12 - Chapter Twelve — The Way Home Smelled.mp3",
+  "samples": 96437,
+  "bodyStart": 4.032,
+  "labelStart": 0.12,
+  "labelEnd": 1.3322083333333334,
+  "titleStart": 1.8822083333333335,
+  "titleEnd": 3.2182083333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8510990581372477,
+  "speech": [
+    {
+      "text": "Chapter Twelve",
+      "phonemes": "ʧˈæptəɹ twˈɛlv.",
+      "samples": 29093
+    },
+    {
+      "text": "The Way Home Smelled",
+      "phonemes": "ðə wˈA hˈOm smˈɛld.",
+      "samples": 32064
+    }
+  ],
+  "sha256": "32779aff318fc81b4379ab0fbca4a373af0c84eac6313bd0924aba390e87dcc0",
+  "alignment_pad_seconds": 0.013791666666666667,
+  "bytes": 1582180,
+  "duration_seconds": 395.39529166666665,
+  "encoded_duration_seconds": 395.395292,
+  "accepted_master_sha256": "18cf5723ec54dc0c6e4136f834909853b65ce37f72aafc65a927c296f6fad749",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "d69be4a099f25e12ad735fffabdb1371393576a7ec13476d58df31113a4ebc96",
+  "accepted_flac_sha256": "66b30dd4c597a9a206154b3adb78c6a188448ab1190fe5d449554655315632a1",
+  "body_pcm_sha256": "97c5892253faa12826a0b0537c4a9a0a2a3ce0458ca0add5bc8286dbe763e9ba",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9846545457839966,
+  "revised_body_correlation": 0.9846542477607727,
+  "revised_vs_accepted_mobile_correlation": 0.9999882578849792,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 12 - Chapter Twelve — The Way Home Smelled",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

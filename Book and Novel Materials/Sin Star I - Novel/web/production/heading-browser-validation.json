@@ -1,0 +1,21 @@
+{
+  "browser": "Desktop Chrome through supported browser controls",
+  "revision": "6c507e6916b72311",
+  "localOrigin": "http://127.0.0.1:8898/",
+  "quickBookmarkFixture": {"passed": 14, "covers": ["formatted spans", "manual selection priority", "frozen pointer cue", "frozen keyboard cue", "held Space and selection race", "literal HTML notes", "edit and delete", "heading anchor", "paused and stale cue rejection", "chapter transition rejection"]},
+  "actualReaderChecks": [
+    "Current spoken Prologue body passage captured and saved with note",
+    "Bookmark retained after reload and visible from Chapter One",
+    "Open and listen returned to Prologue at 26.78 seconds with matching yellow cue",
+    "Fresh music settings display 3 percent; End key stops slider at 10 percent",
+    "Phone viewport 390 by 844: document width 375, player height 199, music panel fits",
+    "End-of-Prologue seek automatically advanced into Chapter One at zero",
+    "Revised Chapter One explicitly downloaded and reported one of 43 saved",
+    "Preview server stopped; cached reader reloaded and played saved chapter Blob",
+    "Offline heading at 0.23 seconds highlighted Chapter One",
+    "Unavailable uncached music showed Retry music while narration continued",
+    "Follow narration remained checked"
+  ],
+  "physicalIPhoneTested": false,
+  "subjectiveListeningApproved": false
+}

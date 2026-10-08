@@ -1,0 +1,35 @@
+{
+  "index": 19,
+  "chapterId": "ch-19",
+  "label": "Chapter Nineteen",
+  "title": "The Name on the Record",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "19-heading.wav",
+  "samples": 101383,
+  "bodyStart": 4.224291666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.3880416666666666,
+  "titleStart": 1.9380416666666667,
+  "titleEnd": 3.424291666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6630344297481094,
+  "speech": [
+    {
+      "text": "Chapter Nineteen",
+      "phonemes": "ʧˈæptəɹ nˌIntˈin.",
+      "samples": 30433
+    },
+    {
+      "text": "The Name on the Record",
+      "phonemes": "ðə nˈAm ˌɔn ðə ɹˈɛkəɹd.",
+      "samples": 35670
+    }
+  ],
+  "sha256": "9411eba0e1cd04aa22ffd0bd637bc2c6574315a4327c790fa0499dbf1d3da1e5"
+}

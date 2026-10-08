@@ -1,0 +1,55 @@
+{
+  "index": 40,
+  "chapterId": "ch-40",
+  "label": "Chapter Forty",
+  "title": "What Surviving Required",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/40 - Chapter Forty — What Surviving Required.mp3",
+  "samples": 104825,
+  "bodyStart": 4.368,
+  "labelStart": 0.12,
+  "labelEnd": 1.29,
+  "titleStart": 1.84,
+  "titleEnd": 3.5677083333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6459472516607454,
+  "speech": [
+    {
+      "text": "Chapter Forty",
+      "phonemes": "ʧˈæptəɹ fˈɔɹTi.",
+      "samples": 28080
+    },
+    {
+      "text": "What Surviving Required",
+      "phonemes": "wˌʌt səɹvˈIvɪŋ ɹəkwˈIəɹd.",
+      "samples": 41465
+    }
+  ],
+  "sha256": "05ee5c1862750d9759ba5b657e1ce9cd57796c852a22e6c4a7b5ca6aeca1eb92",
+  "alignment_pad_seconds": 0.0002916666666666667,
+  "bytes": 2433894,
+  "duration_seconds": 608.3069166666667,
+  "lossless_duration_seconds": 608.3069166666667,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 608.306917,
+  "accepted_master_sha256": "31475b9876b245cf3facdaee7d871731f97d84fb0a32c6e68523318a925d9d34",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "937884db4b567ab276963ec51847f6fa6fa4cfe23dda8727c11dbe09af5032e3",
+  "accepted_flac_sha256": "6a97bfe80eac86a97c4b666f46cc29ff021b3f700b9581e127192e46f1ba2f21",
+  "body_pcm_sha256": "ab5acf31341ea630da28d864c6f7b43cf508824b02a20169c5979ccd8f4847c5",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9845454096794128,
+  "revised_body_correlation": 0.9845448732376099,
+  "revised_vs_accepted_mobile_correlation": 0.9999919533729553,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 40 - Chapter Forty — What Surviving Required",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

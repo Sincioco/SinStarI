@@ -1,0 +1,35 @@
+{
+  "index": 14,
+  "chapterId": "ch-14",
+  "label": "Chapter Fourteen",
+  "title": "Five Portions",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "14-heading.wav",
+  "samples": 95389,
+  "bodyStart": 3.9745416666666666,
+  "labelStart": 0.12,
+  "labelEnd": 1.4055416666666667,
+  "titleStart": 1.9555416666666667,
+  "titleEnd": 3.174541666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.329281574568531,
+  "speech": [
+    {
+      "text": "Chapter Fourteen",
+      "phonemes": "ʧˈæptəɹ fˌɔɹtˈin.",
+      "samples": 30853
+    },
+    {
+      "text": "Five Portions",
+      "phonemes": "fˈIv pˈɔɹʃənz.",
+      "samples": 29256
+    }
+  ],
+  "sha256": "7fc29963cf3b706cb26d421c0f7a1ad8f665baf68512d56c8900d9a119d0615f"
+}

@@ -1,0 +1,35 @@
+{
+  "index": 40,
+  "chapterId": "ch-40",
+  "label": "Chapter Forty",
+  "title": "What Surviving Required",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "40-heading.wav",
+  "samples": 104825,
+  "bodyStart": 4.367708333333334,
+  "labelStart": 0.12,
+  "labelEnd": 1.29,
+  "titleStart": 1.84,
+  "titleEnd": 3.5677083333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6459472516607454,
+  "speech": [
+    {
+      "text": "Chapter Forty",
+      "phonemes": "ʧˈæptəɹ fˈɔɹTi.",
+      "samples": 28080
+    },
+    {
+      "text": "What Surviving Required",
+      "phonemes": "wˌʌt səɹvˈIvɪŋ ɹəkwˈIəɹd.",
+      "samples": 41465
+    }
+  ],
+  "sha256": "635289d40739d147a2d031212db5ecdab3f79a6a8fde6ac68ed90c87cda58fb3"
+}

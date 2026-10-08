@@ -1,0 +1,35 @@
+{
+  "index": 37,
+  "chapterId": "ch-37",
+  "label": "Chapter Thirty-Seven",
+  "title": "The Lives Within It",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "37-heading.wav",
+  "samples": 103345,
+  "bodyStart": 4.306041666666666,
+  "labelStart": 0.12,
+  "labelEnd": 1.5697916666666667,
+  "titleStart": 2.119791666666667,
+  "titleEnd": 3.506041666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9860949173573716,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Seven",
+      "phonemes": "ʧˈæptəɹ θˌɜɹTisˈɛvən.",
+      "samples": 34795
+    },
+    {
+      "text": "The Lives Within It",
+      "phonemes": "ðə lˈIvz wɪðˈɪn ˌɪt.",
+      "samples": 33270
+    }
+  ],
+  "sha256": "52779ef44517fce7bf4822bd1d250a491540068f2c6cb09efe7697f8681f9314"
+}

@@ -1,0 +1,55 @@
+{
+  "index": 37,
+  "chapterId": "ch-37",
+  "label": "Chapter Thirty-Seven",
+  "title": "The Lives Within It",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/37 - Chapter Thirty-Seven — The Lives Within It.mp3",
+  "samples": 103345,
+  "bodyStart": 4.32,
+  "labelStart": 0.12,
+  "labelEnd": 1.5697916666666667,
+  "titleStart": 2.119791666666667,
+  "titleEnd": 3.506041666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9860949173573716,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Seven",
+      "phonemes": "ʧˈæptəɹ θˌɜɹTisˈɛvən.",
+      "samples": 34795
+    },
+    {
+      "text": "The Lives Within It",
+      "phonemes": "ðə lˈIvz wɪðˈɪn ˌɪt.",
+      "samples": 33270
+    }
+  ],
+  "sha256": "b1a3d0c5a9d5515a3a324709229d64656b692f6d214b01fc641b04c33b140c7e",
+  "alignment_pad_seconds": 0.013958333333333333,
+  "bytes": 2291433,
+  "duration_seconds": 572.6899583333334,
+  "lossless_duration_seconds": 572.6894166666667,
+  "codec_tail_padding_seconds": 0.0005416666666666666,
+  "encoded_duration_seconds": 572.689958,
+  "accepted_master_sha256": "5342a0b3a0d2abcbb5534f6a897aae8f61e25f0939f17477beec23089b339875",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "187f912a22590aedfcf45440889755be79f2ce8c74515f34a6881e615abafd0b",
+  "accepted_flac_sha256": "4ee5094fdada1ce23016f8b4706c9bf4ec1fc40e2770d7e0280bc6888e8322ef",
+  "body_pcm_sha256": "e35ad494f4b0858e304184260037a6c41a670415526ffeb55e2af46e2c0adcdb",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9853273034095764,
+  "revised_body_correlation": 0.9853270053863525,
+  "revised_vs_accepted_mobile_correlation": 0.9999924898147583,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 37 - Chapter Thirty-Seven — The Lives Within It",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "index": 35,
+  "chapterId": "ch-35",
+  "label": "Chapter Thirty-Five",
+  "title": "The Battle Outside the Dream",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/35 - Chapter Thirty-Five — The Battle Outside the Dream.mp3",
+  "samples": 111932,
+  "bodyStart": 4.68,
+  "labelStart": 0.12,
+  "labelEnd": 1.5398749999999999,
+  "titleStart": 2.089875,
+  "titleEnd": 3.8638333333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8967003087932575,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Five",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTifˌIv.",
+      "samples": 34077
+    },
+    {
+      "text": "The Battle Outside the Dream",
+      "phonemes": "ðə bˈæTᵊl ˌWtsˈId ðə dɹˈim.",
+      "samples": 42575
+    }
+  ],
+  "sha256": "b35088a9cb7a09a55c4a24a8fd6b8f15156e1df3b0cce7f4a81a52f233789773",
+  "alignment_pad_seconds": 0.016166666666666666,
+  "bytes": 1985201,
+  "duration_seconds": 496.14295833333335,
+  "lossless_duration_seconds": 496.14295833333335,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 496.142958,
+  "accepted_master_sha256": "eb01b597d2ff8cb9719b06250d2c542e34a1a085ca2f14c339fc3bd5ead4407a",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "5c9cf2ffdea49abd1dc6b3dbd6e28b13b196458a5edbc93075275be8baa57746",
+  "accepted_flac_sha256": "2f73216ba6a267a45f2f438d87f4cd0c17f700dde836275a8694b3b4abdd6157",
+  "body_pcm_sha256": "2abdd64ddf00c6fc382c384ad618afc2d38dfb3bd3d83df6515b2a0e6cfac686",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9841558337211609,
+  "revised_body_correlation": 0.9841564893722534,
+  "revised_vs_accepted_mobile_correlation": 0.999996542930603,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 35 - Chapter Thirty-Five — The Battle Outside the Dream",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

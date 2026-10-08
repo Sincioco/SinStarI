@@ -1,0 +1,35 @@
+{
+  "index": 22,
+  "chapterId": "ch-22",
+  "label": "Chapter Twenty-Two",
+  "title": "The People Waiting",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "22-heading.wav",
+  "samples": 95745,
+  "bodyStart": 3.989375,
+  "labelStart": 0.12,
+  "labelEnd": 1.4820833333333332,
+  "titleStart": 2.0320833333333335,
+  "titleEnd": 3.189375,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.656184629313158,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Two",
+      "phonemes": "ʧˈæptəɹ twˈɛntitˌu.",
+      "samples": 32690
+    },
+    {
+      "text": "The People Waiting",
+      "phonemes": "ðə pˈipᵊl wˈATɪŋ.",
+      "samples": 27775
+    }
+  ],
+  "sha256": "d8b5fea81f667e540dcbffc0cf68725650c19ea7334718b0695b365826f1907f"
+}

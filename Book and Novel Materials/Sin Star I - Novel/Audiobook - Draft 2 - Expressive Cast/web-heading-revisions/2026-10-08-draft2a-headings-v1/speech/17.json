@@ -1,0 +1,35 @@
+{
+  "index": 17,
+  "chapterId": "ch-17",
+  "label": "Chapter Seventeen",
+  "title": "What the Cold Reached",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "17-heading.wav",
+  "samples": 102073,
+  "bodyStart": 4.253041666666666,
+  "labelStart": 0.12,
+  "labelEnd": 1.5473333333333334,
+  "titleStart": 2.0973333333333333,
+  "titleEnd": 3.4530416666666666,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.576919689978788,
+  "speech": [
+    {
+      "text": "Chapter Seventeen",
+      "phonemes": "ʧˈæptəɹ sˌɛvəntˈin.",
+      "samples": 34256
+    },
+    {
+      "text": "What the Cold Reached",
+      "phonemes": "wˌʌt ðə kˈOld ɹˈiʧt.",
+      "samples": 32537
+    }
+  ],
+  "sha256": "0cb9cc00430544c004ed79506a38fb0348fe3a4103b236f8075e0aa7d8f0d86a"
+}

@@ -1,0 +1,35 @@
+{
+  "index": 10,
+  "chapterId": "ch-10",
+  "label": "Chapter Ten",
+  "title": "The Officer Without Insignia",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "10-heading.wav",
+  "samples": 109551,
+  "bodyStart": 4.564625,
+  "labelStart": 0.12,
+  "labelEnd": 1.2575833333333333,
+  "titleStart": 1.8075833333333333,
+  "titleEnd": 3.7646249999999997,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.4662944919470593,
+  "speech": [
+    {
+      "text": "Chapter Ten",
+      "phonemes": "ʧˈæptəɹ tˈɛn.",
+      "samples": 27302
+    },
+    {
+      "text": "The Officer Without Insignia",
+      "phonemes": "ði ˈɔfəsəɹ wɪðˈWt ənsˈɪɡniə.",
+      "samples": 46969
+    }
+  ],
+  "sha256": "2b716e54bfc9ac7bbbd26e143a97ab0d7a2d3c5dea4f9642730d7bc3cb11ac82"
+}

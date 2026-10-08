@@ -1,0 +1,55 @@
+{
+  "index": 34,
+  "chapterId": "ch-34",
+  "label": "Chapter Thirty-Four",
+  "title": "A Clock to Come Home To",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/34 - Chapter Thirty-Four — A Clock to Come Home To.mp3",
+  "samples": 107342,
+  "bodyStart": 4.488,
+  "labelStart": 0.12,
+  "labelEnd": 1.4992916666666667,
+  "titleStart": 2.049291666666667,
+  "titleEnd": 3.6725833333333338,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.615295906050962,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Four",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTifˌɔɹ.",
+      "samples": 33103
+    },
+    {
+      "text": "A Clock to Come Home To",
+      "phonemes": "ɐ klˈɑk tə kˈʌm hˈOm tu.",
+      "samples": 38959
+    }
+  ],
+  "sha256": "34e13590119d9790c43faa0f33a41b35cb60f3cecd300c87eb88fb016bbe00bc",
+  "alignment_pad_seconds": 0.015416666666666667,
+  "bytes": 1513356,
+  "duration_seconds": 378.17325,
+  "lossless_duration_seconds": 378.17325,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 378.17325,
+  "accepted_master_sha256": "a9637f8bec3efae455a25de74b5a1dcdae952298829cdf6f0b02f09b4acedf47",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "45ba6b622b0f7c5a9a0a29c68c83a9036272fdc859a5b6dbf4b65bf89516764f",
+  "accepted_flac_sha256": "5ad796b33ea111d511e2695865713bd13944997bbef59712e0cd2d512e8f040a",
+  "body_pcm_sha256": "3410464b2c9ed8004bba0797cb0aa1ba245555ae589525f1f6d9af0a74a3a288",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9854286909103394,
+  "revised_body_correlation": 0.9854318499565125,
+  "revised_vs_accepted_mobile_correlation": 0.9999640583992004,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 34 - Chapter Thirty-Four — A Clock to Come Home To",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

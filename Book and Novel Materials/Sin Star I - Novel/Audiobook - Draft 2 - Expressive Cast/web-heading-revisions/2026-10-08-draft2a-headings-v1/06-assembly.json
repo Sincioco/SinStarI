@@ -1,0 +1,55 @@
+{
+  "index": 6,
+  "chapterId": "ch-06",
+  "label": "Chapter Six",
+  "title": "The Chamber That Answered",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/06 - Chapter Six — The Chamber That Answered.mp3",
+  "samples": 99694,
+  "bodyStart": 4.176,
+  "labelStart": 0.12,
+  "labelEnd": 1.2278333333333333,
+  "titleStart": 1.7778333333333334,
+  "titleEnd": 3.3539166666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7091230772122497,
+  "speech": [
+    {
+      "text": "Chapter Six",
+      "phonemes": "ʧˈæptəɹ sˈɪks.",
+      "samples": 26588
+    },
+    {
+      "text": "The Chamber That Answered",
+      "phonemes": "ðə ʧˈAmbəɹ ðˈæt ˈænsəɹd.",
+      "samples": 37826
+    }
+  ],
+  "sha256": "3502c67c34bf887ebe99646713e11c10bd1f0d68d0c9b6afe10146ee77141baa",
+  "alignment_pad_seconds": 0.022083333333333333,
+  "bytes": 1567878,
+  "duration_seconds": 391.80195833333335,
+  "lossless_duration_seconds": 391.80104166666666,
+  "codec_tail_padding_seconds": 0.0009166666666666666,
+  "encoded_duration_seconds": 391.801958,
+  "accepted_master_sha256": "5fa0ca9a3acffa5214f4f10ee04df42a254291fd3aff72a0c6c86af43420873d",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "5aac6e75446a38d14a5faf88aec7294fac09b145e3e4e66f30e054cc40870172",
+  "accepted_flac_sha256": "e07082afd78a91209ce23923271ac6d05b9ec2d325f44c7d010ec3bf584d5d27",
+  "body_pcm_sha256": "748ca7c10729f412c4d46c285d9559c19675a114f6436bc1e11679c2167c5645",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9856979250907898,
+  "revised_body_correlation": 0.9857004880905151,
+  "revised_vs_accepted_mobile_correlation": 0.99998539686203,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 06 - Chapter Six — The Chamber That Answered",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "index": 19,
+  "chapterId": "ch-19",
+  "label": "Chapter Nineteen",
+  "title": "The Name on the Record",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/19 - Chapter Nineteen — The Name on the Record.mp3",
+  "samples": 101383,
+  "bodyStart": 4.248,
+  "labelStart": 0.12,
+  "labelEnd": 1.3880416666666666,
+  "titleStart": 1.9380416666666667,
+  "titleEnd": 3.424291666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6630344297481094,
+  "speech": [
+    {
+      "text": "Chapter Nineteen",
+      "phonemes": "ʧˈæptəɹ nˌIntˈin.",
+      "samples": 30433
+    },
+    {
+      "text": "The Name on the Record",
+      "phonemes": "ðə nˈAm ˌɔn ðə ɹˈɛkəɹd.",
+      "samples": 35670
+    }
+  ],
+  "sha256": "43092815ae2ab8415ad64a9b17ce0a6ef4c31240ca09f93d8a32f034f01fa02f",
+  "alignment_pad_seconds": 0.023708333333333335,
+  "bytes": 1409768,
+  "duration_seconds": 352.27458333333334,
+  "lossless_duration_seconds": 352.27458333333334,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 352.274583,
+  "accepted_master_sha256": "113c83b4e542703f0b4f2b2f6b35a78abeb058ff1e197a8db7752753e887bba9",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "4c37d5e6332a0ff0694db9d55cf4e97e317e1fa6669a1ea64edb313b1932b75a",
+  "accepted_flac_sha256": "0677766b41885a5ac266cd01984d5809a18141bc84150a8c9fc0a9755fb39ebb",
+  "body_pcm_sha256": "987efa06cc46385b534c982165198339a2dfcb7a4b6bf1814c459f35f8942a97",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9863412976264954,
+  "revised_body_correlation": 0.986340343952179,
+  "revised_vs_accepted_mobile_correlation": 0.9999915361404419,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 19 - Chapter Nineteen — The Name on the Record",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

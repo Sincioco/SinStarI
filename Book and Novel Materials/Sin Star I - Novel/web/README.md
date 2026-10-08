@@ -2,8 +2,7 @@
 
 ## Music and personal bookmarks (October 8, 2026)
 
-The bookmark icon sits immediately after Chapters. Select text, open Bookmarks,
-add an optional note, then choose Bookmark selection. Saved items show the exact
+The bookmark icon sits immediately after Chapters. Select text, or play narration and open Bookmarks to capture its current yellow passage. A valid manual selection takes priority. Pointer/keyboard activation freezes the quote before focus or playback moves. Add an optional note, then choose Bookmark selection. Saved items show the exact
 quote, chapter and note; notes can be edited and deletion requires confirmation.
 Open & listen resolves the original block offsets and cue ID/hash before seeking.
 Changed quotes, missing blocks, and untimed title text never invent a timestamp.
@@ -14,20 +13,18 @@ leaving narration's yellow cue highlight and the manuscript DOM intact.
 Background music cycles Starforge Horizon (Title Screen), Starforge March (Orin),
 then Bloom (Arin). The bottom-right music-note button opens a dismissible modal panel. It keeps
 the original compact player height (178px desktop / 199px phone), with no extra
-control rows. Music starts at 8% when no preference is saved and retains an
-existing volume/mute choice. The single-note icon has a 34×28px visual border,
+control rows. Music starts at 3% with a slider limited to 0–10%, and retains the current edition’s volume/mute choice. The single-note icon has a 34×28px visual border,
 matching A−/A+, inside its retained 44px touch area. The close button, Escape and
 focus return work with keyboard and touch. Enable music now confirms readiness
 while narration is paused, shows Music playing during playback, and clears mute
-or restores 8% from zero volume when explicitly pressed. One Web Audio context and GainNode play music independently
+or restores 3% from zero volume when explicitly pressed. One Web Audio context and GainNode play music independently
 of narration's media element. Playback gestures create/resume the context directly;
 Enable music retries after browser interruption. Narration pause, buffering, error,
 chapter source changes and ending stop music, preserving its current track/offset.
 At most the current and next decoded tracks are retained. Missing music never
 prevents narration. Autoplay remains subject to browser permission.
 
-The three web MP3s are unchanged copies totaling 11,547,340 bytes. Narration and
-original music files are untouched. Offline chapter downloads contain narration
+The three music MP3s are unchanged copies totaling 11,547,340 bytes. Original music and accepted narration masters are untouched. Offline chapter downloads contain narration
 only. Download music is a separate, optional, SHA-256/length-verified download;
 its saved count reflects verified Cache Storage copies. Music is not part of the
 mandatory service-worker install, and removing it leaves narration caches intact.
@@ -62,7 +59,32 @@ Independent gain follows the [Web Audio GainNode specification](https://www.w3.o
 avoiding reliance on an iOS media element's volume setter. These policies do not
 guarantee background playback or autoplay inside the deployed cross-origin iframe.
 
-Deployment-ready static website, built from the original novel HTML. **42 chapters plus the new title introduction**, with the accepted Michael/Bella/Uncle_Fu/Aiden performance. Audio is the approved mono 32 kbps mobile edition; the title introduction uses Michael at speed 0.97 and says exactly **“Sin Star. Book One. Created by Sin.”** Audio totals **72,303,282 bytes** (72.3 MB). No synthesis happens in the browser.
+Deployment-ready static website, built from the original novel HTML. **42 chapters plus the new title introduction**, with the accepted Michael/Bella/Uncle_Fu/Aiden performance. Each revised mono 32 kbps chapter MP3 contains Michael reading its exact section label and title, followed by the accepted body performance; the title introduction uses Michael at speed 0.97 and says exactly **“Sin Star. Book One. Created by Sin.”** Audio totals **73,007,061 bytes** (73.0 MB). No synthesis happens in the browser.
+
+## Approved spoken-heading revision
+
+`production/heading-revision.json` points to the separate revision manifest under
+`Audiobook - Draft 2 - Expressive Cast/web-heading-revisions/`. The full builder
+uses it by default; `heading_revision.py` verifies revision assets, adds 84 measured
+heading cues and shifts all 3,048 body cues. Original chapter/mobile masters and full-book
+MP3/M4B editions remain recoverable and unchanged. Only the web/mobile chapter edition
+has new headings; combined full-book editions are not part of this change.
+
+`heading_speech.py` synthesizes headings only from cached Kokoro am_michael.
+`assemble_heading_revision.py` verifies accepted master audio packets and identical
+lossless body PCM before encoding separate revised chapter files. A changed or
+unverified assembly input requires a fresh output directory. The original generation
+receipts predate the reusable-input signature; they remain evidence of this completed
+build and are intentionally not silently reused for future assembly.
+
+This revision starts fresh bookmark and music preference stores (v2), accepts listening
+positions only for the current book version, and replaces this reader's obsolete audio
+cache. There is no legacy migration. Unrelated browser data is not deleted.
+
+Current checks: 71 Node assertions across follow/startup/music/anchors/headings/offline,
+14 real-DOM quick-bookmark checks, and the 42-chapter file verification report
+`production/heading-file-validation.json`. Earlier reports below document their respective
+prior releases; their unchanged-audio claims do not describe this heading revision.
 
 ## Preview and deployment
 
@@ -100,7 +122,7 @@ First visit opens the title page and attempts playback. Browsers commonly block 
 
 Select a chapter to play it. Click or tap an existing narration passage to seek to its recorded start and play. Each chapter has one passage Tab stop; Left/Right Arrow moves between passages, Home/End selects the first/last, and Enter/Space plays. Text-selection drags, links, figures and captions do not seek. Unmatched edited passages cannot redirect playback. `cue-navigation.js` owns pointer/keyboard access; `app.js` retains cue validation and the single audio player. Previous/Next, Play/Pause, seek, font-size controls and keyboard-accessible buttons are provided. Chapter endings advance automatically; the epilogue ends without looping. The controls prevent overlapping audio and discard stale loads after rapid navigation.
 
-Yellow highlighting follows **actual production chunk boundaries** (phrases or paragraphs), not invented word timings. All 3,048 cues were matched against the original text. Small MP3 decoder/encoder timing differences are possible; a long phrase is highlighted as a whole. Pause, seek, cue gaps, errors, changed text and missing cue elements clear old highlights. Headings and title-page text have no invented alignment. Follow narration starts checked on every opening or reload, including when a browser restores an unchecked form state or a page from its back/forward cache. Only explicitly unchecking the checkbox turns Follow off for the current visit. Scrolling, swiping, pinching, wheel and keyboard navigation never uncheck it or suspend following while audio plays. Playback, cue taps and viewport changes respect an explicitly unchecked checkbox. This default does not reset the saved chapter, timestamp or offline audio. Follow narration keeps the first rendered line of an offscreen active passage below the header and above the player, including when the mobile viewport changes. On phone layouts it uses an immediate document scroll. Following continues while a finger is on the reading area. Scroll and gesture events request a position check without changing the checkbox; explicitly checking it again follows the current spoken passage. Reduced-motion preference is respected. `follow-narration.js` owns this viewport and gesture behavior.
+Yellow highlighting follows **actual production chunk boundaries** (phrases or paragraphs), not invented word timings. All 3,048 cues were matched against the original text. Small MP3 decoder/encoder timing differences are possible; a long phrase is highlighted as a whole. Pause, seek, cue gaps, errors, changed text and missing cue elements clear old highlights. The 84 section-label/title cues use measured heading audio boundaries; title-page text has no invented alignment. Follow narration starts checked on every opening or reload, including when a browser restores an unchecked form state or a page from its back/forward cache. Only explicitly unchecking the checkbox turns Follow off for the current visit. Scrolling, swiping, pinching, wheel and keyboard navigation never uncheck it or suspend following while audio plays. Playback, cue taps and viewport changes respect an explicitly unchecked checkbox. This default does not reset the saved chapter, timestamp or offline audio. Follow narration keeps the first rendered line of an offscreen active passage below the header and above the player, including when the mobile viewport changes. On phone layouts it uses an immediate document scroll. Following continues while a finger is on the reading area. Scroll and gesture events request a position check without changing the checkbox; explicitly checking it again follows the current spoken passage. Reduced-motion preference is respected. `follow-narration.js` owns this viewport and gesture behavior.
 
 The header places the Offline audio icon before the Home icon at the far right. Both have labelled 44-pixel controls and visible keyboard focus. Home opens https://sincioco.com/ as the top-level page, including when this reader is embedded. The icon keeps the existing offline panel and download behavior.
 

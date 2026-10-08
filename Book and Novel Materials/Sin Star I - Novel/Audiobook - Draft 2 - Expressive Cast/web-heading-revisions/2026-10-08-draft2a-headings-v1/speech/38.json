@@ -1,0 +1,35 @@
+{
+  "index": 38,
+  "chapterId": "ch-38",
+  "label": "Chapter Thirty-Eight",
+  "title": "His Own to Spend",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "38-heading.wav",
+  "samples": 98100,
+  "bodyStart": 4.0875,
+  "labelStart": 0.12,
+  "labelEnd": 1.3995000000000002,
+  "titleStart": 1.9495000000000002,
+  "titleEnd": 3.2875000000000005,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8181138808803308,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Eight",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTiˌAt.",
+      "samples": 30708
+    },
+    {
+      "text": "His Own to Spend",
+      "phonemes": "hˌɪz ˈOn tə spˈɛnd.",
+      "samples": 32112
+    }
+  ],
+  "sha256": "59b2d494b57910619e6f8cfaabf05147936a48f313403e02b6da082bd72bde99"
+}

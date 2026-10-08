@@ -1,0 +1,1476 @@
+{
+  "voice": "am_michael",
+  "only_heading_synthesis": true,
+  "records": [
+    {
+      "index": 0,
+      "chapterId": "ch-00",
+      "label": "Prologue",
+      "title": "The World He Ended",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "00-heading.wav",
+      "samples": 89926,
+      "bodyStart": 3.7469166666666665,
+      "labelStart": 0.12,
+      "labelEnd": 0.9976666666666667,
+      "titleStart": 1.5476666666666667,
+      "titleEnd": 2.9469166666666666,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.9701532072167594,
+      "speech": [
+        {
+          "text": "Prologue",
+          "phonemes": "pɹˈOlˌɔɡ.",
+          "samples": 21064
+        },
+        {
+          "text": "The World He Ended",
+          "phonemes": "ðə wˈɜɹld hˌi ˈɛndᵻd.",
+          "samples": 33582
+        }
+      ],
+      "sha256": "150e58cda2eb6193ab8083f77dbba0305801e1c244b68600de6b73bc9c369c86"
+    },
+    {
+      "index": 1,
+      "chapterId": "ch-01",
+      "label": "Chapter One",
+      "title": "A Room for One",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "01-heading.wav",
+      "samples": 91555,
+      "bodyStart": 3.814791666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.1879166666666667,
+      "titleStart": 1.7379166666666668,
+      "titleEnd": 3.0147916666666665,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.9975607684427081,
+      "speech": [
+        {
+          "text": "Chapter One",
+          "phonemes": "ʧˈæptəɹ wˈʌn.",
+          "samples": 25630
+        },
+        {
+          "text": "A Room for One",
+          "phonemes": "ɐ ɹˈum fɔɹ wˈʌn.",
+          "samples": 30645
+        }
+      ],
+      "sha256": "391b059a4cd889c6b6023295aa426a4593c6a19f5c5144cdc8d07201aab783b7"
+    },
+    {
+      "index": 2,
+      "chapterId": "ch-02",
+      "label": "Chapter Two",
+      "title": "Another Voice",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "02-heading.wav",
+      "samples": 89157,
+      "bodyStart": 3.714875,
+      "labelStart": 0.12,
+      "labelEnd": 1.1788750000000001,
+      "titleStart": 1.7288750000000002,
+      "titleEnd": 2.9148750000000003,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.682269129402889,
+      "speech": [
+        {
+          "text": "Chapter Two",
+          "phonemes": "ʧˈæptəɹ tˈu.",
+          "samples": 25413
+        },
+        {
+          "text": "Another Voice",
+          "phonemes": "ənˈʌðəɹ vˈYs.",
+          "samples": 28464
+        }
+      ],
+      "sha256": "683ec3b24cb9521929b52734403d4a649b4492b8b7bd5d156354ca9ac47e342a"
+    },
+    {
+      "index": 3,
+      "chapterId": "ch-03",
+      "label": "Chapter Three",
+      "title": "What the Reports Omitted",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "03-heading.wav",
+      "samples": 100571,
+      "bodyStart": 4.190458333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.2523333333333335,
+      "titleStart": 1.8023333333333336,
+      "titleEnd": 3.3904583333333336,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.3264684190390916,
+      "speech": [
+        {
+          "text": "Chapter Three",
+          "phonemes": "ʧˈæptəɹ θɹˈi.",
+          "samples": 27176
+        },
+        {
+          "text": "What the Reports Omitted",
+          "phonemes": "wˌʌt ðə ɹəpˈɔɹts OmˈɪTᵻd.",
+          "samples": 38115
+        }
+      ],
+      "sha256": "f4accf165692907352d7d52394be7300d71c6e080860e75b44417c855459fe45"
+    },
+    {
+      "index": 4,
+      "chapterId": "ch-04",
+      "label": "Chapter Four",
+      "title": "The Woman in the Channel",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "04-heading.wav",
+      "samples": 96396,
+      "bodyStart": 4.0165,
+      "labelStart": 0.12,
+      "labelEnd": 1.2224166666666667,
+      "titleStart": 1.7724166666666668,
+      "titleEnd": 3.2165,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7970457792333716,
+      "speech": [
+        {
+          "text": "Chapter Four",
+          "phonemes": "ʧˈæptəɹ fˈɔɹ.",
+          "samples": 26458
+        },
+        {
+          "text": "The Woman in the Channel",
+          "phonemes": "ðə wˈʊmən ɪn ðə ʧˈænᵊl.",
+          "samples": 34658
+        }
+      ],
+      "sha256": "e2f665698b87652947b4557375aa013c1f376639592c14f638e6c143b0f30209"
+    },
+    {
+      "index": 5,
+      "chapterId": "ch-05",
+      "label": "Chapter Five",
+      "title": "The Names of Rain",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "05-heading.wav",
+      "samples": 95752,
+      "bodyStart": 3.9896666666666665,
+      "labelStart": 0.12,
+      "labelEnd": 1.2837083333333332,
+      "titleStart": 1.8337083333333333,
+      "titleEnd": 3.1896666666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6006774079356707,
+      "speech": [
+        {
+          "text": "Chapter Five",
+          "phonemes": "ʧˈæptəɹ fˈIv.",
+          "samples": 27929
+        },
+        {
+          "text": "The Names of Rain",
+          "phonemes": "ðə nˈAmz ʌv ɹˈAn.",
+          "samples": 32543
+        }
+      ],
+      "sha256": "1c9d2ea0ac6b2beb14f10b589e9364a8ff222ada5a366a01f257c49fc602be5e"
+    },
+    {
+      "index": 6,
+      "chapterId": "ch-06",
+      "label": "Chapter Six",
+      "title": "The Chamber That Answered",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "06-heading.wav",
+      "samples": 99694,
+      "bodyStart": 4.1539166666666665,
+      "labelStart": 0.12,
+      "labelEnd": 1.2278333333333333,
+      "titleStart": 1.7778333333333334,
+      "titleEnd": 3.3539166666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7091230772122497,
+      "speech": [
+        {
+          "text": "Chapter Six",
+          "phonemes": "ʧˈæptəɹ sˈɪks.",
+          "samples": 26588
+        },
+        {
+          "text": "The Chamber That Answered",
+          "phonemes": "ðə ʧˈAmbəɹ ðˈæt ˈænsəɹd.",
+          "samples": 37826
+        }
+      ],
+      "sha256": "790e4400264fd57b1eeeb4455c5069eece7b7838549f726b7c054478151a8b12"
+    },
+    {
+      "index": 7,
+      "chapterId": "ch-07",
+      "label": "Chapter Seven",
+      "title": "Permission to Leave",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "07-heading.wav",
+      "samples": 94093,
+      "bodyStart": 3.920541666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.2840416666666665,
+      "titleStart": 1.8340416666666666,
+      "titleEnd": 3.1205416666666665,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.5950448412140585,
+      "speech": [
+        {
+          "text": "Chapter Seven",
+          "phonemes": "ʧˈæptəɹ sˈɛvən.",
+          "samples": 27937
+        },
+        {
+          "text": "Permission to Leave",
+          "phonemes": "pəɹmˈɪʃən tə lˈiv.",
+          "samples": 30876
+        }
+      ],
+      "sha256": "edc580c0b2c1832b92e274d1b2eddc63081fc124dd6fd597a122831f66561544"
+    },
+    {
+      "index": 8,
+      "chapterId": "ch-08",
+      "label": "Chapter Eight",
+      "title": "A Place for Hope",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "08-heading.wav",
+      "samples": 91754,
+      "bodyStart": 3.8230833333333334,
+      "labelStart": 0.12,
+      "labelEnd": 1.2094583333333335,
+      "titleStart": 1.7594583333333336,
+      "titleEnd": 3.0230833333333336,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7301906108609775,
+      "speech": [
+        {
+          "text": "Chapter Eight",
+          "phonemes": "ʧˈæptəɹ ˈAt.",
+          "samples": 26147
+        },
+        {
+          "text": "A Place for Hope",
+          "phonemes": "ɐ plˈAs fɔɹ hˈOp.",
+          "samples": 30327
+        }
+      ],
+      "sha256": "9c59a203bc3fe20ef91015f47eb5a1f2c7d705227873d920f4f4bb540b674872"
+    },
+    {
+      "index": 9,
+      "chapterId": "ch-09",
+      "label": "Chapter Nine",
+      "title": "The Last Lift",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "09-heading.wav",
+      "samples": 90582,
+      "bodyStart": 3.77425,
+      "labelStart": 0.12,
+      "labelEnd": 1.2439583333333335,
+      "titleStart": 1.7939583333333335,
+      "titleEnd": 2.9742500000000005,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.8945235143565922,
+      "speech": [
+        {
+          "text": "Chapter Nine",
+          "phonemes": "ʧˈæptəɹ nˈIn.",
+          "samples": 26975
+        },
+        {
+          "text": "The Last Lift",
+          "phonemes": "ðə lˈæst lˈɪft.",
+          "samples": 28327
+        }
+      ],
+      "sha256": "361ed0291ddc43103cc18e125a0e84bab42494daf145ca4cb48b31eb943ba47e"
+    },
+    {
+      "index": 10,
+      "chapterId": "ch-10",
+      "label": "Chapter Ten",
+      "title": "The Officer Without Insignia",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "10-heading.wav",
+      "samples": 109551,
+      "bodyStart": 4.564625,
+      "labelStart": 0.12,
+      "labelEnd": 1.2575833333333333,
+      "titleStart": 1.8075833333333333,
+      "titleEnd": 3.7646249999999997,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.4662944919470593,
+      "speech": [
+        {
+          "text": "Chapter Ten",
+          "phonemes": "ʧˈæptəɹ tˈɛn.",
+          "samples": 27302
+        },
+        {
+          "text": "The Officer Without Insignia",
+          "phonemes": "ði ˈɔfəsəɹ wɪðˈWt ənsˈɪɡniə.",
+          "samples": 46969
+        }
+      ],
+      "sha256": "2b716e54bfc9ac7bbbd26e143a97ab0d7a2d3c5dea4f9642730d7bc3cb11ac82"
+    },
+    {
+      "index": 11,
+      "chapterId": "ch-11",
+      "label": "Chapter Eleven",
+      "title": "No Ownership Claim",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "11-heading.wav",
+      "samples": 97844,
+      "bodyStart": 4.076833333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.3044583333333333,
+      "titleStart": 1.8544583333333333,
+      "titleEnd": 3.2768333333333333,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.9253070450776837,
+      "speech": [
+        {
+          "text": "Chapter Eleven",
+          "phonemes": "ʧˈæptəɹ əlˈɛvᵊn.",
+          "samples": 28427
+        },
+        {
+          "text": "No Ownership Claim",
+          "phonemes": "nˈO ˈOnəɹʃˌɪp klˈAm.",
+          "samples": 34137
+        }
+      ],
+      "sha256": "38a5c17445ed668d0507dd3d543e2e2cdd9ee198c502b95043f25d523c6cffcf"
+    },
+    {
+      "index": 12,
+      "chapterId": "ch-12",
+      "label": "Chapter Twelve",
+      "title": "The Way Home Smelled",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "12-heading.wav",
+      "samples": 96437,
+      "bodyStart": 4.018208333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.3322083333333334,
+      "titleStart": 1.8822083333333335,
+      "titleEnd": 3.2182083333333336,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.8510990581372477,
+      "speech": [
+        {
+          "text": "Chapter Twelve",
+          "phonemes": "ʧˈæptəɹ twˈɛlv.",
+          "samples": 29093
+        },
+        {
+          "text": "The Way Home Smelled",
+          "phonemes": "ðə wˈA hˈOm smˈɛld.",
+          "samples": 32064
+        }
+      ],
+      "sha256": "ce1d6c45ef893fb733d25f75ea5ff075d9d7630fc007803820776296fe12827b"
+    },
+    {
+      "index": 13,
+      "chapterId": "ch-13",
+      "label": "Chapter Thirteen",
+      "title": "The Years He Removed",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "13-heading.wav",
+      "samples": 102404,
+      "bodyStart": 4.2668333333333335,
+      "labelStart": 0.12,
+      "labelEnd": 1.4309583333333333,
+      "titleStart": 1.9809583333333334,
+      "titleEnd": 3.4668333333333337,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.9327173678349783,
+      "speech": [
+        {
+          "text": "Chapter Thirteen",
+          "phonemes": "ʧˈæptəɹ θˌɜɹtˈin.",
+          "samples": 31463
+        },
+        {
+          "text": "The Years He Removed",
+          "phonemes": "ðə jˈɪɹz hˌi ɹəmˈuvd.",
+          "samples": 35661
+        }
+      ],
+      "sha256": "6fde22aaf20653d0a5b8ce863a0009f27968101f7ddb672568cdf08d0e9fbe1f"
+    },
+    {
+      "index": 14,
+      "chapterId": "ch-14",
+      "label": "Chapter Fourteen",
+      "title": "Five Portions",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "14-heading.wav",
+      "samples": 95389,
+      "bodyStart": 3.9745416666666666,
+      "labelStart": 0.12,
+      "labelEnd": 1.4055416666666667,
+      "titleStart": 1.9555416666666667,
+      "titleEnd": 3.174541666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.329281574568531,
+      "speech": [
+        {
+          "text": "Chapter Fourteen",
+          "phonemes": "ʧˈæptəɹ fˌɔɹtˈin.",
+          "samples": 30853
+        },
+        {
+          "text": "Five Portions",
+          "phonemes": "fˈIv pˈɔɹʃənz.",
+          "samples": 29256
+        }
+      ],
+      "sha256": "7fc29963cf3b706cb26d421c0f7a1ad8f665baf68512d56c8900d9a119d0615f"
+    },
+    {
+      "index": 15,
+      "chapterId": "ch-15",
+      "label": "Chapter Fifteen",
+      "title": "Before the Storm",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "15-heading.wav",
+      "samples": 95802,
+      "bodyStart": 3.99175,
+      "labelStart": 0.12,
+      "labelEnd": 1.3965416666666668,
+      "titleStart": 1.9465416666666668,
+      "titleEnd": 3.19175,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.4909145174998866,
+      "speech": [
+        {
+          "text": "Chapter Fifteen",
+          "phonemes": "ʧˈæptəɹ fˌɪftˈin.",
+          "samples": 30637
+        },
+        {
+          "text": "Before the Storm",
+          "phonemes": "bəfˈɔɹ ðə stˈɔɹm.",
+          "samples": 29885
+        }
+      ],
+      "sha256": "02558ebbc80a2c7a998fbc0cb4179bcbdf949234688e66cc6537904cfc0093b2"
+    },
+    {
+      "index": 16,
+      "chapterId": "ch-16",
+      "label": "Chapter Sixteen",
+      "title": "The Lesson He Had Not Asked For",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "16-heading.wav",
+      "samples": 115859,
+      "bodyStart": 4.827458333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.47375,
+      "titleStart": 2.0237499999999997,
+      "titleEnd": 4.027458333333334,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.444716330908357,
+      "speech": [
+        {
+          "text": "Chapter Sixteen",
+          "phonemes": "ʧˈæptəɹ sˌɪkstˈin.",
+          "samples": 32490
+        },
+        {
+          "text": "The Lesson He Had Not Asked For",
+          "phonemes": "ðə lˈɛsən hˌi hˌæd nˌɑt ˈæskt fˌɔɹ.",
+          "samples": 48089
+        }
+      ],
+      "sha256": "9b17e7788a5a9b840904db696207679cd847fa731871c785e581c872509aa8e1"
+    },
+    {
+      "index": 17,
+      "chapterId": "ch-17",
+      "label": "Chapter Seventeen",
+      "title": "What the Cold Reached",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "17-heading.wav",
+      "samples": 102073,
+      "bodyStart": 4.253041666666666,
+      "labelStart": 0.12,
+      "labelEnd": 1.5473333333333334,
+      "titleStart": 2.0973333333333333,
+      "titleEnd": 3.4530416666666666,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.576919689978788,
+      "speech": [
+        {
+          "text": "Chapter Seventeen",
+          "phonemes": "ʧˈæptəɹ sˌɛvəntˈin.",
+          "samples": 34256
+        },
+        {
+          "text": "What the Cold Reached",
+          "phonemes": "wˌʌt ðə kˈOld ɹˈiʧt.",
+          "samples": 32537
+        }
+      ],
+      "sha256": "0cb9cc00430544c004ed79506a38fb0348fe3a4103b236f8075e0aa7d8f0d86a"
+    },
+    {
+      "index": 18,
+      "chapterId": "ch-18",
+      "label": "Chapter Eighteen",
+      "title": "The Survivor Who Would Not Thank Him",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "18-heading.wav",
+      "samples": 113025,
+      "bodyStart": 4.709375,
+      "labelStart": 0.12,
+      "labelEnd": 1.3391666666666668,
+      "titleStart": 1.8891666666666669,
+      "titleEnd": 3.909375,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7085816181549638,
+      "speech": [
+        {
+          "text": "Chapter Eighteen",
+          "phonemes": "ʧˈæptəɹ ˌAtˈin.",
+          "samples": 29260
+        },
+        {
+          "text": "The Survivor Who Would Not Thank Him",
+          "phonemes": "ðə səɹvˈIvəɹ hˌu wˌʊd nˌɑt θˈæŋk hˌɪm.",
+          "samples": 48485
+        }
+      ],
+      "sha256": "ddad92f0467dfdee49fb533e6cd11cb9efe6544e6cbcb447dc72aae5b1e192e5"
+    },
+    {
+      "index": 19,
+      "chapterId": "ch-19",
+      "label": "Chapter Nineteen",
+      "title": "The Name on the Record",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "19-heading.wav",
+      "samples": 101383,
+      "bodyStart": 4.224291666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.3880416666666666,
+      "titleStart": 1.9380416666666667,
+      "titleEnd": 3.424291666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6630344297481094,
+      "speech": [
+        {
+          "text": "Chapter Nineteen",
+          "phonemes": "ʧˈæptəɹ nˌIntˈin.",
+          "samples": 30433
+        },
+        {
+          "text": "The Name on the Record",
+          "phonemes": "ðə nˈAm ˌɔn ðə ɹˈɛkəɹd.",
+          "samples": 35670
+        }
+      ],
+      "sha256": "9411eba0e1cd04aa22ffd0bd637bc2c6574315a4327c790fa0499dbf1d3da1e5"
+    },
+    {
+      "index": 20,
+      "chapterId": "ch-20",
+      "label": "Chapter Twenty",
+      "title": "What an Apology Could Not Buy",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "20-heading.wav",
+      "samples": 112559,
+      "bodyStart": 4.689958333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.3515000000000001,
+      "titleStart": 1.9015000000000002,
+      "titleEnd": 3.8899583333333334,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6506416184903054,
+      "speech": [
+        {
+          "text": "Chapter Twenty",
+          "phonemes": "ʧˈæptəɹ twˈɛnti.",
+          "samples": 29556
+        },
+        {
+          "text": "What an Apology Could Not Buy",
+          "phonemes": "wˌʌt ɐn əpˈɑləʤi kˌʊd nˌɑt bˈI.",
+          "samples": 47723
+        }
+      ],
+      "sha256": "197faf6d5191443177c51229b359dce63fb54ac4b0a01b01821257276320afd6"
+    },
+    {
+      "index": 21,
+      "chapterId": "ch-21",
+      "label": "Chapter Twenty-One",
+      "title": "The Second Dawn",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "21-heading.wav",
+      "samples": 95548,
+      "bodyStart": 3.9811666666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.4576250000000002,
+      "titleStart": 2.007625,
+      "titleEnd": 3.181166666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7606848948461697,
+      "speech": [
+        {
+          "text": "Chapter Twenty-One",
+          "phonemes": "ʧˈæptəɹ twˈɛntiwˌʌn.",
+          "samples": 32103
+        },
+        {
+          "text": "The Second Dawn",
+          "phonemes": "ðə sˈɛkənd dˈɔn.",
+          "samples": 28165
+        }
+      ],
+      "sha256": "5311f191c071b44a9135e0ff3ba6d850b3cb86a1821dbd528a150d6ea834ba87"
+    },
+    {
+      "index": 22,
+      "chapterId": "ch-22",
+      "label": "Chapter Twenty-Two",
+      "title": "The People Waiting",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "22-heading.wav",
+      "samples": 95745,
+      "bodyStart": 3.989375,
+      "labelStart": 0.12,
+      "labelEnd": 1.4820833333333332,
+      "titleStart": 2.0320833333333335,
+      "titleEnd": 3.189375,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.656184629313158,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Two",
+          "phonemes": "ʧˈæptəɹ twˈɛntitˌu.",
+          "samples": 32690
+        },
+        {
+          "text": "The People Waiting",
+          "phonemes": "ðə pˈipᵊl wˈATɪŋ.",
+          "samples": 27775
+        }
+      ],
+      "sha256": "d8b5fea81f667e540dcbffc0cf68725650c19ea7334718b0695b365826f1907f"
+    },
+    {
+      "index": 23,
+      "chapterId": "ch-23",
+      "label": "Chapter Twenty-Three",
+      "title": "The Village That Waited",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "23-heading.wav",
+      "samples": 103012,
+      "bodyStart": 4.292166666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.470625,
+      "titleStart": 2.020625,
+      "titleEnd": 3.492166666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7527871374560797,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Three",
+          "phonemes": "ʧˈæptəɹ twˈɛntiθɹˌi.",
+          "samples": 32415
+        },
+        {
+          "text": "The Village That Waited",
+          "phonemes": "ðə vˈɪlɪʤ ðˌæt wˈATᵻd.",
+          "samples": 35317
+        }
+      ],
+      "sha256": "43715487758a56238947151043e573827db77c36d7ca43e78e2058424039e252"
+    },
+    {
+      "index": 24,
+      "chapterId": "ch-24",
+      "label": "Chapter Twenty-Four",
+      "title": "The Letters They Kept",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "24-heading.wav",
+      "samples": 102185,
+      "bodyStart": 4.257708333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.5079166666666666,
+      "titleStart": 2.0579166666666664,
+      "titleEnd": 3.457708333333333,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.792557965513896,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Four",
+          "phonemes": "ʧˈæptəɹ twˈɛntifˌɔɹ.",
+          "samples": 33310
+        },
+        {
+          "text": "The Letters They Kept",
+          "phonemes": "ðə lˈɛTəɹz ðˌA kˈɛpt.",
+          "samples": 33595
+        }
+      ],
+      "sha256": "67e8950ff6811260bb7d8d3a58718cf4fd39af93a52b6841123f776d9599930c"
+    },
+    {
+      "index": 25,
+      "chapterId": "ch-25",
+      "label": "Chapter Twenty-Five",
+      "title": "The Other End of the Road",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "25-heading.wav",
+      "samples": 107779,
+      "bodyStart": 4.4907916666666665,
+      "labelStart": 0.12,
+      "labelEnd": 1.5547083333333331,
+      "titleStart": 2.104708333333333,
+      "titleEnd": 3.6907916666666662,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.4522777880075612,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Five",
+          "phonemes": "ʧˈæptəɹ twˈɛntifˌIv.",
+          "samples": 34433
+        },
+        {
+          "text": "The Other End of the Road",
+          "phonemes": "ði ˈʌðəɹ ˈɛnd ʌv ðə ɹˈOd.",
+          "samples": 38066
+        }
+      ],
+      "sha256": "0e52c0bc91a3d24c6fec2dae35252459af4cfdcaca3a1f182df23ea77fb56a05"
+    },
+    {
+      "index": 26,
+      "chapterId": "ch-26",
+      "label": "Chapter Twenty-Six",
+      "title": "The Weight of a Signature",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "26-heading.wav",
+      "samples": 104557,
+      "bodyStart": 4.356541666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.5059583333333335,
+      "titleStart": 2.0559583333333338,
+      "titleEnd": 3.556541666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6205580476724333,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Six",
+          "phonemes": "ʧˈæptəɹ twˈɛntisˌɪks.",
+          "samples": 33263
+        },
+        {
+          "text": "The Weight of a Signature",
+          "phonemes": "ðə wˈAt ʌv ɐ sˈɪɡnəʧəɹ.",
+          "samples": 36014
+        }
+      ],
+      "sha256": "602e96469a8a2c56998f5ed12f7607dca4ea7f2a946baa32ee50a9e2a9724fa3"
+    },
+    {
+      "index": 27,
+      "chapterId": "ch-27",
+      "label": "Chapter Twenty-Seven",
+      "title": "The Beneficiaries",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "27-heading.wav",
+      "samples": 103139,
+      "bodyStart": 4.297458333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.5408333333333335,
+      "titleStart": 2.0908333333333333,
+      "titleEnd": 3.4974583333333333,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.8050947371315686,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Seven",
+          "phonemes": "ʧˈæptəɹ twˈɛntisˌɛvən.",
+          "samples": 34100
+        },
+        {
+          "text": "The Beneficiaries",
+          "phonemes": "ðə bˌɛnəfˈɪʃiˌɛɹiz.",
+          "samples": 33759
+        }
+      ],
+      "sha256": "ac1ae42bffdcbd00659dd5c71189a0a28104fc1556ed7f891ef2d106bf9d84f6"
+    },
+    {
+      "index": 28,
+      "chapterId": "ch-28",
+      "label": "Chapter Twenty-Eight",
+      "title": "Earth in the Afternoon",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "28-heading.wav",
+      "samples": 105473,
+      "bodyStart": 4.394708333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.4260833333333331,
+      "titleStart": 1.9760833333333332,
+      "titleEnd": 3.594708333333333,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.620477615945583,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Eight",
+          "phonemes": "ʧˈæptəɹ twˈɛntiˌAt.",
+          "samples": 31346
+        },
+        {
+          "text": "Earth in the Afternoon",
+          "phonemes": "ˈɜɹθ ɪn ði ˌæftəɹnˈun.",
+          "samples": 38847
+        }
+      ],
+      "sha256": "d7cd587a489e4d0e2ed8eb32fa0094bb73fb2b905cf5c7a8424b6d244697d83f"
+    },
+    {
+      "index": 29,
+      "chapterId": "ch-29",
+      "label": "Chapter Twenty-Nine",
+      "title": "The Patient World",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "29-heading.wav",
+      "samples": 98437,
+      "bodyStart": 4.101541666666667,
+      "labelStart": 0.12,
+      "labelEnd": 1.4849999999999999,
+      "titleStart": 2.035,
+      "titleEnd": 3.301541666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6902558905333254,
+      "speech": [
+        {
+          "text": "Chapter Twenty-Nine",
+          "phonemes": "ʧˈæptəɹ twˈɛntinˌIn.",
+          "samples": 32760
+        },
+        {
+          "text": "The Patient World",
+          "phonemes": "ðə pˈAʃənt wˈɜɹld.",
+          "samples": 30397
+        }
+      ],
+      "sha256": "5fc57f480a73fd7e51a0a083001217481f24fe47f02fe10db5c65d418be30949"
+    },
+    {
+      "index": 30,
+      "chapterId": "ch-30",
+      "label": "Chapter Thirty",
+      "title": "What Had Been Made",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "30-heading.wav",
+      "samples": 92944,
+      "bodyStart": 3.8726666666666665,
+      "labelStart": 0.12,
+      "labelEnd": 1.2475833333333335,
+      "titleStart": 1.7975833333333335,
+      "titleEnd": 3.0726666666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.2257410219417895,
+      "speech": [
+        {
+          "text": "Chapter Thirty",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTi.",
+          "samples": 27062
+        },
+        {
+          "text": "What Had Been Made",
+          "phonemes": "wˌʌt hˌæd bˌɪn mˌAd.",
+          "samples": 30602
+        }
+      ],
+      "sha256": "32c21b347ef5215d165f8e2ae383a487a1cb02f3d35861fe2a9360aa11cf078f"
+    },
+    {
+      "index": 31,
+      "chapterId": "ch-31",
+      "label": "Chapter Thirty-One",
+      "title": "The Record Released",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "31-heading.wav",
+      "samples": 99944,
+      "bodyStart": 4.164333333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.4710416666666668,
+      "titleStart": 2.021041666666667,
+      "titleEnd": 3.3643333333333336,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.7484713803865284,
+      "speech": [
+        {
+          "text": "Chapter Thirty-One",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTiwˌʌn.",
+          "samples": 32425
+        },
+        {
+          "text": "The Record Released",
+          "phonemes": "ðə ɹˈɛkəɹd ɹəlˈist.",
+          "samples": 32239
+        }
+      ],
+      "sha256": "61cfb60b7857331f1e1f1187eb11b964c43de2d6fa0555d84866e7e28532ebab"
+    },
+    {
+      "index": 32,
+      "chapterId": "ch-32",
+      "label": "Chapter Thirty-Two",
+      "title": "Asking Them to Come",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "32-heading.wav",
+      "samples": 104345,
+      "bodyStart": 4.347708333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.4836666666666667,
+      "titleStart": 2.033666666666667,
+      "titleEnd": 3.5477083333333335,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.710185289176655,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Two",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTitˌu.",
+          "samples": 32728
+        },
+        {
+          "text": "Asking Them to Come",
+          "phonemes": "ˈæskɪŋ ðˌɛm tə kˈʌm.",
+          "samples": 36337
+        }
+      ],
+      "sha256": "277fd6169a3b5e2947ee0210347b288c0f38ef3eb3b3958fd6bf4e816ec133d8"
+    },
+    {
+      "index": 33,
+      "chapterId": "ch-33",
+      "label": "Chapter Thirty-Three",
+      "title": "What He Still Wanted",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "33-heading.wav",
+      "samples": 100941,
+      "bodyStart": 4.205875,
+      "labelStart": 0.12,
+      "labelEnd": 1.4903333333333335,
+      "titleStart": 2.0403333333333338,
+      "titleEnd": 3.4058750000000004,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6763609818202343,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Three",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTiθɹˌi.",
+          "samples": 32888
+        },
+        {
+          "text": "What He Still Wanted",
+          "phonemes": "wˌʌt hˌi stˈɪl wˈɑntᵻd.",
+          "samples": 32773
+        }
+      ],
+      "sha256": "472c488e58c61dd3ee842167e31b6721c74280963d5dd00e041b4ff58614a44a"
+    },
+    {
+      "index": 34,
+      "chapterId": "ch-34",
+      "label": "Chapter Thirty-Four",
+      "title": "A Clock to Come Home To",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "34-heading.wav",
+      "samples": 107342,
+      "bodyStart": 4.472583333333334,
+      "labelStart": 0.12,
+      "labelEnd": 1.4992916666666667,
+      "titleStart": 2.049291666666667,
+      "titleEnd": 3.6725833333333338,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.615295906050962,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Four",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTifˌɔɹ.",
+          "samples": 33103
+        },
+        {
+          "text": "A Clock to Come Home To",
+          "phonemes": "ɐ klˈɑk tə kˈʌm hˈOm tu.",
+          "samples": 38959
+        }
+      ],
+      "sha256": "6fdb96b3a9c2951d9bddae4c4ec805dac2630d3f280877ab5903a87ee3eb3577"
+    },
+    {
+      "index": 35,
+      "chapterId": "ch-35",
+      "label": "Chapter Thirty-Five",
+      "title": "The Battle Outside the Dream",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "35-heading.wav",
+      "samples": 111932,
+      "bodyStart": 4.663833333333334,
+      "labelStart": 0.12,
+      "labelEnd": 1.5398749999999999,
+      "titleStart": 2.089875,
+      "titleEnd": 3.8638333333333335,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.8967003087932575,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Five",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTifˌIv.",
+          "samples": 34077
+        },
+        {
+          "text": "The Battle Outside the Dream",
+          "phonemes": "ðə bˈæTᵊl ˌWtsˈId ðə dɹˈim.",
+          "samples": 42575
+        }
+      ],
+      "sha256": "8ac95cea2aa70f4cf1b866c61cccfd6587cbd0390053b160969abfb199282787"
+    },
+    {
+      "index": 36,
+      "chapterId": "ch-36",
+      "label": "Chapter Thirty-Six",
+      "title": "The One Comes Home",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "36-heading.wav",
+      "samples": 99480,
+      "bodyStart": 4.145,
+      "labelStart": 0.12,
+      "labelEnd": 1.5300833333333332,
+      "titleStart": 2.0800833333333335,
+      "titleEnd": 3.345,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 2.025763143686042,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Six",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTisˌɪks.",
+          "samples": 33842
+        },
+        {
+          "text": "The One Comes Home",
+          "phonemes": "ðə wˈʌn kˈʌmz hˈOm.",
+          "samples": 30358
+        }
+      ],
+      "sha256": "80fd7b81b5b29fecbe648890e16f24570827e0e9bdfd10cee3426609ee77707c"
+    },
+    {
+      "index": 37,
+      "chapterId": "ch-37",
+      "label": "Chapter Thirty-Seven",
+      "title": "The Lives Within It",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "37-heading.wav",
+      "samples": 103345,
+      "bodyStart": 4.306041666666666,
+      "labelStart": 0.12,
+      "labelEnd": 1.5697916666666667,
+      "titleStart": 2.119791666666667,
+      "titleEnd": 3.506041666666667,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.9860949173573716,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Seven",
+          "phonemes": "ʧˈæptəɹ θˌɜɹTisˈɛvən.",
+          "samples": 34795
+        },
+        {
+          "text": "The Lives Within It",
+          "phonemes": "ðə lˈIvz wɪðˈɪn ˌɪt.",
+          "samples": 33270
+        }
+      ],
+      "sha256": "52779ef44517fce7bf4822bd1d250a491540068f2c6cb09efe7697f8681f9314"
+    },
+    {
+      "index": 38,
+      "chapterId": "ch-38",
+      "label": "Chapter Thirty-Eight",
+      "title": "His Own to Spend",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "38-heading.wav",
+      "samples": 98100,
+      "bodyStart": 4.0875,
+      "labelStart": 0.12,
+      "labelEnd": 1.3995000000000002,
+      "titleStart": 1.9495000000000002,
+      "titleEnd": 3.2875000000000005,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.8181138808803308,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Eight",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTiˌAt.",
+          "samples": 30708
+        },
+        {
+          "text": "His Own to Spend",
+          "phonemes": "hˌɪz ˈOn tə spˈɛnd.",
+          "samples": 32112
+        }
+      ],
+      "sha256": "59b2d494b57910619e6f8cfaabf05147936a48f313403e02b6da082bd72bde99"
+    },
+    {
+      "index": 39,
+      "chapterId": "ch-39",
+      "label": "Chapter Thirty-Nine",
+      "title": "The World That Remained",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "39-heading.wav",
+      "samples": 104372,
+      "bodyStart": 4.348833333333333,
+      "labelStart": 0.12,
+      "labelEnd": 1.4619166666666668,
+      "titleStart": 2.011916666666667,
+      "titleEnd": 3.5488333333333335,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6952012815774138,
+      "speech": [
+        {
+          "text": "Chapter Thirty-Nine",
+          "phonemes": "ʧˈæptəɹ θˈɜɹTinˌIn.",
+          "samples": 32206
+        },
+        {
+          "text": "The World That Remained",
+          "phonemes": "ðə wˈɜɹld ðˌæt ɹəmˈAnd.",
+          "samples": 36886
+        }
+      ],
+      "sha256": "013e64f118e9d8723004622a6299b95d6d31a9cc270bd13628c3e937f06b2e11"
+    },
+    {
+      "index": 40,
+      "chapterId": "ch-40",
+      "label": "Chapter Forty",
+      "title": "What Surviving Required",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "40-heading.wav",
+      "samples": 104825,
+      "bodyStart": 4.367708333333334,
+      "labelStart": 0.12,
+      "labelEnd": 1.29,
+      "titleStart": 1.84,
+      "titleEnd": 3.5677083333333335,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6459472516607454,
+      "speech": [
+        {
+          "text": "Chapter Forty",
+          "phonemes": "ʧˈæptəɹ fˈɔɹTi.",
+          "samples": 28080
+        },
+        {
+          "text": "What Surviving Required",
+          "phonemes": "wˌʌt səɹvˈIvɪŋ ɹəkwˈIəɹd.",
+          "samples": 41465
+        }
+      ],
+      "sha256": "635289d40739d147a2d031212db5ecdab3f79a6a8fde6ac68ed90c87cda58fb3"
+    },
+    {
+      "index": 41,
+      "chapterId": "ch-41",
+      "label": "Epilogue",
+      "title": "The Life Ahead of Him",
+      "voice": "am_michael",
+      "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "speed": 0.97,
+      "seed": 421,
+      "device": "cuda",
+      "sample_rate": 24000,
+      "file": "41-heading.wav",
+      "samples": 93096,
+      "bodyStart": 3.879,
+      "labelStart": 0.12,
+      "labelEnd": 1.113375,
+      "titleStart": 1.663375,
+      "titleEnd": 3.0789999999999997,
+      "pause_between_seconds": 0.55,
+      "pause_before_body_seconds": 0.8,
+      "gain": 1.6425467914528344,
+      "speech": [
+        {
+          "text": "Epilogue",
+          "phonemes": "ˈɛpəlˌɔɡ.",
+          "samples": 23841
+        },
+        {
+          "text": "The Life Ahead of Him",
+          "phonemes": "ðə lˈIf əhˈɛd ʌv hˌɪm.",
+          "samples": 33975
+        }
+      ],
+      "sha256": "d6580d6a6433fca26383aa7c283a86f94a17760e7313359ba785a2ddf4886aa6"
+    }
+  ]
+}

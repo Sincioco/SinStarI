@@ -1,0 +1,53 @@
+{
+  "index": 2,
+  "chapterId": "ch-02",
+  "label": "Chapter Two",
+  "title": "Another Voice",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/02 - Chapter Two — Another Voice.mp3",
+  "samples": 89157,
+  "bodyStart": 3.72,
+  "labelStart": 0.12,
+  "labelEnd": 1.1788750000000001,
+  "titleStart": 1.7288750000000002,
+  "titleEnd": 2.9148750000000003,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.682269129402889,
+  "speech": [
+    {
+      "text": "Chapter Two",
+      "phonemes": "ʧˈæptəɹ tˈu.",
+      "samples": 25413
+    },
+    {
+      "text": "Another Voice",
+      "phonemes": "ənˈʌðəɹ vˈYs.",
+      "samples": 28464
+    }
+  ],
+  "sha256": "0d23407e03c3b28292d0a7cb4764af4b85f12bc1233fa3edd58bd092327d2bb0",
+  "alignment_pad_seconds": 0.005125,
+  "bytes": 1829850,
+  "duration_seconds": 457.29995833333334,
+  "encoded_duration_seconds": 457.299958,
+  "accepted_master_sha256": "a2eba2476837b56bda0db73c80f5616a7dc037966a6a3d81ba4b27ae6ae747de",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "ed66e47f6bfd5a306d5e1ca2eeacd284c40da9771412e164c9a914a0927d241f",
+  "accepted_flac_sha256": "7fb57f5c3d6252bdef691ca7b9ffb17d7da60dae39ccda50d6cd25f937ac5433",
+  "body_pcm_sha256": "34bda6450ad7bd151518f00ecd76b7897042a8b8e9d8735118d45c8433d7a101",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9843518733978271,
+  "revised_body_correlation": 0.9843512773513794,
+  "revised_vs_accepted_mobile_correlation": 0.9999883770942688,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 02 - Chapter Two — Another Voice",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "index": 26,
+  "chapterId": "ch-26",
+  "label": "Chapter Twenty-Six",
+  "title": "The Weight of a Signature",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "26-heading.wav",
+  "samples": 104557,
+  "bodyStart": 4.356541666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.5059583333333335,
+  "titleStart": 2.0559583333333338,
+  "titleEnd": 3.556541666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6205580476724333,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Six",
+      "phonemes": "ʧˈæptəɹ twˈɛntisˌɪks.",
+      "samples": 33263
+    },
+    {
+      "text": "The Weight of a Signature",
+      "phonemes": "ðə wˈAt ʌv ɐ sˈɪɡnəʧəɹ.",
+      "samples": 36014
+    }
+  ],
+  "sha256": "602e96469a8a2c56998f5ed12f7607dca4ea7f2a946baa32ee50a9e2a9724fa3"
+}

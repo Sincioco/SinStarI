@@ -1,0 +1,35 @@
+{
+  "index": 7,
+  "chapterId": "ch-07",
+  "label": "Chapter Seven",
+  "title": "Permission to Leave",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "07-heading.wav",
+  "samples": 94093,
+  "bodyStart": 3.920541666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.2840416666666665,
+  "titleStart": 1.8340416666666666,
+  "titleEnd": 3.1205416666666665,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.5950448412140585,
+  "speech": [
+    {
+      "text": "Chapter Seven",
+      "phonemes": "ʧˈæptəɹ sˈɛvən.",
+      "samples": 27937
+    },
+    {
+      "text": "Permission to Leave",
+      "phonemes": "pəɹmˈɪʃən tə lˈiv.",
+      "samples": 30876
+    }
+  ],
+  "sha256": "edc580c0b2c1832b92e274d1b2eddc63081fc124dd6fd597a122831f66561544"
+}

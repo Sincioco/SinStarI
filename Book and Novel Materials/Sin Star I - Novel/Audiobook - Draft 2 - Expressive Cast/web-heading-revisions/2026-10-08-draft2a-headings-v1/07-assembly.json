@@ -1,0 +1,53 @@
+{
+  "index": 7,
+  "chapterId": "ch-07",
+  "label": "Chapter Seven",
+  "title": "Permission to Leave",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/07 - Chapter Seven — Permission to Leave.mp3",
+  "samples": 94093,
+  "bodyStart": 3.936,
+  "labelStart": 0.12,
+  "labelEnd": 1.2840416666666665,
+  "titleStart": 1.8340416666666666,
+  "titleEnd": 3.1205416666666665,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.5950448412140585,
+  "speech": [
+    {
+      "text": "Chapter Seven",
+      "phonemes": "ʧˈæptəɹ sˈɛvən.",
+      "samples": 27937
+    },
+    {
+      "text": "Permission to Leave",
+      "phonemes": "pəɹmˈɪʃən tə lˈiv.",
+      "samples": 30876
+    }
+  ],
+  "sha256": "6695d4f1ff9c2597bd7061bed5c21a08a054dba29704f61f64509561339913e3",
+  "alignment_pad_seconds": 0.015458333333333333,
+  "bytes": 1599650,
+  "duration_seconds": 399.75008333333335,
+  "encoded_duration_seconds": 399.750083,
+  "accepted_master_sha256": "e60a9600d3d2fe4093da304c06d3fe7a6a576abfba731b022cdac9f1bb2a71cb",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "8413f1ff72a1acc0e4c43eb778441022f4447294ac847af11052552fb1007a8e",
+  "accepted_flac_sha256": "09ed0e7d00e4bc2cd37e0b1e76763f677be1a05713e7b01952830b8eb149510a",
+  "body_pcm_sha256": "89af4e230e984cc761018a10de23c7b38460f3d9cb410aa026351207187b12fa",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9853433966636658,
+  "revised_body_correlation": 0.9853450655937195,
+  "revised_vs_accepted_mobile_correlation": 0.9999830722808838,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 07 - Chapter Seven — Permission to Leave",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

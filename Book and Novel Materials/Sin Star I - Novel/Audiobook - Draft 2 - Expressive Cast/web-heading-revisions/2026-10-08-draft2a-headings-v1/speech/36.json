@@ -1,0 +1,35 @@
+{
+  "index": 36,
+  "chapterId": "ch-36",
+  "label": "Chapter Thirty-Six",
+  "title": "The One Comes Home",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "36-heading.wav",
+  "samples": 99480,
+  "bodyStart": 4.145,
+  "labelStart": 0.12,
+  "labelEnd": 1.5300833333333332,
+  "titleStart": 2.0800833333333335,
+  "titleEnd": 3.345,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 2.025763143686042,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Six",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTisˌɪks.",
+      "samples": 33842
+    },
+    {
+      "text": "The One Comes Home",
+      "phonemes": "ðə wˈʌn kˈʌmz hˈOm.",
+      "samples": 30358
+    }
+  ],
+  "sha256": "80fd7b81b5b29fecbe648890e16f24570827e0e9bdfd10cee3426609ee77707c"
+}

@@ -1,0 +1,35 @@
+{
+  "index": 20,
+  "chapterId": "ch-20",
+  "label": "Chapter Twenty",
+  "title": "What an Apology Could Not Buy",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "20-heading.wav",
+  "samples": 112559,
+  "bodyStart": 4.689958333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.3515000000000001,
+  "titleStart": 1.9015000000000002,
+  "titleEnd": 3.8899583333333334,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6506416184903054,
+  "speech": [
+    {
+      "text": "Chapter Twenty",
+      "phonemes": "ʧˈæptəɹ twˈɛnti.",
+      "samples": 29556
+    },
+    {
+      "text": "What an Apology Could Not Buy",
+      "phonemes": "wˌʌt ɐn əpˈɑləʤi kˌʊd nˌɑt bˈI.",
+      "samples": 47723
+    }
+  ],
+  "sha256": "197faf6d5191443177c51229b359dce63fb54ac4b0a01b01821257276320afd6"
+}

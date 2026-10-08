@@ -1,0 +1,35 @@
+{
+  "index": 23,
+  "chapterId": "ch-23",
+  "label": "Chapter Twenty-Three",
+  "title": "The Village That Waited",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "23-heading.wav",
+  "samples": 103012,
+  "bodyStart": 4.292166666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.470625,
+  "titleStart": 2.020625,
+  "titleEnd": 3.492166666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7527871374560797,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Three",
+      "phonemes": "ʧˈæptəɹ twˈɛntiθɹˌi.",
+      "samples": 32415
+    },
+    {
+      "text": "The Village That Waited",
+      "phonemes": "ðə vˈɪlɪʤ ðˌæt wˈATᵻd.",
+      "samples": 35317
+    }
+  ],
+  "sha256": "43715487758a56238947151043e573827db77c36d7ca43e78e2058424039e252"
+}

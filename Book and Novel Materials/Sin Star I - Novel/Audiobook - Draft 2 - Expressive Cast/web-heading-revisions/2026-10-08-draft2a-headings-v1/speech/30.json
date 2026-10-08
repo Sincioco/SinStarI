@@ -1,0 +1,35 @@
+{
+  "index": 30,
+  "chapterId": "ch-30",
+  "label": "Chapter Thirty",
+  "title": "What Had Been Made",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "30-heading.wav",
+  "samples": 92944,
+  "bodyStart": 3.8726666666666665,
+  "labelStart": 0.12,
+  "labelEnd": 1.2475833333333335,
+  "titleStart": 1.7975833333333335,
+  "titleEnd": 3.0726666666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.2257410219417895,
+  "speech": [
+    {
+      "text": "Chapter Thirty",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTi.",
+      "samples": 27062
+    },
+    {
+      "text": "What Had Been Made",
+      "phonemes": "wˌʌt hˌæd bˌɪn mˌAd.",
+      "samples": 30602
+    }
+  ],
+  "sha256": "32c21b347ef5215d165f8e2ae383a487a1cb02f3d35861fe2a9360aa11cf078f"
+}

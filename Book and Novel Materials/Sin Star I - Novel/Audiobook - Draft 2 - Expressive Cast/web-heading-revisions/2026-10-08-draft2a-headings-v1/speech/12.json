@@ -1,0 +1,35 @@
+{
+  "index": 12,
+  "chapterId": "ch-12",
+  "label": "Chapter Twelve",
+  "title": "The Way Home Smelled",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "12-heading.wav",
+  "samples": 96437,
+  "bodyStart": 4.018208333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.3322083333333334,
+  "titleStart": 1.8822083333333335,
+  "titleEnd": 3.2182083333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8510990581372477,
+  "speech": [
+    {
+      "text": "Chapter Twelve",
+      "phonemes": "ʧˈæptəɹ twˈɛlv.",
+      "samples": 29093
+    },
+    {
+      "text": "The Way Home Smelled",
+      "phonemes": "ðə wˈA hˈOm smˈɛld.",
+      "samples": 32064
+    }
+  ],
+  "sha256": "ce1d6c45ef893fb733d25f75ea5ff075d9d7630fc007803820776296fe12827b"
+}

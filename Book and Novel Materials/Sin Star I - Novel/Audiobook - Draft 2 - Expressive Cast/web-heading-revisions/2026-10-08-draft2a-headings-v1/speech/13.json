@@ -1,0 +1,35 @@
+{
+  "index": 13,
+  "chapterId": "ch-13",
+  "label": "Chapter Thirteen",
+  "title": "The Years He Removed",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "13-heading.wav",
+  "samples": 102404,
+  "bodyStart": 4.2668333333333335,
+  "labelStart": 0.12,
+  "labelEnd": 1.4309583333333333,
+  "titleStart": 1.9809583333333334,
+  "titleEnd": 3.4668333333333337,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9327173678349783,
+  "speech": [
+    {
+      "text": "Chapter Thirteen",
+      "phonemes": "ʧˈæptəɹ θˌɜɹtˈin.",
+      "samples": 31463
+    },
+    {
+      "text": "The Years He Removed",
+      "phonemes": "ðə jˈɪɹz hˌi ɹəmˈuvd.",
+      "samples": 35661
+    }
+  ],
+  "sha256": "6fde22aaf20653d0a5b8ce863a0009f27968101f7ddb672568cdf08d0e9fbe1f"
+}

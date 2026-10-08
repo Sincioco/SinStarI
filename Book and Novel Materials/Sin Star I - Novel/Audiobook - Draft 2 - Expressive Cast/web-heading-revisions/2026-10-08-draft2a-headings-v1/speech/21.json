@@ -1,0 +1,35 @@
+{
+  "index": 21,
+  "chapterId": "ch-21",
+  "label": "Chapter Twenty-One",
+  "title": "The Second Dawn",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "21-heading.wav",
+  "samples": 95548,
+  "bodyStart": 3.9811666666666667,
+  "labelStart": 0.12,
+  "labelEnd": 1.4576250000000002,
+  "titleStart": 2.007625,
+  "titleEnd": 3.181166666666667,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7606848948461697,
+  "speech": [
+    {
+      "text": "Chapter Twenty-One",
+      "phonemes": "ʧˈæptəɹ twˈɛntiwˌʌn.",
+      "samples": 32103
+    },
+    {
+      "text": "The Second Dawn",
+      "phonemes": "ðə sˈɛkənd dˈɔn.",
+      "samples": 28165
+    }
+  ],
+  "sha256": "5311f191c071b44a9135e0ff3ba6d850b3cb86a1821dbd528a150d6ea834ba87"
+}

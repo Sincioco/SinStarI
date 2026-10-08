@@ -1,0 +1,53 @@
+{
+  "index": 0,
+  "chapterId": "ch-00",
+  "label": "Prologue",
+  "title": "The World He Ended",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/00 - Prologue — The World He Ended.mp3",
+  "samples": 89926,
+  "bodyStart": 3.768,
+  "labelStart": 0.12,
+  "labelEnd": 0.9976666666666667,
+  "titleStart": 1.5476666666666667,
+  "titleEnd": 2.9469166666666666,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9701532072167594,
+  "speech": [
+    {
+      "text": "Prologue",
+      "phonemes": "pɹˈOlˌɔɡ.",
+      "samples": 21064
+    },
+    {
+      "text": "The World He Ended",
+      "phonemes": "ðə wˈɜɹld hˌi ˈɛndᵻd.",
+      "samples": 33582
+    }
+  ],
+  "sha256": "3312f75d6aad03247f3d442c499e823e38e9861f0e48b4e3e119414b4f6acb64",
+  "alignment_pad_seconds": 0.021083333333333332,
+  "bytes": 1831196,
+  "duration_seconds": 457.65595833333333,
+  "encoded_duration_seconds": 457.655958,
+  "accepted_master_sha256": "86f6f612253d68d2fb0a4680668c01de52457e48473bffa2a54271b4f8405ed3",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "14024358d1c0312f21b2e9d371a8e9acc72a913e900f16711e46ba7ca866b7db",
+  "accepted_flac_sha256": "7dcefa20e1d175fc61a3f732bbae860e4cf4028163e4b93fa9bb1b247e886c5b",
+  "body_pcm_sha256": "e2d6fb81dd7f48abdffb3f07c1c85b4e582d25714e44148919e83893dd6c3082",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9848942756652832,
+  "revised_body_correlation": 0.9848902225494385,
+  "revised_vs_accepted_mobile_correlation": 0.9999845027923584,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 00 - Prologue — The World He Ended",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

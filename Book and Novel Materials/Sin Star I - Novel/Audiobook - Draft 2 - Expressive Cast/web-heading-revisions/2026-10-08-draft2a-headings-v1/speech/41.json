@@ -1,0 +1,35 @@
+{
+  "index": 41,
+  "chapterId": "ch-41",
+  "label": "Epilogue",
+  "title": "The Life Ahead of Him",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "41-heading.wav",
+  "samples": 93096,
+  "bodyStart": 3.879,
+  "labelStart": 0.12,
+  "labelEnd": 1.113375,
+  "titleStart": 1.663375,
+  "titleEnd": 3.0789999999999997,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.6425467914528344,
+  "speech": [
+    {
+      "text": "Epilogue",
+      "phonemes": "ˈɛpəlˌɔɡ.",
+      "samples": 23841
+    },
+    {
+      "text": "The Life Ahead of Him",
+      "phonemes": "ðə lˈIf əhˈɛd ʌv hˌɪm.",
+      "samples": 33975
+    }
+  ],
+  "sha256": "d6580d6a6433fca26383aa7c283a86f94a17760e7313359ba785a2ddf4886aa6"
+}

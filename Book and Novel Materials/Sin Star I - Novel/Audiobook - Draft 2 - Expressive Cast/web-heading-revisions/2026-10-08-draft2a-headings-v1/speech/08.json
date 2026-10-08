@@ -1,0 +1,35 @@
+{
+  "index": 8,
+  "chapterId": "ch-08",
+  "label": "Chapter Eight",
+  "title": "A Place for Hope",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "08-heading.wav",
+  "samples": 91754,
+  "bodyStart": 3.8230833333333334,
+  "labelStart": 0.12,
+  "labelEnd": 1.2094583333333335,
+  "titleStart": 1.7594583333333336,
+  "titleEnd": 3.0230833333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.7301906108609775,
+  "speech": [
+    {
+      "text": "Chapter Eight",
+      "phonemes": "ʧˈæptəɹ ˈAt.",
+      "samples": 26147
+    },
+    {
+      "text": "A Place for Hope",
+      "phonemes": "ɐ plˈAs fɔɹ hˈOp.",
+      "samples": 30327
+    }
+  ],
+  "sha256": "9c59a203bc3fe20ef91015f47eb5a1f2c7d705227873d920f4f4bb540b674872"
+}

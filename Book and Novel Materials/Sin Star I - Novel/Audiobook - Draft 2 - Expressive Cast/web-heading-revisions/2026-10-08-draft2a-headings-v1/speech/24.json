@@ -1,0 +1,35 @@
+{
+  "index": 24,
+  "chapterId": "ch-24",
+  "label": "Chapter Twenty-Four",
+  "title": "The Letters They Kept",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "24-heading.wav",
+  "samples": 102185,
+  "bodyStart": 4.257708333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.5079166666666666,
+  "titleStart": 2.0579166666666664,
+  "titleEnd": 3.457708333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.792557965513896,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Four",
+      "phonemes": "ʧˈæptəɹ twˈɛntifˌɔɹ.",
+      "samples": 33310
+    },
+    {
+      "text": "The Letters They Kept",
+      "phonemes": "ðə lˈɛTəɹz ðˌA kˈɛpt.",
+      "samples": 33595
+    }
+  ],
+  "sha256": "67e8950ff6811260bb7d8d3a58718cf4fd39af93a52b6841123f776d9599930c"
+}

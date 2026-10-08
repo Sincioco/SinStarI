@@ -1,0 +1,35 @@
+{
+  "index": 35,
+  "chapterId": "ch-35",
+  "label": "Chapter Thirty-Five",
+  "title": "The Battle Outside the Dream",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "35-heading.wav",
+  "samples": 111932,
+  "bodyStart": 4.663833333333334,
+  "labelStart": 0.12,
+  "labelEnd": 1.5398749999999999,
+  "titleStart": 2.089875,
+  "titleEnd": 3.8638333333333335,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8967003087932575,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Five",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTifˌIv.",
+      "samples": 34077
+    },
+    {
+      "text": "The Battle Outside the Dream",
+      "phonemes": "ðə bˈæTᵊl ˌWtsˈId ðə dɹˈim.",
+      "samples": 42575
+    }
+  ],
+  "sha256": "8ac95cea2aa70f4cf1b866c61cccfd6587cbd0390053b160969abfb199282787"
+}

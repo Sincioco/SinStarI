@@ -1,0 +1,35 @@
+{
+  "index": 3,
+  "chapterId": "ch-03",
+  "label": "Chapter Three",
+  "title": "What the Reports Omitted",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "03-heading.wav",
+  "samples": 100571,
+  "bodyStart": 4.190458333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.2523333333333335,
+  "titleStart": 1.8023333333333336,
+  "titleEnd": 3.3904583333333336,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.3264684190390916,
+  "speech": [
+    {
+      "text": "Chapter Three",
+      "phonemes": "ʧˈæptəɹ θɹˈi.",
+      "samples": 27176
+    },
+    {
+      "text": "What the Reports Omitted",
+      "phonemes": "wˌʌt ðə ɹəpˈɔɹts OmˈɪTᵻd.",
+      "samples": 38115
+    }
+  ],
+  "sha256": "f4accf165692907352d7d52394be7300d71c6e080860e75b44417c855459fe45"
+}

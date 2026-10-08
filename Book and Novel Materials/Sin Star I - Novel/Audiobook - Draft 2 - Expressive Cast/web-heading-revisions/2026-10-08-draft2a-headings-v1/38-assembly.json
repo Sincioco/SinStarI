@@ -1,0 +1,55 @@
+{
+  "index": 38,
+  "chapterId": "ch-38",
+  "label": "Chapter Thirty-Eight",
+  "title": "His Own to Spend",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/38 - Chapter Thirty-Eight — His Own to Spend.mp3",
+  "samples": 98100,
+  "bodyStart": 4.104,
+  "labelStart": 0.12,
+  "labelEnd": 1.3995000000000002,
+  "titleStart": 1.9495000000000002,
+  "titleEnd": 3.2875000000000005,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.8181138808803308,
+  "speech": [
+    {
+      "text": "Chapter Thirty-Eight",
+      "phonemes": "ʧˈæptəɹ θˈɜɹTiˌAt.",
+      "samples": 30708
+    },
+    {
+      "text": "His Own to Spend",
+      "phonemes": "hˌɪz ˈOn tə spˈɛnd.",
+      "samples": 32112
+    }
+  ],
+  "sha256": "1dcde6b4a41a71e1165b1489a2f5d236ae0cd55d35308fe0a9726f6065baf35f",
+  "alignment_pad_seconds": 0.0165,
+  "bytes": 2208870,
+  "duration_seconds": 552.0515833333334,
+  "lossless_duration_seconds": 552.0515833333334,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 552.051583,
+  "accepted_master_sha256": "6761fc9dd2b25d94add47a2273ddccfb287c4814ef85a52c2de4ab662c1f2a54",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "2fd3c8ebfa484e205299ad288749f9abe9be0b0ed6aaf0f831c57e4aa3c8a063",
+  "accepted_flac_sha256": "e62a73c526e8a196b8b9d340bde158fdc6ef4ad4a46bbf4d09a10b3db7ef15e0",
+  "body_pcm_sha256": "7fcf35edbe27306b11e7c451fcd090edfa1d4fb4628f40a211f5fb3c5becc853",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9839814305305481,
+  "revised_body_correlation": 0.9839826822280884,
+  "revised_vs_accepted_mobile_correlation": 0.9999883770942688,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 38 - Chapter Thirty-Eight — His Own to Spend",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

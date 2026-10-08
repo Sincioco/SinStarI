@@ -1,0 +1,55 @@
+{
+  "index": 24,
+  "chapterId": "ch-24",
+  "label": "Chapter Twenty-Four",
+  "title": "The Letters They Kept",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "mobile/24 - Chapter Twenty-Four — The Letters They Kept.mp3",
+  "samples": 102185,
+  "bodyStart": 4.272,
+  "labelStart": 0.12,
+  "labelEnd": 1.5079166666666666,
+  "titleStart": 2.0579166666666664,
+  "titleEnd": 3.457708333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.792557965513896,
+  "speech": [
+    {
+      "text": "Chapter Twenty-Four",
+      "phonemes": "ʧˈæptəɹ twˈɛntifˌɔɹ.",
+      "samples": 33310
+    },
+    {
+      "text": "The Letters They Kept",
+      "phonemes": "ðə lˈɛTəɹz ðˌA kˈɛpt.",
+      "samples": 33595
+    }
+  ],
+  "sha256": "d5e4d85012f0df3a8bdfcc3c7bdcdb6ff905067fb4b1befbc7491d9c270c7cbc",
+  "alignment_pad_seconds": 0.014291666666666666,
+  "bytes": 1701514,
+  "duration_seconds": 425.2194583333333,
+  "lossless_duration_seconds": 425.2194583333333,
+  "codec_tail_padding_seconds": 0.0,
+  "encoded_duration_seconds": 425.219458,
+  "accepted_master_sha256": "e0999b6e57cf7a21667f92b5555bf3a2cdf73aee99ff53e908b35d2a929393f0",
+  "accepted_master_essence_reproduced": true,
+  "accepted_mobile_sha256": "7b8a4fda15a8b2bcdb82993fc32231027a9785e8203cadd76ac8231087919dc9",
+  "accepted_flac_sha256": "b2e6f783df8196f2416637a0fae9690a69234e5f9441d3f61fa9ace2737e914c",
+  "body_pcm_sha256": "bb4b75fcf8b22083850967b406004d833475b0d581fa415c8629ff7763d879b6",
+  "body_pcm_preserved_in_assembly": true,
+  "accepted_mobile_correlation": 0.9859450459480286,
+  "revised_body_correlation": 0.9859446883201599,
+  "revised_vs_accepted_mobile_correlation": 0.9999931454658508,
+  "tags": {
+    "title": "Sin Star I - Book One - Draft 2a - 24 - Chapter Twenty-Four — The Letters They Kept",
+    "artist": "Produced by Sin",
+    "album": "Sin Star I - Book One"
+  }
+}

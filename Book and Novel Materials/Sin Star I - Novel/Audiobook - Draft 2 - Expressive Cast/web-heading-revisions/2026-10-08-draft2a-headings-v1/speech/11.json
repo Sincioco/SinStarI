@@ -1,0 +1,35 @@
+{
+  "index": 11,
+  "chapterId": "ch-11",
+  "label": "Chapter Eleven",
+  "title": "No Ownership Claim",
+  "voice": "am_michael",
+  "model_revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speed": 0.97,
+  "seed": 421,
+  "device": "cuda",
+  "sample_rate": 24000,
+  "file": "11-heading.wav",
+  "samples": 97844,
+  "bodyStart": 4.076833333333333,
+  "labelStart": 0.12,
+  "labelEnd": 1.3044583333333333,
+  "titleStart": 1.8544583333333333,
+  "titleEnd": 3.2768333333333333,
+  "pause_between_seconds": 0.55,
+  "pause_before_body_seconds": 0.8,
+  "gain": 1.9253070450776837,
+  "speech": [
+    {
+      "text": "Chapter Eleven",
+      "phonemes": "ʧˈæptəɹ əlˈɛvᵊn.",
+      "samples": 28427
+    },
+    {
+      "text": "No Ownership Claim",
+      "phonemes": "nˈO ˈOnəɹʃˌɪp klˈAm.",
+      "samples": 34137
+    }
+  ],
+  "sha256": "38a5c17445ed668d0507dd3d543e2e2cdd9ee198c502b95043f25d523c6cffcf"
+}
